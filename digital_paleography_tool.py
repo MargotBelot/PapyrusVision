@@ -60,10 +60,10 @@ class DigitalPaleographyTool:
             if self.analyzer.load_model():
                 print("✅ Hieroglyph analyzer loaded successfully")
             else:
-                print("❌ Error loading model in analyzer")
+                print("Error loading model in analyzer")
                 self.analyzer = None
         except Exception as e:
-            print(f"❌ Error loading analyzer: {e}")
+            print(f"Error loading analyzer: {e}")
             self.analyzer = None
     
     def setup_directories(self):
@@ -76,7 +76,7 @@ class DigitalPaleographyTool:
         # Create directories
         for dir_path in [self.base_dir, self.crops_dir, self.catalog_dir, self.reports_dir]:
             dir_path.mkdir(parents=True, exist_ok=True)
-            print(f"📁 Created directory: {dir_path}")
+            print(f"Created directory: {dir_path}")
     
     def load_unicode_mappings(self):
         """Load Unicode mappings for Gardiner codes"""
@@ -84,9 +84,9 @@ class DigitalPaleographyTool:
         try:
             with open(mapping_file, 'r', encoding='utf-8') as f:
                 self.unicode_mappings = json.load(f)
-            print(f"✅ Loaded {len(self.unicode_mappings)} Unicode mappings")
+            print(f"Loaded {len(self.unicode_mappings)} Unicode mappings")
         except Exception as e:
-            print(f"❌ Error loading Unicode mappings: {e}")
+            print(f"Error loading Unicode mappings: {e}")
             self.unicode_mappings = {}
     
     def load_gardiner_descriptions(self):
@@ -95,9 +95,9 @@ class DigitalPaleographyTool:
         try:
             with open(descriptions_file, 'r', encoding='utf-8') as f:
                 self.gardiner_descriptions = json.load(f)
-            print(f"✅ Loaded descriptions for {len(self.gardiner_descriptions)} Gardiner codes")
+            print(f"Loaded descriptions for {len(self.gardiner_descriptions)} Gardiner codes")
         except Exception as e:
-            print(f"❌ Error loading Gardiner descriptions: {e}")
+            print(f"Error loading Gardiner descriptions: {e}")
             # Fallback to basic descriptions
             self.gardiner_descriptions = {
                 'A1': 'Man sitting',
@@ -165,10 +165,10 @@ class DigitalPaleographyTool:
     def process_image(self, image_path, confidence_threshold=0.5):
         """Process a single image and extract hieroglyph crops"""
         if not self.analyzer:
-            print("❌ Analyzer not available")
+            print("Analyzer not available")
             return []
         
-        print(f"🔍 Processing image: {image_path}")
+        print(f"Processing image: {image_path}")
         
         # Load and analyze the image
         try:

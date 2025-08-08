@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide
+# Quick Start Guide
 
 ## Installation (5 minutes)
 
@@ -28,16 +28,16 @@ Open your browser to `http://localhost:8501`
 
 ## Two Ways to Use PapyrusNU
 
-### 🌐 Option 1: Web Application (Recommended for Most Users)
+### Option 1: Web Application (Recommended for Most Users)
 
 **Interactive interface - best for exploration and single-session work**
 
-- **🔍 Single Image Analysis**: Upload and analyze individual papyrus images
-- **📜 Interactive Paleography**: Create sign catalogs with real-time preview  
-- **🎨 Visual Interface**: Drag-and-drop, live statistics, instant downloads
-- **💡 Perfect for**: Demonstrations, education, exploratory analysis
+- **Single Image Analysis**: Upload and analyze individual papyrus images
+- **Interactive Paleography**: Create sign catalogs with real-time preview  
+- **Visual Interface**: Drag-and-drop, live statistics, instant downloads
+- **Perfect for**: Demonstrations, education, exploratory analysis
 
-### ⚡ Option 2: Batch Processing Tool (For Research)
+### Option 2: Batch Processing Tool (For Research)
 
 **Command-line interface - best for large-scale research**
 
@@ -45,12 +45,12 @@ Open your browser to `http://localhost:8501`
 python digital_paleography_tool.py
 ```
 
-- **📁 Bulk Processing**: Handle entire directories of images automatically
-- **🔄 Research Workflows**: Integrate into automated analysis pipelines  
-- **🛠️ Advanced Control**: Fine-tune confidence thresholds and filtering
-- **💡 Perfect for**: Large datasets, batch analysis, research automation
+- **Bulk Processing**: Handle entire directories of images automatically
+- **Research Workflows**: Integrate into automated analysis pipelines  
+- **Advanced Control**: Fine-tune confidence thresholds and filtering
+- **Perfect for**: Large datasets, batch analysis, research automation
 
-### 📊 Data Analysis & Training
+### Data Analysis & Training
 - Explore Jupyter notebooks in `notebooks/`
 - View training performance plots  
 - Analyze dataset statistics
