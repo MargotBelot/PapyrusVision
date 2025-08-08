@@ -395,63 +395,63 @@ Enhanced: papyrus_G17_U1317F_001_conf0.89.png
 
 ```
 PapyrusNU_Detectron/
-├── COMPLETE_PROJECT_DOCUMENTATION.md  # This comprehensive document
-├── README.md                          # Project overview
-├── requirements.txt                   # Python dependencies
-├── streamlit_hieroglyphs_app.py       # Main web application
-├── digital_paleography_tool.py        # Paleography generation tool
-│
-├── scripts/                           # Core analysis tools
-│   ├── hieroglyph_analysis_tool.py    # Main detection engine
-│   ├── dataset_utils.py               # Data processing utilities
-│   ├── evaluation.py                  # Performance evaluation tools
-│   └── visualization.py               # Plotting and analysis tools
-│
-├── notebooks/                         # Jupyter analysis notebooks
-│   ├── 01_data_preparation.ipynb      # Dataset validation and splitting
-│   ├── 02_data_analysis.ipynb         # Exploratory data analysis
-│   ├── 03_model_training.ipynb        # Model training pipeline
-│   ├── 04_model_evaluation.ipynb      # Performance evaluation
-│   └── 05_model_predictions_visualization.ipynb
-│
-├── models/                            # Trained model files
-│   └── hieroglyph_model_20250807_190054/  # Timestamped model directory
-│       ├── model_final.pth            # Trained model weights
-│       ├── config.yaml                # Training configuration
-│       ├── model_info.json            # Model metadata (177 classes)
-│       ├── training_history.json      # Complete training log
-│       ├── metrics.json               # Evaluation metrics
-│       ├── confidence_analysis.png    # Confidence distribution analysis
-│       ├── prediction_comparison_1.png # Visual prediction examples
-│       └── inference/                 # Inference results
-│           ├── instances_predictions.pth
-│           ├── coco_instances_results.json
-│           └── hieroglyphs_val_coco_format.json
-│
-└── data/                              # Dataset and comprehensive analysis
-    ├── data_preparation_summary.json  # Dataset statistics summary
-    ├── images/                        # Source images
-    │   └── 145_upscaled_bright.jpg    # High-resolution papyrus scan
-    ├── annotations/                   # COCO-format annotations
-    │   ├── annotations.json           # Original complete annotations (2,430 signs)
-    │   ├── train_annotations.json     # Training split (1,682 signs, 177 classes)
-    │   ├── val_annotations.json       # Validation split (432 signs, 66 classes)
-    │   ├── test_annotations.json      # Test split (316 signs, 95 classes)
-    │   ├── gardiner_unicode_mapping.json # Unicode mappings (594+ signs)
-    │   └── gardiner_descriptions.json # Scholarly descriptions
-    └── analysis_plots/                # Comprehensive visualizations
-        ├── eda_summary_report.json    # Statistical analysis summary
-        ├── dataset_overview.png       # Complete dataset visualization
-        ├── class_distribution.png     # Class frequency analysis
-        ├── spatial_heatmap.png        # Spatial distribution analysis
-        ├── area_distribution.png      # Bounding box size analysis
-        ├── area_by_series_boxplot.png # Size variation by category
-        ├── data_split_analysis.png    # Train/val/test distribution
-        ├── sample_annotations.png     # Annotation quality examples
-        ├── class_sunburst_chart.html  # Interactive class hierarchy
-        ├── size_vs_aspect_ratio.html  # Interactive size analysis
-        ├── training_analysis.png      # Comprehensive training analysis
-        └── training_convergence.png   # Smooth convergence visualization
+ COMPLETE_PROJECT_DOCUMENTATION.md  # This comprehensive document
+ README.md                          # Project overview
+ requirements.txt                   # Python dependencies
+ streamlit_hieroglyphs_app.py       # Main web application
+ digital_paleography_tool.py        # Paleography generation tool
+
+ scripts/                           # Core analysis tools
+    hieroglyph_analysis_tool.py    # Main detection engine
+    dataset_utils.py               # Data processing utilities
+    evaluation.py                  # Performance evaluation tools
+    visualization.py               # Plotting and analysis tools
+
+ notebooks/                         # Jupyter analysis notebooks
+    01_data_preparation.ipynb      # Dataset validation and splitting
+    02_data_analysis.ipynb         # Exploratory data analysis
+    03_model_training.ipynb        # Model training pipeline
+    04_model_evaluation.ipynb      # Performance evaluation
+    05_model_predictions_visualization.ipynb
+
+ models/                            # Trained model files
+    hieroglyph_model_20250807_190054/  # Timestamped model directory
+        model_final.pth            # Trained model weights
+        config.yaml                # Training configuration
+        model_info.json            # Model metadata (177 classes)
+        training_history.json      # Complete training log
+        metrics.json               # Evaluation metrics
+        confidence_analysis.png    # Confidence distribution analysis
+        prediction_comparison_1.png # Visual prediction examples
+        inference/                 # Inference results
+            instances_predictions.pth
+            coco_instances_results.json
+            hieroglyphs_val_coco_format.json
+
+ data/                              # Dataset and comprehensive analysis
+     data_preparation_summary.json  # Dataset statistics summary
+     images/                        # Source images
+        145_upscaled_bright.jpg    # High-resolution papyrus scan
+     annotations/                   # COCO-format annotations
+        annotations.json           # Original complete annotations (2,430 signs)
+        train_annotations.json     # Training split (1,682 signs, 177 classes)
+        val_annotations.json       # Validation split (432 signs, 66 classes)
+        test_annotations.json      # Test split (316 signs, 95 classes)
+        gardiner_unicode_mapping.json # Unicode mappings (594+ signs)
+        gardiner_descriptions.json # Scholarly descriptions
+     analysis_plots/                # Comprehensive visualizations
+         eda_summary_report.json    # Statistical analysis summary
+         dataset_overview.png       # Complete dataset visualization
+         class_distribution.png     # Class frequency analysis
+         spatial_heatmap.png        # Spatial distribution analysis
+         area_distribution.png      # Bounding box size analysis
+         area_by_series_boxplot.png # Size variation by category
+         data_split_analysis.png    # Train/val/test distribution
+         sample_annotations.png     # Annotation quality examples
+         class_sunburst_chart.html  # Interactive class hierarchy
+         size_vs_aspect_ratio.html  # Interactive size analysis
+         training_analysis.png      # Comprehensive training analysis
+         training_convergence.png   # Smooth convergence visualization
 ```
 
 ### 10.1 Documentation Assets Summary
