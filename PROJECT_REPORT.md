@@ -681,12 +681,12 @@ Enhanced: papyrus_G17_U1317F_001_conf0.89.png
 PapyrusNU represents a comprehensive success in applying modern AI technology to cultural heritage preservation. The project overcame significant technical challenges to deliver a production-ready system that advances both computer vision research and Egyptological scholarship.
 
 **Key Accomplishments**:
-✅ **Complete Annotation**: 2,431 hieroglyphs expertly labeled using CVAT  
-✅ **Successful Training**: Stable model convergence on Google Colab A100  
-✅ **Technical Integration**: CVAT → Detectron2 → Streamlit pipeline  
-✅ **Unicode Compliance**: 594+ official mappings integrated  
-✅ **Production Deployment**: User-friendly web application  
-✅ **Academic Documentation**: Comprehensive methodology and reproducibility  
+- **Complete Annotation**: 2,431 hieroglyphs expertly labeled using CVAT  
+- **Successful Training**: Stable model convergence on Google Colab A100  
+- **Technical Integration**: CVAT → Detectron2 → Streamlit pipeline  
+- **Unicode Compliance**: 594+ official mappings integrated  
+- **Production Deployment**: User-friendly web application  
+- **Academic Documentation**: Comprehensive methodology and reproducibility
 
 ### 11.2 Technical Contributions
 

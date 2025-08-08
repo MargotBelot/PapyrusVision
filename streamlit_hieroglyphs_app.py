@@ -54,12 +54,12 @@ sys.path.append(PROJECT_ROOT)
 try:
     from digital_paleography_tool import DigitalPaleographyTool
 except ImportError:
-    st.error("❌ Could not import DigitalPaleographyTool. Please ensure it exists.")
+    st.error("Could not import DigitalPaleographyTool. Please ensure it exists.")
 
 # Page configuration
 st.set_page_config(
     page_title="PapyrusNU - Enhanced Hieroglyph Analysis",
-    page_icon="🏺",
+    page_icon=":amphora:",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -135,7 +135,7 @@ def load_detectron_model():
         # Find latest model
         model_dirs = glob.glob(os.path.join(MODELS_DIR, 'hieroglyph_model_*'))
         if not model_dirs:
-            st.error("❌ No trained models found!")
+            st.error("No trained models found!")
             return None, None, None
         
         latest_model_dir = sorted(model_dirs)[-1]
@@ -144,7 +144,7 @@ def load_detectron_model():
         # Load model info
         model_info_file = os.path.join(latest_model_dir, 'model_info.json')
         if not os.path.exists(model_info_file):
-            st.error(f"❌ Model info not found: {model_info_file}")
+            st.error(f"Model info not found: {model_info_file}")
             return None, None, None
         
         with open(model_info_file, 'r') as f:
@@ -180,10 +180,10 @@ def load_detectron_model():
         return predictor, model_info, unicode_mapping
         
     except ImportError as e:
-        st.error(f"❌ Error importing Detectron2: {e}")
+        st.error(f"Error importing Detectron2: {e}")
         return None, None, None
     except Exception as e:
-        st.error(f"❌ Error loading model: {e}")
+        st.error(f"Error loading model: {e}")
         return None, None, None
 
 def get_unicode_symbol(unicode_codes):
@@ -492,25 +492,25 @@ def show_detection_page():
             
             # Display results summary
             if results['summary']['total_detections'] > 0:
-                st.success(f"✅ Found {results['summary']['total_detections']} hieroglyphs!")
+                st.success(f"Found {results['summary']['total_detections']} hieroglyphs!")
                 
                 # Metrics in columns
                 met_col1, met_col2, met_col3, met_col4 = st.columns(4)
                 with met_col1:
-                    st.metric("🎯 Total Detections", results['summary']['total_detections'])
+                    st.metric("Total Detections", results['summary']['total_detections'])
                 with met_col2:
-                    st.metric("🏷️ Unique Classes", results['summary']['unique_classes'])
+                    st.metric("Unique Classes", results['summary']['unique_classes'])
                 with met_col3:
-                    st.metric("🔥 Max Confidence", f"{results['summary']['confidence_stats']['max']:.3f}")
+                    st.metric("Max Confidence", f"{results['summary']['confidence_stats']['max']:.3f}")
                 with met_col4:
-                    st.metric("📊 Mean Confidence", f"{results['summary']['confidence_stats']['mean']:.3f}")
+                    st.metric("Mean Confidence", f"{results['summary']['confidence_stats']['mean']:.3f}")
                 
             else:
-                st.warning("🤔 No hieroglyphs detected. Try lowering the confidence threshold.")
+                st.warning("No hieroglyphs detected. Try lowering the confidence threshold.")
     
     # Visualization section
     if uploaded_file and 'results' in locals() and results['summary']['total_detections'] > 0:
-        st.header("🎨 Detection Visualization")
+        st.header("Detection Visualization")
         
         # Create and display visualization
         fig = create_visualization(image, results)
@@ -518,7 +518,7 @@ def show_detection_page():
         plt.close()
         
         # Detection details
-        st.header("📋 Detection Details")
+        st.header("Detection Details")
         
         # Create DataFrame for display
         detection_data = []
@@ -540,7 +540,7 @@ def show_detection_page():
         st.dataframe(df, use_container_width=True, hide_index=True)
         
         # Export options
-        st.header("💾 Export Results")
+        st.header("Export Results")
         
         export_col1, export_col2 = st.columns(2)
         
@@ -548,7 +548,7 @@ def show_detection_page():
             # JSON export
             json_data = json.dumps(results, indent=2, ensure_ascii=False)
             st.download_button(
-                label="📄 Download JSON",
+                label="Download JSON",
                 data=json_data,
                 file_name=f"hieroglyph_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
                 mime="application/json"
@@ -558,7 +558,7 @@ def show_detection_page():
             # CSV export
             csv_data = df.to_csv(index=False)
             st.download_button(
-                label="📊 Download CSV",
+                label="Download CSV",
                 data=csv_data,
                 file_name=f"hieroglyph_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
                 mime="text/csv"
@@ -567,13 +567,13 @@ def show_detection_page():
 def show_paleography_page():
     """Digital Paleography Tool interface"""
     # Header
-    st.markdown('<h1 class="main-header">📜 Digital Hieroglyph Paleography</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">Digital Hieroglyph Paleography</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Create comprehensive catalogs of hieroglyphic signs with cropping and Unicode mapping</p>', unsafe_allow_html=True)
     
     # Feature showcase
     st.markdown("""
     <div class="paleography-card">
-        <h2>🎨 Create Your Digital Paleography</h2>
+        <h2>Create Your Digital Paleography</h2>
         <p>Transform your hieroglyph images into a comprehensive, interactive catalog with individual sign crops, Unicode mappings, and detailed descriptions.</p>
     </div>
     """, unsafe_allow_html=True)
@@ -584,7 +584,7 @@ def show_paleography_page():
     with col1:
         st.markdown("""
         <div class="feature-box">
-            <h4>✂️ Automatic Cropping</h4>
+            <h4>Automatic Cropping</h4>
             <p>Individual hieroglyph signs are automatically cropped from your images with proper padding and organization by Gardiner codes.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -592,7 +592,7 @@ def show_paleography_page():
     with col2:
         st.markdown("""
         <div class="feature-box">
-            <h4>🌐 Interactive Catalog</h4>
+            <h4>Interactive Catalog</h4>
             <p>Beautiful HTML catalog with Unicode symbols, descriptions, confidence scores, and responsive design for all devices.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -600,17 +600,17 @@ def show_paleography_page():
     with col3:
         st.markdown("""
         <div class="feature-box">
-            <h4>📦 Complete Export</h4>
+            <h4>Complete Export</h4>
             <p>Download everything as a ZIP file including crops, HTML catalog, and detailed reports for offline use.</p>
         </div>
         """, unsafe_allow_html=True)
     
     # Settings sidebar
     with st.sidebar:
-        st.header("⚙️ Paleography Settings")
+        st.header("Paleography Settings")
         
         confidence_threshold = st.slider(
-            "🎯 Confidence Threshold",
+            "Confidence Threshold",
             min_value=0.1,
             max_value=1.0,
             value=0.5,
@@ -619,13 +619,13 @@ def show_paleography_page():
         )
         
         include_low_confidence = st.checkbox(
-            "📊 Include Low Confidence Signs",
+            "Include Low Confidence Signs",
             value=False,
             help="Include signs with confidence below 0.6 (may include false positives)"
         )
         
         min_size = st.slider(
-            "📏 Minimum Sign Size (pixels)",
+            "Minimum Sign Size (pixels)",
             min_value=10,
             max_value=100,
             value=20,
@@ -633,7 +633,7 @@ def show_paleography_page():
         )
     
     # Main interface
-    st.header("📤 Upload Images for Paleography")
+    st.header("Upload Images for Paleography")
     
     # Multiple file uploader
     uploaded_files = st.file_uploader(
@@ -645,7 +645,7 @@ def show_paleography_page():
     
     # Default image option for paleography
     if not uploaded_files:
-        use_default_paleo = st.checkbox("📁 Use default test image for paleography demonstration", value=True)
+        use_default_paleo = st.checkbox("Use default test image for paleography demonstration", value=True)
         if use_default_paleo:
             default_image_path = os.path.join(DATA_DIR, 'images', '145_upscaled_bright.jpg')
             if os.path.exists(default_image_path):
@@ -660,30 +660,30 @@ def show_paleography_page():
                             return f.read()
                 
                 uploaded_files = [MockFile(default_image_path)]
-                st.info("📷 Using default test image: 145_upscaled_bright.jpg")
-                st.info("💡 This will demonstrate the paleography tool with a sample hieroglyphic text.")
+                st.info("Using default test image: 145_upscaled_bright.jpg")
+                st.info("This will demonstrate the paleography tool with a sample hieroglyphic text.")
     
     if uploaded_files:
         if hasattr(uploaded_files[0], 'name') and uploaded_files[0].name == '145_upscaled_bright.jpg':
-            st.success(f"📂 Using default test image for demonstration")
+            st.success(f"Using default test image for demonstration")
         else:
-            st.success(f"📂 Loaded {len(uploaded_files)} images")
+            st.success(f"Loaded {len(uploaded_files)} images")
         
         # Process button
-        if st.button("🚀 Create Digital Paleography", type="primary"):
+        if st.button("Create Digital Paleography", type="primary"):
             # Initialize the paleography tool
-            with st.spinner("🔧 Initializing Digital Paleography Tool..."):
+            with st.spinner("Initializing Digital Paleography Tool..."):
                 try:
                     paleography_tool = DigitalPaleographyTool()
                     
                     if not paleography_tool.analyzer:
-                        st.error("❌ Could not load the hieroglyph analyzer. Please check your model setup.")
+                        st.error("Could not load the hieroglyph analyzer. Please check your model setup.")
                         st.stop()
                     
-                    st.success("✅ Paleography tool initialized successfully!")
+                    st.success("Paleography tool initialized successfully!")
                     
                 except Exception as e:
-                    st.error(f"❌ Error initializing paleography tool: {e}")
+                    st.error(f"Error initializing paleography tool: {e}")
                     st.stop()
             
             # Create temporary directory for uploaded files
@@ -701,7 +701,7 @@ def show_paleography_page():
                 progress_bar = st.progress(0)
                 
                 for i, file_path in enumerate(file_paths):
-                    st.info(f"🔍 Processing {os.path.basename(file_path)}...")
+                    st.info(f"Processing {os.path.basename(file_path)}...")
                     
                     try:
                         crops_data = paleography_tool.process_image(file_path, confidence_threshold)
@@ -721,42 +721,42 @@ def show_paleography_page():
                         progress_bar.progress((i + 1) / len(file_paths))
                         
                     except Exception as e:
-                        st.error(f"❌ Error processing {os.path.basename(file_path)}: {e}")
+                        st.error(f"Error processing {os.path.basename(file_path)}: {e}")
                         continue
                 
                 if all_crops_data:
-                    st.success(f"✅ Generated {len(all_crops_data)} sign crops from {len(file_paths)} images")
+                    st.success(f"Generated {len(all_crops_data)} sign crops from {len(file_paths)} images")
                     
                     # Create HTML catalog
-                    with st.spinner("🎨 Creating interactive HTML catalog..."):
+                    with st.spinner("Creating interactive HTML catalog..."):
                         catalog_file = paleography_tool.create_html_catalog(all_crops_data)
                     
                     # Generate report
-                    with st.spinner("📊 Generating detailed report..."):
+                    with st.spinner("Generating detailed report..."):
                         report_file = paleography_tool.generate_report(all_crops_data)
                     
                     # Show statistics
-                    st.header("📊 Paleography Statistics")
+                    st.header("Paleography Statistics")
                     
                     stat_col1, stat_col2, stat_col3, stat_col4 = st.columns(4)
                     
                     with stat_col1:
-                        st.metric("📜 Total Signs", len(all_crops_data))
+                        st.metric("Total Signs", len(all_crops_data))
                     
                     with stat_col2:
                         unique_codes = len(set(crop['gardiner_code'] for crop in all_crops_data))
-                        st.metric("🏛️ Unique Gardiner Codes", unique_codes)
+                        st.metric("Unique Gardiner Codes", unique_codes)
                     
                     with stat_col3:
                         avg_confidence = np.mean([crop['confidence'] for crop in all_crops_data])
-                        st.metric("🎯 Average Confidence", f"{avg_confidence:.3f}")
+                        st.metric("Average Confidence", f"{avg_confidence:.3f}")
                     
                     with stat_col4:
                         source_images = len(set(crop['source_image'] for crop in all_crops_data))
-                        st.metric("📷 Source Images", source_images)
+                        st.metric("Source Images", source_images)
                     
                     # Show top Gardiner codes
-                    st.header("🏷️ Most Common Signs")
+                    st.header("Most Common Signs")
                     
                     # Count occurrences
                     code_counts = defaultdict(int)
@@ -770,7 +770,7 @@ def show_paleography_page():
                     st.bar_chart(chart_data.set_index('Gardiner Code'))
                     
                     # Preview some crops
-                    st.header("👀 Sample Crops Preview")
+                    st.header("Sample Crops Preview")
                     
                     # Show first few crops as preview
                     preview_cols = st.columns(5)
@@ -783,7 +783,7 @@ def show_paleography_page():
                                 st.error(f"Could not display crop: {e}")
                     
                     # Download options
-                    st.header("💾 Download Your Digital Paleography")
+                    st.header("Download Your Digital Paleography")
                     
                     download_col1, download_col2 = st.columns(2)
                     
@@ -793,7 +793,7 @@ def show_paleography_page():
                             catalog_data = f.read()
                         
                         st.download_button(
-                            label="🌐 Download HTML Catalog",
+                            label="Download HTML Catalog",
                             data=catalog_data,
                             file_name="digital_paleography.html",
                             mime="text/html",
@@ -802,48 +802,48 @@ def show_paleography_page():
                     
                     with download_col2:
                         # ZIP package download
-                        with st.spinner("📦 Creating ZIP package..."):
+                        with st.spinner("Creating ZIP package..."):
                             zip_file = create_paleography_zip(all_crops_data, catalog_file)
                         
                         with open(zip_file, 'rb') as f:
                             zip_data = f.read()
                         
                         st.download_button(
-                            label="📦 Download Complete Package (ZIP)",
+                            label="Download Complete Package (ZIP)",
                             data=zip_data,
                             file_name=f"digital_paleography_{datetime.now().strftime('%Y%m%d_%H%M%S')}.zip",
                             mime="application/zip",
                             help="Complete package with HTML catalog, all crop images, and documentation"
                         )
                     
-                    st.success("🎉 Digital Paleography creation complete!")
+                    st.success("Digital Paleography creation complete!")
                     
                 else:
-                    st.warning("❌ No sign crops were generated. Try lowering the confidence threshold or adjusting the minimum size.")
+                    st.warning("No sign crops were generated. Try lowering the confidence threshold or adjusting the minimum size.")
     
     else:
-        st.info("👆 Please upload one or more images to create your digital paleography catalog.")
+        st.info("Please upload one or more images to create your digital paleography catalog.")
 
 def show_about_page():
     """About page with information and instructions"""
-    st.markdown('<h1 class="main-header">ℹ️ About PapyrusNU</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">About PapyrusNU</h1>', unsafe_allow_html=True)
     
     st.markdown("""
-    ## 🏺 About This Tool
+    ## About This Tool
     
     **PapyrusNU** is an advanced AI-powered system for analyzing ancient Egyptian hieroglyphs in papyrus documents. 
     It combines state-of-the-art computer vision with comprehensive Egyptological knowledge to provide researchers, 
     students, and enthusiasts with powerful analysis capabilities.
     
-    ### 🎯 Key Features
+    ### Key Features
     
-    #### 🔍 Hieroglyph Detection
+    #### Hieroglyph Detection
     - Real-time AI-powered detection using Detectron2
     - Confidence-based filtering and visualization
     - Interactive bounding boxes with color-coded confidence levels
     - Export capabilities for further analysis
     
-    #### 📜 Digital Paleography
+    #### Digital Paleography
     - Automatic cropping of individual hieroglyphic signs
     - Organization by Gardiner codes with full descriptions
     - Interactive HTML catalog generation
@@ -851,7 +851,7 @@ def show_about_page():
     - Batch processing of multiple images
     - Complete ZIP package export for offline use
     
-    ### 🎨 Technology Stack
+    ### Technology Stack
     
     - **AI Model**: Detectron2 (Facebook AI Research)
     - **Web Interface**: Streamlit
@@ -860,27 +860,27 @@ def show_about_page():
     - **Visualization**: Matplotlib
     - **Unicode Standards**: Official Egyptian Hieroglyphs Unicode block
     
-    ### 📚 Data Sources
+    ### Data Sources
     
     - **Gardiner Sign List**: Complete classification system
     - **Unicode Mappings**: Official Unicode Consortium mappings
     - **Descriptions**: Comprehensive hieroglyph descriptions (700+ codes)
     
-    ### 🚀 Getting Started
+    ### Getting Started
     
-    1. **Single Image Analysis**: Use the "🔍 Hieroglyph Detection" page to analyze individual images
-    2. **Batch Processing**: Use the "📜 Digital Paleography" page to process multiple images and create catalogs
+    1. **Single Image Analysis**: Use the "Hieroglyph Detection" page to analyze individual images
+    2. **Batch Processing**: Use the "Digital Paleography" page to process multiple images and create catalogs
     3. **Adjust Settings**: Use the sidebar controls to fine-tune detection parameters
     4. **Export Results**: Download your results in various formats (JSON, CSV, HTML, ZIP)
     
-    ### 💡 Tips for Best Results
+    ### Tips for Best Results
     
     - Use high-quality, well-lit images
     - Adjust confidence threshold based on your needs
     - For paleography, include multiple images for comprehensive coverage
     - Lower confidence thresholds may include more signs but also more false positives
     
-    ### 🎓 Academic Use
+    ### Academic Use
     
     This tool is designed for:
     - **Digital Humanities** research
@@ -892,7 +892,7 @@ def show_about_page():
     
     ---
     
-    *Developed with ❤️ for the Egyptological community*
+    *Developed with love for the Egyptological community*
     """)
 
 if __name__ == "__main__":

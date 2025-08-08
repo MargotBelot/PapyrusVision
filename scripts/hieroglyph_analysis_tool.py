@@ -53,7 +53,7 @@ class HieroglyphAnalysisTool:
         
     def load_model(self):
         """Load the trained Detectron2 model"""
-        print("🔄 Loading Detectron2 model...")
+        print("Loading Detectron2 model...")
         
         try:
             import detectron2
@@ -62,15 +62,15 @@ class HieroglyphAnalysisTool:
             from detectron2.config import get_cfg
             from detectron2.utils.visualizer import Visualizer, ColorMode
             
-            print(f"   ✅ Detectron2 version: {detectron2.__version__}")
+            print(f"   Detectron2 version: {detectron2.__version__}")
         except ImportError as e:
-            print(f"   ❌ Error importing Detectron2: {e}")
+            print(f"   Error importing Detectron2: {e}")
             return False
         
         # Find latest model
         model_dirs = glob.glob(os.path.join(MODELS_DIR, 'hieroglyph_model_*'))
         if not model_dirs:
-            print("   ❌ No trained models found!")
+            print("   No trained models found!")
             return False
         
         latest_model_dir = sorted(model_dirs)[-1]
@@ -131,7 +131,7 @@ class HieroglyphAnalysisTool:
     def predict_hieroglyphs(self, image_path, confidence_threshold=None):
         """Run hieroglyph detection on an image"""
         if self.predictor is None:
-            print("❌ Model not loaded. Call load_model() first.")
+            print("Model not loaded. Call load_model() first.")
             return None
         
         if confidence_threshold is not None:
@@ -144,12 +144,12 @@ class HieroglyphAnalysisTool:
         
         # Load image
         if not os.path.exists(image_path):
-            print(f"❌ Image not found: {image_path}")
+            print(f"Image not found: {image_path}")
             return None
         
         img = cv2.imread(image_path)
         if img is None:
-            print(f"❌ Could not load image: {image_path}")
+            print(f"Could not load image: {image_path}")
             return None
         
         print(f"   Image size: {img.shape[1]}x{img.shape[0]} pixels")
@@ -305,7 +305,7 @@ class HieroglyphAnalysisTool:
         # Save if requested
         if save_path:
             plt.savefig(save_path, dpi=150, bbox_inches='tight')
-            print(f"   ✅ Visualization saved: {save_path}")
+            print(f"   Visualization saved: {save_path}")
         
         # Show if requested
         if show_plot:
@@ -317,12 +317,12 @@ class HieroglyphAnalysisTool:
     
     def export_to_json(self, results, output_path):
         """Export results to JSON format"""
-        print(f"📄 Exporting results to JSON: {os.path.basename(output_path)}")
+        print(f"Exporting results to JSON: {os.path.basename(output_path)}")
         
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
         
-        print(f"   ✅ JSON export complete: {output_path}")
+        print(f"   JSON export complete: {output_path}")
     
     def export_to_csv(self, results, output_path):
         """Export results to CSV format"""
@@ -421,7 +421,7 @@ def main():
     
     # Load model
     if not tool.load_model():
-        print("❌ Failed to load model. Exiting.")
+        print(f"Failed to load model. Exiting.")
         return
     
     # Determine image path
@@ -434,7 +434,7 @@ def main():
             image_path = test_image
             print(f"Using default test image: {os.path.basename(test_image)}")
         else:
-            print("❌ No image specified and default test image not found.")
+            print(f"No image specified and default test image not found.")
             print("Usage: python hieroglyph_analysis_tool.py --image_path YOUR_IMAGE.jpg")
             return
     
