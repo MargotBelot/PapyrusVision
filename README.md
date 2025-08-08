@@ -127,46 +127,46 @@ Explore the analysis pipeline through interactive notebooks in the `notebooks/` 
 
 ```
 PapyrusNU_Detectron/
-├── README.md                      # This file
-├── requirements.txt               # Python dependencies
-├── GETTING_STARTED.md            # Quick start guide
-├── PROJECT_REPORT.md             # Comprehensive technical report
-├── streamlit_hieroglyphs_app.py  # Interactive web application (recommended)
-├── digital_paleography_tool.py   # Batch processing tool (research workflows)
-│
-├── scripts/                       # Core analysis tools
-│   ├── hieroglyph_analysis_tool.py
-│   ├── dataset_utils.py
-│   ├── evaluation.py
-│   └── visualization.py
-│
-├── notebooks/                     # Jupyter analysis notebooks
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_data_analysis.ipynb
-│   ├── 03_model_training.ipynb
-│   ├── 04_model_evaluation.ipynb
-│   └── 05_model_predictions_visualization.ipynb
-│
-├── models/                        # Trained model files
-│   └── hieroglyph_model_*/
-│       ├── model_final.pth
-│       ├── config.yaml
-│       ├── model_info.json
-│       └── *.png                  # Model analysis plots
-│
-├── data/                          # Dataset and annotations
-│   ├── images/                    # Sample images
-│   ├── annotations/               # COCO-format annotations
-│   │   ├── train_annotations.json
-│   │   ├── val_annotations.json
-│   │   ├── gardiner_unicode_mapping.json
-│   │   └── gardiner_descriptions.json
-│   └── analysis_plots/            # Data analysis visualizations
-│       ├── training_analysis.png      # Training performance analysis
-│       ├── training_convergence.png   # Training convergence visualization
-│       └── *.png, *.html, *.json      # Complete analysis suite
-│
-└── training_*.png                 # Training performance plots (root level)
+ README.md                      # This file
+ requirements.txt               # Python dependencies
+ GETTING_STARTED.md            # Quick start guide
+ PROJECT_REPORT.md             # Comprehensive technical report
+ streamlit_hieroglyphs_app.py  # Interactive web application (recommended)
+ digital_paleography_tool.py   # Batch processing tool (research workflows)
+
+ scripts/                       # Core analysis tools
+    hieroglyph_analysis_tool.py
+    dataset_utils.py
+    evaluation.py
+    visualization.py
+
+ notebooks/                     # Jupyter analysis notebooks
+    01_data_preparation.ipynb
+    02_data_analysis.ipynb
+    03_model_training.ipynb
+    04_model_evaluation.ipynb
+    05_model_predictions_visualization.ipynb
+
+ models/                        # Trained model files
+    hieroglyph_model_*/
+        model_final.pth
+        config.yaml
+        model_info.json
+        *.png                  # Model analysis plots
+
+ data/                          # Dataset and annotations
+    images/                    # Sample images
+    annotations/               # COCO-format annotations
+       train_annotations.json
+       val_annotations.json
+       gardiner_unicode_mapping.json
+       gardiner_descriptions.json
+    analysis_plots/            # Data analysis visualizations
+        training_analysis.png      # Training performance analysis
+        training_convergence.png   # Training convergence visualization
+        *.png, *.html, *.json      # Complete analysis suite
+
+ training_*.png                 # Training performance plots (root level)
 ```
 
 ## Model Performance
