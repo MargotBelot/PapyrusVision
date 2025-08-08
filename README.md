@@ -1,14 +1,14 @@
-# PapyrusNU: AI-Powered Hieroglyph Detection and Digital Paleography
+# PapyrusVision: AI-Powered Hieroglyph Detection and Digital Paleography
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Detectron2](https://img.shields.io/badge/detectron2-latest-green.svg)](https://github.com/facebookresearch/detectron2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/margotbelot/PapyrusNU_Detectron.svg)](https://github.com/margotbelot/PapyrusNU_Detectron/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/margotbelot/PapyrusNU_Detectron.svg)](https://github.com/margotbelot/PapyrusNU_Detectron/network)
+[![GitHub stars](https://img.shields.io/github/stars/margotbelot/PapyrusVision.svg)](https://github.com/margotbelot/PapyrusVision/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/margotbelot/PapyrusVision.svg)](https://github.com/margotbelot/PapyrusVision/network)
 
 ## Overview
 
-PapyrusNU is an advanced computer vision system that uses deep learning to detect and analyze ancient Egyptian hieroglyphs in papyrus documents. The system combines state-of-the-art object detection with comprehensive Egyptological knowledge to provide researchers with powerful analysis capabilities.
+PapyrusVision is an advanced computer vision system that uses deep learning to detect and analyze ancient Egyptian hieroglyphs in papyrus documents. The system combines state-of-the-art object detection with comprehensive Egyptological knowledge to provide researchers with powerful analysis capabilities.
 
 ## Key Features
 
@@ -48,8 +48,8 @@ PapyrusNU is an advanced computer vision system that uses deep learning to detec
 
 ```bash
 # Clone the repository
-git clone https://github.com/margotbelot/PapyrusNU_Detectron.git
-cd PapyrusNU_Detectron
+git clone https://github.com/margotbelot/PapyrusVision.git
+cd PapyrusVision
 
 # Install dependencies
 pip install -r requirements.txt
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 **For most users - real-time analysis and exploration**
 
 ```bash
-streamlit run streamlit_hieroglyphs_app.py
+streamlit run apps/streamlit_hieroglyphs_app.py
 ```
 
 Open your browser to `http://localhost:8501` to access the interactive interface.
@@ -94,7 +94,7 @@ Open your browser to `http://localhost:8501` to access the interactive interface
 
 ```bash
 # Process multiple images in a directory
-python digital_paleography_tool.py
+python apps/digital_paleography_tool.py
 ```
 
 #### Command-Line Tool Features:
@@ -126,13 +126,19 @@ Explore the analysis pipeline through interactive notebooks in the `notebooks/` 
 ## Project Structure
 
 ```
-PapyrusNU_Detectron/
+PapyrusVision/
  README.md                      # This file
  requirements.txt               # Python dependencies
- GETTING_STARTED.md            # Quick start guide
- PROJECT_REPORT.md             # Comprehensive technical report
- streamlit_hieroglyphs_app.py  # Interactive web application (recommended)
- digital_paleography_tool.py   # Batch processing tool (research workflows)
+ 
+ apps/                          # User applications
+    streamlit_hieroglyphs_app.py  # Interactive web application (recommended)
+    digital_paleography_tool.py   # Batch processing tool (research workflows)
+ 
+ docs/                          # Documentation
+    GETTING_STARTED.md          # Quick start guide
+    PROJECT_REPORT.md           # Comprehensive technical report
+    COMPLETE_PROJECT_DOCUMENTATION.md # Full project documentation
+    STRUCTURE_OPTIMIZATION_PLAN.md    # Structure optimization plan
 
  scripts/                       # Core analysis tools
     hieroglyph_analysis_tool.py
@@ -191,37 +197,17 @@ The trained model achieves:
 - Comprehensive metadata and descriptions
 - ZIP packages for offline use
 
-### 3. Visualizations
-- Training performance plots
-- Data distribution analysis
-- Detection confidence heatmaps
-- Class distribution charts
 
-## Academic Applications
+## Documentation
 
-- **Digital Humanities**: Automated analysis of historical texts
-- **Egyptology**: Large-scale hieroglyphic corpus analysis
-- **Computer Vision**: Object detection in historical documents
-- **Cultural Heritage**: Digital preservation and accessibility
+All detailed documentation has been moved to the `docs/` folder for clarity:
 
-## Technical Details
+- [Quick Start Guide](docs/GETTING_STARTED.md)
+- [Project Report](docs/PROJECT_REPORT.md)
+- [Complete Project Documentation](docs/COMPLETE_PROJECT_DOCUMENTATION.md)
+- [Structure Optimization Plan](docs/STRUCTURE_OPTIMIZATION_PLAN.md)
 
-### Model Architecture
-- **Base**: Faster R-CNN with ResNet-50 backbone
-- **Framework**: Detectron2
-- **Training**: Transfer learning from COCO weights
-- **Augmentation**: Rotation, scaling, color jittering
-
-### Dataset
-- **Format**: COCO annotation standard
-- **Classes**: Gardiner sign list categories
-- **Split**: 70% train, 20% validation, 10% test
-- **Annotations**: Bounding boxes with class labels
-
-## Contributing
-
-This project was developed as part of academic research in digital humanities and computer vision. Contributions, bug reports, and improvements are welcome!
-
+See these files for installation, usage, and technical details.
 ### How to Contribute
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)

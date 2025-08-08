@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "papyrusnu-detectron"
+name = "papyrusvision"
 version = "1.0.0"
-description = "AI-Powered Hieroglyph Detection and Digital Paleography System"
+description = "PapyrusVision: AI-Powered Ancient Egyptian Hieroglyph Detection and Analysis"
 authors = [
     {name = "Margot Belot", email = "margot.belot@example.edu"}
 ]
@@ -59,21 +59,26 @@ gpu = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/margotbelot/PapyrusNU_Detectron"
-Repository = "https://github.com/margotbelot/PapyrusNU_Detectron"
-Documentation = "https://github.com/margotbelot/PapyrusNU_Detectron#readme"
-"Bug Reports" = "https://github.com/margotbelot/PapyrusNU_Detectron/issues"
+Homepage = "https://github.com/margotbelot/PapyrusVision"
+Repository = "https://github.com/margotbelot/PapyrusVision"
+Documentation = "https://github.com/margotbelot/PapyrusVision#readme"
+"Bug Reports" = "https://github.com/margotbelot/PapyrusVision/issues"
 
 [project.scripts]
-papyrusnu-detect = "scripts.hieroglyph_analysis_tool:main"
-papyrusnu-paleography = "digital_paleography_tool:main"
-papyrusnu-app = "streamlit_hieroglyphs_app:main"
+papyrusvision-detect = "scripts.hieroglyph_analysis_tool:main"
+papyrusvision-paleography = "digital_paleography_tool:main"
+papyrusvision-app = "streamlit_hieroglyphs_app:main"
 
 [tool.setuptools]
 packages = ["scripts"]
 
 [tool.setuptools.package-data]
 "*" = ["*.json", "*.yaml", "*.yml", "*.png", "*.jpg", "*.html"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["scripts*", "apps*"]
+exclude = [".history*", "*.history*"]
 
 [tool.black]
 line-length = 88
