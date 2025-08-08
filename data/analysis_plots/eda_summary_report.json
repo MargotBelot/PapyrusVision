@@ -1,0 +1,26 @@
+{
+    "bbox_insights": {
+        "area_mean": 4382.056359753086,
+        "area_median": 3371.2784,
+        "area_std": 3372.4074227760498,
+        "aspect_ratio_mean": 2.3532564716224846,
+        "aspect_ratio_median": 1.7828111960504516,
+        "notes": [
+            "Wide variation in both area and aspect ratio, suggesting multi-scale training and flexible anchor generation will be important."
+        ]
+    },
+    "spatial_insights": {
+        "distribution_pattern": "Hieroglyphs are arranged in clear vertical columns.",
+        "notes": [
+            "The non-uniform distribution means random crops might create samples with no annotations. Spatial augmentation should be done carefully."
+        ]
+    },
+    "class_insights": {
+        "total_classes": 177,
+        "classes_with_one_sample": 82,
+        "most_common_class": "N35",
+        "notes": [
+            "Extreme class imbalance is a major challenge. Many classes have very few examples. This justifies our stratified split and suggests we might need techniques like class weighting or focal loss during training."
+        ]
+    }
+}

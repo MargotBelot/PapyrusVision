@@ -1,0 +1,39 @@
+{
+  "dataset_info": {
+    "total_images": 1,
+    "total_annotations": 2430,
+    "total_categories": 628,
+    "unique_gardiner_codes": 177,
+    "unique_unicode_codes": 178
+  },
+  "data_split": {
+    "train_annotations": 1682,
+    "val_annotations": 432,
+    "test_annotations": 316,
+    "train_categories": 177,
+    "val_categories": 66,
+    "test_categories": 95
+  },
+  "class_balance": {
+    "frequent_classes": 3,
+    "common_classes": 22,
+    "rare_classes": 152
+  },
+  "validation_issues": {
+    "missing_segmentation": 0,
+    "invalid_bbox": 0,
+    "zero_area": 0,
+    "missing_unicode": 0,
+    "invalid_category": 0
+  },
+  "files_created": [
+    "train_annotations.json",
+    "val_annotations.json",
+    "test_annotations.json",
+    "gardiner_unicode_mapping.json",
+    "dataset_overview.png",
+    "class_distribution.png",
+    "sample_annotations.png",
+    "data_split_analysis.png"
+  ]
+}
