@@ -45,7 +45,7 @@ sys.path.append(str(current_dir))
 try:
     from scripts.hieroglyph_analysis_tool import HieroglyphAnalysisTool
 except ImportError:
-    print("⚠️  Could not import HieroglyphAnalysisTool. Make sure the module exists.")
+    print("Could not import HieroglyphAnalysisTool. Make sure the module exists.")
 
 class DigitalPaleographyTool:
     def __init__(self):
@@ -58,7 +58,7 @@ class DigitalPaleographyTool:
         try:
             self.analyzer = HieroglyphAnalysisTool()
             if self.analyzer.load_model():
-                print("✅ Hieroglyph analyzer loaded successfully")
+                print("Hieroglyph analyzer loaded successfully")
             else:
                 print("Error loading model in analyzer")
                 self.analyzer = None
@@ -178,13 +178,13 @@ class DigitalPaleographyTool:
                 return []
             detections = results['detections']
         except Exception as e:
-            print(f"   ❌ Error analyzing {image_path}: {e}")
+            print(f"   Error analyzing {image_path}: {e}")
             return []
         
         # Load the original image
         image = cv2.imread(str(image_path))
         if image is None:
-            print(f"   ❌ Could not load image: {image_path}")
+            print(f"   Could not load image: {image_path}")
             return []
         
         crops_data = []
@@ -255,7 +255,7 @@ class DigitalPaleographyTool:
             }
             
             crops_data.append(crop_data)
-            print(f"   ✅ Cropped {gardiner_code} (conf: {confidence:.2f})")
+            print(f"   Cropped {gardiner_code} (conf: {confidence:.2f})")
         
         return crops_data
     
@@ -263,7 +263,7 @@ class DigitalPaleographyTool:
         """Process all images in a directory"""
         input_path = Path(input_dir)
         if not input_path.exists():
-            print(f"❌ Input directory does not exist: {input_dir}")
+            print(f"Input directory does not exist: {input_dir}")
             return []
         
         # Find all image files
@@ -274,7 +274,7 @@ class DigitalPaleographyTool:
             image_files.extend(input_path.glob(f"*{ext}"))
             image_files.extend(input_path.glob(f"*{ext.upper()}"))
         
-        print(f"📂 Found {len(image_files)} images in {input_dir}")
+        print(f"Found {len(image_files)} images in {input_dir}")
         
         all_crops_data = []
         for image_file in image_files:
@@ -285,7 +285,7 @@ class DigitalPaleographyTool:
     
     def create_html_catalog(self, crops_data):
         """Create an interactive HTML catalog of the paleography"""
-        print("🎨 Creating HTML catalog...")
+        print("Creating HTML catalog...")
         
         # Group crops by Gardiner code
         grouped_crops = defaultdict(list)
@@ -303,7 +303,7 @@ class DigitalPaleographyTool:
         with open(catalog_file, 'w', encoding='utf-8') as f:
             f.write(html_content)
         
-        print(f"✅ HTML catalog created: {catalog_file}")
+        print(f"HTML catalog created: {catalog_file}")
         return catalog_file
     
     def generate_html_catalog(self, sorted_codes, grouped_crops):
@@ -481,7 +481,7 @@ class DigitalPaleographyTool:
         
         html_body = f"""
     <div class="header">
-        <h1>📜 Digital Hieroglyph Paleography</h1>
+        <h1>Digital Hieroglyph Paleography</h1>
         <p>Comprehensive catalog of detected hieroglyphic signs</p>
         <p>Generated on {datetime.now().strftime('%B %d, %Y at %H:%M')}</p>
     </div>
@@ -508,7 +508,7 @@ class DigitalPaleographyTool:
     </div>
     
     <div class="toc">
-        <h3>📋 Table of Contents</h3>
+        <h3>Table of Contents</h3>
         <div class="toc-list">"""
         
         # Add table of contents
@@ -562,7 +562,7 @@ class DigitalPaleographyTool:
                 </div>
             </div>"""
                 except Exception as e:
-                    print(f"   ⚠️  Could not embed image {crop['crop_path']}: {e}")
+                    print(f"   Could not embed image {crop['crop_path']}: {e}")
             
             html_body += """
         </div>
@@ -618,39 +618,39 @@ class DigitalPaleographyTool:
         with open(report_file, 'w', encoding='utf-8') as f:
             json.dump(report, f, indent=2, ensure_ascii=False)
         
-        print(f"📊 Report saved: {report_file}")
+        print(f"Report saved: {report_file}")
         return report_file
 
 def main():
-    print("📜 DIGITAL HIEROGLYPH PALEOGRAPHY TOOL")
+    print("DIGITAL HIEROGLYPH PALEOGRAPHY TOOL")
     print("=" * 60)
     
     # Initialize the tool
     tool = DigitalPaleographyTool()
     
     # Get input directory from user
-    input_dir = input("📂 Enter path to directory containing hieroglyph images: ").strip()
+    input_dir = input("Enter path to directory containing hieroglyph images: ").strip()
     if not input_dir:
         input_dir = "/Users/margot/Desktop/sample_hieroglyphs"  # Default for testing
     
     # Get confidence threshold
-    confidence_input = input("🎯 Enter confidence threshold (0.0-1.0, default 0.5): ").strip()
+    confidence_input = input("Enter confidence threshold (0.0-1.0, default 0.5): ").strip()
     try:
         confidence_threshold = float(confidence_input) if confidence_input else 0.5
     except ValueError:
         confidence_threshold = 0.5
     
-    print(f"\n🔍 Processing images from: {input_dir}")
-    print(f"🎯 Confidence threshold: {confidence_threshold}")
+    print(f"\nProcessing images from: {input_dir}")
+    print(f"Confidence threshold: {confidence_threshold}")
     
     # Process all images
     crops_data = tool.process_directory(input_dir, confidence_threshold)
     
     if not crops_data:
-        print("❌ No crops were generated. Check your input directory and confidence threshold.")
+        print("No crops were generated. Check your input directory and confidence threshold.")
         return
     
-    print(f"\n✅ Generated {len(crops_data)} sign crops")
+    print(f"\nGenerated {len(crops_data)} sign crops")
     
     # Create HTML catalog
     catalog_file = tool.create_html_catalog(crops_data)
@@ -659,15 +659,15 @@ def main():
     report_file = tool.generate_report(crops_data)
     
     # Final summary
-    print(f"\n🎉 DIGITAL PALEOGRAPHY COMPLETE!")
-    print(f"   📁 Crops saved in: {tool.crops_dir}")
-    print(f"   🌐 HTML catalog: {catalog_file}")
-    print(f"   📊 Report: {report_file}")
-    print(f"   📜 Total signs: {len(crops_data)}")
-    print(f"   🏛️  Unique codes: {len(set(crop['gardiner_code'] for crop in crops_data))}")
+    print(f"\nDIGITAL PALEOGRAPHY COMPLETE!")
+    print(f"   Crops saved in: {tool.crops_dir}")
+    print(f"   HTML catalog: {catalog_file}")
+    print(f"   Report: {report_file}")
+    print(f"   Total signs: {len(crops_data)}")
+    print(f"   Unique codes: {len(set(crop['gardiner_code'] for crop in crops_data))}")
     
     # Offer to open the catalog
-    open_catalog = input(f"\n🌐 Open HTML catalog in browser? (y/n): ").lower()
+    open_catalog = input(f"\nOpen HTML catalog in browser? (y/n): ").lower()
     if open_catalog in ['y', 'yes']:
         import webbrowser
         webbrowser.open(f"file://{catalog_file}")
