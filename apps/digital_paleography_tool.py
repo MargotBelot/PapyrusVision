@@ -73,7 +73,14 @@ class DigitalPaleographyTool:
     
     def setup_directories(self):
         """Create directory structure for the paleography"""
-        self.base_dir = Path("/Users/margot/Desktop/PapyrusVision/digital_paleography")
+        # Create paleography directory in a standard location (user's desktop or current directory)
+        desktop_path = Path.home() / "Desktop" / "PapyrusVision_Paleography"
+        if Path.home().joinpath("Desktop").exists():
+            self.base_dir = desktop_path
+        else:
+            # Fallback to current directory if Desktop doesn't exist
+            self.base_dir = Path.cwd() / "PapyrusVision_Paleography"
+        
         self.crops_dir = self.base_dir / "cropped_signs"
         self.catalog_dir = self.base_dir / "catalog"
         self.reports_dir = self.base_dir / "reports"
@@ -85,7 +92,9 @@ class DigitalPaleographyTool:
     
     def load_unicode_mappings(self):
         """Load Unicode mappings for Gardiner codes"""
-        mapping_file = "/Users/margot/Desktop/PapyrusVision/data/annotations/gardiner_unicode_mapping.json"
+        # Use relative path from the project structure
+        project_root = Path(__file__).parent.parent
+        mapping_file = project_root / "data" / "annotations" / "gardiner_unicode_mapping.json"
         try:
             with open(mapping_file, 'r', encoding='utf-8') as f:
                 self.unicode_mappings = json.load(f)
@@ -96,7 +105,9 @@ class DigitalPaleographyTool:
     
     def load_gardiner_descriptions(self):
         """Load Gardiner code descriptions"""
-        descriptions_file = "/Users/margot/Desktop/PapyrusVision/data/annotations/gardiner_descriptions.json"
+        # Use relative path from the project structure
+        project_root = Path(__file__).parent.parent
+        descriptions_file = project_root / "data" / "annotations" / "gardiner_descriptions.json"
         try:
             with open(descriptions_file, 'r', encoding='utf-8') as f:
                 self.gardiner_descriptions = json.load(f)
@@ -531,9 +542,20 @@ class DigitalPaleographyTool:
             unicode_display = unicode_symbol if unicode_symbol else "—"
             
             unicode_code = ""
+            unicode_info = ""
             if code in self.unicode_mappings:
                 codes = self.unicode_mappings[code].get('unicode_codes', [])
                 unicode_code = codes[0] if codes else ""
+                
+                # Create Unicode display with both symbol and code
+                if unicode_symbol and unicode_code:
+                    unicode_info = f"Unicode: {unicode_symbol} ({unicode_code})"
+                elif unicode_code:
+                    unicode_info = f"Unicode: {unicode_code}"
+                else:
+                    unicode_info = "Unicode: Not available"
+            else:
+                unicode_info = "Unicode: Not available"
             
             description = self.gardiner_descriptions.get(code, f"Hieroglyph {code}")
             
@@ -544,7 +566,7 @@ class DigitalPaleographyTool:
             <div class="gardiner-info">
                 <h2>{code}</h2>
                 <p>{description}</p>
-                <p>Unicode: {unicode_code} • {len(crops)} instances</p>
+                <p>{unicode_info} • {len(crops)} instances</p>
             </div>
         </div>
         <div class="crops-grid">"""
