@@ -36,12 +36,12 @@ PapyrusNU represents a successful application of modern AI technology to cultura
 
 ### 1.1 Key Achievements
 
-✅ **Complete Annotation**: 2,431 hieroglyphs expertly labeled using CVAT  
-✅ **Successful Training**: Stable model convergence on Google Colab A100  
-✅ **Technical Integration**: CVAT → Detectron2 → Streamlit pipeline  
-✅ **Unicode Compliance**: 594+ official mappings integrated  
-✅ **Production Deployment**: User-friendly web application  
-✅ **Academic Documentation**: Comprehensive methodology and reproducibility  
+**Complete Annotation**: 2,431 hieroglyphs expertly labeled using CVAT  
+**Successful Training**: Stable model convergence on Google Colab A100  
+**Technical Integration**: CVAT → Detectron2 → Streamlit pipeline  
+**Unicode Compliance**: 594+ official mappings integrated  
+**Production Deployment**: User-friendly web application  
+**Academic Documentation**: Comprehensive methodology and reproducibility
 
 ### 1.2 Project Statistics
 
@@ -87,10 +87,10 @@ streamlit run streamlit_hieroglyphs_app.py
 Open your browser to `http://localhost:8501`
 
 **Features:**
-- 🔍 **Interactive Detection**: Upload and analyze individual images with real-time feedback
-- 📜 **Visual Paleography**: Create sign catalogs with live preview and statistics
-- 🎨 **User-Friendly**: Drag-and-drop interface, instant downloads, progress tracking
-- 💡 **Best for**: Demonstrations, education, exploratory analysis, single-session work
+- **Interactive Detection**: Upload and analyze individual images with real-time feedback
+- **Visual Paleography**: Create sign catalogs with live preview and statistics
+- **User-Friendly**: Drag-and-drop interface, instant downloads, progress tracking
+- **Best for**: Demonstrations, education, exploratory analysis, single-session work
 
 #### Option B: Batch Processing Tool (For Research)
 
@@ -101,16 +101,16 @@ python digital_paleography_tool.py
 ```
 
 **Features:**
-- 📁 **Bulk Processing**: Process entire directories automatically
-- ⚡ **High Performance**: Optimized for handling many images efficiently  
-- 🔄 **Automation Ready**: Perfect for research pipelines and scripts
-- 🛠️ **Advanced Control**: Fine-tuned confidence thresholds and filtering
-- 💡 **Best for**: Large datasets, research workflows, automated processing
+- **Bulk Processing**: Process entire directories automatically
+- **High Performance**: Optimized for handling many images efficiently  
+- **Automation Ready**: Perfect for research pipelines and scripts
+- **Advanced Control**: Fine-tuned confidence thresholds and filtering
+- **Best for**: Large datasets, research workflows, automated processing
 
 ### 2.3 Additional Analysis Tools
 
-- **📊 Data Analysis**: Explore Jupyter notebooks and training visualizations
-- **🔬 Individual Scripts**: Use command-line tools for specific analysis tasks
+- **Data Analysis**: Explore Jupyter notebooks and training visualizations
+- **Individual Scripts**: Use command-line tools for specific analysis tasks
 
 ---
 

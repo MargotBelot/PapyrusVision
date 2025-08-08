@@ -12,11 +12,11 @@ PapyrusNU is an advanced computer vision system that uses deep learning to detec
 
 ## Key Features
 
-- **🔍 Hieroglyph Detection**: AI-powered detection using Detectron2 framework
-- **📜 Digital Paleography**: Automated cropping and cataloging of individual signs
-- **🌐 Unicode Integration**: Official Unicode mappings for 594+ hieroglyphic signs
-- **📊 Interactive Visualizations**: Comprehensive analysis and reporting tools
-- **🎨 Web Interface**: User-friendly Streamlit application
+- **Hieroglyph Detection**: AI-powered detection using Detectron2 framework
+- **Digital Paleography**: Automated cropping and cataloging of individual signs
+- **Unicode Integration**: Official Unicode mappings for 594+ hieroglyphic signs
+- **Interactive Visualizations**: Comprehensive analysis and reporting tools
+- **Web Interface**: User-friendly Streamlit application
 
 ## System Architecture
 
@@ -80,11 +80,11 @@ streamlit run streamlit_hieroglyphs_app.py
 Open your browser to `http://localhost:8501` to access the interactive interface.
 
 #### Web App Features:
-- **🔍 Single Image Analysis**: Upload and analyze individual papyrus images
-- **📜 Interactive Paleography**: Create sign catalogs with real-time preview
-- **🎨 Visual Interface**: Drag-and-drop uploads, interactive visualizations
-- **💾 Instant Downloads**: Export results as JSON, CSV, HTML, or ZIP packages
-- **📊 Live Statistics**: Real-time analysis and progress tracking
+- **Single Image Analysis**: Upload and analyze individual papyrus images
+- **Interactive Paleography**: Create sign catalogs with real-time preview
+- **Visual Interface**: Drag-and-drop uploads, interactive visualizations
+- **Instant Downloads**: Export results as JSON, CSV, HTML, or ZIP packages
+- **Live Statistics**: Real-time analysis and progress tracking
 
 **Best for**: Exploratory analysis, demonstrations, educational use, single-session work
 
@@ -98,11 +98,11 @@ python digital_paleography_tool.py
 ```
 
 #### Command-Line Tool Features:
-- **📁 Batch Processing**: Process entire directories of images automatically
-- **🔄 Automation Ready**: Perfect for research pipelines and scripts
-- **💾 Comprehensive Output**: Generates detailed reports and organized file structures
-- **⚡ High Performance**: Optimized for processing many images efficiently
-- **🛠️ Customizable**: Fine-tuned control over confidence thresholds and filtering
+- **Batch Processing**: Process entire directories of images automatically
+- **Automation Ready**: Perfect for research pipelines and scripts
+- **Comprehensive Output**: Generates detailed reports and organized file structures
+- **High Performance**: Optimized for processing many images efficiently
+- **Customizable**: Fine-tuned control over confidence thresholds and filtering
 
 **Best for**: Large datasets, research workflows, automated processing, batch analysis
 
@@ -237,7 +237,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Margot Belot**
 - GitHub: [@margotbelot](https://github.com/margotbelot)
-- Email: margot.belot@example.edu
+- Email: margotbelot@icloud.com
 
 ## Citation
 
@@ -277,4 +277,4 @@ If you use this work in your research, please cite:
 
 ---
 
-**For questions or support, please [open an issue](https://github.com/margotbelot/PapyrusNU_Detectron/issues) or contact margot.belot@example.edu**
+**For questions or support, please [open an issue](https://github.com/margotbelot/PapyrusNU_Detectron/issues) or contact margotbelot@icloud.com**
