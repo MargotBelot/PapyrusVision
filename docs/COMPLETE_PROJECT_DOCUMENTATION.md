@@ -1,4 +1,4 @@
-# PapyrusNU: Complete Project Documentation
+# PapyrusVision: Complete Project Documentation
 ## AI-Powered Hieroglyph Detection and Digital Paleography System
 
 **Project**: Deep Learning-based Hieroglyph Detection System  
@@ -32,7 +32,7 @@
 
 ## 1. Executive Summary
 
-PapyrusNU represents a successful application of modern AI technology to cultural heritage preservation. The project demonstrates how computer vision can revolutionize Egyptological research by automating the detection and analysis of hieroglyphic signs.
+PapyrusVision represents a successful application of modern AI technology to cultural heritage preservation. The project demonstrates how computer vision can revolutionize Egyptological research by automating the detection and analysis of hieroglyphic signs.
 
 ### 1.1 Key Achievements
 
@@ -81,7 +81,7 @@ PapyrusNU represents a successful application of modern AI technology to cultura
 **For most users - real-time analysis and exploration**
 
 ```bash
-streamlit run streamlit_hieroglyphs_app.py
+streamlit run apps/streamlit_hieroglyphs_app.py
 ```
 
 Open your browser to `http://localhost:8501`
@@ -97,7 +97,7 @@ Open your browser to `http://localhost:8501`
 **For researchers and large-scale processing**
 
 ```bash
-python digital_paleography_tool.py
+python apps/digital_paleography_tool.py
 ```
 
 **Features:**
@@ -394,12 +394,14 @@ Enhanced: papyrus_G17_U1317F_001_conf0.89.png
 ## 10. Project Structure
 
 ```
-PapyrusNU_Detectron/
+PapyrusVision/
  COMPLETE_PROJECT_DOCUMENTATION.md  # This comprehensive document
  README.md                          # Project overview
  requirements.txt                   # Python dependencies
- streamlit_hieroglyphs_app.py       # Main web application
- digital_paleography_tool.py        # Paleography generation tool
+ 
+ apps/                              # User applications
+    streamlit_hieroglyphs_app.py    # Main web application
+    digital_paleography_tool.py     # Paleography generation tool
 
  scripts/                           # Core analysis tools
     hieroglyph_analysis_tool.py    # Main detection engine
@@ -571,7 +573,7 @@ PapyrusNU_Detectron/
 
 ## Conclusion
 
-PapyrusNU represents a comprehensive success in applying modern AI technology to cultural heritage preservation. The project demonstrates effective integration of specialized tools (CVAT, Detectron2, Streamlit) to create a production-ready system that advances both computer vision research and Egyptological scholarship.
+PapyrusVision represents a comprehensive success in applying modern AI technology to cultural heritage preservation. The project demonstrates effective integration of specialized tools (CVAT, Detectron2, Streamlit) to create a production-ready system that advances both computer vision research and Egyptological scholarship.
 
 **Key Success Factors**:
 - Careful tool selection matching project requirements
@@ -585,4 +587,4 @@ PapyrusNU represents a comprehensive success in applying modern AI technology to
 
 ---
 
-**This comprehensive documentation consolidates all project analysis, training results, technical details, and insights into a single authoritative reference for the PapyrusNU hieroglyph detection system.**
+**This comprehensive documentation consolidates all project analysis, training results, technical details, and insights into a single authoritative reference for the PapyrusVision hieroglyph detection system.**

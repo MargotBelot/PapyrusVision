@@ -1,4 +1,4 @@
-# PapyrusNU Project Structure Optimization Plan
+# PapyrusVision Project Structure Optimization Plan
 
 ## Current Structure Assessment
 
@@ -25,7 +25,7 @@
 ## Recommended Optimal Structure
 
 ```
-PapyrusNU_Detectron/
+PapyrusVision/
  README.md                          # Main project overview
  LICENSE                            # MIT license
  pyproject.toml                     # Modern Python packaging
@@ -39,9 +39,10 @@ PapyrusNU_Detectron/
     API_REFERENCE.md               # Code documentation
     TROUBLESHOOTING.md             # Common issues
     CONTRIBUTING.md                # Development guidelines
+    STRUCTURE_OPTIMIZATION_PLAN.md  # Moved from root directory
 
  src/                               # Main package source
-    papyrusnu/                     # Main package
+    papyrusvision/                     # Main package
         __init__.py                # Package initialization
         config/                    # Configuration management
            __init__.py
@@ -116,12 +117,13 @@ PapyrusNU_Detectron/
      workflows/
          ci.yml                     # Continuous integration
          release.yml                # Release automation
+
 ```
 
 ## Key Improvements
 
 ### 1. **Clean Architecture**
-- **src/papyrusnu/**: Proper Python package structure
+- **src/papyrusvision/**: Proper Python package structure
 - **apps/**: Clear separation of user applications  
 - **docs/**: Centralized documentation
 - **tests/**: Comprehensive testing framework
@@ -130,15 +132,15 @@ PapyrusNU_Detectron/
 ```bash
 # Clean, discoverable commands
 pip install -e .                      # Install in development mode
-papyrusnu-detect image.jpg             # CLI detection
-papyrusnu-paleography --batch          # Batch processing  
+papyrusvision-detect image.jpg             # CLI detection
+papyrusvision-paleography --batch          # Batch processing  
 streamlit run apps/streamlit_app.py    # Web interface
 ```
 
 ### 3. **Configuration Management**
 ```python
 # Centralized settings
-from papyrusnu.config import settings
+from papyrusvision.config import settings
 
 # Easy customization
 settings.detection.confidence_threshold = 0.7
@@ -148,8 +150,8 @@ settings.paleography.min_sign_size = 20
 ### 4. **Import Simplification**
 ```python
 # Clean imports
-from papyrusnu import HieroglyphDetector, PaleographyTool
-from papyrusnu.utils import visualize_results
+from papyrusvision import HieroglyphDetector, PaleographyTool
+from papyrusvision.utils import visualize_results
 
 # Professional API
 detector = HieroglyphDetector.from_pretrained()
@@ -159,7 +161,7 @@ results = detector.detect(image_path)
 ## Migration Plan
 
 ### Phase 1: Core Restructuring (High Priority)
-1. **Create src/papyrusnu/ package structure**
+1. **Create src/papyrusvision/ package structure**
 2. **Move existing scripts into proper modules**
 3. **Update import statements**
 4. **Test functionality after move**
@@ -199,7 +201,7 @@ results = detector.detect(image_path)
 ## Implementation Priority
 
 ### **Critical (Do First)**
-1. Create proper package structure (`src/papyrusnu/`)
+1. Create proper package structure (`src/papyrusvision/`)
 2. Move and organize existing functionality
 3. Update imports and entry points
 4. Test core functionality

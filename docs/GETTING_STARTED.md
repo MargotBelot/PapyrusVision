@@ -1,8 +1,25 @@
-# Quick Start Guide
+# PapyrusVision - Quick Start Guide
+
 
 ## Installation (5 minutes)
 
-1. **Install Python 3.8+** if not already installed
+1. **Install Conda and Set Up Python Environment (Recommended)**
+    - Download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (lightweight) or [Anaconda](https://www.anaconda.com/products/distribution) (full distribution) if not already installed.
+    - **Install Miniconda (macOS/Linux):**
+       ```bash
+       wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh
+       bash miniconda.sh
+       # Follow the prompts, then restart your terminal
+       ```
+    - **Verify Conda installation:**
+       ```bash
+       conda --version
+       ```
+    - **Create and activate a Python 3.8+ environment:**
+       ```bash
+       conda create -n papyrusvision python=3.8
+       conda activate papyrusvision
+       ```
 
 2. **Install dependencies:**
    ```bash
@@ -10,10 +27,19 @@
    ```
 
 3. **Install Detectron2:**
+
+   **If you are using Apple Silicon (M1/M2, macOS ARM):**
+   Official Detectron2 wheels are not available for macOS ARM. You must build from source:
+   ```bash
+   pip install torch torchvision torchaudio
+   pip install 'git+https://github.com/facebookresearch/detectron2.git'
+   ```
+
+   **If you are using Linux or Windows (x86_64):**
    ```bash
    # For GPU (recommended)
    pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
-   
+
    # For CPU only
    pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html
    ```
@@ -21,12 +47,12 @@
 ## Run the Application (30 seconds)
 
 ```bash
-streamlit run streamlit_hieroglyphs_app.py
+streamlit run apps/streamlit_hieroglyphs_app.py
 ```
 
 Open your browser to `http://localhost:8501`
 
-## Two Ways to Use PapyrusNU
+## Two Ways to Use PapyrusVision
 
 ### Option 1: Web Application (Recommended for Most Users)
 
@@ -42,7 +68,7 @@ Open your browser to `http://localhost:8501`
 **Command-line interface - best for large-scale research**
 
 ```bash
-python digital_paleography_tool.py
+python apps/digital_paleography_tool.py
 ```
 
 - **Bulk Processing**: Handle entire directories of images automatically
@@ -57,8 +83,8 @@ python digital_paleography_tool.py
 
 ## Key Files
 
-- `streamlit_enhanced_app.py` - Main web application
-- `digital_paleography_tool.py` - Paleography generator
+- `apps/streamlit_hieroglyphs_app.py` - Main web application
+- `apps/digital_paleography_tool.py` - Paleography generator
 - `scripts/hieroglyph_analysis_tool.py` - Core detection tool
 - `models/` - Trained Detectron2 model
 - `data/` - Dataset and analysis plots

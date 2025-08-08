@@ -1,4 +1,4 @@
-# PapyrusNU: AI-Powered Hieroglyph Detection and Digital Paleography
+# PapyrusVision: AI-Powered Hieroglyph Detection and Digital Paleography
 ## Comprehensive Technical Report and Development Documentation
 
 **Project**: Deep Learning-based Hieroglyph Detection System  
@@ -13,7 +13,7 @@
 
 ## Executive Summary
 
-PapyrusNU represents a successful application of modern AI technology to cultural heritage preservation. The project demonstrates how computer vision can revolutionize Egyptological research by automating the detection and analysis of hieroglyphic signs. This comprehensive system integrates advanced object detection, digital paleography, and Unicode standardization to create a production-ready tool for researchers worldwide.
+PapyrusVision represents a successful application of modern AI technology to cultural heritage preservation. The project demonstrates how computer vision can revolutionize Egyptological research by automating the detection and analysis of hieroglyphic signs. This comprehensive system integrates advanced object detection, digital paleography, and Unicode standardization to create a production-ready tool for researchers worldwide.
 
 **Key Achievements:**
 - Successfully annotated 2,431 hieroglyphic signs across 177 Gardiner classes using CVAT
@@ -207,7 +207,7 @@ SOLVER:
 
 **Project Configuration in CVAT**:
 ```yaml
-Project Name: PapyrusNU_Hieroglyph_Detection
+Project Name: PapyrusVision_Hieroglyph_Detection
 Labels: 177 Gardiner codes (A1, A2, B1, etc.)
 Annotation Type: Bounding boxes
 Image Format: High-resolution JPEG
@@ -678,7 +678,7 @@ Enhanced: papyrus_G17_U1317F_001_conf0.89.png
 
 ### 11.1 Project Success Summary
 
-PapyrusNU represents a comprehensive success in applying modern AI technology to cultural heritage preservation. The project overcame significant technical challenges to deliver a production-ready system that advances both computer vision research and Egyptological scholarship.
+PapyrusVision represents a comprehensive success in applying modern AI technology to cultural heritage preservation. The project overcame significant technical challenges to deliver a production-ready system that advances both computer vision research and Egyptological scholarship.
 
 **Key Accomplishments**:
 - **Complete Annotation**: 2,431 hieroglyphs expertly labeled using CVAT  
@@ -715,7 +715,7 @@ This project demonstrates how modern AI can enhance rather than replace traditio
 
 ### 11.5 Future Outlook
 
-PapyrusNU establishes a foundation for next-generation digital humanities tools. The methodologies, technologies, and insights developed here can be adapted to other cultural heritage domains, promising continued innovation at the intersection of AI and human culture.
+PapyrusVision establishes a foundation for next-generation digital humanities tools. The methodologies, technologies, and insights developed here can be adapted to other cultural heritage domains, promising continued innovation at the intersection of AI and human culture.
 
 ---
 
