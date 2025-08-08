@@ -160,10 +160,8 @@ cython_debug/
 #.idea/
 
 # Machine Learning / AI specific
-# Models (keep model metadata but ignore large weight files)
-models/*/model_final.pth
-models/*/model_*.pth
-*.pth
+# Large weight files now handled by Git LFS
+# (*.pth files are tracked by LFS)
 
 # Large data files
 *.h5
