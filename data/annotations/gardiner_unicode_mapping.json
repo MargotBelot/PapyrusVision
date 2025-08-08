@@ -1,0 +1,4586 @@
+{
+  "D4": {
+    "category_id": 108,
+    "unicode_codes": [
+      "U+13079"
+    ],
+    "count": 34
+  },
+  "N35": {
+    "category_id": 353,
+    "unicode_codes": [
+      "U+13216"
+    ],
+    "count": 206
+  },
+  "N31": {
+    "category_id": 351,
+    "unicode_codes": [
+      "U+13210"
+    ],
+    "count": 15
+  },
+  "X1": {
+    "category_id": 595,
+    "unicode_codes": [
+      "U+133CF"
+    ],
+    "count": 195
+  },
+  "Z1": {
+    "category_id": 607,
+    "unicode_codes": [
+      "U+133E4"
+    ],
+    "count": 117
+  },
+  "G43": {
+    "category_id": 242,
+    "unicode_codes": [
+      "U+13171"
+    ],
+    "count": 120
+  },
+  "M17": {
+    "category_id": 294,
+    "unicode_codes": [
+      "U+131CB",
+      "U+13171"
+    ],
+    "count": 77
+  },
+  "D21": {
+    "category_id": 87,
+    "unicode_codes": [
+      "U+1308B"
+    ],
+    "count": 168
+  },
+  "Aa1": {
+    "category_id": 621,
+    "unicode_codes": [
+      "U+1340D",
+      "U+1308B"
+    ],
+    "count": 90
+  },
+  "Y1": {
+    "category_id": 602,
+    "unicode_codes": [
+      "U+133DB"
+    ],
+    "count": 77
+  },
+  "V31": {
+    "category_id": 561,
+    "unicode_codes": [
+      "U+133A1"
+    ],
+    "count": 50
+  },
+  "V13": {
+    "category_id": 542,
+    "unicode_codes": [
+      "U+1337F"
+    ],
+    "count": 58
+  },
+  "R8": {
+    "category_id": 448,
+    "unicode_codes": [
+      "U+132B9"
+    ],
+    "count": 11
+  },
+  "O34": {
+    "category_id": 388,
+    "unicode_codes": [
+      "U+13283"
+    ],
+    "count": 46
+  },
+  "G39": {
+    "category_id": 238,
+    "unicode_codes": [
+      "U+1316D"
+    ],
+    "count": 11
+  },
+  "G1": {
+    "category_id": 209,
+    "unicode_codes": [
+      "U+1313F",
+      "U+1316D"
+    ],
+    "count": 53
+  },
+  "A49": {
+    "category_id": 41,
+    "unicode_codes": [
+      "U+1355D"
+    ],
+    "count": 16
+  },
+  "D37": {
+    "category_id": 104,
+    "unicode_codes": [
+      "U+1309E"
+    ],
+    "count": 31
+  },
+  "V30": {
+    "category_id": 560,
+    "unicode_codes": [
+      "U+1339F"
+    ],
+    "count": 17
+  },
+  "M12": {
+    "category_id": 289,
+    "unicode_codes": [
+      "U+131BC"
+    ],
+    "count": 2
+  },
+  "R1": {
+    "category_id": 428,
+    "unicode_codes": [
+      "U+132AF"
+    ],
+    "count": 1
+  },
+  "O29": {
+    "category_id": 384,
+    "unicode_codes": [
+      "U+1327B"
+    ],
+    "count": 13
+  },
+  "D36": {
+    "category_id": 103,
+    "unicode_codes": [
+      "U+1309D"
+    ],
+    "count": 26
+  },
+  "D58": {
+    "category_id": 126,
+    "unicode_codes": [
+      "U+130C0"
+    ],
+    "count": 44
+  },
+  "M19": {
+    "category_id": 296,
+    "unicode_codes": [
+      "U+131CE"
+    ],
+    "count": 1
+  },
+  "Z2": {
+    "category_id": 611,
+    "unicode_codes": [
+      "U+133E5"
+    ],
+    "count": 37
+  },
+  "S29": {
+    "category_id": 462,
+    "unicode_codes": [
+      "U+132F4"
+    ],
+    "count": 58
+  },
+  "M29": {
+    "category_id": 310,
+    "unicode_codes": [
+      "U+131DB"
+    ],
+    "count": 1
+  },
+  "G17A": {
+    "category_id": 212,
+    "unicode_codes": [
+      "U+13C2E"
+    ],
+    "count": 28
+  },
+  "N5": {
+    "category_id": 363,
+    "unicode_codes": [
+      "U+131F3"
+    ],
+    "count": 7
+  },
+  "W17A": {
+    "category_id": 579,
+    "unicode_codes": [
+      "U+1437C"
+    ],
+    "count": 1
+  },
+  "P1": {
+    "category_id": 407,
+    "unicode_codes": [
+      "U+1329B"
+    ],
+    "count": 1
+  },
+  "U23B": {
+    "category_id": 518,
+    "unicode_codes": [
+      "U+142B7"
+    ],
+    "count": 1
+  },
+  "N26": {
+    "category_id": 345,
+    "unicode_codes": [
+      "U+1320B"
+    ],
+    "count": 1
+  },
+  "O49": {
+    "category_id": 399,
+    "unicode_codes": [
+      "U+13296"
+    ],
+    "count": 2
+  },
+  "F4": {
+    "category_id": 193,
+    "unicode_codes": [
+      "U+13102"
+    ],
+    "count": 3
+  },
+  "G29": {
+    "category_id": 229,
+    "unicode_codes": [
+      "U+13161"
+    ],
+    "count": 7
+  },
+  "N29": {
+    "category_id": 348,
+    "unicode_codes": [
+      "U+1320E"
+    ],
+    "count": 11
+  },
+  "M1A": {
+    "category_id": 297,
+    "unicode_codes": [
+      "U+131AE"
+    ],
+    "count": 1
+  },
+  "A40": {
+    "category_id": 34,
+    "unicode_codes": [
+      "U+1302D"
+    ],
+    "count": 46
+  },
+  "Z4": {
+    "category_id": 616,
+    "unicode_codes": [
+      "U+133ED"
+    ],
+    "count": 16
+  },
+  "O31": {
+    "category_id": 386,
+    "unicode_codes": [
+      "U+1327F"
+    ],
+    "count": 10
+  },
+  "I10": {
+    "category_id": 258,
+    "unicode_codes": [
+      "U+13193"
+    ],
+    "count": 16
+  },
+  "S43": {
+    "category_id": 475,
+    "unicode_codes": [
+      "U+13303"
+    ],
+    "count": 15
+  },
+  "F20": {
+    "category_id": 169,
+    "unicode_codes": [
+      "U+13113"
+    ],
+    "count": 31
+  },
+  "O1": {
+    "category_id": 371,
+    "unicode_codes": [
+      "U+13250"
+    ],
+    "count": 26
+  },
+  "S19": {
+    "category_id": 622,
+    "unicode_codes": [
+      "U+132E8"
+    ],
+    "count": 15
+  },
+  "W24": {
+    "category_id": 586,
+    "unicode_codes": [
+      "U+133CC"
+    ],
+    "count": 63
+  },
+  "A17": {
+    "category_id": 10,
+    "unicode_codes": [
+      "U+13014"
+    ],
+    "count": 14
+  },
+  "A52": {
+    "category_id": 44,
+    "unicode_codes": [
+      "U+1303D"
+    ],
+    "count": 15
+  },
+  "Q3": {
+    "category_id": 422,
+    "unicode_codes": [
+      "U+132AA"
+    ],
+    "count": 12
+  },
+  "Y5": {
+    "category_id": 606,
+    "unicode_codes": [
+      "U+133E0"
+    ],
+    "count": 2
+  },
+  "R4": {
+    "category_id": 443,
+    "unicode_codes": [
+      "U+132B5"
+    ],
+    "count": 1
+  },
+  "I9": {
+    "category_id": 274,
+    "unicode_codes": [
+      "U+13191"
+    ],
+    "count": 38
+  },
+  "F42": {
+    "category_id": 196,
+    "unicode_codes": [
+      "U+1312D"
+    ],
+    "count": 14
+  },
+  "D54": {
+    "category_id": 121,
+    "unicode_codes": [
+      "U+130BB"
+    ],
+    "count": 23
+  },
+  "Q1": {
+    "category_id": 420,
+    "unicode_codes": [
+      "U+132A8"
+    ],
+    "count": 16
+  },
+  "T12": {
+    "category_id": 483,
+    "unicode_codes": [
+      "U+13317"
+    ],
+    "count": 1
+  },
+  "A2": {
+    "category_id": 14,
+    "unicode_codes": [
+      "U+13001"
+    ],
+    "count": 24
+  },
+  "H6": {
+    "category_id": 255,
+    "unicode_codes": [
+      "U+13184"
+    ],
+    "count": 1
+  },
+  "G37": {
+    "category_id": 236,
+    "unicode_codes": [
+      "U+1316A"
+    ],
+    "count": 13
+  },
+  "E9": {
+    "category_id": 160,
+    "unicode_codes": [
+      "U+130DB"
+    ],
+    "count": 2
+  },
+  "S42A": {
+    "category_id": 474,
+    "unicode_codes": [
+      "U+141D8"
+    ],
+    "count": 1
+  },
+  "D46": {
+    "category_id": 114,
+    "unicode_codes": [
+      "U+130A7"
+    ],
+    "count": 14
+  },
+  "T30A": {
+    "category_id": 497,
+    "unicode_codes": [
+      "U+14274"
+    ],
+    "count": 2
+  },
+  "V28A": {
+    "category_id": 557,
+    "unicode_codes": [
+      "U+14337"
+    ],
+    "count": 18
+  },
+  "W10": {
+    "category_id": 570,
+    "unicode_codes": [
+      "U+133BA"
+    ],
+    "count": 4
+  },
+  "N16": {
+    "category_id": 337,
+    "unicode_codes": [
+      "U+131FE"
+    ],
+    "count": 6
+  },
+  "N23": {
+    "category_id": 343,
+    "unicode_codes": [
+      "U+13207"
+    ],
+    "count": 8
+  },
+  "T5": {
+    "category_id": 501,
+    "unicode_codes": [
+      "U+1330C"
+    ],
+    "count": 1
+  },
+  "Z9": {
+    "category_id": 620,
+    "unicode_codes": [
+      "U+133F4"
+    ],
+    "count": 3
+  },
+  "G4": {
+    "category_id": 239,
+    "unicode_codes": [
+      "U+13142"
+    ],
+    "count": 1
+  },
+  "A14": {
+    "category_id": 6,
+    "unicode_codes": [
+      "U+13010"
+    ],
+    "count": 1
+  },
+  "G36": {
+    "category_id": 235,
+    "unicode_codes": [
+      "U+13168"
+    ],
+    "count": 3
+  },
+  "A7A": {
+    "category_id": 48,
+    "unicode_codes": [
+      "U+13474"
+    ],
+    "count": 8
+  },
+  "F34": {
+    "category_id": 184,
+    "unicode_codes": [
+      "U+13123"
+    ],
+    "count": 3
+  },
+  "Aa17": {
+    "category_id": 623,
+    "unicode_codes": [
+      "U+1341F"
+    ],
+    "count": 1
+  },
+  "Aa11": {
+    "category_id": 624,
+    "unicode_codes": [
+      "U+13419"
+    ],
+    "count": 3
+  },
+  "W11": {
+    "category_id": 571,
+    "unicode_codes": [
+      "U+133BC"
+    ],
+    "count": 8
+  },
+  "E1": {
+    "category_id": 132,
+    "unicode_codes": [
+      "U+130D2"
+    ],
+    "count": 1
+  },
+  "A47": {
+    "category_id": 40,
+    "unicode_codes": [
+      "U+13038"
+    ],
+    "count": 4
+  },
+  "P8": {
+    "category_id": 417,
+    "unicode_codes": [
+      "U+132A4"
+    ],
+    "count": 14
+  },
+  "D2": {
+    "category_id": 84,
+    "unicode_codes": [
+      "U+13077"
+    ],
+    "count": 6
+  },
+  "N37": {
+    "category_id": 356,
+    "unicode_codes": [
+      "U+13219"
+    ],
+    "count": 6
+  },
+  "U30": {
+    "category_id": 524,
+    "unicode_codes": [
+      "U+13354"
+    ],
+    "count": 2
+  },
+  "M20": {
+    "category_id": 300,
+    "unicode_codes": [
+      "U+131CF"
+    ],
+    "count": 1
+  },
+  "E23": {
+    "category_id": 149,
+    "unicode_codes": [
+      "U+130ED"
+    ],
+    "count": 1
+  },
+  "M2": {
+    "category_id": 299,
+    "unicode_codes": [
+      "U+131B0"
+    ],
+    "count": 2
+  },
+  "U5": {
+    "category_id": 533,
+    "unicode_codes": [
+      "U+13337"
+    ],
+    "count": 10
+  },
+  "D1": {
+    "category_id": 76,
+    "unicode_codes": [
+      "U+13076"
+    ],
+    "count": 3
+  },
+  "Q7G": {
+    "category_id": 427,
+    "unicode_codes": [
+      "U+140C7"
+    ],
+    "count": 8
+  },
+  "D20": {
+    "category_id": 85,
+    "unicode_codes": [
+      "U+1308A"
+    ],
+    "count": 1
+  },
+  "F18": {
+    "category_id": 167,
+    "unicode_codes": [
+      "U+13111"
+    ],
+    "count": 2
+  },
+  "D35": {
+    "category_id": 102,
+    "unicode_codes": [
+      "U+1309C"
+    ],
+    "count": 7
+  },
+  "E34": {
+    "category_id": 155,
+    "unicode_codes": [
+      "U+130F9"
+    ],
+    "count": 1
+  },
+  "O39": {
+    "category_id": 392,
+    "unicode_codes": [
+      "U+1328C"
+    ],
+    "count": 2
+  },
+  "G31": {
+    "category_id": 232,
+    "unicode_codes": [
+      "U+13163"
+    ],
+    "count": 1
+  },
+  "A28": {
+    "category_id": 26,
+    "unicode_codes": [
+      "U+13020"
+    ],
+    "count": 5
+  },
+  "O36": {
+    "category_id": 390,
+    "unicode_codes": [
+      "U+13285"
+    ],
+    "count": 1
+  },
+  "N4": {
+    "category_id": 357,
+    "unicode_codes": [
+      "U+131F2"
+    ],
+    "count": 1
+  },
+  "N42": {
+    "category_id": 360,
+    "unicode_codes": [
+      "U+1321F"
+    ],
+    "count": 1
+  },
+  "A24": {
+    "category_id": 22,
+    "unicode_codes": [
+      "U+1301C"
+    ],
+    "count": 1
+  },
+  "E27": {
+    "category_id": 151,
+    "unicode_codes": [
+      "U+130F1"
+    ],
+    "count": 1
+  },
+  "U35": {
+    "category_id": 528,
+    "unicode_codes": [
+      "U+1335A"
+    ],
+    "count": 1
+  },
+  "V4": {
+    "category_id": 566,
+    "unicode_codes": [
+      "U+1336F"
+    ],
+    "count": 2
+  },
+  "M18": {
+    "category_id": 295,
+    "unicode_codes": [
+      "U+131CD"
+    ],
+    "count": 1
+  },
+  "G14": {
+    "category_id": 210,
+    "unicode_codes": [
+      "U+13150"
+    ],
+    "count": 2
+  },
+  "N1": {
+    "category_id": 332,
+    "unicode_codes": [
+      "U+131EF"
+    ],
+    "count": 1
+  },
+  "U15": {
+    "category_id": 510,
+    "unicode_codes": [
+      "U+13343"
+    ],
+    "count": 1
+  },
+  "B1": {
+    "category_id": 55,
+    "unicode_codes": [
+      "U+13050"
+    ],
+    "count": 2
+  },
+  "T14": {
+    "category_id": 485,
+    "unicode_codes": [
+      "U+13319"
+    ],
+    "count": 2
+  },
+  "N30": {
+    "category_id": 350,
+    "unicode_codes": [
+      "U+1320F"
+    ],
+    "count": 1
+  },
+  "F31": {
+    "category_id": 181,
+    "unicode_codes": [
+      "U+1311F"
+    ],
+    "count": 3
+  },
+  "F22": {
+    "category_id": 171,
+    "unicode_codes": [
+      "U+13116"
+    ],
+    "count": 1
+  },
+  "D41": {
+    "category_id": 110,
+    "unicode_codes": [
+      "U+130A2"
+    ],
+    "count": 1
+  },
+  "I3": {
+    "category_id": 264,
+    "unicode_codes": [
+      "U+1318A"
+    ],
+    "count": 1
+  },
+  "O4": {
+    "category_id": 393,
+    "unicode_codes": [
+      "U+13254"
+    ],
+    "count": 11
+  },
+  "G28": {
+    "category_id": 228,
+    "unicode_codes": [
+      "U+13160"
+    ],
+    "count": 1
+  },
+  "Aa28": {
+    "category_id": 625,
+    "unicode_codes": [
+      "U+1342A"
+    ],
+    "count": 1
+  },
+  "M8": {
+    "category_id": 328,
+    "unicode_codes": [
+      "U+131B7"
+    ],
+    "count": 1
+  },
+  "F40": {
+    "category_id": 194,
+    "unicode_codes": [
+      "U+1312B"
+    ],
+    "count": 1
+  },
+  "I14": {
+    "category_id": 261,
+    "unicode_codes": [
+      "U+13199"
+    ],
+    "count": 1
+  },
+  "B2": {
+    "category_id": 59,
+    "unicode_codes": [
+      "U+13051"
+    ],
+    "count": 1
+  },
+  "T28": {
+    "category_id": 493,
+    "unicode_codes": [
+      "U+13328"
+    ],
+    "count": 5
+  },
+  "U2": {
+    "category_id": 513,
+    "unicode_codes": [
+      "U+13334"
+    ],
+    "count": 2
+  },
+  "F36": {
+    "category_id": 186,
+    "unicode_codes": [
+      "U+13125"
+    ],
+    "count": 1
+  },
+  "S28": {
+    "category_id": 461,
+    "unicode_codes": [
+      "U+132F3"
+    ],
+    "count": 8
+  },
+  "D3": {
+    "category_id": 97,
+    "unicode_codes": [
+      "U+13078"
+    ],
+    "count": 1
+  },
+  "U7": {
+    "category_id": 534,
+    "unicode_codes": [
+      "U+1333B"
+    ],
+    "count": 1
+  },
+  "M16": {
+    "category_id": 293,
+    "unicode_codes": [
+      "U+131C9"
+    ],
+    "count": 1
+  },
+  "F32": {
+    "category_id": 182,
+    "unicode_codes": [
+      "U+13121"
+    ],
+    "count": 1
+  },
+  "Aa27": {
+    "category_id": 626,
+    "unicode_codes": [
+      "U+13429"
+    ],
+    "count": 2
+  },
+  "G54": {
+    "category_id": 250,
+    "unicode_codes": [
+      "U+1317E"
+    ],
+    "count": 1
+  },
+  "U29": {
+    "category_id": 523,
+    "unicode_codes": [
+      "U+13352"
+    ],
+    "count": 1
+  },
+  "M44": {
+    "category_id": 324,
+    "unicode_codes": [
+      "U+131EE"
+    ],
+    "count": 1
+  },
+  "D43": {
+    "category_id": 112,
+    "unicode_codes": [
+      "U+130A4"
+    ],
+    "count": 1
+  },
+  "M13": {
+    "category_id": 290,
+    "unicode_codes": [
+      "U+131C5"
+    ],
+    "count": 1
+  },
+  "M245": {
+    "category_id": 307,
+    "unicode_codes": [
+      "U+13E91"
+    ],
+    "count": 1
+  },
+  "N33": {
+    "category_id": 352,
+    "unicode_codes": [
+      "U+13212"
+    ],
+    "count": 1
+  },
+  "U39I": {
+    "category_id": 531,
+    "unicode_codes": [
+      "U+142EC"
+    ],
+    "count": 1
+  },
+  "K3": {
+    "category_id": 278,
+    "unicode_codes": [
+      "U+1319D"
+    ],
+    "count": 1
+  },
+  "X4": {
+    "category_id": 598,
+    "unicode_codes": [
+      "U+143C5"
+    ],
+    "count": 1
+  },
+  "Z11": {
+    "category_id": 608,
+    "unicode_codes": [
+      "U+133F6"
+    ],
+    "count": 1
+  },
+  "F12": {
+    "category_id": 163,
+    "unicode_codes": [
+      "U+1310A"
+    ],
+    "count": 1
+  },
+  "M3": {
+    "category_id": 311,
+    "unicode_codes": [
+      "U+131B1"
+    ],
+    "count": 1
+  },
+  "V1": {
+    "category_id": 537,
+    "unicode_codes": [
+      "U+13362"
+    ],
+    "count": 3
+  },
+  "V20": {
+    "category_id": 547,
+    "unicode_codes": [
+      "U+13386"
+    ],
+    "count": 10
+  },
+  "D12": {
+    "category_id": 78,
+    "unicode_codes": [
+      "U+13082"
+    ],
+    "count": 1
+  },
+  "F29": {
+    "category_id": 177,
+    "unicode_codes": [
+      "U+1311D"
+    ],
+    "count": 1
+  },
+  "V22": {
+    "category_id": 549,
+    "unicode_codes": [
+      "U+13394"
+    ],
+    "count": 4
+  },
+  "V11": {
+    "category_id": 540,
+    "unicode_codes": [
+      "U+13378"
+    ],
+    "count": 1
+  },
+  "F7": {
+    "category_id": 205,
+    "unicode_codes": [
+      "U+13105"
+    ],
+    "count": 1
+  },
+  "F26": {
+    "category_id": 175,
+    "unicode_codes": [
+      "U+1311A"
+    ],
+    "count": 5
+  },
+  "F25": {
+    "category_id": 173,
+    "unicode_codes": [
+      "U+13119"
+    ],
+    "count": 1
+  },
+  "T30": {
+    "category_id": 496,
+    "unicode_codes": [
+      "U+1332A"
+    ],
+    "count": 1
+  },
+  "Aa26": {
+    "category_id": 627,
+    "unicode_codes": [
+      "U+13428"
+    ],
+    "count": 1
+  },
+  "A13A": {
+    "category_id": 5,
+    "unicode_codes": [
+      "U+135AF"
+    ],
+    "count": 1
+  },
+  "O38": {
+    "category_id": 391,
+    "unicode_codes": [
+      "U+1328B"
+    ],
+    "count": 1
+  },
+  "N3": {
+    "category_id": 349,
+    "unicode_codes": [
+      "U+131F1"
+    ],
+    "count": 1
+  },
+  "A26": {
+    "category_id": 24,
+    "unicode_codes": [
+      "U+1301E"
+    ],
+    "count": 1
+  },
+  "F21": {
+    "category_id": 170,
+    "unicode_codes": [
+      "U+13114"
+    ],
+    "count": 2
+  },
+  "V29": {
+    "category_id": 558,
+    "unicode_codes": [
+      "U+1339D"
+    ],
+    "count": 2
+  },
+  "G25": {
+    "category_id": 222,
+    "unicode_codes": [
+      "U+1315C"
+    ],
+    "count": 1
+  },
+  "V2": {
+    "category_id": 546,
+    "unicode_codes": [
+      "U+1336C"
+    ],
+    "count": 1
+  },
+  "T3": {
+    "category_id": 495,
+    "unicode_codes": [
+      "U+13309"
+    ],
+    "count": 1
+  },
+  "N36": {
+    "category_id": 355,
+    "unicode_codes": [
+      "U+13218"
+    ],
+    "count": 1
+  },
+  "N35A": {
+    "category_id": 354,
+    "unicode_codes": [
+      "U+13217"
+    ],
+    "count": 1
+  },
+  "F2B": {
+    "category_id": 178,
+    "unicode_codes": [
+      "U+13B6F"
+    ],
+    "count": 1
+  },
+  "A32h": {
+    "category_id": 628,
+    "unicode_codes": [
+      "U+135DF"
+    ],
+    "count": 1
+  },
+  "G27": {
+    "category_id": 227,
+    "unicode_codes": [
+      "U+1315F"
+    ],
+    "count": 1
+  },
+  "W3": {
+    "category_id": 589,
+    "unicode_codes": [
+      "U+133B1"
+    ],
+    "count": 1
+  },
+  "A1": {
+    "unicode_codes": [
+      "U+13000"
+    ],
+    "description": "Official mapping for A1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.051994"
+  },
+  "A121C": {
+    "unicode_codes": [
+      "U+13504"
+    ],
+    "description": "Official mapping for A121C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052113"
+  },
+  "A13": {
+    "unicode_codes": [
+      "U+1300F"
+    ],
+    "description": "Official mapping for A13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052139"
+  },
+  "A131A": {
+    "unicode_codes": [
+      "U+13508"
+    ],
+    "description": "Official mapping for A131A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052159"
+  },
+  "A15": {
+    "unicode_codes": [
+      "U+13012"
+    ],
+    "description": "Official mapping for A15",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052178"
+  },
+  "A16": {
+    "unicode_codes": [
+      "U+13013"
+    ],
+    "description": "Official mapping for A16",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052197"
+  },
+  "A169": {
+    "unicode_codes": [
+      "U+1356E"
+    ],
+    "description": "Official mapping for A169",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052216"
+  },
+  "A183": {
+    "unicode_codes": [
+      "U+1357B"
+    ],
+    "description": "Official mapping for A183",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052235"
+  },
+  "A19": {
+    "unicode_codes": [
+      "U+13017"
+    ],
+    "description": "Official mapping for A19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052252"
+  },
+  "A20": {
+    "unicode_codes": [
+      "U+13018"
+    ],
+    "description": "Official mapping for A20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052270"
+  },
+  "A21": {
+    "unicode_codes": [
+      "U+13019"
+    ],
+    "description": "Official mapping for A21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052287"
+  },
+  "A21A": {
+    "unicode_codes": [
+      "U+134C6"
+    ],
+    "description": "Official mapping for A21A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052297"
+  },
+  "A22": {
+    "unicode_codes": [
+      "U+1301A"
+    ],
+    "description": "Official mapping for A22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052304"
+  },
+  "A23": {
+    "unicode_codes": [
+      "U+1301B"
+    ],
+    "description": "Official mapping for A23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052325"
+  },
+  "A23A": {
+    "unicode_codes": [
+      "U+13668"
+    ],
+    "description": "Official mapping for A23A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052333"
+  },
+  "A25": {
+    "unicode_codes": [
+      "U+1301D"
+    ],
+    "description": "Official mapping for A25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052342"
+  },
+  "A27": {
+    "unicode_codes": [
+      "U+1301F"
+    ],
+    "description": "Official mapping for A27",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052349"
+  },
+  "A29": {
+    "unicode_codes": [
+      "U+13021"
+    ],
+    "description": "Official mapping for A29",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052357"
+  },
+  "A3": {
+    "unicode_codes": [
+      "U+13002"
+    ],
+    "description": "Official mapping for A3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052365"
+  },
+  "A30": {
+    "unicode_codes": [
+      "U+13022"
+    ],
+    "description": "Official mapping for A30",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052372"
+  },
+  "A32A": {
+    "unicode_codes": [
+      "U+135DE"
+    ],
+    "description": "Official mapping for A32A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052378"
+  },
+  "A35": {
+    "unicode_codes": [
+      "U+13028"
+    ],
+    "description": "Official mapping for A35",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052384"
+  },
+  "A4": {
+    "unicode_codes": [
+      "U+13003"
+    ],
+    "description": "Official mapping for A4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052390"
+  },
+  "A406": {
+    "unicode_codes": [
+      "U+13506"
+    ],
+    "description": "Official mapping for A406",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052397"
+  },
+  "A42": {
+    "unicode_codes": [
+      "U+13030"
+    ],
+    "description": "Official mapping for A42",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052403"
+  },
+  "A43B": {
+    "unicode_codes": [
+      "U+13673"
+    ],
+    "description": "Official mapping for A43B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052411"
+  },
+  "A44": {
+    "unicode_codes": [
+      "U+13034"
+    ],
+    "description": "Official mapping for A44",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052418"
+  },
+  "A45A": {
+    "unicode_codes": [
+      "U+1368B"
+    ],
+    "description": "Official mapping for A45A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052424"
+  },
+  "A50": {
+    "unicode_codes": [
+      "U+1303B"
+    ],
+    "description": "Official mapping for A50",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052430"
+  },
+  "A51": {
+    "unicode_codes": [
+      "U+1303C"
+    ],
+    "description": "Official mapping for A51",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052436"
+  },
+  "A53": {
+    "unicode_codes": [
+      "U+1303E"
+    ],
+    "description": "Official mapping for A53",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052443"
+  },
+  "A55": {
+    "unicode_codes": [
+      "U+13040"
+    ],
+    "description": "Official mapping for A55",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052449"
+  },
+  "A73": {
+    "unicode_codes": [
+      "U+1304F"
+    ],
+    "description": "Official mapping for A73",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052455"
+  },
+  "A8": {
+    "unicode_codes": [
+      "U+1300A"
+    ],
+    "description": "Official mapping for A8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052463"
+  },
+  "A81": {
+    "unicode_codes": [
+      "U+1348F"
+    ],
+    "description": "Official mapping for A81",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052470"
+  },
+  "A86": {
+    "unicode_codes": [
+      "U+1349E"
+    ],
+    "description": "Official mapping for A86",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052477"
+  },
+  "A9": {
+    "unicode_codes": [
+      "U+1300B"
+    ],
+    "description": "Official mapping for A9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052492"
+  },
+  "A90": {
+    "unicode_codes": [
+      "U+134AC"
+    ],
+    "description": "Official mapping for A90",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052499"
+  },
+  "A9C": {
+    "unicode_codes": [
+      "U+134E6"
+    ],
+    "description": "Official mapping for A9C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052505"
+  },
+  "B10": {
+    "unicode_codes": [
+      "U+136EC"
+    ],
+    "description": "Official mapping for B10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052513"
+  },
+  "B12": {
+    "unicode_codes": [
+      "U+136F6"
+    ],
+    "description": "Official mapping for B12",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052519"
+  },
+  "B2A": {
+    "unicode_codes": [
+      "U+13737"
+    ],
+    "description": "Official mapping for B2A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052527"
+  },
+  "B3": {
+    "unicode_codes": [
+      "U+13052"
+    ],
+    "description": "Official mapping for B3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052534"
+  },
+  "B3A": {
+    "unicode_codes": [
+      "U+13738"
+    ],
+    "description": "Official mapping for B3A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052540"
+  },
+  "B3B": {
+    "unicode_codes": [
+      "U+13739"
+    ],
+    "description": "Official mapping for B3B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052546"
+  },
+  "B5": {
+    "unicode_codes": [
+      "U+13054"
+    ],
+    "description": "Official mapping for B5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052553"
+  },
+  "B59": {
+    "unicode_codes": [
+      "U+136FB"
+    ],
+    "description": "Official mapping for B59",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052559"
+  },
+  "B5C": {
+    "unicode_codes": [
+      "U+13740"
+    ],
+    "description": "Official mapping for B5C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052567"
+  },
+  "C1": {
+    "unicode_codes": [
+      "U+1305A"
+    ],
+    "description": "Official mapping for C1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052573"
+  },
+  "C10": {
+    "unicode_codes": [
+      "U+13066"
+    ],
+    "description": "Official mapping for C10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052579"
+  },
+  "C10A": {
+    "unicode_codes": [
+      "U+13067"
+    ],
+    "description": "Official mapping for C10A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052585"
+  },
+  "C11": {
+    "unicode_codes": [
+      "U+13068"
+    ],
+    "description": "Official mapping for C11",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052591"
+  },
+  "C164": {
+    "unicode_codes": [
+      "U+138AE"
+    ],
+    "description": "Official mapping for C164",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052597"
+  },
+  "C19": {
+    "unicode_codes": [
+      "U+13070"
+    ],
+    "description": "Official mapping for C19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052605"
+  },
+  "C1D": {
+    "unicode_codes": [
+      "U+13843"
+    ],
+    "description": "Official mapping for C1D",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052611"
+  },
+  "C4": {
+    "unicode_codes": [
+      "U+13060"
+    ],
+    "description": "Official mapping for C4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052618"
+  },
+  "C9": {
+    "unicode_codes": [
+      "U+1387D"
+    ],
+    "description": "Official mapping for C9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052624"
+  },
+  "D10": {
+    "unicode_codes": [
+      "U+13080"
+    ],
+    "description": "Official mapping for D10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052630"
+  },
+  "D13": {
+    "unicode_codes": [
+      "U+13083"
+    ],
+    "description": "Official mapping for D13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052636"
+  },
+  "D143": {
+    "unicode_codes": [
+      "U+13987"
+    ],
+    "description": "Official mapping for D143",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052649"
+  },
+  "D19": {
+    "unicode_codes": [
+      "U+13089"
+    ],
+    "description": "Official mapping for D19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052655"
+  },
+  "D200": {
+    "unicode_codes": [
+      "U+139AD"
+    ],
+    "description": "Official mapping for D200",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052661"
+  },
+  "D24": {
+    "unicode_codes": [
+      "U+1308E"
+    ],
+    "description": "Official mapping for D24",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052666"
+  },
+  "D245": {
+    "unicode_codes": [
+      "U+130C8"
+    ],
+    "description": "Official mapping for D245",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052673"
+  },
+  "D25": {
+    "unicode_codes": [
+      "U+1308F"
+    ],
+    "description": "Official mapping for D25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052680"
+  },
+  "D26": {
+    "unicode_codes": [
+      "U+13090"
+    ],
+    "description": "Official mapping for D26",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052716"
+  },
+  "D26A": {
+    "unicode_codes": [
+      "U+1399D"
+    ],
+    "description": "Official mapping for D26A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052723"
+  },
+  "D28": {
+    "unicode_codes": [
+      "U+13093"
+    ],
+    "description": "Official mapping for D28",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052730"
+  },
+  "D283": {
+    "unicode_codes": [
+      "U+13A0A"
+    ],
+    "description": "Official mapping for D283",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052736"
+  },
+  "D284": {
+    "unicode_codes": [
+      "U+13A0B"
+    ],
+    "description": "Official mapping for D284",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052742"
+  },
+  "D329": {
+    "unicode_codes": [
+      "U+13A31"
+    ],
+    "description": "Official mapping for D329",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052749"
+  },
+  "D33": {
+    "unicode_codes": [
+      "U+13099"
+    ],
+    "description": "Official mapping for D33",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052755"
+  },
+  "D33C": {
+    "unicode_codes": [
+      "U+139B0"
+    ],
+    "description": "Official mapping for D33C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052761"
+  },
+  "D34": {
+    "unicode_codes": [
+      "U+1309A"
+    ],
+    "description": "Official mapping for D34",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052767"
+  },
+  "D38": {
+    "unicode_codes": [
+      "U+1309F"
+    ],
+    "description": "Official mapping for D38",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052773"
+  },
+  "D39": {
+    "unicode_codes": [
+      "U+130A0"
+    ],
+    "description": "Official mapping for D39",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052779"
+  },
+  "D3B": {
+    "unicode_codes": [
+      "U+1396C"
+    ],
+    "description": "Official mapping for D3B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052785"
+  },
+  "D40": {
+    "unicode_codes": [
+      "U+130A1"
+    ],
+    "description": "Official mapping for D40",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052794"
+  },
+  "D42": {
+    "unicode_codes": [
+      "U+130A3"
+    ],
+    "description": "Official mapping for D42",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052800"
+  },
+  "D45": {
+    "unicode_codes": [
+      "U+130A6"
+    ],
+    "description": "Official mapping for D45",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052808"
+  },
+  "D49": {
+    "unicode_codes": [
+      "U+130AC"
+    ],
+    "description": "Official mapping for D49",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052824"
+  },
+  "D5": {
+    "unicode_codes": [
+      "U+1307A"
+    ],
+    "description": "Official mapping for D5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052831"
+  },
+  "D50": {
+    "unicode_codes": [
+      "U+130AD"
+    ],
+    "description": "Official mapping for D50",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052838"
+  },
+  "D51": {
+    "unicode_codes": [
+      "U+130B7"
+    ],
+    "description": "Official mapping for D51",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052844"
+  },
+  "D52": {
+    "unicode_codes": [
+      "U+130B8"
+    ],
+    "description": "Official mapping for D52",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052851"
+  },
+  "D53": {
+    "unicode_codes": [
+      "U+130BA"
+    ],
+    "description": "Official mapping for D53",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052858"
+  },
+  "D55": {
+    "unicode_codes": [
+      "U+130BD"
+    ],
+    "description": "Official mapping for D55",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052864"
+  },
+  "D56": {
+    "unicode_codes": [
+      "U+130BE"
+    ],
+    "description": "Official mapping for D56",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052871"
+  },
+  "D57": {
+    "unicode_codes": [
+      "U+130BF"
+    ],
+    "description": "Official mapping for D57",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052878"
+  },
+  "D6": {
+    "unicode_codes": [
+      "U+1307B"
+    ],
+    "description": "Official mapping for D6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052885"
+  },
+  "D60": {
+    "unicode_codes": [
+      "U+130C2"
+    ],
+    "description": "Official mapping for D60",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052892"
+  },
+  "D63": {
+    "unicode_codes": [
+      "U+130C5"
+    ],
+    "description": "Official mapping for D63",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052898"
+  },
+  "D7C": {
+    "unicode_codes": [
+      "U+13980"
+    ],
+    "description": "Official mapping for D7C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052904"
+  },
+  "D9A": {
+    "unicode_codes": [
+      "U+13986"
+    ],
+    "description": "Official mapping for D9A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052911"
+  },
+  "E10": {
+    "unicode_codes": [
+      "U+130DD"
+    ],
+    "description": "Official mapping for E10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052918"
+  },
+  "E100": {
+    "unicode_codes": [
+      "U+130DC"
+    ],
+    "description": "Official mapping for E100",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052925"
+  },
+  "E11": {
+    "unicode_codes": [
+      "U+130DE"
+    ],
+    "description": "Official mapping for E11",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052930"
+  },
+  "E11B": {
+    "unicode_codes": [
+      "U+13A71"
+    ],
+    "description": "Official mapping for E11B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052938"
+  },
+  "E12": {
+    "unicode_codes": [
+      "U+130DF"
+    ],
+    "description": "Official mapping for E12",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052944"
+  },
+  "E128": {
+    "unicode_codes": [
+      "U+13B93"
+    ],
+    "description": "Official mapping for E128",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052951"
+  },
+  "E13": {
+    "unicode_codes": [
+      "U+130E0"
+    ],
+    "description": "Official mapping for E13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052957"
+  },
+  "E14": {
+    "unicode_codes": [
+      "U+130E1"
+    ],
+    "description": "Official mapping for E14",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052964"
+  },
+  "E15": {
+    "unicode_codes": [
+      "U+130E2"
+    ],
+    "description": "Official mapping for E15",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052970"
+  },
+  "E16": {
+    "unicode_codes": [
+      "U+130E3"
+    ],
+    "description": "Official mapping for E16",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052977"
+  },
+  "E164": {
+    "unicode_codes": [
+      "U+13B29"
+    ],
+    "description": "Official mapping for E164",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.052983"
+  },
+  "E17": {
+    "unicode_codes": [
+      "U+130E5"
+    ],
+    "description": "Official mapping for E17",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053012"
+  },
+  "E18": {
+    "unicode_codes": [
+      "U+130E7"
+    ],
+    "description": "Official mapping for E18",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053019"
+  },
+  "E186": {
+    "unicode_codes": [
+      "U+13AAA"
+    ],
+    "description": "Official mapping for E186",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053026"
+  },
+  "E1A": {
+    "unicode_codes": [
+      "U+13B57"
+    ],
+    "description": "Official mapping for E1A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053032"
+  },
+  "E2": {
+    "unicode_codes": [
+      "U+130D3"
+    ],
+    "description": "Official mapping for E2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053060"
+  },
+  "E3": {
+    "unicode_codes": [
+      "U+130D4"
+    ],
+    "description": "Official mapping for E3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053067"
+  },
+  "E31": {
+    "unicode_codes": [
+      "U+13AAD"
+    ],
+    "description": "Official mapping for E31",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053074"
+  },
+  "E32": {
+    "unicode_codes": [
+      "U+130F7"
+    ],
+    "description": "Official mapping for E32",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053081"
+  },
+  "E35": {
+    "unicode_codes": [
+      "U+130FB"
+    ],
+    "description": "Official mapping for E35",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053087"
+  },
+  "E51": {
+    "unicode_codes": [
+      "U+13B00"
+    ],
+    "description": "Official mapping for E51",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053094"
+  },
+  "E7": {
+    "unicode_codes": [
+      "U+130D8"
+    ],
+    "description": "Official mapping for E7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053100"
+  },
+  "E8": {
+    "unicode_codes": [
+      "U+130D9"
+    ],
+    "description": "Official mapping for E8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053106"
+  },
+  "F1": {
+    "unicode_codes": [
+      "U+130FE"
+    ],
+    "description": "Official mapping for F1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053113"
+  },
+  "F10": {
+    "unicode_codes": [
+      "U+13108"
+    ],
+    "description": "Official mapping for F10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053119"
+  },
+  "F13": {
+    "unicode_codes": [
+      "U+1310B"
+    ],
+    "description": "Official mapping for F13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053126"
+  },
+  "F16": {
+    "unicode_codes": [
+      "U+1310F"
+    ],
+    "description": "Official mapping for F16",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053132"
+  },
+  "F17": {
+    "unicode_codes": [
+      "U+13110"
+    ],
+    "description": "Official mapping for F17",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053138"
+  },
+  "F19": {
+    "unicode_codes": [
+      "U+13112"
+    ],
+    "description": "Official mapping for F19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053144"
+  },
+  "F23": {
+    "unicode_codes": [
+      "U+13117"
+    ],
+    "description": "Official mapping for F23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053150"
+  },
+  "F25A": {
+    "unicode_codes": [
+      "U+13BB8"
+    ],
+    "description": "Official mapping for F25A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053156"
+  },
+  "F27": {
+    "unicode_codes": [
+      "U+1311B"
+    ],
+    "description": "Official mapping for F27",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053162"
+  },
+  "F30": {
+    "unicode_codes": [
+      "U+1311E"
+    ],
+    "description": "Official mapping for F30",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053169"
+  },
+  "F30A": {
+    "unicode_codes": [
+      "U+13BD0"
+    ],
+    "description": "Official mapping for F30A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053176"
+  },
+  "F33": {
+    "unicode_codes": [
+      "U+13122"
+    ],
+    "description": "Official mapping for F33",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053354"
+  },
+  "F35": {
+    "unicode_codes": [
+      "U+13124"
+    ],
+    "description": "Official mapping for F35",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053362"
+  },
+  "F37": {
+    "unicode_codes": [
+      "U+13126"
+    ],
+    "description": "Official mapping for F37",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053369"
+  },
+  "F37B": {
+    "unicode_codes": [
+      "U+13127"
+    ],
+    "description": "Official mapping for F37B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053375"
+  },
+  "F37C": {
+    "unicode_codes": [
+      "U+13BE6"
+    ],
+    "description": "Official mapping for F37C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053381"
+  },
+  "F39": {
+    "unicode_codes": [
+      "U+1312A"
+    ],
+    "description": "Official mapping for F39",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053387"
+  },
+  "F41": {
+    "unicode_codes": [
+      "U+1312C"
+    ],
+    "description": "Official mapping for F41",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053393"
+  },
+  "F43": {
+    "unicode_codes": [
+      "U+1312E"
+    ],
+    "description": "Official mapping for F43",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053399"
+  },
+  "F44": {
+    "unicode_codes": [
+      "U+1312F"
+    ],
+    "description": "Official mapping for F44",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053406"
+  },
+  "F45": {
+    "unicode_codes": [
+      "U+13130"
+    ],
+    "description": "Official mapping for F45",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053412"
+  },
+  "F46": {
+    "unicode_codes": [
+      "U+13132"
+    ],
+    "description": "Official mapping for F46",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053417"
+  },
+  "F47": {
+    "unicode_codes": [
+      "U+13134"
+    ],
+    "description": "Official mapping for F47",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053423"
+  },
+  "F5": {
+    "unicode_codes": [
+      "U+13103"
+    ],
+    "description": "Official mapping for F5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053429"
+  },
+  "F50": {
+    "unicode_codes": [
+      "U+13138"
+    ],
+    "description": "Official mapping for F50",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053435"
+  },
+  "F51": {
+    "unicode_codes": [
+      "U+13139"
+    ],
+    "description": "Official mapping for F51",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053441"
+  },
+  "F7C": {
+    "unicode_codes": [
+      "U+13B62"
+    ],
+    "description": "Official mapping for F7C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053448"
+  },
+  "F8": {
+    "unicode_codes": [
+      "U+13106"
+    ],
+    "description": "Official mapping for F8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053454"
+  },
+  "F9": {
+    "unicode_codes": [
+      "U+13107"
+    ],
+    "description": "Official mapping for F9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053460"
+  },
+  "G17": {
+    "unicode_codes": [
+      "U+13153"
+    ],
+    "description": "Official mapping for G17",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053467"
+  },
+  "G18": {
+    "unicode_codes": [
+      "U+13154"
+    ],
+    "description": "Official mapping for G18",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053473"
+  },
+  "G197": {
+    "unicode_codes": [
+      "U+13C66"
+    ],
+    "description": "Official mapping for G197",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053479"
+  },
+  "G2": {
+    "unicode_codes": [
+      "U+13140"
+    ],
+    "description": "Official mapping for G2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053486"
+  },
+  "G21": {
+    "unicode_codes": [
+      "U+13158"
+    ],
+    "description": "Official mapping for G21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053492"
+  },
+  "G21A": {
+    "unicode_codes": [
+      "U+13CF1"
+    ],
+    "description": "Official mapping for G21A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053507"
+  },
+  "G21B": {
+    "unicode_codes": [
+      "U+13CF2"
+    ],
+    "description": "Official mapping for G21B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053514"
+  },
+  "G21C": {
+    "unicode_codes": [
+      "U+13CF4"
+    ],
+    "description": "Official mapping for G21C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053520"
+  },
+  "G22": {
+    "unicode_codes": [
+      "U+13CD2"
+    ],
+    "description": "Official mapping for G22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053526"
+  },
+  "G23": {
+    "unicode_codes": [
+      "U+1315A"
+    ],
+    "description": "Official mapping for G23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053533"
+  },
+  "G26": {
+    "unicode_codes": [
+      "U+1315D"
+    ],
+    "description": "Official mapping for G26",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053539"
+  },
+  "G26A": {
+    "unicode_codes": [
+      "U+1315E"
+    ],
+    "description": "Official mapping for G26A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053545"
+  },
+  "G26B": {
+    "unicode_codes": [
+      "U+1315D"
+    ],
+    "description": "Official mapping for G26B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053551"
+  },
+  "G30": {
+    "unicode_codes": [
+      "U+13162"
+    ],
+    "description": "Official mapping for G30",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053558"
+  },
+  "G30A": {
+    "unicode_codes": [
+      "U+13C3A"
+    ],
+    "description": "Official mapping for G30A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053564"
+  },
+  "G32": {
+    "unicode_codes": [
+      "U+13164"
+    ],
+    "description": "Official mapping for G32",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053570"
+  },
+  "G35": {
+    "unicode_codes": [
+      "U+13167"
+    ],
+    "description": "Official mapping for G35",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053576"
+  },
+  "G38": {
+    "unicode_codes": [
+      "U+1316C"
+    ],
+    "description": "Official mapping for G38",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053582"
+  },
+  "G40": {
+    "unicode_codes": [
+      "U+1316E"
+    ],
+    "description": "Official mapping for G40",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053608"
+  },
+  "G41": {
+    "unicode_codes": [
+      "U+1316F"
+    ],
+    "description": "Official mapping for G41",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053631"
+  },
+  "G47": {
+    "unicode_codes": [
+      "U+13177"
+    ],
+    "description": "Official mapping for G47",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053638"
+  },
+  "G49C": {
+    "unicode_codes": [
+      "U+13CEB"
+    ],
+    "description": "Official mapping for G49C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053644"
+  },
+  "G49E": {
+    "unicode_codes": [
+      "U+13CED"
+    ],
+    "description": "Official mapping for G49E",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053651"
+  },
+  "G4A": {
+    "unicode_codes": [
+      "U+13C0D"
+    ],
+    "description": "Official mapping for G4A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053657"
+  },
+  "G5": {
+    "unicode_codes": [
+      "U+13143"
+    ],
+    "description": "Official mapping for G5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053663"
+  },
+  "G50": {
+    "unicode_codes": [
+      "U+1317A"
+    ],
+    "description": "Official mapping for G50",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053670"
+  },
+  "G51": {
+    "unicode_codes": [
+      "U+1317B"
+    ],
+    "description": "Official mapping for G51",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053676"
+  },
+  "G6": {
+    "unicode_codes": [
+      "U+13144"
+    ],
+    "description": "Official mapping for G6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053684"
+  },
+  "H1": {
+    "unicode_codes": [
+      "U+1317F"
+    ],
+    "description": "Official mapping for H1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053691"
+  },
+  "H3": {
+    "unicode_codes": [
+      "U+13181"
+    ],
+    "description": "Official mapping for H3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053697"
+  },
+  "H5": {
+    "unicode_codes": [
+      "U+13183"
+    ],
+    "description": "Official mapping for H5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053704"
+  },
+  "H8": {
+    "unicode_codes": [
+      "U+13187"
+    ],
+    "description": "Official mapping for H8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053710"
+  },
+  "I1": {
+    "unicode_codes": [
+      "U+13188"
+    ],
+    "description": "Official mapping for I1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053716"
+  },
+  "I12": {
+    "unicode_codes": [
+      "U+13197"
+    ],
+    "description": "Official mapping for I12",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053722"
+  },
+  "I13": {
+    "unicode_codes": [
+      "U+13198"
+    ],
+    "description": "Official mapping for I13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053728"
+  },
+  "I2": {
+    "unicode_codes": [
+      "U+13189"
+    ],
+    "description": "Official mapping for I2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053735"
+  },
+  "I24A": {
+    "unicode_codes": [
+      "U+13D57"
+    ],
+    "description": "Official mapping for I24A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053741"
+  },
+  "I5": {
+    "unicode_codes": [
+      "U+1318C"
+    ],
+    "description": "Official mapping for I5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053747"
+  },
+  "I6": {
+    "unicode_codes": [
+      "U+1318E"
+    ],
+    "description": "Official mapping for I6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053753"
+  },
+  "I8": {
+    "unicode_codes": [
+      "U+13190"
+    ],
+    "description": "Official mapping for I8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053760"
+  },
+  "I86D": {
+    "unicode_codes": [
+      "U+13DC3"
+    ],
+    "description": "Official mapping for I86D",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053771"
+  },
+  "I87": {
+    "unicode_codes": [
+      "U+13DC8"
+    ],
+    "description": "Official mapping for I87",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053778"
+  },
+  "I9A": {
+    "unicode_codes": [
+      "U+13D54"
+    ],
+    "description": "Official mapping for I9A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053784"
+  },
+  "K1": {
+    "unicode_codes": [
+      "U+1319B"
+    ],
+    "description": "Official mapping for K1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053791"
+  },
+  "K2": {
+    "unicode_codes": [
+      "U+1319C"
+    ],
+    "description": "Official mapping for K2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053797"
+  },
+  "K4": {
+    "unicode_codes": [
+      "U+1319E"
+    ],
+    "description": "Official mapping for K4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053803"
+  },
+  "K5": {
+    "unicode_codes": [
+      "U+1319F"
+    ],
+    "description": "Official mapping for K5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053809"
+  },
+  "K7": {
+    "unicode_codes": [
+      "U+131A1"
+    ],
+    "description": "Official mapping for K7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053815"
+  },
+  "L1": {
+    "unicode_codes": [
+      "U+131A3"
+    ],
+    "description": "Official mapping for L1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053821"
+  },
+  "L2": {
+    "unicode_codes": [
+      "U+131A4"
+    ],
+    "description": "Official mapping for L2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053827"
+  },
+  "L4": {
+    "unicode_codes": [
+      "U+131A7"
+    ],
+    "description": "Official mapping for L4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053833"
+  },
+  "L5": {
+    "unicode_codes": [
+      "U+131A8"
+    ],
+    "description": "Official mapping for L5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053839"
+  },
+  "L7": {
+    "unicode_codes": [
+      "U+131AB"
+    ],
+    "description": "Official mapping for L7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053844"
+  },
+  "M1": {
+    "unicode_codes": [
+      "U+131AD"
+    ],
+    "description": "Official mapping for M1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053851"
+  },
+  "M11": {
+    "unicode_codes": [
+      "U+131BB"
+    ],
+    "description": "Official mapping for M11",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053857"
+  },
+  "M14": {
+    "unicode_codes": [
+      "U+131C6"
+    ],
+    "description": "Official mapping for M14",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053863"
+  },
+  "M15": {
+    "unicode_codes": [
+      "U+131C7"
+    ],
+    "description": "Official mapping for M15",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053869"
+  },
+  "M1B": {
+    "unicode_codes": [
+      "U+13E04"
+    ],
+    "description": "Official mapping for M1B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053875"
+  },
+  "M21": {
+    "unicode_codes": [
+      "U+131D0"
+    ],
+    "description": "Official mapping for M21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053881"
+  },
+  "M22": {
+    "unicode_codes": [
+      "U+131D1"
+    ],
+    "description": "Official mapping for M22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053887"
+  },
+  "M22A": {
+    "unicode_codes": [
+      "U+13E8C"
+    ],
+    "description": "Official mapping for M22A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053893"
+  },
+  "M23": {
+    "unicode_codes": [
+      "U+131D3"
+    ],
+    "description": "Official mapping for M23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053900"
+  },
+  "M24": {
+    "unicode_codes": [
+      "U+131D4"
+    ],
+    "description": "Official mapping for M24",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053906"
+  },
+  "M25": {
+    "unicode_codes": [
+      "U+131D6"
+    ],
+    "description": "Official mapping for M25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053919"
+  },
+  "M26": {
+    "unicode_codes": [
+      "U+131D7"
+    ],
+    "description": "Official mapping for M26",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053926"
+  },
+  "M30": {
+    "unicode_codes": [
+      "U+131DC"
+    ],
+    "description": "Official mapping for M30",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053933"
+  },
+  "M31": {
+    "unicode_codes": [
+      "U+131DD"
+    ],
+    "description": "Official mapping for M31",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053939"
+  },
+  "M32": {
+    "unicode_codes": [
+      "U+131DF"
+    ],
+    "description": "Official mapping for M32",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053945"
+  },
+  "M33A": {
+    "unicode_codes": [
+      "U+131E1"
+    ],
+    "description": "Official mapping for M33A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053951"
+  },
+  "M33B": {
+    "unicode_codes": [
+      "U+13EA5"
+    ],
+    "description": "Official mapping for M33B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053958"
+  },
+  "M34": {
+    "unicode_codes": [
+      "U+131E3"
+    ],
+    "description": "Official mapping for M34",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053964"
+  },
+  "M38B": {
+    "unicode_codes": [
+      "U+13EAC"
+    ],
+    "description": "Official mapping for M38B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053970"
+  },
+  "M39": {
+    "unicode_codes": [
+      "U+131E8"
+    ],
+    "description": "Official mapping for M39",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053976"
+  },
+  "M4": {
+    "unicode_codes": [
+      "U+131B3"
+    ],
+    "description": "Official mapping for M4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053982"
+  },
+  "M40": {
+    "unicode_codes": [
+      "U+131E9"
+    ],
+    "description": "Official mapping for M40",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053988"
+  },
+  "M42": {
+    "unicode_codes": [
+      "U+131EC"
+    ],
+    "description": "Official mapping for M42",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.053994"
+  },
+  "M43A": {
+    "unicode_codes": [
+      "U+13EB7"
+    ],
+    "description": "Official mapping for M43A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054000"
+  },
+  "M46": {
+    "unicode_codes": [
+      "U+13E03"
+    ],
+    "description": "Official mapping for M46",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054007"
+  },
+  "M5": {
+    "unicode_codes": [
+      "U+131B4"
+    ],
+    "description": "Official mapping for M5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054013"
+  },
+  "M6": {
+    "unicode_codes": [
+      "U+131B5"
+    ],
+    "description": "Official mapping for M6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054019"
+  },
+  "M8A": {
+    "unicode_codes": [
+      "U+13E30"
+    ],
+    "description": "Official mapping for M8A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054024"
+  },
+  "M9": {
+    "unicode_codes": [
+      "U+131B8"
+    ],
+    "description": "Official mapping for M9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054030"
+  },
+  "M9B": {
+    "unicode_codes": [
+      "U+13E41"
+    ],
+    "description": "Official mapping for M9B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054036"
+  },
+  "N10A": {
+    "unicode_codes": [
+      "U+131F8"
+    ],
+    "description": "Official mapping for N10A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054042"
+  },
+  "N11": {
+    "unicode_codes": [
+      "U+131F9"
+    ],
+    "description": "Official mapping for N11",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054049"
+  },
+  "N13": {
+    "unicode_codes": [
+      "U+131FB"
+    ],
+    "description": "Official mapping for N13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054055"
+  },
+  "N14": {
+    "unicode_codes": [
+      "U+131FC"
+    ],
+    "description": "Official mapping for N14",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054066"
+  },
+  "N18": {
+    "unicode_codes": [
+      "U+13200"
+    ],
+    "description": "Official mapping for N18",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054073"
+  },
+  "N2": {
+    "unicode_codes": [
+      "U+131F0"
+    ],
+    "description": "Official mapping for N2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054079"
+  },
+  "N20": {
+    "unicode_codes": [
+      "U+13204"
+    ],
+    "description": "Official mapping for N20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054085"
+  },
+  "N21": {
+    "unicode_codes": [
+      "U+13205"
+    ],
+    "description": "Official mapping for N21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054091"
+  },
+  "N22": {
+    "unicode_codes": [
+      "U+13206"
+    ],
+    "description": "Official mapping for N22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054097"
+  },
+  "N25": {
+    "unicode_codes": [
+      "U+13209"
+    ],
+    "description": "Official mapping for N25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054103"
+  },
+  "N27": {
+    "unicode_codes": [
+      "U+1320C"
+    ],
+    "description": "Official mapping for N27",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054110"
+  },
+  "N40": {
+    "unicode_codes": [
+      "U+1321D"
+    ],
+    "description": "Official mapping for N40",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054117"
+  },
+  "N41": {
+    "unicode_codes": [
+      "U+1321E"
+    ],
+    "description": "Official mapping for N41",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054123"
+  },
+  "N45": {
+    "unicode_codes": [
+      "U+13EC6"
+    ],
+    "description": "Official mapping for N45",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054129"
+  },
+  "N46": {
+    "unicode_codes": [
+      "U+13EC7"
+    ],
+    "description": "Official mapping for N46",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054136"
+  },
+  "N50": {
+    "unicode_codes": [
+      "U+13EC2"
+    ],
+    "description": "Official mapping for N50",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054142"
+  },
+  "N64": {
+    "unicode_codes": [
+      "U+13EF6"
+    ],
+    "description": "Official mapping for N64",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054148"
+  },
+  "N71": {
+    "unicode_codes": [
+      "U+13F08"
+    ],
+    "description": "Official mapping for N71",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054154"
+  },
+  "N74": {
+    "unicode_codes": [
+      "U+13F0D"
+    ],
+    "description": "Official mapping for N74",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054160"
+  },
+  "N8": {
+    "unicode_codes": [
+      "U+13EDE"
+    ],
+    "description": "Official mapping for N8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054166"
+  },
+  "O10": {
+    "unicode_codes": [
+      "U+13261"
+    ],
+    "description": "Official mapping for O10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054172"
+  },
+  "O12": {
+    "unicode_codes": [
+      "U+13266"
+    ],
+    "description": "Official mapping for O12",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054178"
+  },
+  "O16": {
+    "unicode_codes": [
+      "U+13F97"
+    ],
+    "description": "Official mapping for O16",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054184"
+  },
+  "O18": {
+    "unicode_codes": [
+      "U+1326C"
+    ],
+    "description": "Official mapping for O18",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054190"
+  },
+  "O20": {
+    "unicode_codes": [
+      "U+1326F"
+    ],
+    "description": "Official mapping for O20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054197"
+  },
+  "O21": {
+    "unicode_codes": [
+      "U+13271"
+    ],
+    "description": "Official mapping for O21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054203"
+  },
+  "O22": {
+    "unicode_codes": [
+      "U+13272"
+    ],
+    "description": "Official mapping for O22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054217"
+  },
+  "O22B": {
+    "unicode_codes": [
+      "U+13FBD"
+    ],
+    "description": "Official mapping for O22B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054223"
+  },
+  "O26": {
+    "unicode_codes": [
+      "U+13278"
+    ],
+    "description": "Official mapping for O26",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054229"
+  },
+  "O28": {
+    "unicode_codes": [
+      "U+13FDF"
+    ],
+    "description": "Official mapping for O28",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054235"
+  },
+  "O30U": {
+    "unicode_codes": [
+      "U+1327D"
+    ],
+    "description": "Official mapping for O30U",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054242"
+  },
+  "O35": {
+    "unicode_codes": [
+      "U+13284"
+    ],
+    "description": "Official mapping for O35",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054248"
+  },
+  "O42": {
+    "unicode_codes": [
+      "U+1328F"
+    ],
+    "description": "Official mapping for O42",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054255"
+  },
+  "O43": {
+    "unicode_codes": [
+      "U+13290"
+    ],
+    "description": "Official mapping for O43",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054261"
+  },
+  "O44": {
+    "unicode_codes": [
+      "U+13291"
+    ],
+    "description": "Official mapping for O44",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054268"
+  },
+  "O48": {
+    "unicode_codes": [
+      "U+13295"
+    ],
+    "description": "Official mapping for O48",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054274"
+  },
+  "O5": {
+    "unicode_codes": [
+      "U+13255"
+    ],
+    "description": "Official mapping for O5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054280"
+  },
+  "O50": {
+    "unicode_codes": [
+      "U+13297"
+    ],
+    "description": "Official mapping for O50",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054286"
+  },
+  "O6": {
+    "unicode_codes": [
+      "U+13257"
+    ],
+    "description": "Official mapping for O6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054293"
+  },
+  "O7": {
+    "unicode_codes": [
+      "U+1325E"
+    ],
+    "description": "Official mapping for O7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054299"
+  },
+  "O8": {
+    "unicode_codes": [
+      "U+1325F"
+    ],
+    "description": "Official mapping for O8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054306"
+  },
+  "O9": {
+    "unicode_codes": [
+      "U+13260"
+    ],
+    "description": "Official mapping for O9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054313"
+  },
+  "P10": {
+    "unicode_codes": [
+      "U+132A6"
+    ],
+    "description": "Official mapping for P10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054319"
+  },
+  "P11": {
+    "unicode_codes": [
+      "U+132A7"
+    ],
+    "description": "Official mapping for P11",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054325"
+  },
+  "P1A": {
+    "unicode_codes": [
+      "U+1329C"
+    ],
+    "description": "Official mapping for P1A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054332"
+  },
+  "P20": {
+    "unicode_codes": [
+      "U+14026"
+    ],
+    "description": "Official mapping for P20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054338"
+  },
+  "P30": {
+    "unicode_codes": [
+      "U+1402B"
+    ],
+    "description": "Official mapping for P30",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054344"
+  },
+  "P4": {
+    "unicode_codes": [
+      "U+132A0"
+    ],
+    "description": "Official mapping for P4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054351"
+  },
+  "P5": {
+    "unicode_codes": [
+      "U+132A1"
+    ],
+    "description": "Official mapping for P5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054358"
+  },
+  "P6": {
+    "unicode_codes": [
+      "U+132A2"
+    ],
+    "description": "Official mapping for P6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054364"
+  },
+  "P9": {
+    "unicode_codes": [
+      "U+132A5"
+    ],
+    "description": "Official mapping for P9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054371"
+  },
+  "Q19": {
+    "unicode_codes": [
+      "U+140AB"
+    ],
+    "description": "Official mapping for Q19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054383"
+  },
+  "Q6": {
+    "unicode_codes": [
+      "U+132AD"
+    ],
+    "description": "Official mapping for Q6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054389"
+  },
+  "Q6G": {
+    "unicode_codes": [
+      "U+140C0"
+    ],
+    "description": "Official mapping for Q6G",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054395"
+  },
+  "Q7": {
+    "unicode_codes": [
+      "U+132AE"
+    ],
+    "description": "Official mapping for Q7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054402"
+  },
+  "Q7A": {
+    "unicode_codes": [
+      "U+140C6"
+    ],
+    "description": "Official mapping for Q7A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054408"
+  },
+  "R10": {
+    "unicode_codes": [
+      "U+132BB"
+    ],
+    "description": "Official mapping for R10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054415"
+  },
+  "R11": {
+    "unicode_codes": [
+      "U+132BD"
+    ],
+    "description": "Official mapping for R11",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054421"
+  },
+  "R118": {
+    "unicode_codes": [
+      "U+14147"
+    ],
+    "description": "Official mapping for R118",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054427"
+  },
+  "R12": {
+    "unicode_codes": [
+      "U+132BE"
+    ],
+    "description": "Official mapping for R12",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054433"
+  },
+  "R14": {
+    "unicode_codes": [
+      "U+132C0"
+    ],
+    "description": "Official mapping for R14",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054439"
+  },
+  "R15": {
+    "unicode_codes": [
+      "U+132C1"
+    ],
+    "description": "Official mapping for R15",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054445"
+  },
+  "R15A": {
+    "unicode_codes": [
+      "U+1412B"
+    ],
+    "description": "Official mapping for R15A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054452"
+  },
+  "R16": {
+    "unicode_codes": [
+      "U+132C2"
+    ],
+    "description": "Official mapping for R16",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054458"
+  },
+  "R2": {
+    "unicode_codes": [
+      "U+132B0"
+    ],
+    "description": "Official mapping for R2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054464"
+  },
+  "R20": {
+    "unicode_codes": [
+      "U+132C7"
+    ],
+    "description": "Official mapping for R20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054470"
+  },
+  "R20A": {
+    "unicode_codes": [
+      "U+14144"
+    ],
+    "description": "Official mapping for R20A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054476"
+  },
+  "R22": {
+    "unicode_codes": [
+      "U+132C9"
+    ],
+    "description": "Official mapping for R22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054482"
+  },
+  "R23": {
+    "unicode_codes": [
+      "U+132CA"
+    ],
+    "description": "Official mapping for R23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054488"
+  },
+  "R24": {
+    "unicode_codes": [
+      "U+132CB"
+    ],
+    "description": "Official mapping for R24",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054494"
+  },
+  "R5": {
+    "unicode_codes": [
+      "U+132B6"
+    ],
+    "description": "Official mapping for R5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054500"
+  },
+  "R50": {
+    "unicode_codes": [
+      "U+14106"
+    ],
+    "description": "Official mapping for R50",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054506"
+  },
+  "R7": {
+    "unicode_codes": [
+      "U+132B8"
+    ],
+    "description": "Official mapping for R7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054513"
+  },
+  "R8A": {
+    "unicode_codes": [
+      "U+140FC"
+    ],
+    "description": "Official mapping for R8A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054519"
+  },
+  "S1": {
+    "unicode_codes": [
+      "U+132D1"
+    ],
+    "description": "Official mapping for S1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054525"
+  },
+  "S12": {
+    "unicode_codes": [
+      "U+132DE"
+    ],
+    "description": "Official mapping for S12",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054531"
+  },
+  "S13": {
+    "unicode_codes": [
+      "U+132DF"
+    ],
+    "description": "Official mapping for S13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054542"
+  },
+  "S15": {
+    "unicode_codes": [
+      "U+132E3"
+    ],
+    "description": "Official mapping for S15",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054549"
+  },
+  "S15A": {
+    "unicode_codes": [
+      "U+1419A"
+    ],
+    "description": "Official mapping for S15A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054555"
+  },
+  "S198": {
+    "unicode_codes": [
+      "U+141D3"
+    ],
+    "description": "Official mapping for S198",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054561"
+  },
+  "S2": {
+    "unicode_codes": [
+      "U+132D2"
+    ],
+    "description": "Official mapping for S2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054568"
+  },
+  "S20": {
+    "unicode_codes": [
+      "U+132E9"
+    ],
+    "description": "Official mapping for S20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054574"
+  },
+  "S23": {
+    "unicode_codes": [
+      "U+132EC"
+    ],
+    "description": "Official mapping for S23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054580"
+  },
+  "S24": {
+    "unicode_codes": [
+      "U+132ED"
+    ],
+    "description": "Official mapping for S24",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054588"
+  },
+  "S27": {
+    "unicode_codes": [
+      "U+132F2"
+    ],
+    "description": "Official mapping for S27",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054594"
+  },
+  "S3": {
+    "unicode_codes": [
+      "U+132D4"
+    ],
+    "description": "Official mapping for S3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054601"
+  },
+  "S32": {
+    "unicode_codes": [
+      "U+132F7"
+    ],
+    "description": "Official mapping for S32",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054607"
+  },
+  "S32A": {
+    "unicode_codes": [
+      "U+141C0"
+    ],
+    "description": "Official mapping for S32A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054614"
+  },
+  "S33": {
+    "unicode_codes": [
+      "U+132F8"
+    ],
+    "description": "Official mapping for S33",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054620"
+  },
+  "S34": {
+    "unicode_codes": [
+      "U+132F9"
+    ],
+    "description": "Official mapping for S34",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054627"
+  },
+  "S35": {
+    "unicode_codes": [
+      "U+132FA"
+    ],
+    "description": "Official mapping for S35",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054633"
+  },
+  "S36": {
+    "unicode_codes": [
+      "U+132FC"
+    ],
+    "description": "Official mapping for S36",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054640"
+  },
+  "S38": {
+    "unicode_codes": [
+      "U+132FE"
+    ],
+    "description": "Official mapping for S38",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054647"
+  },
+  "S40": {
+    "unicode_codes": [
+      "U+13300"
+    ],
+    "description": "Official mapping for S40",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054653"
+  },
+  "S41": {
+    "unicode_codes": [
+      "U+13301"
+    ],
+    "description": "Official mapping for S41",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054659"
+  },
+  "S42": {
+    "unicode_codes": [
+      "U+13302"
+    ],
+    "description": "Official mapping for S42",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054666"
+  },
+  "S47A": {
+    "unicode_codes": [
+      "U+14152"
+    ],
+    "description": "Official mapping for S47A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054673"
+  },
+  "S57A": {
+    "unicode_codes": [
+      "U+14162"
+    ],
+    "description": "Official mapping for S57A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054679"
+  },
+  "S57B": {
+    "unicode_codes": [
+      "U+14161"
+    ],
+    "description": "Official mapping for S57B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054685"
+  },
+  "S8": {
+    "unicode_codes": [
+      "U+132DA"
+    ],
+    "description": "Official mapping for S8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054692"
+  },
+  "T10": {
+    "unicode_codes": [
+      "U+13314"
+    ],
+    "description": "Official mapping for T10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054698"
+  },
+  "T101": {
+    "unicode_codes": [
+      "U+14279"
+    ],
+    "description": "Official mapping for T101",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054709"
+  },
+  "T11B": {
+    "unicode_codes": [
+      "U+1420C"
+    ],
+    "description": "Official mapping for T11B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054715"
+  },
+  "T18": {
+    "unicode_codes": [
+      "U+1331E"
+    ],
+    "description": "Official mapping for T18",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054722"
+  },
+  "T19A": {
+    "unicode_codes": [
+      "U+14238"
+    ],
+    "description": "Official mapping for T19A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054728"
+  },
+  "T21": {
+    "unicode_codes": [
+      "U+13321"
+    ],
+    "description": "Official mapping for T21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054734"
+  },
+  "T22": {
+    "unicode_codes": [
+      "U+13322"
+    ],
+    "description": "Official mapping for T22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054740"
+  },
+  "T24": {
+    "unicode_codes": [
+      "U+13324"
+    ],
+    "description": "Official mapping for T24",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054746"
+  },
+  "T25": {
+    "unicode_codes": [
+      "U+13325"
+    ],
+    "description": "Official mapping for T25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054752"
+  },
+  "T26": {
+    "unicode_codes": [
+      "U+13326"
+    ],
+    "description": "Official mapping for T26",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054758"
+  },
+  "T29": {
+    "unicode_codes": [
+      "U+13329"
+    ],
+    "description": "Official mapping for T29",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054764"
+  },
+  "T31": {
+    "unicode_codes": [
+      "U+1332B"
+    ],
+    "description": "Official mapping for T31",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054772"
+  },
+  "T34": {
+    "unicode_codes": [
+      "U+13330"
+    ],
+    "description": "Official mapping for T34",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054779"
+  },
+  "T35": {
+    "unicode_codes": [
+      "U+13331"
+    ],
+    "description": "Official mapping for T35",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054785"
+  },
+  "T8": {
+    "unicode_codes": [
+      "U+13310"
+    ],
+    "description": "Official mapping for T8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054792"
+  },
+  "T9": {
+    "unicode_codes": [
+      "U+13312"
+    ],
+    "description": "Official mapping for T9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054798"
+  },
+  "T90": {
+    "unicode_codes": [
+      "U+14270"
+    ],
+    "description": "Official mapping for T90",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054804"
+  },
+  "U1": {
+    "unicode_codes": [
+      "U+13333"
+    ],
+    "description": "Official mapping for U1",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054811"
+  },
+  "U10": {
+    "unicode_codes": [
+      "U+1333E"
+    ],
+    "description": "Official mapping for U10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054818"
+  },
+  "U13": {
+    "unicode_codes": [
+      "U+13341"
+    ],
+    "description": "Official mapping for U13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054824"
+  },
+  "U17": {
+    "unicode_codes": [
+      "U+13345"
+    ],
+    "description": "Official mapping for U17",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054830"
+  },
+  "U19": {
+    "unicode_codes": [
+      "U+13347"
+    ],
+    "description": "Official mapping for U19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054836"
+  },
+  "U20": {
+    "unicode_codes": [
+      "U+13348"
+    ],
+    "description": "Official mapping for U20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054843"
+  },
+  "U21": {
+    "unicode_codes": [
+      "U+13349"
+    ],
+    "description": "Official mapping for U21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054850"
+  },
+  "U22": {
+    "unicode_codes": [
+      "U+1334A"
+    ],
+    "description": "Official mapping for U22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054862"
+  },
+  "U23": {
+    "unicode_codes": [
+      "U+1334B"
+    ],
+    "description": "Official mapping for U23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054868"
+  },
+  "U24": {
+    "unicode_codes": [
+      "U+1334D"
+    ],
+    "description": "Official mapping for U24",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054874"
+  },
+  "U24A": {
+    "unicode_codes": [
+      "U+142C4"
+    ],
+    "description": "Official mapping for U24A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054881"
+  },
+  "U25": {
+    "unicode_codes": [
+      "U+1334E"
+    ],
+    "description": "Official mapping for U25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054887"
+  },
+  "U26": {
+    "unicode_codes": [
+      "U+1334F"
+    ],
+    "description": "Official mapping for U26",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054894"
+  },
+  "U31": {
+    "unicode_codes": [
+      "U+13355"
+    ],
+    "description": "Official mapping for U31",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054900"
+  },
+  "U32": {
+    "unicode_codes": [
+      "U+13356"
+    ],
+    "description": "Official mapping for U32",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054906"
+  },
+  "U33": {
+    "unicode_codes": [
+      "U+13358"
+    ],
+    "description": "Official mapping for U33",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.054912"
+  },
+  "U36": {
+    "unicode_codes": [
+      "U+1335B"
+    ],
+    "description": "Official mapping for U36",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056872"
+  },
+  "U38A": {
+    "unicode_codes": [
+      "U+142E2"
+    ],
+    "description": "Official mapping for U38A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056882"
+  },
+  "U40": {
+    "unicode_codes": [
+      "U+1335F"
+    ],
+    "description": "Official mapping for U40",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056887"
+  },
+  "U8": {
+    "unicode_codes": [
+      "U+1333C"
+    ],
+    "description": "Official mapping for U8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056891"
+  },
+  "U9": {
+    "unicode_codes": [
+      "U+1333D"
+    ],
+    "description": "Official mapping for U9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056895"
+  },
+  "V10": {
+    "unicode_codes": [
+      "U+13377"
+    ],
+    "description": "Official mapping for V10",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056899"
+  },
+  "V102": {
+    "unicode_codes": [
+      "U+14356"
+    ],
+    "description": "Official mapping for V102",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056903"
+  },
+  "V12": {
+    "unicode_codes": [
+      "U+1337C"
+    ],
+    "description": "Official mapping for V12",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056907"
+  },
+  "V15": {
+    "unicode_codes": [
+      "U+13381"
+    ],
+    "description": "Official mapping for V15",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056911"
+  },
+  "V17": {
+    "unicode_codes": [
+      "U+13383"
+    ],
+    "description": "Official mapping for V17",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056915"
+  },
+  "V19": {
+    "unicode_codes": [
+      "U+13385"
+    ],
+    "description": "Official mapping for V19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056919"
+  },
+  "V21": {
+    "unicode_codes": [
+      "U+13393"
+    ],
+    "description": "Official mapping for V21",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056923"
+  },
+  "V23": {
+    "unicode_codes": [
+      "U+13395"
+    ],
+    "description": "Official mapping for V23",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056927"
+  },
+  "V23A": {
+    "unicode_codes": [
+      "U+13396"
+    ],
+    "description": "Official mapping for V23A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056930"
+  },
+  "V24": {
+    "unicode_codes": [
+      "U+13397"
+    ],
+    "description": "Official mapping for V24",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056934"
+  },
+  "V25": {
+    "unicode_codes": [
+      "U+13398"
+    ],
+    "description": "Official mapping for V25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056938"
+  },
+  "V26": {
+    "unicode_codes": [
+      "U+13399"
+    ],
+    "description": "Official mapping for V26",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056942"
+  },
+  "V27": {
+    "unicode_codes": [
+      "U+1339A"
+    ],
+    "description": "Official mapping for V27",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056946"
+  },
+  "V28": {
+    "unicode_codes": [
+      "U+1339B"
+    ],
+    "description": "Official mapping for V28",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056950"
+  },
+  "V29A": {
+    "unicode_codes": [
+      "U+1433F"
+    ],
+    "description": "Official mapping for V29A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056954"
+  },
+  "V33": {
+    "unicode_codes": [
+      "U+133A4"
+    ],
+    "description": "Official mapping for V33",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056958"
+  },
+  "V36": {
+    "unicode_codes": [
+      "U+133A8"
+    ],
+    "description": "Official mapping for V36",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056962"
+  },
+  "V36G": {
+    "unicode_codes": [
+      "U+1434C"
+    ],
+    "description": "Official mapping for V36G",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056966"
+  },
+  "V39": {
+    "unicode_codes": [
+      "U+133AC"
+    ],
+    "description": "Official mapping for V39",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056970"
+  },
+  "V5": {
+    "unicode_codes": [
+      "U+13370"
+    ],
+    "description": "Official mapping for V5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056974"
+  },
+  "V6": {
+    "unicode_codes": [
+      "U+13371"
+    ],
+    "description": "Official mapping for V6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056978"
+  },
+  "V7": {
+    "unicode_codes": [
+      "U+13372"
+    ],
+    "description": "Official mapping for V7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056981"
+  },
+  "W13": {
+    "unicode_codes": [
+      "U+133BE"
+    ],
+    "description": "Official mapping for W13",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056985"
+  },
+  "W14": {
+    "unicode_codes": [
+      "U+133BF"
+    ],
+    "description": "Official mapping for W14",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056988"
+  },
+  "W14A": {
+    "unicode_codes": [
+      "U+1436E"
+    ],
+    "description": "Official mapping for W14A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056992"
+  },
+  "W15": {
+    "unicode_codes": [
+      "U+133C1"
+    ],
+    "description": "Official mapping for W15",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.056996"
+  },
+  "W15B": {
+    "unicode_codes": [
+      "U+14370"
+    ],
+    "description": "Official mapping for W15B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057000"
+  },
+  "W16": {
+    "unicode_codes": [
+      "U+133C2"
+    ],
+    "description": "Official mapping for W16",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057003"
+  },
+  "W17": {
+    "unicode_codes": [
+      "U+133C3"
+    ],
+    "description": "Official mapping for W17",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057007"
+  },
+  "W18A": {
+    "unicode_codes": [
+      "U+1437E"
+    ],
+    "description": "Official mapping for W18A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057011"
+  },
+  "W19": {
+    "unicode_codes": [
+      "U+133C7"
+    ],
+    "description": "Official mapping for W19",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057014"
+  },
+  "W2": {
+    "unicode_codes": [
+      "U+133B0"
+    ],
+    "description": "Official mapping for W2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057018"
+  },
+  "W20": {
+    "unicode_codes": [
+      "U+133C8"
+    ],
+    "description": "Official mapping for W20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057022"
+  },
+  "W22": {
+    "unicode_codes": [
+      "U+133CA"
+    ],
+    "description": "Official mapping for W22",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057026"
+  },
+  "W25": {
+    "unicode_codes": [
+      "U+133CE"
+    ],
+    "description": "Official mapping for W25",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057031"
+  },
+  "W2B": {
+    "unicode_codes": [
+      "U+1435D"
+    ],
+    "description": "Official mapping for W2B",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057035"
+  },
+  "W4": {
+    "unicode_codes": [
+      "U+133B3"
+    ],
+    "description": "Official mapping for W4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057039"
+  },
+  "W8": {
+    "unicode_codes": [
+      "U+133B7"
+    ],
+    "description": "Official mapping for W8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057044"
+  },
+  "W9": {
+    "unicode_codes": [
+      "U+133B8"
+    ],
+    "description": "Official mapping for W9",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057047"
+  },
+  "X2": {
+    "unicode_codes": [
+      "U+133D0"
+    ],
+    "description": "Official mapping for X2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057051"
+  },
+  "X3": {
+    "unicode_codes": [
+      "U+133D1"
+    ],
+    "description": "Official mapping for X3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057054"
+  },
+  "X5": {
+    "unicode_codes": [
+      "U+133D5"
+    ],
+    "description": "Official mapping for X5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057058"
+  },
+  "X6": {
+    "unicode_codes": [
+      "U+133D6"
+    ],
+    "description": "Official mapping for X6",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057062"
+  },
+  "X8": {
+    "unicode_codes": [
+      "U+133D9"
+    ],
+    "description": "Official mapping for X8",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057065"
+  },
+  "Y2": {
+    "unicode_codes": [
+      "U+133DD"
+    ],
+    "description": "Official mapping for Y2",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057069"
+  },
+  "Y3": {
+    "unicode_codes": [
+      "U+133DE"
+    ],
+    "description": "Official mapping for Y3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057072"
+  },
+  "Y4": {
+    "unicode_codes": [
+      "U+133DF"
+    ],
+    "description": "Official mapping for Y4",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057076"
+  },
+  "Z11A": {
+    "unicode_codes": [
+      "U+143E9"
+    ],
+    "description": "Official mapping for Z11A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057092"
+  },
+  "Z1A": {
+    "unicode_codes": [
+      "U+133E4"
+    ],
+    "description": "Official mapping for Z1A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057097"
+  },
+  "Z20": {
+    "unicode_codes": [
+      "U+143EC"
+    ],
+    "description": "Official mapping for Z20",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057100"
+  },
+  "Z2C": {
+    "unicode_codes": [
+      "U+143E7"
+    ],
+    "description": "Official mapping for Z2C",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057104"
+  },
+  "Z3": {
+    "unicode_codes": [
+      "U+133EA"
+    ],
+    "description": "Official mapping for Z3",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057108"
+  },
+  "Z3A": {
+    "unicode_codes": [
+      "U+133EB"
+    ],
+    "description": "Official mapping for Z3A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057111"
+  },
+  "Z4A": {
+    "unicode_codes": [
+      "U+133EE"
+    ],
+    "description": "Official mapping for Z4A",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057115"
+  },
+  "Z5": {
+    "unicode_codes": [
+      "U+133EF"
+    ],
+    "description": "Official mapping for Z5",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057119"
+  },
+  "Z7": {
+    "unicode_codes": [
+      "U+133F2"
+    ],
+    "description": "Official mapping for Z7",
+    "source": "official_unicode_mappings",
+    "added_date": "2025-08-08T15:12:39.057123"
+  }
+}
