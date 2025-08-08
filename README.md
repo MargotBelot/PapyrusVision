@@ -180,7 +180,7 @@ PapyrusVision/
 The trained model achieves:
 - **mAP@0.5**: 0.73
 - **mAP@0.5:0.95**: 0.41
-- **Training Classes**: 50+ Gardiner sign categories
+- **Training Classes**: 178 Gardiner sign categories
 - **Unicode Coverage**: 594 official mappings
 
 ## Key Outputs
