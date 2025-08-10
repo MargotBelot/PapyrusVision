@@ -326,8 +326,8 @@ def create_visualization(image, results):
     if results['detections']:
         legend_elements = [
             plt.Rectangle((0,0),1,1, facecolor='lime', alpha=0.7, label=f"🟢 High confidence (≥0.8): {results['summary']['high_confidence_count']}"),
-            plt.Rectangle((0,0),1,1, facecolor='cyan', alpha=0.7, label=f"🟠 Medium confidence (0.6-0.8): {results['summary']['medium_confidence_count']}"),
-            plt.Rectangle((0,0),1,1, facecolor='orange', alpha=0.7, label=f"🔴 Low confidence (<0.6): {results['summary']['low_confidence_count']}")
+            plt.Rectangle((0,0),1,1, facecolor='cyan', alpha=0.7, label=f"🟡 Medium confidence (0.6-0.8): {results['summary']['medium_confidence_count']}"),
+            plt.Rectangle((0,0),1,1, facecolor='orange', alpha=0.7, label=f"🟠 Low confidence (<0.6): {results['summary']['low_confidence_count']}")
         ]
         ax.legend(handles=legend_elements, loc='upper right', fontsize=12, framealpha=0.9)
     
