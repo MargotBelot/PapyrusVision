@@ -29,7 +29,7 @@
 **Detection Engine**: Detectron2-based object detection trained on hieroglyphic signs
 - **Framework**: Facebook's Detectron2 with Faster R-CNN architecture
 - **Backbone**: ResNet-50 with Feature Pyramid Network (FPN)
-- **Training Data**: 2,431 annotated hieroglyphs across 178 Gardiner classes
+- **Training Data**: 2,431 annotated hieroglyphs across 177 Gardiner classes
 - **Performance**: mAP@0.5: 0.73, mAP@0.5:0.95: 0.41
 
 **Unicode Mapping System**: Complete Gardiner sign list with Unicode integration
@@ -143,6 +143,9 @@ TEST:
 - Web-based accessibility
 - Quality control workflows
 
+![Full CVAT Annotation](../data/analysis_plots/full_annotation.png)
+*Figure 1: Complete annotated papyrus showing all 2,431 hieroglyphs with bounding boxes and Gardiner classifications in CVAT*
+
 **Annotation Methodology:**
 ```bash
 # 1. Dataset preparation
@@ -151,22 +154,17 @@ TEST:
 - Systematic annotation approach
 
 # 2. Quality control
-- Cross-validation between annotators
 - Consistency checks for boundary accuracy
-- Regular review cycles
 ```
 
 #### Annotation Statistics
 
 **Comprehensive Coverage:**
 - **Total Signs**: 2,431 individual hieroglyphs annotated
-- **Gardiner Classes**: 178 unique categories
+- **Gardiner Classes**: 177 unique categories
 - **Class Distribution**: Highly imbalanced (1-400+ instances per class)
 - **Annotation Quality**: Manual review and correction process
 - **Export Format**: COCO-compatible JSON with metadata
-
-![Dataset Overview](../data/analysis_plots/dataset_overview.png)
-*Figure 1: Comprehensive dataset statistics showing composition and distribution*
 
 ![Sample Annotations](../data/analysis_plots/sample_annotations.png)
 *Figure 2: Example of annotation quality with bounding boxes and Gardiner classifications*
@@ -245,7 +243,7 @@ MODEL:
   ROI_HEADS:
     NAME: "StandardROIHeads"
     IN_FEATURES: ["p2", "p3", "p4", "p5"]
-    NUM_CLASSES: 178  # Gardiner classes
+    NUM_CLASSES: 177  # Gardiner classes
 ```
 
 ### 4.3 Training Process

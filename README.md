@@ -6,11 +6,11 @@
 
 ## Overview
 
-PapyrusVision is a computer vision system that uses deep learning to detect and analyze ancient Egyptian hieroglyphs in papyrus documents. The system combines object detection with Egyptological knowledge to provide pzpyrus' analysis.
+PapyrusVision is a computer vision system that uses deep learning to detect and analyze ancient Egyptian hieroglyphs in papyrus documents. The system combines object detection with Egyptological knowledge to provide papyrus analysis.
 
-**Training Data**: The model was trained on 2,431 manually annotated hieroglyphs from the Book of the Dead of Nu (British Museum EA 10477), covering 178 distinct Gardiner sign categories. This 18th Dynasty papyrus provides examples of classical Egyptian hieroglyphic writing, ensuring the model learned from high-quality scholarly sources.
+**Training Data**: The model was trained on 2,431 manually annotated hieroglyphs from Spell 145 in the Book of the Dead of Nu (British Museum EA 10477), covering 177 distinct Gardiner sign categories. This 18th Dynasty papyrus provides examples of classical Egyptian hieroglyphic writing, ensuring the model learned from high-quality scholarly sources. All annotations were created using CVAT (Computer Vision Annotation Tool).
 
-**Model Performance**: The trained Detectron2 model achieves mAP@0.5 of 0.73 and mAP@0.5:0.95 of 0.41 across 178 Gardiner sign categories with Unicode coverage for 594+ official mappings.
+**Model Performance**: The trained Detectron2 model achieves mAP@0.5 of 0.73 and mAP@0.5:0.95 of 0.41 across 177 Gardiner sign categories with Unicode coverage for 594+ official mappings.
 
 ## Pipeline Overview
 
@@ -91,14 +91,12 @@ Open your browser to `http://localhost:8501`
 ## Usage Options
 
 ### Web Application (Recommended)
-**Perfect for**: Exploration, demonstrations, education, single-session work
 
 - Interactive Detection: Upload and analyze individual images with real-time feedback
 - Visual Paleography: Create sign catalogs with live preview and statistics
 - User-Friendly: Drag-and-drop interface, instant downloads, progress tracking
 
 ### Command-Line Tool
-**Perfect for**: Large datasets, research workflows, automated processing
 
 ```bash
 # Batch processing
@@ -205,10 +203,3 @@ For questions or support, please [open an issue](https://github.com/margotbelot/
 - **Detectron2**: He, K., et al. (2019). Detectron2. Facebook AI Research.
 - **CVAT**: Computer Vision Annotation Tool. Intel Corporation.
 - **Unicode Standard**: Unicode Egyptian Hieroglyphs Block (U+13000–U+1342F)
-
-### Acknowledgments
-- Detectron2 team at Facebook AI Research
-- Unicode Consortium for Egyptian Hieroglyphs standard
-- Digital humanities and Egyptology research communities
-- British Museum for digitization and open access to cultural heritage
-- Thesaurus Linguae Aegyptiae project for digital resources
