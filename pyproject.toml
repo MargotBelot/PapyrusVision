@@ -7,7 +7,7 @@ name = "papyrusvision"
 version = "1.0.0"
 description = "PapyrusVision: AI-Powered Ancient Egyptian Hieroglyph Detection and Analysis"
 authors = [
-    {name = "Margot Belot", email = "margot.belot@example.edu"}
+    {name = "Margot Belot", email = "margotbelot@icloud.com"}
 ]
 readme = "README.md"
 license = {text = "MIT"}
