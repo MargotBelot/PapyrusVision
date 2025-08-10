@@ -2,7 +2,7 @@
 """
 PapyrusVision Hieroglyphs Detection and Analysis - Complete Web Application
 
-Comprehensive interactive web interface with Digital Paleography Tool for complete
+Interactive web interface with Digital Paleography Tool for complete
 hieroglyph detection, analysis, cropping, and catalog generation.
 
 Features:
@@ -42,7 +42,7 @@ import shutil
 from collections import defaultdict
 
 # Set up paths
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Go up one level from apps/
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
 MODELS_DIR = os.path.join(PROJECT_ROOT, 'models')
 SCRIPTS_DIR = os.path.join(PROJECT_ROOT, 'scripts')
@@ -125,7 +125,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_detectron_model():
-    """Load the trained Detectron2 model with caching"""
+    """Load the trained Detectron2 model"""
     try:
         import detectron2
         from detectron2.engine import DefaultPredictor
@@ -239,7 +239,6 @@ def predict_hieroglyphs(predictor, model_info, unicode_mapping, image, confidenc
                 'unicode_symbol': ''
             })
             
-            # Skip X1 (bread loaf) sign for testing purposes
             if gardiner_code == "X1":
                 continue
             
@@ -318,7 +317,7 @@ def create_visualization(image, results):
         # Create label with Gardiner code and confidence
         label = f"{gardiner_code} {confidence:.3f}"
         
-        # Add text label with better visibility
+        # Add text label with visibility
         ax.text(bbox['x1'], bbox['y1'] - 15, label, 
                color='white', fontsize=11, weight='bold',
                bbox=dict(boxstyle='round,pad=0.5', facecolor=color, alpha=0.8, edgecolor='white'))
@@ -326,9 +325,9 @@ def create_visualization(image, results):
     # Add legend
     if results['detections']:
         legend_elements = [
-            plt.Rectangle((0,0),1,1, facecolor='lime', alpha=0.7, label=f"High confidence (≥0.8): {results['summary']['high_confidence_count']}"),
-            plt.Rectangle((0,0),1,1, facecolor='cyan', alpha=0.7, label=f"Medium confidence (0.6-0.8): {results['summary']['medium_confidence_count']}"),
-            plt.Rectangle((0,0),1,1, facecolor='orange', alpha=0.7, label=f"Low confidence (<0.6): {results['summary']['low_confidence_count']}")
+            plt.Rectangle((0,0),1,1, facecolor='lime', alpha=0.7, label=f"🟢 High confidence (≥0.8): {results['summary']['high_confidence_count']}"),
+            plt.Rectangle((0,0),1,1, facecolor='cyan', alpha=0.7, label=f"🟠 Medium confidence (0.6-0.8): {results['summary']['medium_confidence_count']}"),
+            plt.Rectangle((0,0),1,1, facecolor='orange', alpha=0.7, label=f"🔴 Low confidence (<0.6): {results['summary']['low_confidence_count']}")
         ]
         ax.legend(handles=legend_elements, loc='upper right', fontsize=12, framealpha=0.9)
     
@@ -461,7 +460,7 @@ def show_detection_page():
         # File uploader with drag and drop
         uploaded_file = st.file_uploader(
             "Drag and drop your papyrus image here",
-            type=['jpg', 'jpeg', 'png', 'bmp', 'tiff'],
+            type=['jpg', 'jpeg', 'png', 'tiff'],
             help="Upload an image of papyrus with hieroglyphs for analysis"
         )
         
@@ -831,9 +830,12 @@ def show_about_page():
     st.markdown("""
     ## About This Tool
     
-    **PapyrusVision** is an advanced AI-powered system for analyzing ancient Egyptian hieroglyphs in papyrus documents. 
-    It combines state-of-the-art computer vision with comprehensive Egyptological knowledge to provide researchers, 
-    students, and enthusiasts with powerful analysis capabilities.
+    **PapyrusVision** is an AI-powered system for analyzing ancient Egyptian hieroglyphs in papyrus documents. 
+    It combines computer vision with Egyptological knowledge to provide papyrus analysis.
+    
+    **Training Data**: The model was trained on 2,431 manually annotated hieroglyphs from the Book of the Dead of Nu (British Museum EA 10477), 
+    covering 178 distinct Gardiner sign categories. This 18th Dynasty papyrus provides examples of classical Egyptian hieroglyphic writing, 
+    ensuring the model learned from high-quality sources.
     
     ### Key Features
     
@@ -864,7 +866,6 @@ def show_about_page():
     
     - **Gardiner Sign List**: Complete classification system
     - **Unicode Mappings**: Official Unicode Consortium mappings
-    - **Descriptions**: Comprehensive hieroglyph descriptions (700+ codes)
     
     ### Getting Started
     
@@ -877,22 +878,7 @@ def show_about_page():
     
     - Use high-quality, well-lit images
     - Adjust confidence threshold based on your needs
-    - For paleography, include multiple images for comprehensive coverage
     - Lower confidence thresholds may include more signs but also more false positives
-    
-    ### Academic Use
-    
-    This tool is designed for:
-    - **Digital Humanities** research
-    - **Egyptological** studies
-    - **Paleographic** analysis
-    - **Educational** purposes
-    - **Museum** digital collections
-    - **Archaeological** documentation
-    
-    ---
-    
-    *Developed with love for the Egyptological community*
     """)
 
 if __name__ == "__main__":

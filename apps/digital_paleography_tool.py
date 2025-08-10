@@ -2,14 +2,6 @@
 """
 Digital Paleography Tool - Batch Processing Version
 
-This command-line tool is designed for RESEARCH WORKFLOWS and LARGE-SCALE PROCESSING.
-
-Use this tool when you:
-- Need to process entire directories of images automatically
-- Want to integrate hieroglyph analysis into research pipelines
-- Require fine-tuned control over confidence thresholds and filtering
-- Are working with large datasets that need batch processing
-
 For interactive analysis and single-image exploration, use the Streamlit web application:
     streamlit run streamlit_hieroglyphs_app.py
 
@@ -34,13 +26,12 @@ from io import BytesIO
 from PIL import Image
 import shutil
 
-# Import your existing detection modules
+# Import existing detection modules
 import sys
 from pathlib import Path
 
-# Add the project root and scripts directory to Python path for imports
 current_dir = Path(__file__).parent.absolute()
-project_root = current_dir.parent  # Go up one level from apps/
+project_root = current_dir.parent
 scripts_dir = project_root / 'scripts'
 
 sys.path.append(str(current_dir))
@@ -190,17 +181,17 @@ class DigitalPaleographyTool:
         try:
             results = self.analyzer.predict_hieroglyphs(str(image_path), confidence_threshold)
             if not results or not results.get('detections'):
-                print(f"   No detections found in {image_path}")
+                print(f"No detections found in {image_path}")
                 return []
             detections = results['detections']
         except Exception as e:
-            print(f"   Error analyzing {image_path}: {e}")
+            print(f"Error analyzing {image_path}: {e}")
             return []
         
         # Load the original image
         image = cv2.imread(str(image_path))
         if image is None:
-            print(f"   Could not load image: {image_path}")
+            print(f"Could not load image: {image_path}")
             return []
         
         crops_data = []
@@ -214,7 +205,6 @@ class DigitalPaleographyTool:
             
             gardiner_code = detection.get('gardiner_code', 'Unknown')
             
-            # Skip X1 (bread loaf) sign for testing purposes
             if gardiner_code == "X1":
                 continue
             
@@ -271,7 +261,7 @@ class DigitalPaleographyTool:
             }
             
             crops_data.append(crop_data)
-            print(f"   Cropped {gardiner_code} (conf: {confidence:.2f})")
+            print(f"Cropped {gardiner_code} (conf: {confidence:.2f})")
         
         return crops_data
     
@@ -283,7 +273,7 @@ class DigitalPaleographyTool:
             return []
         
         # Find all image files
-        image_extensions = {'.jpg', '.jpeg', '.png', '.tiff', '.tif', '.bmp'}
+        image_extensions = {'.jpg', '.jpeg', '.png', '.tiff', '.tif'}
         image_files = []
         
         for ext in image_extensions:
@@ -498,7 +488,7 @@ class DigitalPaleographyTool:
         html_body = f"""
     <div class="header">
         <h1>Digital Hieroglyph Paleography</h1>
-        <p>Comprehensive catalog of detected hieroglyphic signs</p>
+        <p>Catalog of detected hieroglyphic signs</p>
         <p>Generated on {datetime.now().strftime('%B %d, %Y at %H:%M')}</p>
     </div>
     
@@ -532,7 +522,7 @@ class DigitalPaleographyTool:
             count = len(grouped_crops[code])
             html_body += f'            <div class="toc-item"><a href="#{code}" class="toc-link">{code} ({count})</a></div>\n'
         
-        html_body += """        </div>
+        html_body += """</div>
     </div>"""
         
         # Add each Gardiner code section
@@ -589,7 +579,7 @@ class DigitalPaleographyTool:
                 </div>
             </div>"""
                 except Exception as e:
-                    print(f"   Could not embed image {crop['crop_path']}: {e}")
+                    print(f"Could not embed image {crop['crop_path']}: {e}")
             
             html_body += """
         </div>
@@ -658,7 +648,19 @@ def main():
     # Get input directory from user
     input_dir = input("Enter path to directory containing hieroglyph images: ").strip()
     if not input_dir:
-        input_dir = "/Users/margot/Desktop/sample_hieroglyphs"  # Default for testing
+        # Either the project's sample images or user's Desktop
+        project_sample_dir = project_root / "data" / "images"
+        desktop_sample_dir = Path.home() / "Desktop" / "sample_hieroglyphs"
+        
+        if project_sample_dir.exists() and any(project_sample_dir.iterdir()):
+            input_dir = str(project_sample_dir)
+            print(f"Using project sample images: {input_dir}")
+        elif desktop_sample_dir.exists():
+            input_dir = str(desktop_sample_dir)
+            print(f"Using Desktop sample directory: {input_dir}")
+        else:
+            print("No default directory found. Please specify a path with hieroglyph images.")
+            return
     
     # Get confidence threshold
     confidence_input = input("Enter confidence threshold (0.0-1.0, default 0.5): ").strip()
@@ -687,11 +689,11 @@ def main():
     
     # Final summary
     print(f"\nDIGITAL PALEOGRAPHY COMPLETE!")
-    print(f"   Crops saved in: {tool.crops_dir}")
-    print(f"   HTML catalog: {catalog_file}")
-    print(f"   Report: {report_file}")
-    print(f"   Total signs: {len(crops_data)}")
-    print(f"   Unique codes: {len(set(crop['gardiner_code'] for crop in crops_data))}")
+    print(f"Crops saved in: {tool.crops_dir}")
+    print(f"HTML catalog: {catalog_file}")
+    print(f"Report: {report_file}")
+    print(f"Total signs: {len(crops_data)}")
+    print(f"Unique codes: {len(set(crop['gardiner_code'] for crop in crops_data))}")
     
     # Offer to open the catalog
     open_catalog = input(f"\nOpen HTML catalog in browser? (y/n): ").lower()

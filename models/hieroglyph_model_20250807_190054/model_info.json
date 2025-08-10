@@ -1,6 +1,6 @@
 {
-  "model_path": "/Users/margot/Desktop/PapyrusNU_Detectron 2/models/hieroglyph_model_20250807_190054/model_final.pth",
-  "config_path": "/Users/margot/Desktop/PapyrusNU_Detectron 2/models/hieroglyph_model_20250807_190054/config.yaml",
+  "model_path": "models/hieroglyph_model_20250807_190054/model_final.pth",
+  "config_path": "models/hieroglyph_model_20250807_190054/config.yaml",
   "num_classes": 177,
   "category_names": [
     "A13A",
