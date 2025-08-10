@@ -3,16 +3,45 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Detectron2](https://img.shields.io/badge/detectron2-latest-green.svg)](https://github.com/facebookresearch/detectron2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/margotbelot/PapyrusVision.svg)](https://github.com/margotbelot/PapyrusVision/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/margotbelot/PapyrusVision.svg)](https://github.com/margotbelot/PapyrusVision/network)
 
 ## Overview
 
-PapyrusVision is a computer vision system that uses deep learning to detect and analyze ancient Egyptian hieroglyphs in papyrus documents. The system combines state-of-the-art object detection with comprehensive Egyptological knowledge to provide researchers with powerful analysis capabilities.
+PapyrusVision is a computer vision system that uses deep learning to detect and analyze ancient Egyptian hieroglyphs in papyrus documents. The system combines object detection with Egyptological knowledge to provide pzpyrus' analysis.
 
-**Quick Demo**: The app includes a sample papyrus image for immediate demonstration - no setup required!
+**Training Data**: The model was trained on 2,431 manually annotated hieroglyphs from the Book of the Dead of Nu (British Museum EA 10477), covering 178 distinct Gardiner sign categories. This 18th Dynasty papyrus provides examples of classical Egyptian hieroglyphic writing, ensuring the model learned from high-quality scholarly sources.
 
-## ⚡ Quick Start (5 minutes)
+**Model Performance**: The trained Detectron2 model achieves mAP@0.5 of 0.73 and mAP@0.5:0.95 of 0.41 across 178 Gardiner sign categories with Unicode coverage for 594+ official mappings.
+
+## Pipeline Overview
+
+```mermaid
+graph TD
+    A[📄 Upload Papyrus Image] --> B[🔍 AI Hieroglyph Detection]
+    B --> C[📊 Confidence Filtering]
+    C --> D[🏺 Gardiner Classification]
+    D --> E[🔤 Unicode Mapping]
+    E --> F{Output Format}
+    F --> G[📋 Detection Results<br/>JSON/CSV/Visualization]
+    F --> H[📚 Digital Paleography<br/>Cropped Signs + HTML Catalog]
+    
+    style A fill:#e1f5fe
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style D fill:#e8f5e8
+    style E fill:#fff8e1
+    style F fill:#fce4ec
+    style G fill:#e3f2fd
+    style H fill:#e8f5e8
+```
+
+**Process Flow:**
+1. **Input**: High-resolution papyrus images
+2. **Detection**: AI-powered hieroglyph detection using Detectron2
+3. **Classification**: Automatic Gardiner code assignment
+4. **Enhancement**: Unicode symbol mapping and metadata enrichment  
+5. **Output**: Multiple formats for research and analysis
+
+## Quick Start
 
 ### 1. Install Dependencies
 
@@ -48,79 +77,84 @@ pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/t
 streamlit run apps/streamlit_hieroglyphs_app.py
 ```
 
-Open your browser to `http://localhost:8501` 🎉
+Open your browser to `http://localhost:8501`
 
 ## Features
 
-- **🔍 Hieroglyph Detection**: AI-powered detection using Detectron2 framework
-- **📜 Digital Paleography**: Automated cropping and cataloging of individual signs  
-- **🏺 Unicode Integration**: Official Unicode mappings for 594+ hieroglyphic signs
-- **📊 Interactive Visualizations**: Comprehensive analysis and reporting tools
-- **🌐 Web Interface**: User-friendly drag-and-drop application
-- **📚 Research Tools**: Batch processing for large datasets
+- **Hieroglyph Detection**: AI-powered detection using Detectron2 framework
+- **Digital Paleography**: Automated cropping and cataloging of individual signs
+- **Unicode Integration**: Official Unicode mappings for 594+ hieroglyphic signs
+- **Interactive Visualizations**: Comprehensive analysis and reporting tools
+- **Web Interface**: User-friendly drag-and-drop application
+- **Research Tools**: Batch processing for large datasets
 
-## Two Usage Options
+## Usage Options
 
-### 🌐 Web Application (Recommended)
+### Web Application (Recommended)
 **Perfect for**: Exploration, demonstrations, education, single-session work
 
-- **Interactive Detection**: Upload and analyze individual images with real-time feedback
-- **Visual Paleography**: Create sign catalogs with live preview and statistics  
-- **User-Friendly**: Drag-and-drop interface, instant downloads, progress tracking
+- Interactive Detection: Upload and analyze individual images with real-time feedback
+- Visual Paleography: Create sign catalogs with live preview and statistics
+- User-Friendly: Drag-and-drop interface, instant downloads, progress tracking
 
-### ⚙️ Command-Line Tool
+### Command-Line Tool
 **Perfect for**: Large datasets, research workflows, automated processing
 
 ```bash
 # Batch processing
 python apps/digital_paleography_tool.py
 
-# Individual analysis  
+# Individual analysis
 python scripts/hieroglyph_analysis_tool.py --image path/to/image.jpg
 ```
 
 **Features**: Bulk processing, research pipelines, advanced control, customizable thresholds
 
-## Model Performance
-
-The trained Detectron2 model achieves:
-- **mAP@0.5**: 0.73
-- **mAP@0.5:0.95**: 0.41  
-- **Training Classes**: 178 Gardiner sign categories
-- **Unicode Coverage**: 594+ official mappings
-
 ## Project Structure
 
 ```
 PapyrusVision/
-├── README.md                          # This file
+├── README.md                          # Project overview and setup
 ├── requirements.txt                   # Dependencies
-├── apps/                             # User applications  
-│   ├── streamlit_hieroglyphs_app.py  # 🌐 Web interface (recommended)
-│   └── digital_paleography_tool.py   # ⚙️ Batch processing
+├── apps/                             # User applications
+│   ├── streamlit_hieroglyphs_app.py  # Web interface (recommended)
+│   └── digital_paleography_tool.py   # Batch processing
 ├── scripts/                          # Core analysis tools
-├── notebooks/                        # 📓 Jupyter analysis pipeline
-├── models/                           # 🤖 Trained Detectron2 model
-├── data/                            # 📊 Dataset and annotations
-└── docs/                            # 📚 Technical documentation
+│   ├── hieroglyph_analysis_tool.py   # Individual image analysis
+│   ├── dataset_utils.py              # Dataset utilities
+│   ├── evaluation.py                 # Model evaluation
+│   └── visualization.py              # Visualization tools
+├── notebooks/                        # Jupyter analysis pipeline
+│   ├── 01_data_preparation.ipynb     # Dataset preparation
+│   ├── 02_data_analysis.ipynb        # Exploratory analysis
+│   ├── 03_model_training.ipynb       # Model training
+│   ├── 04_model_evaluation.ipynb     # Performance evaluation
+│   └── 05_model_predictions_visualization.ipynb # Results visualization
+├── models/                           # Trained Detectron2 model
+│   └── hieroglyph_model_*/          # Model files and configs
+├── data/                            # Dataset and annotations
+│   ├── images/                      # Sample images
+│   ├── annotations/                 # COCO-format annotations
+│   └── analysis_plots/              # Generated visualizations
+└── docs/                            # Technical documentation
     └── TECHNICAL_GUIDE.md           # Complete technical details
 ```
 
-## Key Outputs
+## Output Formats
 
-### 1. Detection Results
+### Detection Results
 - Bounding boxes with confidence scores
-- Gardiner code classification  
+- Gardiner code classification
 - Unicode symbol mapping
 - Exportable formats (JSON, CSV)
 
-### 2. Digital Paleography
+### Digital Paleography
 - Individual sign crops organized by Gardiner codes
 - Interactive HTML catalog with Unicode symbols
 - Comprehensive metadata and descriptions
 - ZIP packages for offline use
 
-## Technical Details
+## Documentation
 
 For complete technical documentation, training details, and advanced usage, see [docs/TECHNICAL_GUIDE.md](docs/TECHNICAL_GUIDE.md)
 
@@ -129,8 +163,12 @@ For complete technical documentation, training details, and advanced usage, see 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)  
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Citation
 
@@ -145,170 +183,15 @@ If you use this work in your research, please cite:
 }
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Author & Support
-
-**Margot Belot**
-- GitHub: [@margotbelot](https://github.com/margotbelot)  
-- Email: margotbelot@icloud.com
-
-For questions or support, please [open an issue](https://github.com/margotbelot/PapyrusVision/issues) or contact margotbelot@icloud.com
-
----
-
-## Bibliography & References
-
-### Primary Sources
-- **Digital Archive**: [Thesaurus Linguae Aegyptiae - Book of the Dead of Nu](https://tla.digital/object/7NOILVRXDVBPZBXA4S4FRIHTMA)
-- **British Museum Collection**: [BM EA 10477](https://www.britishmuseum.org/collection/object/Y_EA10477-25)
-
-### Technical References  
-- **Detectron2**: He, K., et al. (2019). Detectron2. Facebook AI Research.
-- **Unicode Standard**: Unicode Egyptian Hieroglyphs Block (U+13000–U+1342F)
-
-### Acknowledgments
-- Detectron2 team at Facebook AI Research
-- Unicode Consortium for Egyptian Hieroglyphs standard
-- Digital humanities and Egyptology research communities  
-- British Museum for digitization and open access to cultural heritage
-- Thesaurus Linguae Aegyptiae project for digital resources
-- **High Performance**: Optimized for processing many images efficiently
-- **Customizable**: Fine-tuned control over confidence thresholds and filtering
-
-### 3. Individual Analysis Scripts
-
-```bash
-# Analyze a single image with detailed output
-python scripts/hieroglyph_analysis_tool.py --image path/to/image.jpg
-```
-
-### 4. Jupyter Notebooks
-
-Explore the analysis pipeline through interactive notebooks in the `notebooks/` directory:
-
-1. `01_data_preparation.ipynb` - Dataset preparation and preprocessing
-2. `02_data_analysis.ipynb` - Exploratory data analysis
-3. `03_model_training.ipynb` - Model training and evaluation
-4. `04_model_evaluation.ipynb` - Performance analysis
-5. `05_model_predictions_visualization.ipynb` - Results visualization
-
-
-## Project Structure
-
-```
-PapyrusVision/
- README.md                      # This file
- requirements.txt               # Python dependencies
- 
- apps/                          # User applications
-    streamlit_hieroglyphs_app.py  # Interactive web application (recommended)
-    digital_paleography_tool.py   # Batch processing tool
- 
- docs/                          # Documentation
-    GETTING_STARTED.md          # Quick start guide
-    PROJECT_REPORT.md           # Comprehensive technical report
-    COMPLETE_PROJECT_DOCUMENTATION.md # Full project documentation
-    STRUCTURE_OPTIMIZATION_PLAN.md    # Structure optimization plan
-
- scripts/                       # Core analysis tools
-    hieroglyph_analysis_tool.py
-    dataset_utils.py
-    evaluation.py
-    visualization.py
-
- notebooks/                     # Jupyter analysis notebooks
-    01_data_preparation.ipynb
-    02_data_analysis.ipynb
-    03_model_training.ipynb
-    04_model_evaluation.ipynb
-    05_model_predictions_visualization.ipynb
-
- models/                        # Trained model files
-    hieroglyph_model_*/
-        model_final.pth
-        config.yaml
-        model_info.json
-        *.png                  # Model analysis plots
-
- data/                          # Dataset and annotations
-    images/                    # Sample images
-    annotations/               # COCO-format annotations
-       train_annotations.json
-       val_annotations.json
-       gardiner_unicode_mapping.json
-       gardiner_descriptions.json
-    analysis_plots/            # Data analysis visualizations
-        training_analysis.png      # Training performance analysis
-        training_convergence.png   # Training convergence visualization
-        *.png, *.html, *.json      # Complete analysis suite
-
- training_*.png                 # Training performance plots
-```
-
-## Model Performance
-
-The trained model achieves:
-- **mAP@0.5**: 0.73
-- **mAP@0.5:0.95**: 0.41
-- **Training Classes**: 178 Gardiner sign categories
-- **Unicode Coverage**: 594 official mappings
-
-## Key Outputs
-
-### 1. Detection Results
-- Bounding boxes with confidence scores
-- Gardiner code classification
-- Unicode symbol mapping
-- Exportable formats (JSON, CSV)
-
-### 2. Digital Paleography
-- Individual sign crops organized by Gardiner codes
-- Interactive HTML catalog with Unicode symbols
-- Metadata and descriptions
-- ZIP packages for offline use
-
-
-## Documentation
-
-All detailed documentation has been moved to the `docs/` folder for clarity:
-
-- [Quick Start Guide](docs/GETTING_STARTED.md)
-- [Project Report](docs/PROJECT_REPORT.md)
-- [Complete Project Documentation](docs/COMPLETE_PROJECT_DOCUMENTATION.md)
-- [Structure Optimization Plan](docs/STRUCTURE_OPTIMIZATION_PLAN.md)
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
 
 **Margot Belot**
 - GitHub: [@margotbelot](https://github.com/margotbelot)
 - Email: margotbelot@icloud.com
 
-## Citation
+For questions or support, please [open an issue](https://github.com/margotbelot/PapyrusVision/issues) or contact margotbelot@icloud.com
 
-```bibtex
-@misc{papyrusnu2024,
-  title={PapyrusNU: AI-Powered Hieroglyph Detection and Digital Paleography},
-  author={Margot Belot},
-  year={2024},
-  url={https://github.com/margotbelot/PapyrusNU_Detectron}
-}
-```
-
-## Bibliography & References
+## References
 
 ### Primary Sources
 - **Digital Archive**: [Thesaurus Linguae Aegyptiae - Book of the Dead of Nu](https://tla.digital/object/7NOILVRXDVBPZBXA4S4FRIHTMA)
@@ -323,6 +206,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **CVAT**: Computer Vision Annotation Tool. Intel Corporation.
 - **Unicode Standard**: Unicode Egyptian Hieroglyphs Block (U+13000–U+1342F)
 
----
-
-**For questions or support, please [open an issue](https://github.com/margotbelot/PapyrusNU_Detectron/issues) or contact margotbelot@icloud.com**
+### Acknowledgments
+- Detectron2 team at Facebook AI Research
+- Unicode Consortium for Egyptian Hieroglyphs standard
+- Digital humanities and Egyptology research communities
+- British Museum for digitization and open access to cultural heritage
+- Thesaurus Linguae Aegyptiae project for digital resources

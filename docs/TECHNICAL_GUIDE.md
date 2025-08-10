@@ -12,10 +12,10 @@
 ## Table of Contents
 
 1. [System Architecture](#1-system-architecture)
-2. [Installation & Setup](#2-installation--setup)
+2. [Advanced Installation](#2-advanced-installation)
 3. [Dataset Creation & Analysis](#3-dataset-creation--analysis)
 4. [Model Training & Performance](#4-model-training--performance)
-5. [Applications & Usage](#5-applications--usage)
+5. [Advanced Usage & Applications](#5-advanced-usage--applications)
 6. [Technical Challenges](#6-technical-challenges)
 7. [Development & API Reference](#7-development--api-reference)
 8. [Troubleshooting](#8-troubleshooting)
@@ -75,82 +75,49 @@
 
 ---
 
-## 2. Installation & Setup
+## 2. Advanced Installation
 
-### 2.1 System Requirements
+### 2.1 Development Environment Setup
 
-**Minimum Requirements:**
-- Python 3.8+
-- 4GB RAM
-- 2GB disk space
+For development and advanced usage, additional configuration may be needed beyond the basic installation covered in the main README.
 
-**Recommended Requirements:**
-- Python 3.8+
-- CUDA-compatible GPU
-- 8GB+ RAM
-- 10GB disk space
-
-### 2.2 Environment Setup Options
-
-#### Option A: Conda Environment (Recommended)
+#### GPU Configuration and Optimization
 
 ```bash
-# Install Miniconda/Anaconda if not available
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh
-bash miniconda.sh
+# Verify CUDA installation and compatibility
+nvidia-smi
+python -c "import torch; print('CUDA available:', torch.cuda.is_available())"
 
-# Create and activate environment
-conda create -n papyrusvision python=3.8
-conda activate papyrusvision
-
-# Install dependencies
-pip install -r requirements.txt
+# Configure GPU memory management
+export CUDA_VISIBLE_DEVICES=0
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
 ```
 
-#### Option B: Virtual Environment
+#### Advanced Detectron2 Configuration
 
 ```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# or
-venv\\Scripts\\activate   # Windows
+# Build with specific CUDA version
+CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" pip install 'git+https://github.com/facebookresearch/detectron2.git'
 
-# Install dependencies
-pip install -r requirements.txt
+# Verify installation with model loading test
+python -c "from detectron2.engine import DefaultPredictor; print('Detectron2 ready')"
 ```
 
-### 2.3 Detectron2 Installation
+#### Performance Optimization Settings
 
-#### macOS Apple Silicon (M1/M2)
+```python
+# config/performance.yaml
+DATALOADER:
+  NUM_WORKERS: 4
+  PREFETCH_FACTOR: 2
 
-```bash
-# Install PyTorch for Apple Silicon
-pip install torch torchvision torchaudio
-
-# Build Detectron2 from source (required for Apple Silicon)
-pip install 'git+https://github.com/facebookresearch/detectron2.git'
-```
-
-#### Linux/Windows x86_64
-
-```bash
-# GPU version (recommended if CUDA available)
-pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
-
-# CPU-only version
-pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html
-```
-
-### 2.4 Verification
-
-```bash
-# Test installation
-python -c \"import detectron2; print('Detectron2 version:', detectron2.__version__)\"
-python -c \"import torch; print('PyTorch version:', torch.__version__)\"
-
-# Quick functionality test
-python scripts/hieroglyph_analysis_tool.py --help
+SOLVER:
+  CHECKPOINT_PERIOD: 1000
+  MAX_ITER: 5000
+  
+TEST:
+  EVAL_PERIOD: 500
+  DETECTIONS_PER_IMAGE: 100
 ```
 
 ---
@@ -198,6 +165,12 @@ python scripts/hieroglyph_analysis_tool.py --help
 - **Annotation Quality**: Manual review and correction process
 - **Export Format**: COCO-compatible JSON with metadata
 
+![Dataset Overview](../data/analysis_plots/dataset_overview.png)
+*Figure 1: Comprehensive dataset statistics showing composition and distribution*
+
+![Sample Annotations](../data/analysis_plots/sample_annotations.png)
+*Figure 2: Example of annotation quality with bounding boxes and Gardiner classifications*
+
 **Class Imbalance Analysis:**
 ```python
 # Top 10 most frequent classes
@@ -210,6 +183,12 @@ V31: 46 instances    # Basket
 # Challenge: 60+ classes with <5 instances
 # Solution: Data augmentation and transfer learning
 ```
+
+![Class Distribution](../data/analysis_plots/class_distribution.png)
+*Figure 3: Class distribution showing severe imbalance across Gardiner categories*
+
+![Spatial Distribution](../data/analysis_plots/spatial_heatmap.png)
+*Figure 4: Spatial heatmap showing hieroglyph distribution across the papyrus surface*
 
 ### 3.3 Data Splits and Augmentation
 
@@ -226,6 +205,9 @@ test_split: 10% (243 instances)
 - Random contrast: ±10%
 - Gaussian noise: σ=0.1
 ```
+
+![Data Split Analysis](../data/analysis_plots/data_split_analysis.png)
+*Figure 5: Data split analysis showing balanced distribution across train/validation/test sets*
 
 ---
 
@@ -289,6 +271,12 @@ mAP@0.5:0.95: 0.41
 Average Precision per class: Variable (0.1-0.95)
 ```
 
+![Training Convergence](../data/analysis_plots/training_convergence.png)
+*Figure 6: Training loss curves showing convergence over 5,000 iterations*
+
+![Training Analysis](../data/analysis_plots/training_analysis.png)
+*Figure 7: Comprehensive training analysis including loss components and validation metrics*
+
 ### 4.4 Model Performance Analysis
 
 #### Overall Performance Metrics
@@ -329,103 +317,147 @@ Average Precision per class: Variable (0.1-0.95)
 5. False positives in decorative elements
 ```
 
+![Confidence Analysis](../models/hieroglyph_model_20250807_190054/confidence_analysis.png)
+*Figure 8: Model confidence distribution analysis across different detection scenarios*
+
+![Prediction Comparison](../models/hieroglyph_model_20250807_190054/prediction_comparison_1.png)
+*Figure 9: Example comparison of model predictions versus ground truth annotations*
+
 ---
 
-## 5. Applications & Usage
+## 5. Advanced Usage & Applications
 
-### 5.1 Web Application (Streamlit)
+### 5.1 Advanced Web Application Features
 
-#### Features and Capabilities
+#### Performance Tuning
 
-**Interactive Detection Interface:**
 ```python
-# Real-time analysis workflow
-1. Image upload (drag-and-drop or file browser)
-2. Confidence threshold adjustment (0.1-0.9)
-3. Live detection with bounding box overlay
-4. Detection statistics and class distribution
-5. Individual sign examination and cropping
+# Streamlit configuration for large images
+@st.cache_data
+def load_and_preprocess_image(image_path, max_size=2048):
+    """Cached image loading with preprocessing"""
+    img = Image.open(image_path)
+    if max(img.size) > max_size:
+        img.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
+    return img
+
+# Memory management
+st.set_page_config(
+    page_title="PapyrusVision",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items=None  # Reduce memory usage
+)
 ```
 
-**Digital Paleography Generation:**
+#### Custom Analysis Workflows
+
 ```python
-# Automated catalog creation
-1. Sign detection and classification
-2. Automatic cropping and organization
-3. Unicode symbol lookup and display
-4. HTML catalog generation with metadata
-5. Multi-format export (JSON, CSV, HTML, ZIP)
+# Advanced detection parameters
+detection_params = {
+    'confidence_threshold': st.slider('Confidence', 0.1, 0.9, 0.5),
+    'nms_threshold': st.slider('NMS Threshold', 0.1, 0.9, 0.5),
+    'max_detections': st.number_input('Max Detections', 50, 500, 100)
+}
+
+# Batch processing through web interface
+uploaded_files = st.file_uploader(
+    "Upload multiple images", 
+    type=['jpg', 'jpeg', 'png'],
+    accept_multiple_files=True
+)
 ```
 
-**User Interface Elements:**
-- **Sidebar Controls**: Upload, settings, navigation
-- **Main Display**: Image viewer with detection overlay
-- **Statistics Panel**: Real-time analysis metrics
-- **Download Center**: Export options and file management
+### 5.2 Advanced Command-Line Usage
 
-#### Usage Workflow
+#### Batch Processing with Custom Parameters
 
 ```bash
-# 1. Launch application
-streamlit run apps/streamlit_hieroglyphs_app.py
+# Advanced batch processing
+python apps/digital_paleography_tool.py \
+    --input_dir /path/to/images \
+    --output_dir /path/to/results \
+    --confidence 0.6 \
+    --batch_size 4 \
+    --format json,csv,html \
+    --include_crops \
+    --parallel 4
 
-# 2. Access web interface
-# Open browser to http://localhost:8501
-
-# 3. Upload and analyze
-# - Drag image to upload area
-# - Adjust confidence threshold
-# - View detection results
-# - Generate paleography catalog
-# - Download results
+# Research pipeline integration
+python scripts/hieroglyph_analysis_tool.py \
+    --image papyrus.jpg \
+    --confidence_threshold 0.5 \
+    --output_dir research_results \
+    --export_format all \
+    --include_metadata \
+    --generate_report
 ```
 
-### 5.2 Command-Line Tools
+#### Pipeline Automation
 
-#### Batch Processing Tool
-
-**Purpose**: Large-scale research workflows
 ```bash
-# Basic usage
-python apps/digital_paleography_tool.py
+#!/bin/bash
+# automated_analysis.sh
+for image in /data/papyrus_collection/*.jpg; do
+    echo "Processing: $image"
+    python scripts/hieroglyph_analysis_tool.py \
+        --image "$image" \
+        --confidence_threshold 0.6 \
+        --output_dir "results/$(basename "$image" .jpg)" \
+        --format json,csv
+done
 
-# Advanced configuration
-python apps/digital_paleography_tool.py --confidence 0.6 --output /path/to/results
+# Generate summary report
+python scripts/generate_batch_report.py --input_dir results/
 ```
 
-**Features:**
-- Automatic directory processing
-- Configurable confidence thresholds
-- Batch report generation
-- Progress tracking and logging
-- Error handling and recovery
+### 5.3 Research Notebooks & Analysis Pipeline
 
-#### Individual Analysis Script
+#### Advanced Notebook Configuration
 
-**Purpose**: Single image analysis with detailed output
-```bash
-# Analyze single image
-python scripts/hieroglyph_analysis_tool.py --image path/to/image.jpg --output results/
+```python
+# notebook_config.py - Setup for research environments
+import os
+import sys
+sys.path.append('/content/drive/My Drive/PapyrusNU_Detectron')
 
-# Batch analysis
-python scripts/hieroglyph_analysis_tool.py --batch /path/to/images/ --format json
+# GPU optimization for Colab
+if 'COLAB_GPU' in os.environ:
+    import torch
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print(f"Using device: {device}")
+    
+    # Memory management
+    if device.type == 'cuda':
+        torch.cuda.empty_cache()
+        print(f"GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
 ```
 
-### 5.3 Jupyter Notebooks
+#### Research Analysis Workflows
 
-**Complete Analysis Pipeline:**
-1. **01_data_preparation.ipynb**: Dataset creation and preprocessing
-2. **02_data_analysis.ipynb**: Exploratory data analysis and visualization
-3. **03_model_training.ipynb**: Training process and parameter tuning
-4. **04_model_evaluation.ipynb**: Performance analysis and validation
-5. **05_predictions_visualization.ipynb**: Results visualization and interpretation
-
-**Notebook Features:**
-- Interactive visualizations
-- Step-by-step methodology
-- Reproducible results
-- Educational documentation
-- Research-grade analysis
+```python
+# Advanced data analysis patterns
+class HieroglyphAnalyzer:
+    def __init__(self, data_path, model_path):
+        self.data = self.load_annotations(data_path)
+        self.model = self.load_model(model_path)
+        
+    def class_distribution_analysis(self):
+        """Comprehensive class distribution analysis"""
+        # Statistical analysis of class imbalance
+        # Visualization of frequency distributions
+        # Rare class identification
+        
+    def performance_by_class_size(self):
+        """Analyze model performance vs class size"""
+        # Correlation between training instances and accuracy
+        # Small class performance optimization
+        
+    def temporal_validation(self):
+        """Cross-papyrus validation analysis"""
+        # Generalization across different papyrus sources
+        # Domain adaptation evaluation
+```
 
 ---
 
@@ -459,6 +491,12 @@ rare_class_augmentation = {
 **Challenge**: Many hieroglyphs are small (10-50 pixels)
 - Standard detection models struggle with small objects
 - Feature pyramid networks help but have limitations
+
+![Area Distribution](../data/analysis_plots/area_distribution.png)
+*Figure 10: Size distribution analysis showing prevalence of small hieroglyphs*
+
+![Area by Series](../data/analysis_plots/area_by_series_boxplot.png)
+*Figure 11: Hieroglyph size distribution by Gardiner series, highlighting small object challenges*
 
 **Optimization Strategies:**
 ```yaml
@@ -784,26 +822,6 @@ except Exception as e:
 
 ---
 
-## Development Notes
-
-### Code Quality Standards
-- **PEP 8** compliance for Python code
-- **Type hints** for all public functions
-- **Docstrings** following Google style
-- **Unit tests** for core functionality
-
-### Contributing Guidelines
-1. Fork the repository
-2. Create feature branch from `main`
-3. Follow coding standards
-4. Add tests for new functionality
-5. Update documentation
-6. Submit pull request with clear description
-
-### Version Control
-- **Semantic versioning** (MAJOR.MINOR.PATCH)
-- **Conventional commits** for clear history
-- **Tagged releases** for stable versions
-- **Branch protection** for main branch
+For basic setup and usage instructions, see the main [README.md](../README.md).
 
 For the latest updates and detailed changelog, see the [GitHub repository](https://github.com/margotbelot/PapyrusVision).
