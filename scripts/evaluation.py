@@ -23,7 +23,7 @@ import pandas as pd
 
 
 class HieroglyphEvaluator:
-    """Comprehensive evaluation utilities for hieroglyph detection model"""
+    """Evaluation utilities for hieroglyph detection model"""
     
     def __init__(self, categories: Dict[int, Dict], unicode_mapping: Dict[str, str] = None):
         """
@@ -40,7 +40,7 @@ class HieroglyphEvaluator:
     def evaluate_predictions(self, predictions: List[Dict], ground_truth: List[Dict],
                            iou_threshold: float = 0.5) -> Dict[str, Any]:
         """
-        Comprehensive evaluation of model predictions
+        Evaluation of model predictions
         
         Args:
             predictions: List of prediction dictionaries
@@ -335,13 +335,11 @@ class HieroglyphEvaluator:
             precisions.append(precision)
             recalls.append(recall)
         
-        # Compute AP using 11-point interpolation
         ap = self._compute_ap_11_point(precisions, recalls)
         return ap
     
     def _compute_ap_11_point(self, precisions: List[float], recalls: List[float]) -> float:
         """Compute AP using 11-point interpolation"""
-        # 11 recall levels
         recall_levels = np.linspace(0, 1, 11)
         precisions = np.array(precisions)
         recalls = np.array(recalls)

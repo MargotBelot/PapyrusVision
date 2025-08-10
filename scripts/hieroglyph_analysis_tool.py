@@ -2,8 +2,7 @@
 """
 PapyrusNU Hieroglyph Detection - Interactive Analysis Tool
 
-This tool provides an interactive visualization of hieroglyph detections with
-comprehensive data export capabilities including Gardiner codes, coordinates,
+This tool provides an interactive visualization of hieroglyph detections with data export capabilities including Gardiner codes, coordinates,
 and Unicode information.
 
 Features:
@@ -62,25 +61,25 @@ class HieroglyphAnalysisTool:
             from detectron2.config import get_cfg
             from detectron2.utils.visualizer import Visualizer, ColorMode
             
-            print(f"   Detectron2 version: {detectron2.__version__}")
+            print(f"Detectron2 version: {detectron2.__version__}")
         except ImportError as e:
-            print(f"   Error importing Detectron2: {e}")
+            print(f"Error importing Detectron2: {e}")
             return False
         
         # Find latest model
         model_dirs = glob.glob(os.path.join(MODELS_DIR, 'hieroglyph_model_*'))
         if not model_dirs:
-            print("   No trained models found!")
+            print("No trained models found!")
             return False
         
         latest_model_dir = sorted(model_dirs)[-1]
         model_name = os.path.basename(latest_model_dir)
-        print(f"   Using model: {model_name}")
+        print(f"Using model: {model_name}")
         
         # Load model info
         model_info_file = os.path.join(latest_model_dir, 'model_info.json')
         if not os.path.exists(model_info_file):
-            print(f"   Model info not found: {model_info_file}")
+            print(f"Model info not found: {model_info_file}")
             return False
             
         with open(model_info_file, 'r') as f:
@@ -99,9 +98,9 @@ class HieroglyphAnalysisTool:
                     'description': info.get('description', 'Unknown'),
                     'unicode_symbol': self.get_unicode_symbol(info.get('unicode_codes', []))
                 }
-            print(f"   Loaded Unicode mappings for {len(self.unicode_mapping)} Gardiner codes")
+            print(f"Loaded Unicode mappings for {len(self.unicode_mapping)} Gardiner codes")
         else:
-            print("   Unicode mapping file not found")
+            print("Unicode mapping file not found")
         
         # Set up model configuration
         self.cfg = get_cfg()
@@ -116,11 +115,11 @@ class HieroglyphAnalysisTool:
         # Create predictor
         try:
             self.predictor = DefaultPredictor(self.cfg)
-            print("   Model loaded successfully!")
-            print(f"   Default confidence threshold: {self.model_info['detection_threshold']}")
+            print("Model loaded successfully!")
+            print(f"Default confidence threshold: {self.model_info['detection_threshold']}")
             return True
         except Exception as e:
-            print(f"   Error loading model: {e}")
+            print(f"Error loading model: {e}")
             return False
     
     def get_unicode_symbol(self, unicode_codes):
@@ -140,7 +139,7 @@ class HieroglyphAnalysisTool:
             self.predictor = DefaultPredictor(self.cfg)  # Recreate with new threshold
         
         print(f"Analyzing image: {os.path.basename(image_path)}")
-        print(f"   Confidence threshold: {self.cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST}")
+        print(f"Confidence threshold: {self.cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST}")
         
         # Load image
         if not os.path.exists(image_path):
@@ -152,7 +151,7 @@ class HieroglyphAnalysisTool:
             print(f"Could not load image: {image_path}")
             return None
         
-        print(f"   Image size: {img.shape[1]}x{img.shape[0]} pixels")
+        print(f"Image size: {img.shape[1]}x{img.shape[0]} pixels")
         
         # Make prediction
         outputs = self.predictor(img)
@@ -233,10 +232,10 @@ class HieroglyphAnalysisTool:
             }
         }
         
-        print(f"   Analysis complete!")
-        print(f"   Found {len(detections)} hieroglyphs")
-        print(f"   Unique classes: {len(set([d['gardiner_code'] for d in detections]))}")
-        print(f"   Confidence range: {result['summary']['confidence_stats']['min']:.3f} - {result['summary']['confidence_stats']['max']:.3f}")
+        print(f"Analysis complete!")
+        print(f"Found {len(detections)} hieroglyphs")
+        print(f"Unique classes: {len(set([d['gardiner_code'] for d in detections]))}")
+        print(f"Confidence range: {result['summary']['confidence_stats']['min']:.3f} - {result['summary']['confidence_stats']['max']:.3f}")
         
         return result
     
@@ -305,7 +304,7 @@ class HieroglyphAnalysisTool:
         # Save if requested
         if save_path:
             plt.savefig(save_path, dpi=150, bbox_inches='tight')
-            print(f"   Visualization saved: {save_path}")
+            print(f"Visualization saved: {save_path}")
         
         # Show if requested
         if show_plot:
@@ -322,7 +321,7 @@ class HieroglyphAnalysisTool:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
         
-        print(f"   JSON export complete: {output_path}")
+        print(f"JSON export complete: {output_path}")
     
     def export_to_csv(self, results, output_path):
         """Export results to CSV format"""
@@ -364,43 +363,43 @@ class HieroglyphAnalysisTool:
                 writer.writeheader()
                 writer.writerows(csv_data)
         
-        print(f"   CSV export complete: {output_path}")
+        print(f"CSV export complete: {output_path}")
     
     def print_summary(self, results):
-        """Print a comprehensive summary of the analysis"""
+        """Print a summary of the analysis"""
         print("\\n" + "="*70)
         print("HIEROGLYPH DETECTION ANALYSIS SUMMARY")
         print("="*70)
         
         print(f"\\nIMAGE INFORMATION:")
-        print(f"   File: {results['image_name']}")
-        print(f"   Size: {results['image_size']['width']}x{results['image_size']['height']} pixels")
-        print(f"   Analysis: {results['analysis_timestamp']}")
+        print(f"File: {results['image_name']}")
+        print(f"Size: {results['image_size']['width']}x{results['image_size']['height']} pixels")
+        print(f"Analysis: {results['analysis_timestamp']}")
         
         print(f"\\nDETECTION RESULTS:")
-        print(f"   Total Detections: {results['summary']['total_detections']}")
-        print(f"   Unique Gardiner Codes: {results['summary']['unique_classes']}")
-        print(f"   Confidence Threshold: {results['model_info']['confidence_threshold']}")
+        print(f"Total Detections: {results['summary']['total_detections']}")
+        print(f"Unique Gardiner Codes: {results['summary']['unique_classes']}")
+        print(f"Confidence Threshold: {results['model_info']['confidence_threshold']}")
         
         if results['summary']['total_detections'] > 0:
             print(f"\\nCONFIDENCE DISTRIBUTION:")
-            print(f"   High (≥0.8): {results['summary']['high_confidence_count']} detections")
-            print(f"   Medium (0.6-0.8): {results['summary']['medium_confidence_count']} detections")
-            print(f"   Low (<0.6): {results['summary']['low_confidence_count']} detections")
+            print(f"High (≥0.8): {results['summary']['high_confidence_count']} detections")
+            print(f"Medium (0.6-0.8): {results['summary']['medium_confidence_count']} detections")
+            print(f"Low (<0.6): {results['summary']['low_confidence_count']} detections")
             
             print(f"\\nCONFIDENCE STATISTICS:")
             stats = results['summary']['confidence_stats']
-            print(f"   Mean: {stats['mean']:.3f}")
-            print(f"   Range: {stats['min']:.3f} - {stats['max']:.3f}")
-            print(f"   Std Dev: {stats['std']:.3f}")
+            print(f"Mean: {stats['mean']:.3f}")
+            print(f"Range: {stats['min']:.3f} - {stats['max']:.3f}")
+            print(f"Std Dev: {stats['std']:.3f}")
             
             print(f"\\nDETECTED HIEROGLYPHS:")
             for i, detection in enumerate(results['detections'][:10], 1):
                 # No Unicode symbols displayed
-                print(f"   {i:2d}. {detection['gardiner_code']} - {detection['confidence']:.3f}")
+                print(f"{i:2d}. {detection['gardiner_code']} - {detection['confidence']:.3f}")
             
             if len(results['detections']) > 10:
-                print(f"       ... and {len(results['detections']) - 10} more")
+                print(f"... and {len(results['detections']) - 10} more")
         
         print("="*70)
 
@@ -473,9 +472,9 @@ def main():
     tool.print_summary(results)
     
     print(f"\\nOUTPUT FILES:")
-    print(f"   JSON: {json_output}")
-    print(f"   CSV: {csv_output}")
-    print(f"   Visualization: {viz_output}")
+    print(f"JSON: {json_output}")
+    print(f"CSV: {csv_output}")
+    print(f"Visualization: {viz_output}")
     
     print("Analysis complete!")
 

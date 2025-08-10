@@ -25,7 +25,7 @@ class HieroglyphDatasetUtils:
         self.categories = {cat['id']: cat for cat in self.data['categories']}
         
     def get_dataset_stats(self) -> Dict[str, Any]:
-        """Get comprehensive dataset statistics"""
+        """Get dataset statistics"""
         stats = {}
         
         # Basic counts
@@ -289,7 +289,7 @@ def create_detectron2_dataset_dict(coco_data: Dict, image_dir: str) -> List[Dict
             if new_cat_id != -1: # Only include annotations with a valid mapped category ID
                 obj = {
                     'bbox': ann['bbox'],
-                    'bbox_mode': 1,  # XYWH_ABS
+                    'bbox_mode': 1,
                     'segmentation': ann['segmentation'],
                     'category_id': new_cat_id,  # Use the new 0-based index
                     'iscrowd': ann.get('iscrowd', 0)

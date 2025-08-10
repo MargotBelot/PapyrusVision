@@ -58,7 +58,7 @@ class HieroglyphVisualizer:
         # Top categories
         ax = axes[0, 2]
         top_cats = stats['most_common_categories'][:10]
-        cat_names = [f"Cat_{cat_id}" for cat_id, _ in top_cats]
+        cat_names = [f"Cat_{cat_id}"for cat_id, _ in top_cats]
         counts = [count for _, count in top_cats]
         
         bars = ax.barh(range(len(cat_names)), counts, color='lightgreen')
