@@ -41,6 +41,50 @@ import zipfile
 import shutil
 from collections import defaultdict
 
+def resize_image_for_model(image, min_size=800, max_size=1333):
+    """
+    Resize image to match training data dimensions used by the Detectron2 model.
+    
+    Args:
+        image: PIL Image object
+        min_size: Minimum size for the shorter side (default: 800)
+        max_size: Maximum size for the longer side (default: 1333)
+    
+    Returns:
+        PIL Image: Resized image maintaining aspect ratio, converted to RGB if needed
+    """
+    # Convert RGBA to RGB if needed (for JPEG compatibility)
+    if image.mode == 'RGBA':
+        # Create a white background
+        rgb_image = Image.new('RGB', image.size, (255, 255, 255))
+        rgb_image.paste(image, mask=image.split()[-1])  # Use alpha channel as mask
+        image = rgb_image
+    elif image.mode not in ['RGB', 'L']:
+        # Convert other modes to RGB
+        image = image.convert('RGB')
+    
+    original_width, original_height = image.size
+    
+    # Determine the scaling factor
+    shorter_side = min(original_width, original_height)
+    longer_side = max(original_width, original_height)
+    
+    # Scale based on shorter side to meet min_size requirement
+    scale_factor = min_size / shorter_side
+    
+    # Check if scaling would make longer side exceed max_size
+    if longer_side * scale_factor > max_size:
+        scale_factor = max_size / longer_side
+    
+    # Calculate new dimensions
+    new_width = int(original_width * scale_factor)
+    new_height = int(original_height * scale_factor)
+    
+    # Resize using high-quality resampling
+    resized_image = image.resize((new_width, new_height), Image.LANCZOS)
+    
+    return resized_image
+
 # Set up paths
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
@@ -325,9 +369,9 @@ def create_visualization(image, results):
     # Add legend
     if results['detections']:
         legend_elements = [
-            plt.Rectangle((0,0),1,1, facecolor='lime', alpha=0.7, label=f"🟢 High confidence (≥0.8): {results['summary']['high_confidence_count']}"),
-            plt.Rectangle((0,0),1,1, facecolor='cyan', alpha=0.7, label=f"🟡 Medium confidence (0.6-0.8): {results['summary']['medium_confidence_count']}"),
-            plt.Rectangle((0,0),1,1, facecolor='orange', alpha=0.7, label=f"🟠 Low confidence (<0.6): {results['summary']['low_confidence_count']}")
+            plt.Rectangle((0,0),1,1, facecolor='lime', alpha=0.7, label=f"High confidence (≥0.8): {results['summary']['high_confidence_count']}"),
+            plt.Rectangle((0,0),1,1, facecolor='cyan', alpha=0.7, label=f"Medium confidence (0.6-0.8): {results['summary']['medium_confidence_count']}"),
+            plt.Rectangle((0,0),1,1, facecolor='orange', alpha=0.7, label=f"Low confidence (<0.6): {results['summary']['low_confidence_count']}")
         ]
         ax.legend(handles=legend_elements, loc='upper right', fontsize=12, framealpha=0.9)
     
@@ -434,6 +478,7 @@ def show_detection_page():
             st.write(f"**Model**: {os.path.basename(sorted(glob.glob(os.path.join(MODELS_DIR, 'hieroglyph_model_*')))[-1])}")
             st.write(f"**Classes**: {len(model_info['category_names'])}")
             st.write(f"**Default threshold**: {model_info['detection_threshold']}")
+            st.write("**Image Processing**: Uploaded images are automatically resized to match training data dimensions (min: 800px, max: 1333px) for optimal detection performance.")
         
         # Confidence threshold slider
         confidence_threshold = st.slider(
@@ -447,9 +492,9 @@ def show_detection_page():
         
         st.markdown("---")
         st.markdown("### Color Legend")
-        st.markdown("**High confidence** (≥0.8)")
-        st.markdown("**Medium confidence** (0.6-0.8)")
-        st.markdown("**Low confidence** (<0.6)")
+        st.markdown("**🟢 High confidence** (≥0.8)")
+        st.markdown("**🔵 Medium confidence** (0.6-0.8)")
+        st.markdown("**🟡 Low confidence** (<0.6)")
     
     # Main content area
     col1, col2 = st.columns([1, 2])
@@ -485,9 +530,20 @@ def show_detection_page():
                 image = Image.open(uploaded_file)
                 image_name = uploaded_file.name
             
-            # Run prediction
+            # Get original dimensions
+            original_width, original_height = image.size
+            st.info(f"Original image size: {original_width}x{original_height}")
+            
+            # Resize image for consistent model performance
+            resized_image = resize_image_for_model(image)
+            new_width, new_height = resized_image.size
+            
+            if (new_width, new_height) != (original_width, original_height):
+                st.info(f"Resized for model consistency: {new_width}x{new_height}")
+            
+            # Run prediction on resized image
             with st.spinner("Analyzing hieroglyphs..."):
-                results = predict_hieroglyphs(predictor, model_info, unicode_mapping, image, confidence_threshold)
+                results = predict_hieroglyphs(predictor, model_info, unicode_mapping, resized_image, confidence_threshold)
             
             # Display results summary
             if results['summary']['total_detections'] > 0:
@@ -511,8 +567,8 @@ def show_detection_page():
     if uploaded_file and 'results' in locals() and results['summary']['total_detections'] > 0:
         st.header("Detection Visualization")
         
-        # Create and display visualization
-        fig = create_visualization(image, results)
+        # Create and display visualization using the resized image
+        fig = create_visualization(resized_image, results)
         st.pyplot(fig, use_container_width=True)
         plt.close()
         
@@ -573,7 +629,7 @@ def show_paleography_page():
     st.markdown("""
     <div class="paleography-card">
         <h2>Create Your Digital Paleography</h2>
-        <p>Transform your hieroglyph images into a comprehensive, interactive catalog with individual sign crops, Unicode mappings, and detailed descriptions.</p>
+        <p>Transform your hieroglyph images into an interactive catalog with individual sign crops, Unicode mappings, and detailed descriptions.</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -592,7 +648,7 @@ def show_paleography_page():
         st.markdown("""
         <div class="feature-box">
             <h4>Interactive Catalog</h4>
-            <p>Beautiful HTML catalog with Unicode symbols, descriptions, confidence scores, and responsive design for all devices.</p>
+            <p>HTML catalog with Unicode symbols, descriptions, confidence scores.</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -630,6 +686,8 @@ def show_paleography_page():
             value=20,
             help="Minimum width or height for including signs"
         )
+        
+        st.info("📏 **Image Processing**: Uploaded images are automatically resized to match training data dimensions for consistent detection performance.")
     
     # Main interface
     st.header("Upload Images for Paleography")
@@ -687,13 +745,26 @@ def show_paleography_page():
             
             # Create temporary directory for uploaded files
             with tempfile.TemporaryDirectory() as temp_dir:
-                # Save uploaded files
+                # Save uploaded files with resizing for consistent processing
                 file_paths = []
                 for uploaded_file in uploaded_files:
-                    file_path = os.path.join(temp_dir, uploaded_file.name)
-                    with open(file_path, 'wb') as f:
-                        f.write(uploaded_file.read())
+                    # Load the original image
+                    original_image = Image.open(uploaded_file)
+                    original_width, original_height = original_image.size
+                    
+                    # Resize for model consistency
+                    resized_image = resize_image_for_model(original_image)
+                    new_width, new_height = resized_image.size
+                    
+                    # Save the resized image with proper file extension
+                    base_name = os.path.splitext(uploaded_file.name)[0]
+                    file_path = os.path.join(temp_dir, f"{base_name}.jpg")
+                    resized_image.save(file_path, format='JPEG', quality=95)
                     file_paths.append(file_path)
+                    
+                    # Show resize info if dimensions changed
+                    if (new_width, new_height) != (original_width, original_height):
+                        st.info(f"{uploaded_file.name}: Resized from {original_width}x{original_height} to {new_width}x{new_height} for consistent processing")
                 
                 # Process all images
                 all_crops_data = []
@@ -834,7 +905,7 @@ def show_about_page():
     It combines computer vision with Egyptological knowledge to provide papyrus analysis.
     
     **Training Data**: The model was trained on 2,431 manually annotated hieroglyphs from the Book of the Dead of Nu (British Museum EA 10477), 
-    covering 178 distinct Gardiner sign categories. This 18th Dynasty papyrus provides examples of classical Egyptian hieroglyphic writing, 
+    covering 177 distinct Gardiner sign categories. This 18th Dynasty papyrus provides examples of classical Egyptian hieroglyphic writing, 
     ensuring the model learned from high-quality sources.
     
     ### Key Features
