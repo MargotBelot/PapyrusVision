@@ -146,17 +146,6 @@ TEST:
 ![Full CVAT Annotation](../data/analysis_plots/full_annotation.png)
 *Figure 1: Complete annotated papyrus showing all 2,431 hieroglyphs with bounding boxes and Gardiner classifications in CVAT*
 
-**Annotation Methodology:**
-```bash
-# 1. Dataset preparation
-- High-resolution papyrus scan imported
-- 177 Gardiner code labels configured
-- Systematic annotation approach
-
-# 2. Quality control
-- Consistency checks for boundary accuracy
-```
-
 #### Annotation Statistics
 
 **Comprehensive Coverage:**
@@ -745,6 +734,7 @@ chmod 644 models/hieroglyph_model_*/model_final.pth
 #### Slow Detection
 
 **Problem**: Very slow inference times
+
 **Optimization**:
 ```python
 # 1. Use GPU acceleration
@@ -760,6 +750,7 @@ cfg.TEST.DETECTIONS_PER_IMAGE = 50
 #### Web Application Timeouts
 
 **Problem**: Streamlit timeouts on large images
+
 **Solutions**:
 ```python
 # 1. Image preprocessing
@@ -802,6 +793,7 @@ with open('output.html', 'w', encoding='utf-8') as f:
 #### Export Format Problems
 
 **Problem**: Export files are empty or corrupted
+
 **Debugging**:
 ```python
 # 1. Check detection results

@@ -106,8 +106,6 @@ python apps/digital_paleography_tool.py
 python scripts/hieroglyph_analysis_tool.py --image path/to/image.jpg
 ```
 
-**Features**: Bulk processing, research pipelines, advanced control, customizable thresholds
-
 ## Project Structure
 
 ```
@@ -202,4 +200,4 @@ For questions or support, please [open an issue](https://github.com/margotbelot/
 ### Technical References
 - **Detectron2**: He, K., et al. (2019). Detectron2. Facebook AI Research.
 - **CVAT**: Computer Vision Annotation Tool. Intel Corporation.
-- **Unicode Standard**: Unicode Egyptian Hieroglyphs Block (U+13000–U+1342F)
+- **Unicode Standard**: Unicode Egyptian Hieroglyphs Block (U+13000–U+1342F).

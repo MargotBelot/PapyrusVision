@@ -1,6 +1,14 @@
 """
 Evaluation utilities for PapyrusNU Hieroglyph Detection
 Handles model evaluation, metrics computation, and performance analysis
+
+Features:
+- Hieroglyph detection evaluation
+- Classification accuracy
+- Per-class metrics
+- Failure case analysis
+- Unicode accuracy computation
+- Integration with Detectron2 evaluators
 """
 
 import numpy as np
@@ -16,6 +24,8 @@ from detectron2.evaluation import COCOEvaluator
 from detectron2.data import DatasetCatalog, MetadataCatalog
 from detectron2.utils.visualizer import Visualizer, ColorMode
 from detectron2.engine import DefaultPredictor
+from detectron2.evaluation import inference_on_dataset
+        from detectron2.data import build_detection_test_loader
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report
@@ -26,30 +36,14 @@ class HieroglyphEvaluator:
     """Evaluation utilities for hieroglyph detection model"""
     
     def __init__(self, categories: Dict[int, Dict], unicode_mapping: Dict[str, str] = None):
-        """
-        Initialize evaluator with category information
-        
-        Args:
-            categories: Dictionary mapping category IDs to category info
-            unicode_mapping: Optional mapping from Gardiner codes to Unicode
-        """
+        """ Initialize evaluator with category information"""
         self.categories = categories
         self.unicode_mapping = unicode_mapping or {}
         self.category_names = {cat_id: cat_info['name'] for cat_id, cat_info in categories.items()}
         
     def evaluate_predictions(self, predictions: List[Dict], ground_truth: List[Dict],
                            iou_threshold: float = 0.5) -> Dict[str, Any]:
-        """
-        Evaluation of model predictions
-        
-        Args:
-            predictions: List of prediction dictionaries
-            ground_truth: List of ground truth dictionaries  
-            iou_threshold: IoU threshold for matching predictions to ground truth
-            
-        Returns:
-            Dictionary containing evaluation metrics
-        """
+        """Evaluation of model predictions"""
         results = {}
         
         # Convert to format suitable for evaluation
@@ -276,7 +270,7 @@ class HieroglyphEvaluator:
         return matches, matched_indices
     
     def _calculate_bbox_iou(self, bbox1: List[float], bbox2: List[float]) -> float:
-        """Calculate IoU between two bounding boxes in XYWH format"""
+        """Calculate IoU between two bounding boxes"""
         x1, y1, w1, h1 = bbox1
         x2, y2, w2, h2 = bbox2
         
@@ -339,7 +333,7 @@ class HieroglyphEvaluator:
         return ap
     
     def _compute_ap_11_point(self, precisions: List[float], recalls: List[float]) -> float:
-        """Compute AP using 11-point interpolation"""
+        """Compute AP"""
         recall_levels = np.linspace(0, 1, 11)
         precisions = np.array(precisions)
         recalls = np.array(recalls)
@@ -523,24 +517,14 @@ class DetectronEvaluatorWrapper:
     """Wrapper for Detectron2's built-in evaluators"""
     
     def __init__(self, dataset_name: str, cfg, output_dir: str):
-        """
-        Initialize Detectron2 evaluator wrapper
-        
-        Args:
-            dataset_name: Name of registered dataset
-            cfg: Detectron2 config
-            output_dir: Directory to save evaluation outputs
-        """
+        """Initialize Detectron2 evaluator wrapper"""
         self.dataset_name = dataset_name
         self.cfg = cfg
         self.output_dir = output_dir
         self.evaluator = COCOEvaluator(dataset_name, cfg, False, output_dir)
     
     def evaluate_model(self, predictor: DefaultPredictor) -> Dict[str, Any]:
-        """Run full evaluation using Detectron2's evaluator"""
-        from detectron2.evaluation import inference_on_dataset
-        from detectron2.data import build_detection_test_loader
-        
+        """Run full evaluation using Detectron2's evaluator"""   
         # Build data loader
         data_loader = build_detection_test_loader(self.cfg, self.dataset_name)
         
