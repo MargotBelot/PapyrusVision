@@ -2,7 +2,8 @@
 """
 Digital Paleography Tool - Batch Processing Version
 
-For interactive analysis and single-image exploration, use the Streamlit web application:
+For interactive analysis and single-image exploration, use the Streamlit web
+application:
 streamlit run streamlit_hieroglyphs_app.py
 
 This tool creates a digital paleography by:
@@ -13,22 +14,16 @@ This tool creates a digital paleography by:
 5. Generating comprehensive reports and structured output
 """
 
-import os
 import json
 import cv2
 import numpy as np
-import torch
 from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 import base64
-from io import BytesIO
-from PIL import Image
-import shutil
 
 # Import existing detection modules
 import sys
-from pathlib import Path
 
 current_dir = Path(__file__).parent.absolute()
 project_root = current_dir.parent
@@ -41,7 +36,9 @@ sys.path.append(str(scripts_dir))
 try:
     from scripts.hieroglyph_analysis_tool import HieroglyphAnalysisTool
 except ImportError:
-    print("Could not import HieroglyphAnalysisTool. Make sure the module exists.")
+    print("Could not import HieroglyphAnalysisTool. "
+          "Make sure the module exists.")
+
 
 class DigitalPaleographyTool:
     def __init__(self):
@@ -64,7 +61,8 @@ class DigitalPaleographyTool:
     
     def setup_directories(self):
         """Create directory structure for the paleography"""
-        # Create paleography directory in a standard location (user's desktop or current directory)
+        # Create paleography directory in a standard location
+        # (user's desktop or current directory)
         desktop_path = Path.home() / "Desktop" / "PapyrusVision_Paleography"
         if Path.home().joinpath("Desktop").exists():
             self.base_dir = desktop_path
@@ -77,15 +75,20 @@ class DigitalPaleographyTool:
         self.reports_dir = self.base_dir / "reports"
         
         # Create directories
-        for dir_path in [self.base_dir, self.crops_dir, self.catalog_dir, self.reports_dir]:
+        dirs_to_create = [
+            self.base_dir, self.crops_dir,
+            self.catalog_dir, self.reports_dir
+        ]
+        for dir_path in dirs_to_create:
             dir_path.mkdir(parents=True, exist_ok=True)
             print(f"Created directory: {dir_path}")
-    
+
     def load_unicode_mappings(self):
         """Load Unicode mappings for Gardiner codes"""
         # Use relative path from the project structure
         project_root = Path(__file__).parent.parent
-        mapping_file = project_root / "data" / "annotations" / "gardiner_unicode_mapping.json"
+        mapping_file = (project_root / "data" / "annotations" /
+                        "gardiner_unicode_mapping.json")
         try:
             with open(mapping_file, 'r', encoding='utf-8') as f:
                 self.unicode_mappings = json.load(f)
@@ -98,11 +101,13 @@ class DigitalPaleographyTool:
         """Load Gardiner code descriptions"""
         # Use relative path from the project structure
         project_root = Path(__file__).parent.parent
-        descriptions_file = project_root / "data" / "annotations" / "gardiner_descriptions.json"
+        descriptions_file = (project_root / "data" / "annotations" /
+                             "gardiner_descriptions.json")
         try:
             with open(descriptions_file, 'r', encoding='utf-8') as f:
                 self.gardiner_descriptions = json.load(f)
-            print(f"Loaded descriptions for {len(self.gardiner_descriptions)} Gardiner codes")
+            print(f"Loaded descriptions for "
+                  f"{len(self.gardiner_descriptions)} Gardiner codes")
         except Exception as e:
             print(f"Error loading Gardiner descriptions: {e}")
             # Fallback to basic descriptions
@@ -138,7 +143,8 @@ class DigitalPaleographyTool:
         if gardiner_code not in self.unicode_mappings:
             return None
         
-        unicode_codes = self.unicode_mappings[gardiner_code].get('unicode_codes', [])
+        unicode_codes = self.unicode_mappings[gardiner_code].get(
+            'unicode_codes', [])
         if not unicode_codes:
             return None
         
@@ -179,7 +185,8 @@ class DigitalPaleographyTool:
         
         # Load and analyze the image
         try:
-            results = self.analyzer.predict_hieroglyphs(str(image_path), confidence_threshold)
+            results = self.analyzer.predict_hieroglyphs(
+                str(image_path), confidence_threshold)
             if not results or not results.get('detections'):
                 print(f"No detections found in {image_path}")
                 return []
@@ -208,8 +215,10 @@ class DigitalPaleographyTool:
             if gardiner_code == "X1":
                 continue
             
-            bbox_dict = detection.get('bbox', {'x1': 0, 'y1': 0, 'x2': 100, 'y2': 100})
-            bbox = [bbox_dict['x1'], bbox_dict['y1'], bbox_dict['x2'], bbox_dict['y2']]
+            bbox_dict = detection.get('bbox', {
+                'x1': 0, 'y1': 0, 'x2': 100, 'y2': 100})
+            bbox = [bbox_dict['x1'], bbox_dict['y1'],
+                    bbox_dict['x2'], bbox_dict['y2']]
             
             # Crop the detection
             cropped = self.crop_detection(image, bbox)
@@ -220,15 +229,19 @@ class DigitalPaleographyTool:
             # Get Unicode code for filename
             unicode_code_for_filename = ""
             if gardiner_code in self.unicode_mappings:
-                codes = self.unicode_mappings[gardiner_code].get('unicode_codes', [])
+                codes = self.unicode_mappings[gardiner_code].get(
+                    'unicode_codes', [])
                 if codes:
                     # Use the first valid Unicode code, clean it for filename
                     first_code = codes[0]
                     if first_code.startswith('U+'):
-                        unicode_code_for_filename = f"_{first_code.replace('+', '')}"
+                        unicode_code_for_filename = (
+                            f"_{first_code.replace('+', '')}")
             
             # Create filename for the crop with Unicode code
-            crop_filename = f"{image_name}_{gardiner_code}{unicode_code_for_filename}_{i:03d}_conf{confidence:.2f}.png"
+            crop_filename = (f"{image_name}_{gardiner_code}"
+                             f"{unicode_code_for_filename}_{i:03d}"
+                             f"_conf{confidence:.2f}.png")
             
             # Create Gardiner code directory if it doesn't exist
             gardiner_dir = self.crops_dir / gardiner_code
@@ -242,10 +255,12 @@ class DigitalPaleographyTool:
             unicode_symbol = self.get_unicode_symbol(gardiner_code)
             unicode_code = None
             if gardiner_code in self.unicode_mappings:
-                codes = self.unicode_mappings[gardiner_code].get('unicode_codes', [])
+                codes = self.unicode_mappings[gardiner_code].get(
+                    'unicode_codes', [])
                 unicode_code = codes[0] if codes else None
             
-            description = self.gardiner_descriptions.get(gardiner_code, f"Hieroglyph {gardiner_code}")
+            description = self.gardiner_descriptions.get(
+                gardiner_code, f"Hieroglyph {gardiner_code}")
             
             crop_data = {
                 'source_image': image_name,
@@ -483,7 +498,10 @@ class DigitalPaleographyTool:
         # Calculate statistics
         total_signs = sum(len(crops) for crops in grouped_crops.values())
         total_codes = len(sorted_codes)
-        avg_confidence = np.mean([crop['confidence'] for crops in grouped_crops.values() for crop in crops])
+        all_confidences = [crop['confidence']
+                           for crops in grouped_crops.values()
+                           for crop in crops]
+        avg_confidence = np.mean(all_confidences)
         
         html_body = f"""
     <div class="header">
@@ -520,7 +538,9 @@ class DigitalPaleographyTool:
         # Add table of contents
         for code in sorted_codes:
             count = len(grouped_crops[code])
-            html_body += f'            <div class="toc-item"><a href="#{code}" class="toc-link">{code} ({count})</a></div>\n'
+            html_body += (f'            <div class="toc-item">'
+                          f'<a href="#{code}" class="toc-link">{code} '
+                          f'({count})</a></div>\n')
         
         html_body += """</div>
     </div>"""
@@ -539,7 +559,8 @@ class DigitalPaleographyTool:
                 
                 # Create Unicode display with both symbol and code
                 if unicode_symbol and unicode_code:
-                    unicode_info = f"Unicode: {unicode_symbol} ({unicode_code})"
+                    unicode_info = (f"Unicode: {unicode_symbol} "
+                                    f"({unicode_code})")
                 elif unicode_code:
                     unicode_info = f"Unicode: {unicode_code}"
                 else:
@@ -547,7 +568,8 @@ class DigitalPaleographyTool:
             else:
                 unicode_info = "Unicode: Not available"
             
-            description = self.gardiner_descriptions.get(code, f"Hieroglyph {code}")
+            description = self.gardiner_descriptions.get(
+                code, f"Hieroglyph {code}")
             
             html_body += f"""
     <div class="gardiner-section" id="{code}">
