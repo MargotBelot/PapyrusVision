@@ -1,6 +1,15 @@
 """
 Dataset utilities for PapyrusNU Hieroglyph Detection
 Handles COCO format annotations and data splitting
+
+Features:
+- Get dataset statistics (image count, annotation count, category distribution)
+- Split dataset into train, validation, and test sets while maintaining class distribution
+- Validate annotations for common issues (missing segmentation, invalid bounding boxes)
+- Convert COCO format to Detectron2 dataset format
+- Analyze class balance and identify rare classes
+- Save split datasets to JSON files
+- Generate Gardiner code mappings for Unicode characters
 """
 
 import json

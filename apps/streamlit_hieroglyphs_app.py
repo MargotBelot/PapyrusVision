@@ -42,17 +42,7 @@ import shutil
 from collections import defaultdict
 
 def resize_image_for_model(image, min_size=800, max_size=1333):
-    """
-    Resize image to match training data dimensions used by the Detectron2 model.
-    
-    Args:
-        image: PIL Image object
-        min_size: Minimum size for the shorter side (default: 800)
-        max_size: Maximum size for the longer side (default: 1333)
-    
-    Returns:
-        PIL Image: Resized image maintaining aspect ratio, converted to RGB if needed
-    """
+    """Resize image to match training data dimensions used by the Detectron2 model."""
     # Convert RGBA to RGB if needed (for JPEG compatibility)
     if image.mode == 'RGBA':
         # Create a white background

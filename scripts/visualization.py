@@ -1,6 +1,16 @@
 """
 Visualization utilities for PapyrusNU Hieroglyph Detection
 Handles data visualization, training plots, and result visualization
+
+Features:
+- Dataset overview plots
+- Class distribution analysis
+- Annotation visualization on images
+- Training curves plotting
+- Evaluation metrics visualization
+- Interactive annotation viewer using Plotly
+- Data split analysis for train/val/test sets
+- Hieroglyph prediction visualization
 """
 
 import matplotlib.pyplot as plt

@@ -3,7 +3,7 @@
 Digital Paleography Tool - Batch Processing Version
 
 For interactive analysis and single-image exploration, use the Streamlit web application:
-    streamlit run streamlit_hieroglyphs_app.py
+streamlit run streamlit_hieroglyphs_app.py
 
 This tool creates a digital paleography by:
 1. Processing images to detect hieroglyphs
