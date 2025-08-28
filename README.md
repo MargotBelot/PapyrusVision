@@ -50,7 +50,7 @@ graph TD
 1. [Download ZIP](https://github.com/margotbelot/PapyrusVision/archive/refs/heads/main.zip) from GitHub
 2. Extract the ZIP file to your desired location
 3. Open terminal/command prompt in the extracted folder
-4. Run: `python install.py`
+4. Run: `python3 install.py`
 
 **Method 2: Git Clone**
 ```bash
@@ -59,7 +59,7 @@ git clone https://github.com/margotbelot/PapyrusVision.git
 cd PapyrusVision
 
 # Run the automated installer
-python install.py
+python3 install.py
 ```
 
 **What the installer does:**
