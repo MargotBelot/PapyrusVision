@@ -16,13 +16,13 @@ PapyrusVision is a computer vision system that uses deep learning to detect and 
 
 ```mermaid
 graph TD
-    A[📄 Upload Papyrus Image] --> B[🔍 AI Hieroglyph Detection]
-    B --> C[📊 Confidence Filtering]
-    C --> D[🏺 Gardiner Classification]
-    D --> E[🔤 Unicode Mapping]
+    A[Upload Papyrus Image] --> B[AI Hieroglyph Detection]
+    B --> C[Confidence Filtering]
+    C --> D[Gardiner Classification]
+    D --> E[Unicode Mapping]
     E --> F{Output Format}
-    F --> G[📋 Detection Results<br/>JSON/CSV/Visualization]
-    F --> H[📚 Digital Paleography<br/>Cropped Signs + HTML Catalog]
+    F --> G[Detection Results<br/>JSON/CSV/Visualization]
+    F --> H[Digital Paleography<br/>Cropped Signs + HTML Catalog]
     
     style A fill:#e1f5fe
     style B fill:#fff3e0
@@ -43,41 +43,74 @@ graph TD
 
 ## Quick Start
 
-### 1. Install Dependencies
+### One-Click Installation (Recommended)
 
 ```bash
-# Clone and navigate
+# Clone the repository
 git clone https://github.com/margotbelot/PapyrusVision.git
 cd PapyrusVision
 
-# Install dependencies
+# Run the automated installer
+python install.py
+```
+
+**What the installer does:**
+- Checks system requirements (Python 3.8+, disk space)
+- Creates isolated virtual environment
+- Installs all dependencies automatically
+- Detects your system (Windows/macOS/Linux) and installs appropriate versions
+- Handles Detectron2 installation for your platform (CPU/GPU)
+- Creates launch scripts for easy startup
+- Verifies everything works correctly
+
+**After installation, launch the app:**
+
+**Windows:** Double-click `start_papyrus_vision.bat`  
+**macOS/Linux:** Run `./start_papyrus_vision.sh`
+
+Or open your browser to `http://localhost:8501`
+
+### Manual Installation (Advanced Users)
+
+<details>
+<summary>Click to expand manual installation instructions</summary>
+
+**1. Install Dependencies**
+```bash
+# Create virtual environment (recommended)
+python -m venv papyrus_env
+source papyrus_env/bin/activate  # On Windows: papyrus_env\Scripts\activate
+
+# Install core dependencies
 pip install -r requirements.txt
 ```
 
-### 2. Install Detectron2
+**2. Install Detectron2**
 
-**macOS Apple Silicon (M1/M2):**
+**macOS Apple Silicon (M1/M2/M3):**
 ```bash
 pip install torch torchvision torchaudio
 pip install 'git+https://github.com/facebookresearch/detectron2.git'
 ```
 
-**Linux/Windows x86_64:**
+**Linux/Windows with GPU:**
 ```bash
-# GPU (recommended)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
+```
 
-# CPU only
+**CPU-only (any platform):**
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html
 ```
 
-### 3. Run the Web Application
-
+**3. Run the Application**
 ```bash
 streamlit run apps/streamlit_hieroglyphs_app.py
 ```
 
-Open your browser to `http://localhost:8501`
+</details>
 
 ## Features
 

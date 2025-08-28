@@ -90,6 +90,7 @@ except ImportError:
     st.error("Could not import DigitalPaleographyTool. "
              "Please ensure it exists.")
 
+
 # Page configuration
 st.set_page_config(
     page_title="PapyrusVision - Enhanced Hieroglyph Analysis",
@@ -283,8 +284,7 @@ def predict_hieroglyphs(
                 'unicode_symbol': ''
             })
 
-            if gardiner_code == "X1":
-                continue
+            # Include all predictions including X1
 
             detection = {
                 'id': i + 1,
@@ -637,7 +637,7 @@ def show_detection_page():
 
         # Create and display visualization using the resized image
         fig = create_visualization(resized_image, results)
-        st.pyplot(fig, use_container_width=True)
+        st.pyplot(fig)
         plt.close()
 
         # Detection details
@@ -989,6 +989,10 @@ def show_paleography_page():
     else:
         st.info(
             "Please upload one or more images to create your digital paleography catalog.")
+
+
+
+
 
 
 def show_about_page():
