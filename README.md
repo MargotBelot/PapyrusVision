@@ -1,6 +1,7 @@
 # PapyrusVision: AI-Powered Hieroglyph Detection and Digital Paleography
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Detectron2](https://img.shields.io/badge/detectron2-latest-green.svg)](https://github.com/facebookresearch/detectron2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -45,6 +46,13 @@ graph TD
 
 ### One-Click Installation (Recommended)
 
+**Method 1: Download ZIP (No Git Required)**
+1. [Download ZIP](https://github.com/margotbelot/PapyrusVision/archive/refs/heads/main.zip) from GitHub
+2. Extract the ZIP file to your desired location
+3. Open terminal/command prompt in the extracted folder
+4. Run: `python install.py`
+
+**Method 2: Git Clone**
 ```bash
 # Clone the repository
 git clone https://github.com/margotbelot/PapyrusVision.git
