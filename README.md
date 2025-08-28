@@ -171,10 +171,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use this work in your research, please cite:
 
 ```bibtex
-@misc{papyrusvision2024,
+@misc{papyrusvision2025,
   title={PapyrusVision: AI-Powered Hieroglyph Detection and Digital Paleography},
   author={Margot Belot},
-  year={2024},
+  year={2025},
   url={https://github.com/margotbelot/PapyrusVision}
 }
 ```
@@ -195,7 +195,6 @@ For questions or support, please [open an issue](https://github.com/margotbelot/
 
 ### Scholarly Publications
 - **Lapp, G.** (1997). *The Papyrus of Nu (BM EA 10477)*. Catalogue of Books of the Dead in the British Museum I. London: British Museum Press.
-- **Taylor, J.H.** (2010). *Journey through the Afterlife: Ancient Egyptian Book of the Dead*. London: British Museum Press.
 
 ### Technical References
 - **Detectron2**: He, K., et al. (2019). Detectron2. Facebook AI Research.
