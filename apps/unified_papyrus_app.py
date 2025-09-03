@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This unified application combines all features:
+This application combines all features:
 - Interactive hieroglyph detection with real-time visualization
 - Digital paleography with complete notation
 - Export formats
@@ -142,7 +142,7 @@ st.markdown("""
 
 class UnifiedPapyrusApp:
     def __init__(self):
-        """Initialize the unified application"""
+        """Initialize the application"""
         self.setup_directories()
         self.load_models_and_data()
     
@@ -939,7 +939,7 @@ class UnifiedPapyrusApp:
                 )
 
 def main():
-    # Initialize the unified app
+    # Initialize the app
     app = UnifiedPapyrusApp()
     
     # Load models and data
@@ -947,7 +947,7 @@ def main():
     
     # Header
     st.markdown('<div class="main-header">PapyrusVision</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">Unified AI-Powered Digital Paleography Suite</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">AI-Powered Digital Paleography</div>', unsafe_allow_html=True)
     
     
     # Interface explanation
