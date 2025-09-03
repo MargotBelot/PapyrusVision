@@ -1,5 +1,5 @@
 """
-Evaluation utilities for PapyrusNU Hieroglyph Detection
+Evaluation utilities for PapyrusVision Hieroglyph Detection
 Handles model evaluation, metrics computation, and performance analysis
 
 Features:

@@ -1,0 +1,8320 @@
+{
+  "A1": {
+    "gardiner_code": "A1",
+    "unicode_symbol": "𓀀",
+    "unicode_codes": [
+      "U+13000"
+    ],
+    "jsesh_code": "A1",
+    "description": "Man sitting",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A121C": {
+    "gardiner_code": "A121C",
+    "unicode_symbol": "𓔄",
+    "unicode_codes": [
+      "U+13504"
+    ],
+    "jsesh_code": "A121C",
+    "description": "Hieroglyph A121C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A13": {
+    "gardiner_code": "A13",
+    "unicode_symbol": "𓀏",
+    "unicode_codes": [
+      "U+1300F"
+    ],
+    "jsesh_code": "A13",
+    "description": "Man with staff, arms bound behind",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A131A": {
+    "gardiner_code": "A131A",
+    "unicode_symbol": "𓔈",
+    "unicode_codes": [
+      "U+13508"
+    ],
+    "jsesh_code": "A131A",
+    "description": "Hieroglyph A131A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A13A": {
+    "gardiner_code": "A13A",
+    "unicode_symbol": "𓖯",
+    "unicode_codes": [
+      "U+135AF"
+    ],
+    "jsesh_code": "A13A",
+    "description": "Hieroglyph A13A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A14": {
+    "gardiner_code": "A14",
+    "unicode_symbol": "𓀐",
+    "unicode_codes": [
+      "U+13010"
+    ],
+    "jsesh_code": "A14",
+    "description": "Man lying prostrate",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A15": {
+    "gardiner_code": "A15",
+    "unicode_symbol": "𓀒",
+    "unicode_codes": [
+      "U+13012"
+    ],
+    "jsesh_code": "A15",
+    "description": "Man falling",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A16": {
+    "gardiner_code": "A16",
+    "unicode_symbol": "𓀓",
+    "unicode_codes": [
+      "U+13013"
+    ],
+    "jsesh_code": "A16",
+    "description": "Man bowing",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A169": {
+    "gardiner_code": "A169",
+    "unicode_symbol": "𓕮",
+    "unicode_codes": [
+      "U+1356E"
+    ],
+    "jsesh_code": "A169",
+    "description": "Hieroglyph A169",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A17": {
+    "gardiner_code": "A17",
+    "unicode_symbol": "𓀔",
+    "unicode_codes": [
+      "U+13014"
+    ],
+    "jsesh_code": "A17",
+    "description": "Child sitting, hand to mouth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A183": {
+    "gardiner_code": "A183",
+    "unicode_symbol": "𓕻",
+    "unicode_codes": [
+      "U+1357B"
+    ],
+    "jsesh_code": "A183",
+    "description": "Hieroglyph A183",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A19": {
+    "gardiner_code": "A19",
+    "unicode_symbol": "𓀗",
+    "unicode_codes": [
+      "U+13017"
+    ],
+    "jsesh_code": "A19",
+    "description": "Old man with staff",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A2": {
+    "gardiner_code": "A2",
+    "unicode_symbol": "𓀁",
+    "unicode_codes": [
+      "U+13001"
+    ],
+    "jsesh_code": "A2",
+    "description": "Man with hand to mouth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A20": {
+    "gardiner_code": "A20",
+    "unicode_symbol": "𓀘",
+    "unicode_codes": [
+      "U+13018"
+    ],
+    "jsesh_code": "A20",
+    "description": "Old man leaning on forked staff",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A21": {
+    "gardiner_code": "A21",
+    "unicode_symbol": "𓀙",
+    "unicode_codes": [
+      "U+13019"
+    ],
+    "jsesh_code": "A21",
+    "description": "Man pointing to his mouth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A21A": {
+    "gardiner_code": "A21A",
+    "unicode_symbol": "𓓆",
+    "unicode_codes": [
+      "U+134C6"
+    ],
+    "jsesh_code": "A21A",
+    "description": "Hieroglyph A21A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A22": {
+    "gardiner_code": "A22",
+    "unicode_symbol": "𓀚",
+    "unicode_codes": [
+      "U+1301A"
+    ],
+    "jsesh_code": "A22",
+    "description": "Statue of man",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A23": {
+    "gardiner_code": "A23",
+    "unicode_symbol": "𓀛",
+    "unicode_codes": [
+      "U+1301B"
+    ],
+    "jsesh_code": "A23",
+    "description": "Man with uraeus",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A23A": {
+    "gardiner_code": "A23A",
+    "unicode_symbol": "𓙨",
+    "unicode_codes": [
+      "U+13668"
+    ],
+    "jsesh_code": "A23A",
+    "description": "Hieroglyph A23A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A24": {
+    "gardiner_code": "A24",
+    "unicode_symbol": "𓀜",
+    "unicode_codes": [
+      "U+1301C"
+    ],
+    "jsesh_code": "A24",
+    "description": "Man striking with staff",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A25": {
+    "gardiner_code": "A25",
+    "unicode_symbol": "𓀝",
+    "unicode_codes": [
+      "U+1301D"
+    ],
+    "jsesh_code": "A25",
+    "description": "Man with staff",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A26": {
+    "gardiner_code": "A26",
+    "unicode_symbol": "𓀞",
+    "unicode_codes": [
+      "U+1301E"
+    ],
+    "jsesh_code": "A26",
+    "description": "Man with one arm raised",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A27": {
+    "gardiner_code": "A27",
+    "unicode_symbol": "𓀟",
+    "unicode_codes": [
+      "U+1301F"
+    ],
+    "jsesh_code": "A27",
+    "description": "Man with both arms raised",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A28": {
+    "gardiner_code": "A28",
+    "unicode_symbol": "𓀠",
+    "unicode_codes": [
+      "U+13020"
+    ],
+    "jsesh_code": "A28",
+    "description": "Man with arms outstretched",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A29": {
+    "gardiner_code": "A29",
+    "unicode_symbol": "𓀡",
+    "unicode_codes": [
+      "U+13021"
+    ],
+    "jsesh_code": "A29",
+    "description": "Man upside down",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A3": {
+    "gardiner_code": "A3",
+    "unicode_symbol": "𓀂",
+    "unicode_codes": [
+      "U+13002"
+    ],
+    "jsesh_code": "A3",
+    "description": "Man with arms in adoration",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A30": {
+    "gardiner_code": "A30",
+    "unicode_symbol": "𓀢",
+    "unicode_codes": [
+      "U+13022"
+    ],
+    "jsesh_code": "A30",
+    "description": "Man with arms raised in adoration",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A32A": {
+    "gardiner_code": "A32A",
+    "unicode_symbol": "𓗞",
+    "unicode_codes": [
+      "U+135DE"
+    ],
+    "jsesh_code": "A32A",
+    "description": "Hieroglyph A32A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A32h": {
+    "gardiner_code": "A32h",
+    "unicode_symbol": "𓗟",
+    "unicode_codes": [
+      "U+135DF"
+    ],
+    "jsesh_code": "A32h",
+    "description": "Hieroglyph A32h",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A35": {
+    "gardiner_code": "A35",
+    "unicode_symbol": "𓀨",
+    "unicode_codes": [
+      "U+13028"
+    ],
+    "jsesh_code": "A35",
+    "description": "Man on his head",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A4": {
+    "gardiner_code": "A4",
+    "unicode_symbol": "𓀃",
+    "unicode_codes": [
+      "U+13003"
+    ],
+    "jsesh_code": "A4",
+    "description": "Man striking",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A40": {
+    "gardiner_code": "A40",
+    "unicode_symbol": "𓀭",
+    "unicode_codes": [
+      "U+1302D"
+    ],
+    "jsesh_code": "A40",
+    "description": "Seated god",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A406": {
+    "gardiner_code": "A406",
+    "unicode_symbol": "𓔆",
+    "unicode_codes": [
+      "U+13506"
+    ],
+    "jsesh_code": "A406",
+    "description": "Hieroglyph A406",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A42": {
+    "gardiner_code": "A42",
+    "unicode_symbol": "𓀰",
+    "unicode_codes": [
+      "U+13030"
+    ],
+    "jsesh_code": "A42",
+    "description": "King with uraeus and flagellum",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A43B": {
+    "gardiner_code": "A43B",
+    "unicode_symbol": "𓙳",
+    "unicode_codes": [
+      "U+13673"
+    ],
+    "jsesh_code": "A43B",
+    "description": "Hieroglyph A43B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A44": {
+    "gardiner_code": "A44",
+    "unicode_symbol": "𓀴",
+    "unicode_codes": [
+      "U+13034"
+    ],
+    "jsesh_code": "A44",
+    "description": "King with uraeus",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A45A": {
+    "gardiner_code": "A45A",
+    "unicode_symbol": "𓚋",
+    "unicode_codes": [
+      "U+1368B"
+    ],
+    "jsesh_code": "A45A",
+    "description": "Hieroglyph A45A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A47": {
+    "gardiner_code": "A47",
+    "unicode_symbol": "𓀸",
+    "unicode_codes": [
+      "U+13038"
+    ],
+    "jsesh_code": "A47",
+    "description": "Shepherd",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A49": {
+    "gardiner_code": "A49",
+    "unicode_symbol": "𓕝",
+    "unicode_codes": [
+      "U+1355D"
+    ],
+    "jsesh_code": "A49",
+    "description": "Syrian",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A50": {
+    "gardiner_code": "A50",
+    "unicode_symbol": "𓀻",
+    "unicode_codes": [
+      "U+1303B"
+    ],
+    "jsesh_code": "A50",
+    "description": "Noble on chair",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A51": {
+    "gardiner_code": "A51",
+    "unicode_symbol": "𓀼",
+    "unicode_codes": [
+      "U+1303C"
+    ],
+    "jsesh_code": "A51",
+    "description": "Noble squatting",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A52": {
+    "gardiner_code": "A52",
+    "unicode_symbol": "𓀽",
+    "unicode_codes": [
+      "U+1303D"
+    ],
+    "jsesh_code": "A52",
+    "description": "Noble on chair with staff",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A53": {
+    "gardiner_code": "A53",
+    "unicode_symbol": "𓀾",
+    "unicode_codes": [
+      "U+1303E"
+    ],
+    "jsesh_code": "A53",
+    "description": "Mummy",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A55": {
+    "gardiner_code": "A55",
+    "unicode_symbol": "𓁀",
+    "unicode_codes": [
+      "U+13040"
+    ],
+    "jsesh_code": "A55",
+    "description": "Mummy upright",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A73": {
+    "gardiner_code": "A73",
+    "unicode_symbol": "𓁏",
+    "unicode_codes": [
+      "U+1304F"
+    ],
+    "jsesh_code": "A73",
+    "description": "Hieroglyph A73",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A7A": {
+    "gardiner_code": "A7A",
+    "unicode_symbol": "𓑴",
+    "unicode_codes": [
+      "U+13474"
+    ],
+    "jsesh_code": "A7A",
+    "description": "Hieroglyph A7A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A8": {
+    "gardiner_code": "A8",
+    "unicode_symbol": "𓀊",
+    "unicode_codes": [
+      "U+1300A"
+    ],
+    "jsesh_code": "A8",
+    "description": "Man making offering",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A81": {
+    "gardiner_code": "A81",
+    "unicode_symbol": "𓒏",
+    "unicode_codes": [
+      "U+1348F"
+    ],
+    "jsesh_code": "A81",
+    "description": "Hieroglyph A81",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A86": {
+    "gardiner_code": "A86",
+    "unicode_symbol": "𓒞",
+    "unicode_codes": [
+      "U+1349E"
+    ],
+    "jsesh_code": "A86",
+    "description": "Hieroglyph A86",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A9": {
+    "gardiner_code": "A9",
+    "unicode_symbol": "𓀋",
+    "unicode_codes": [
+      "U+1300B"
+    ],
+    "jsesh_code": "A9",
+    "description": "Man with basket on head",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A90": {
+    "gardiner_code": "A90",
+    "unicode_symbol": "𓒬",
+    "unicode_codes": [
+      "U+134AC"
+    ],
+    "jsesh_code": "A90",
+    "description": "Hieroglyph A90",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "A9C": {
+    "gardiner_code": "A9C",
+    "unicode_symbol": "𓓦",
+    "unicode_codes": [
+      "U+134E6"
+    ],
+    "jsesh_code": "A9C",
+    "description": "Hieroglyph A9C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Aa1": {
+    "gardiner_code": "Aa1",
+    "unicode_symbol": "𓐍",
+    "unicode_codes": [
+      "U+1340D",
+      "U+1308B"
+    ],
+    "jsesh_code": "Aa1",
+    "description": "Hieroglyph Aa1",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Aa11": {
+    "gardiner_code": "Aa11",
+    "unicode_symbol": "𓐙",
+    "unicode_codes": [
+      "U+13419"
+    ],
+    "jsesh_code": "Aa11",
+    "description": "Hieroglyph Aa11",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Aa17": {
+    "gardiner_code": "Aa17",
+    "unicode_symbol": "𓐟",
+    "unicode_codes": [
+      "U+1341F"
+    ],
+    "jsesh_code": "Aa17",
+    "description": "Hieroglyph Aa17",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Aa26": {
+    "gardiner_code": "Aa26",
+    "unicode_symbol": "𓐨",
+    "unicode_codes": [
+      "U+13428"
+    ],
+    "jsesh_code": "Aa26",
+    "description": "Hieroglyph Aa26",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Aa27": {
+    "gardiner_code": "Aa27",
+    "unicode_symbol": "𓐩",
+    "unicode_codes": [
+      "U+13429"
+    ],
+    "jsesh_code": "Aa27",
+    "description": "Hieroglyph Aa27",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Aa28": {
+    "gardiner_code": "Aa28",
+    "unicode_symbol": "𓐪",
+    "unicode_codes": [
+      "U+1342A"
+    ],
+    "jsesh_code": "Aa28",
+    "description": "Hieroglyph Aa28",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B1": {
+    "gardiner_code": "B1",
+    "unicode_symbol": "𓁐",
+    "unicode_codes": [
+      "U+13050"
+    ],
+    "jsesh_code": "B1",
+    "description": "Woman sitting",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B10": {
+    "gardiner_code": "B10",
+    "unicode_symbol": "𓛬",
+    "unicode_codes": [
+      "U+136EC"
+    ],
+    "jsesh_code": "B10",
+    "description": "Hieroglyph B10",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B12": {
+    "gardiner_code": "B12",
+    "unicode_symbol": "𓛶",
+    "unicode_codes": [
+      "U+136F6"
+    ],
+    "jsesh_code": "B12",
+    "description": "Hieroglyph B12",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B2": {
+    "gardiner_code": "B2",
+    "unicode_symbol": "𓁑",
+    "unicode_codes": [
+      "U+13051"
+    ],
+    "jsesh_code": "B2",
+    "description": "Pregnant woman",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B2A": {
+    "gardiner_code": "B2A",
+    "unicode_symbol": "𓜷",
+    "unicode_codes": [
+      "U+13737"
+    ],
+    "jsesh_code": "B2A",
+    "description": "Hieroglyph B2A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B3": {
+    "gardiner_code": "B3",
+    "unicode_symbol": "𓁒",
+    "unicode_codes": [
+      "U+13052"
+    ],
+    "jsesh_code": "B3",
+    "description": "Woman giving birth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B3A": {
+    "gardiner_code": "B3A",
+    "unicode_symbol": "𓜸",
+    "unicode_codes": [
+      "U+13738"
+    ],
+    "jsesh_code": "B3A",
+    "description": "Hieroglyph B3A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B3B": {
+    "gardiner_code": "B3B",
+    "unicode_symbol": "𓜹",
+    "unicode_codes": [
+      "U+13739"
+    ],
+    "jsesh_code": "B3B",
+    "description": "Hieroglyph B3B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B5": {
+    "gardiner_code": "B5",
+    "unicode_symbol": "𓁔",
+    "unicode_codes": [
+      "U+13054"
+    ],
+    "jsesh_code": "B5",
+    "description": "Woman with child",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B59": {
+    "gardiner_code": "B59",
+    "unicode_symbol": "𓛻",
+    "unicode_codes": [
+      "U+136FB"
+    ],
+    "jsesh_code": "B59",
+    "description": "Hieroglyph B59",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "B5C": {
+    "gardiner_code": "B5C",
+    "unicode_symbol": "𓝀",
+    "unicode_codes": [
+      "U+13740"
+    ],
+    "jsesh_code": "B5C",
+    "description": "Hieroglyph B5C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C1": {
+    "gardiner_code": "C1",
+    "unicode_symbol": "𓁚",
+    "unicode_codes": [
+      "U+1305A"
+    ],
+    "jsesh_code": "C1",
+    "description": "Sun with uraeus",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C10": {
+    "gardiner_code": "C10",
+    "unicode_symbol": "𓁦",
+    "unicode_codes": [
+      "U+13066"
+    ],
+    "jsesh_code": "C10",
+    "description": "Maat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C10A": {
+    "gardiner_code": "C10A",
+    "unicode_symbol": "𓁧",
+    "unicode_codes": [
+      "U+13067"
+    ],
+    "jsesh_code": "C10A",
+    "description": "Hieroglyph C10A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C11": {
+    "gardiner_code": "C11",
+    "unicode_symbol": "𓁨",
+    "unicode_codes": [
+      "U+13068"
+    ],
+    "jsesh_code": "C11",
+    "description": "Thoth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C164": {
+    "gardiner_code": "C164",
+    "unicode_symbol": "𓢮",
+    "unicode_codes": [
+      "U+138AE"
+    ],
+    "jsesh_code": "C164",
+    "description": "Hieroglyph C164",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C19": {
+    "gardiner_code": "C19",
+    "unicode_symbol": "𓁰",
+    "unicode_codes": [
+      "U+13070"
+    ],
+    "jsesh_code": "C19",
+    "description": "Hieroglyph C19",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C1D": {
+    "gardiner_code": "C1D",
+    "unicode_symbol": "𓡃",
+    "unicode_codes": [
+      "U+13843"
+    ],
+    "jsesh_code": "C1D",
+    "description": "Hieroglyph C1D",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C4": {
+    "gardiner_code": "C4",
+    "unicode_symbol": "𓁠",
+    "unicode_codes": [
+      "U+13060"
+    ],
+    "jsesh_code": "C4",
+    "description": "Sun with four uraei",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "C9": {
+    "gardiner_code": "C9",
+    "unicode_symbol": "𓡽",
+    "unicode_codes": [
+      "U+1387D"
+    ],
+    "jsesh_code": "C9",
+    "description": "Hathor",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D1": {
+    "gardiner_code": "D1",
+    "unicode_symbol": "𓁶",
+    "unicode_codes": [
+      "U+13076"
+    ],
+    "jsesh_code": "D1",
+    "description": "Head in profile",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D10": {
+    "gardiner_code": "D10",
+    "unicode_symbol": "𓂀",
+    "unicode_codes": [
+      "U+13080"
+    ],
+    "jsesh_code": "D10",
+    "description": "Wadjet eye",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D12": {
+    "gardiner_code": "D12",
+    "unicode_symbol": "𓂂",
+    "unicode_codes": [
+      "U+13082"
+    ],
+    "jsesh_code": "D12",
+    "description": "Pupil",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D13": {
+    "gardiner_code": "D13",
+    "unicode_symbol": "𓂃",
+    "unicode_codes": [
+      "U+13083"
+    ],
+    "jsesh_code": "D13",
+    "description": "Eyebrow",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D143": {
+    "gardiner_code": "D143",
+    "unicode_symbol": "𓦇",
+    "unicode_codes": [
+      "U+13987"
+    ],
+    "jsesh_code": "D143",
+    "description": "Hieroglyph D143",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D19": {
+    "gardiner_code": "D19",
+    "unicode_symbol": "𓂉",
+    "unicode_codes": [
+      "U+13089"
+    ],
+    "jsesh_code": "D19",
+    "description": "Nose with two strokes",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D2": {
+    "gardiner_code": "D2",
+    "unicode_symbol": "𓁷",
+    "unicode_codes": [
+      "U+13077"
+    ],
+    "jsesh_code": "D2",
+    "description": "Face",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D20": {
+    "gardiner_code": "D20",
+    "unicode_symbol": "𓂊",
+    "unicode_codes": [
+      "U+1308A"
+    ],
+    "jsesh_code": "D20",
+    "description": "Nose with stroke",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D200": {
+    "gardiner_code": "D200",
+    "unicode_symbol": "𓦭",
+    "unicode_codes": [
+      "U+139AD"
+    ],
+    "jsesh_code": "D200",
+    "description": "Hieroglyph D200",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D21": {
+    "gardiner_code": "D21",
+    "unicode_symbol": "𓂋",
+    "unicode_codes": [
+      "U+1308B"
+    ],
+    "jsesh_code": "D21",
+    "description": "Mouth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D24": {
+    "gardiner_code": "D24",
+    "unicode_symbol": "𓂎",
+    "unicode_codes": [
+      "U+1308E"
+    ],
+    "jsesh_code": "D24",
+    "description": "Upper lip",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D245": {
+    "gardiner_code": "D245",
+    "unicode_symbol": "𓃈",
+    "unicode_codes": [
+      "U+130C8"
+    ],
+    "jsesh_code": "D66 D245",
+    "description": "Hieroglyph D245",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D25": {
+    "gardiner_code": "D25",
+    "unicode_symbol": "𓂏",
+    "unicode_codes": [
+      "U+1308F"
+    ],
+    "jsesh_code": "D25",
+    "description": "Lips with two strokes",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D26": {
+    "gardiner_code": "D26",
+    "unicode_symbol": "𓂐",
+    "unicode_codes": [
+      "U+13090"
+    ],
+    "jsesh_code": "D26",
+    "description": "Lips parted",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D26A": {
+    "gardiner_code": "D26A",
+    "unicode_symbol": "𓦝",
+    "unicode_codes": [
+      "U+1399D"
+    ],
+    "jsesh_code": "D26A",
+    "description": "Hieroglyph D26A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D28": {
+    "gardiner_code": "D28",
+    "unicode_symbol": "𓂓",
+    "unicode_codes": [
+      "U+13093"
+    ],
+    "jsesh_code": "D28",
+    "description": "Extended arms",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D283": {
+    "gardiner_code": "D283",
+    "unicode_symbol": "𓨊",
+    "unicode_codes": [
+      "U+13A0A"
+    ],
+    "jsesh_code": "D283",
+    "description": "Hieroglyph D283",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D284": {
+    "gardiner_code": "D284",
+    "unicode_symbol": "𓨋",
+    "unicode_codes": [
+      "U+13A0B"
+    ],
+    "jsesh_code": "D284",
+    "description": "Hieroglyph D284",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D3": {
+    "gardiner_code": "D3",
+    "unicode_symbol": "𓁸",
+    "unicode_codes": [
+      "U+13078"
+    ],
+    "jsesh_code": "D3",
+    "description": "Hair",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D329": {
+    "gardiner_code": "D329",
+    "unicode_symbol": "𓨱",
+    "unicode_codes": [
+      "U+13A31"
+    ],
+    "jsesh_code": "D329",
+    "description": "Hieroglyph D329",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D33": {
+    "gardiner_code": "D33",
+    "unicode_symbol": "𓂙",
+    "unicode_codes": [
+      "U+13099"
+    ],
+    "jsesh_code": "D33",
+    "description": "Arms rowing",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D33C": {
+    "gardiner_code": "D33C",
+    "unicode_symbol": "𓦰",
+    "unicode_codes": [
+      "U+139B0"
+    ],
+    "jsesh_code": "D33C",
+    "description": "Hieroglyph D33C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D34": {
+    "gardiner_code": "D34",
+    "unicode_symbol": "𓂚",
+    "unicode_codes": [
+      "U+1309A"
+    ],
+    "jsesh_code": null,
+    "description": "Arms and hands",
+    "available_notations": [
+      "unicode",
+      "gardiner"
+    ]
+  },
+  "D35": {
+    "gardiner_code": "D35",
+    "unicode_symbol": "𓂜",
+    "unicode_codes": [
+      "U+1309C"
+    ],
+    "jsesh_code": "D35",
+    "description": "Arms enclosing",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D36": {
+    "gardiner_code": "D36",
+    "unicode_symbol": "𓂝",
+    "unicode_codes": [
+      "U+1309D"
+    ],
+    "jsesh_code": "D36",
+    "description": "Forearm",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D37": {
+    "gardiner_code": "D37",
+    "unicode_symbol": "𓂞",
+    "unicode_codes": [
+      "U+1309E"
+    ],
+    "jsesh_code": "D37",
+    "description": "Forearm with bread",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D38": {
+    "gardiner_code": "D38",
+    "unicode_symbol": "𓂟",
+    "unicode_codes": [
+      "U+1309F"
+    ],
+    "jsesh_code": "D38",
+    "description": "Forearm with flail",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D39": {
+    "gardiner_code": "D39",
+    "unicode_symbol": "𓂠",
+    "unicode_codes": [
+      "U+130A0"
+    ],
+    "jsesh_code": "D39",
+    "description": "Forearm with bowl",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D3B": {
+    "gardiner_code": "D3B",
+    "unicode_symbol": "𓥬",
+    "unicode_codes": [
+      "U+1396C"
+    ],
+    "jsesh_code": "D3B",
+    "description": "Hieroglyph D3B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D4": {
+    "gardiner_code": "D4",
+    "unicode_symbol": "𓁹",
+    "unicode_codes": [
+      "U+13079"
+    ],
+    "jsesh_code": "D4",
+    "description": "Eye",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D40": {
+    "gardiner_code": "D40",
+    "unicode_symbol": "𓂡",
+    "unicode_codes": [
+      "U+130A1"
+    ],
+    "jsesh_code": "D40",
+    "description": "Forearm with stick",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D41": {
+    "gardiner_code": "D41",
+    "unicode_symbol": "𓂢",
+    "unicode_codes": [
+      "U+130A2"
+    ],
+    "jsesh_code": "D41",
+    "description": "Forearm with palm of hand downwards",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D42": {
+    "gardiner_code": "D42",
+    "unicode_symbol": "𓂣",
+    "unicode_codes": [
+      "U+130A3"
+    ],
+    "jsesh_code": "D42",
+    "description": "Forearm with open hand",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D43": {
+    "gardiner_code": "D43",
+    "unicode_symbol": "𓂤",
+    "unicode_codes": [
+      "U+130A4"
+    ],
+    "jsesh_code": "D43",
+    "description": "Forearm with rounded end",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D45": {
+    "gardiner_code": "D45",
+    "unicode_symbol": "𓂦",
+    "unicode_codes": [
+      "U+130A6"
+    ],
+    "jsesh_code": "D45",
+    "description": "Forearm with hand holding nehbet wand",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D46": {
+    "gardiner_code": "D46",
+    "unicode_symbol": "𓂧",
+    "unicode_codes": [
+      "U+130A7"
+    ],
+    "jsesh_code": "D46",
+    "description": "Hand",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D49": {
+    "gardiner_code": "D49",
+    "unicode_symbol": "𓂬",
+    "unicode_codes": [
+      "U+130AC"
+    ],
+    "jsesh_code": "D49",
+    "description": "Fist",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D5": {
+    "gardiner_code": "D5",
+    "unicode_symbol": "𓁺",
+    "unicode_codes": [
+      "U+1307A"
+    ],
+    "jsesh_code": "D5",
+    "description": "Eye with painted lower lid",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D50": {
+    "gardiner_code": "D50",
+    "unicode_symbol": "𓂭",
+    "unicode_codes": [
+      "U+130AD"
+    ],
+    "jsesh_code": "D50",
+    "description": "Finger",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D51": {
+    "gardiner_code": "D51",
+    "unicode_symbol": "𓂷",
+    "unicode_codes": [
+      "U+130B7"
+    ],
+    "jsesh_code": "D51",
+    "description": "Thumb and first finger",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D52": {
+    "gardiner_code": "D52",
+    "unicode_symbol": "𓂸",
+    "unicode_codes": [
+      "U+130B8"
+    ],
+    "jsesh_code": "D52",
+    "description": "Phallus",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D53": {
+    "gardiner_code": "D53",
+    "unicode_symbol": "𓂺",
+    "unicode_codes": [
+      "U+130BA"
+    ],
+    "jsesh_code": "D53",
+    "description": "Phallus with emission",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D54": {
+    "gardiner_code": "D54",
+    "unicode_symbol": "𓂻",
+    "unicode_codes": [
+      "U+130BB"
+    ],
+    "jsesh_code": "D54",
+    "description": "Legs walking",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D55": {
+    "gardiner_code": "D55",
+    "unicode_symbol": "𓂽",
+    "unicode_codes": [
+      "U+130BD"
+    ],
+    "jsesh_code": "D55",
+    "description": "Legs walking backwards",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D56": {
+    "gardiner_code": "D56",
+    "unicode_symbol": "𓂾",
+    "unicode_codes": [
+      "U+130BE"
+    ],
+    "jsesh_code": "D56",
+    "description": "Leg",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D57": {
+    "gardiner_code": "D57",
+    "unicode_symbol": "𓂿",
+    "unicode_codes": [
+      "U+130BF"
+    ],
+    "jsesh_code": "D57",
+    "description": "Leg with knife",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D58": {
+    "gardiner_code": "D58",
+    "unicode_symbol": "𓃀",
+    "unicode_codes": [
+      "U+130C0"
+    ],
+    "jsesh_code": "D58",
+    "description": "Foot",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D6": {
+    "gardiner_code": "D6",
+    "unicode_symbol": "𓁻",
+    "unicode_codes": [
+      "U+1307B"
+    ],
+    "jsesh_code": "D6",
+    "description": "Eye with painted upper and lower lids",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D60": {
+    "gardiner_code": "D60",
+    "unicode_symbol": "𓃂",
+    "unicode_codes": [
+      "U+130C2"
+    ],
+    "jsesh_code": "D60",
+    "description": "Foot with curved line",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D63": {
+    "gardiner_code": "D63",
+    "unicode_symbol": "𓃅",
+    "unicode_codes": [
+      "U+130C5"
+    ],
+    "jsesh_code": "D63",
+    "description": "Hieroglyph D63",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D7C": {
+    "gardiner_code": "D7C",
+    "unicode_symbol": "𓦀",
+    "unicode_codes": [
+      "U+13980"
+    ],
+    "jsesh_code": "D7C",
+    "description": "Hieroglyph D7C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "D9A": {
+    "gardiner_code": "D9A",
+    "unicode_symbol": "𓦆",
+    "unicode_codes": [
+      "U+13986"
+    ],
+    "jsesh_code": "D9A",
+    "description": "Hieroglyph D9A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E1": {
+    "gardiner_code": "E1",
+    "unicode_symbol": "𓃒",
+    "unicode_codes": [
+      "U+130D2"
+    ],
+    "jsesh_code": "E1",
+    "description": "Bull",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E10": {
+    "gardiner_code": "E10",
+    "unicode_symbol": "𓃝",
+    "unicode_codes": [
+      "U+130DD"
+    ],
+    "jsesh_code": "E10",
+    "description": "Ram",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E100": {
+    "gardiner_code": "E100",
+    "unicode_symbol": "𓃜",
+    "unicode_codes": [
+      "U+130DC"
+    ],
+    "jsesh_code": "E100",
+    "description": "Hieroglyph E100",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E11": {
+    "gardiner_code": "E11",
+    "unicode_symbol": "𓃞",
+    "unicode_codes": [
+      "U+130DE"
+    ],
+    "jsesh_code": "E11",
+    "description": "Sheep",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E11B": {
+    "gardiner_code": "E11B",
+    "unicode_symbol": "𓩱",
+    "unicode_codes": [
+      "U+13A71"
+    ],
+    "jsesh_code": "E11B",
+    "description": "Hieroglyph E11B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E12": {
+    "gardiner_code": "E12",
+    "unicode_symbol": "𓃟",
+    "unicode_codes": [
+      "U+130DF"
+    ],
+    "jsesh_code": "E12",
+    "description": "Pig",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E128": {
+    "gardiner_code": "E128",
+    "unicode_symbol": "𓮓",
+    "unicode_codes": [
+      "U+13B93"
+    ],
+    "jsesh_code": "E128",
+    "description": "Hieroglyph E128",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E13": {
+    "gardiner_code": "E13",
+    "unicode_symbol": "𓃠",
+    "unicode_codes": [
+      "U+130E0"
+    ],
+    "jsesh_code": "E13",
+    "description": "Cat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E14": {
+    "gardiner_code": "E14",
+    "unicode_symbol": "𓃡",
+    "unicode_codes": [
+      "U+130E1"
+    ],
+    "jsesh_code": "E14",
+    "description": "Dog",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E15": {
+    "gardiner_code": "E15",
+    "unicode_symbol": "𓃢",
+    "unicode_codes": [
+      "U+130E2"
+    ],
+    "jsesh_code": "E15",
+    "description": "Dog lying",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E16": {
+    "gardiner_code": "E16",
+    "unicode_symbol": "𓃣",
+    "unicode_codes": [
+      "U+130E3"
+    ],
+    "jsesh_code": "E16",
+    "description": "Jackal",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E164": {
+    "gardiner_code": "E164",
+    "unicode_symbol": "𓬩",
+    "unicode_codes": [
+      "U+13B29"
+    ],
+    "jsesh_code": "E164",
+    "description": "Hieroglyph E164",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E17": {
+    "gardiner_code": "E17",
+    "unicode_symbol": "𓃥",
+    "unicode_codes": [
+      "U+130E5"
+    ],
+    "jsesh_code": "E17",
+    "description": "Jackal on standard",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E18": {
+    "gardiner_code": "E18",
+    "unicode_symbol": "𓃧",
+    "unicode_codes": [
+      "U+130E7"
+    ],
+    "jsesh_code": "E18",
+    "description": "Wolf on standard",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E186": {
+    "gardiner_code": "E186",
+    "unicode_symbol": "𓪪",
+    "unicode_codes": [
+      "U+13AAA"
+    ],
+    "jsesh_code": "E186",
+    "description": "Hieroglyph E186",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E1A": {
+    "gardiner_code": "E1A",
+    "unicode_symbol": "𓭗",
+    "unicode_codes": [
+      "U+13B57"
+    ],
+    "jsesh_code": "E1A",
+    "description": "Hieroglyph E1A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E2": {
+    "gardiner_code": "E2",
+    "unicode_symbol": "𓃓",
+    "unicode_codes": [
+      "U+130D3"
+    ],
+    "jsesh_code": "E2",
+    "description": "Bull charging",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E23": {
+    "gardiner_code": "E23",
+    "unicode_symbol": "𓃭",
+    "unicode_codes": [
+      "U+130ED"
+    ],
+    "jsesh_code": "E23",
+    "description": "Lion lying, front view",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E27": {
+    "gardiner_code": "E27",
+    "unicode_symbol": "𓃱",
+    "unicode_codes": [
+      "U+130F1"
+    ],
+    "jsesh_code": "E27",
+    "description": "Giraffe",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E3": {
+    "gardiner_code": "E3",
+    "unicode_symbol": "𓃔",
+    "unicode_codes": [
+      "U+130D4"
+    ],
+    "jsesh_code": "E3",
+    "description": "Calf",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E31": {
+    "gardiner_code": "E31",
+    "unicode_symbol": "𓪭",
+    "unicode_codes": [
+      "U+13AAD"
+    ],
+    "jsesh_code": "E31",
+    "description": "Goat on mountain",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E32": {
+    "gardiner_code": "E32",
+    "unicode_symbol": "𓃷",
+    "unicode_codes": [
+      "U+130F7"
+    ],
+    "jsesh_code": "E32",
+    "description": "Baboon",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E34": {
+    "gardiner_code": "E34",
+    "unicode_symbol": "𓃹",
+    "unicode_codes": [
+      "U+130F9"
+    ],
+    "jsesh_code": "E34",
+    "description": "Hare",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E35": {
+    "gardiner_code": "E35",
+    "unicode_symbol": "𓃻",
+    "unicode_codes": [
+      "U+130FB"
+    ],
+    "jsesh_code": "E35",
+    "description": "Desert hare",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E51": {
+    "gardiner_code": "E51",
+    "unicode_symbol": "𓬀",
+    "unicode_codes": [
+      "U+13B00"
+    ],
+    "jsesh_code": "E51",
+    "description": "Hieroglyph E51",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E7": {
+    "gardiner_code": "E7",
+    "unicode_symbol": "𓃘",
+    "unicode_codes": [
+      "U+130D8"
+    ],
+    "jsesh_code": "E7",
+    "description": "Donkey",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E8": {
+    "gardiner_code": "E8",
+    "unicode_symbol": "𓃙",
+    "unicode_codes": [
+      "U+130D9"
+    ],
+    "jsesh_code": "E8",
+    "description": "Kid",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "E9": {
+    "gardiner_code": "E9",
+    "unicode_symbol": "𓃛",
+    "unicode_codes": [
+      "U+130DB"
+    ],
+    "jsesh_code": "E9",
+    "description": "Goat with collar",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F1": {
+    "gardiner_code": "F1",
+    "unicode_symbol": "𓃾",
+    "unicode_codes": [
+      "U+130FE"
+    ],
+    "jsesh_code": "F1",
+    "description": "Ox head",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F10": {
+    "gardiner_code": "F10",
+    "unicode_symbol": "𓄈",
+    "unicode_codes": [
+      "U+13108"
+    ],
+    "jsesh_code": "F10",
+    "description": "Head and neck of animal",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F12": {
+    "gardiner_code": "F12",
+    "unicode_symbol": "𓄊",
+    "unicode_codes": [
+      "U+1310A"
+    ],
+    "jsesh_code": "F12",
+    "description": "Head of cat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F13": {
+    "gardiner_code": "F13",
+    "unicode_symbol": "𓄋",
+    "unicode_codes": [
+      "U+1310B"
+    ],
+    "jsesh_code": "F13",
+    "description": "Horns",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F16": {
+    "gardiner_code": "F16",
+    "unicode_symbol": "𓄏",
+    "unicode_codes": [
+      "U+1310F"
+    ],
+    "jsesh_code": "F16",
+    "description": "Horn",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F17": {
+    "gardiner_code": "F17",
+    "unicode_symbol": "𓄐",
+    "unicode_codes": [
+      "U+13110"
+    ],
+    "jsesh_code": "F17",
+    "description": "Horn of ox",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F18": {
+    "gardiner_code": "F18",
+    "unicode_symbol": "𓄑",
+    "unicode_codes": [
+      "U+13111"
+    ],
+    "jsesh_code": "F18",
+    "description": "Tusk of elephant",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F19": {
+    "gardiner_code": "F19",
+    "unicode_symbol": "𓄒",
+    "unicode_codes": [
+      "U+13112"
+    ],
+    "jsesh_code": "F19",
+    "description": "Lower jaw-bone of ox",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F20": {
+    "gardiner_code": "F20",
+    "unicode_symbol": "𓄓",
+    "unicode_codes": [
+      "U+13113"
+    ],
+    "jsesh_code": "F20",
+    "description": "Tongue",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F21": {
+    "gardiner_code": "F21",
+    "unicode_symbol": "𓄔",
+    "unicode_codes": [
+      "U+13114"
+    ],
+    "jsesh_code": "F21",
+    "description": "Ear of cattle",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F22": {
+    "gardiner_code": "F22",
+    "unicode_symbol": "𓄖",
+    "unicode_codes": [
+      "U+13116"
+    ],
+    "jsesh_code": "F22",
+    "description": "Hind-quarters of lion",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F23": {
+    "gardiner_code": "F23",
+    "unicode_symbol": "𓄗",
+    "unicode_codes": [
+      "U+13117"
+    ],
+    "jsesh_code": "F23",
+    "description": "Forepart of lioness",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F25": {
+    "gardiner_code": "F25",
+    "unicode_symbol": "𓄙",
+    "unicode_codes": [
+      "U+13119"
+    ],
+    "jsesh_code": "F25",
+    "description": "Leg of ox",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F25A": {
+    "gardiner_code": "F25A",
+    "unicode_symbol": "𓮸",
+    "unicode_codes": [
+      "U+13BB8"
+    ],
+    "jsesh_code": "F25A",
+    "description": "Hieroglyph F25A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F26": {
+    "gardiner_code": "F26",
+    "unicode_symbol": "𓄚",
+    "unicode_codes": [
+      "U+1311A"
+    ],
+    "jsesh_code": "F26",
+    "description": "Skin of goat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F27": {
+    "gardiner_code": "F27",
+    "unicode_symbol": "𓄛",
+    "unicode_codes": [
+      "U+1311B"
+    ],
+    "jsesh_code": "F27",
+    "description": "Cow's skin pierced by arrow",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F29": {
+    "gardiner_code": "F29",
+    "unicode_symbol": "𓄝",
+    "unicode_codes": [
+      "U+1311D"
+    ],
+    "jsesh_code": "F29",
+    "description": "Cow's udder",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F2B": {
+    "gardiner_code": "F2B",
+    "unicode_symbol": "𓭯",
+    "unicode_codes": [
+      "U+13B6F"
+    ],
+    "jsesh_code": "F2B",
+    "description": "Hieroglyph F2B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F30": {
+    "gardiner_code": "F30",
+    "unicode_symbol": "𓄞",
+    "unicode_codes": [
+      "U+1311E"
+    ],
+    "jsesh_code": "F30",
+    "description": "Water-skin",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F30A": {
+    "gardiner_code": "F30A",
+    "unicode_symbol": "𓯐",
+    "unicode_codes": [
+      "U+13BD0"
+    ],
+    "jsesh_code": "F30A",
+    "description": "Hieroglyph F30A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F31": {
+    "gardiner_code": "F31",
+    "unicode_symbol": "𓄟",
+    "unicode_codes": [
+      "U+1311F"
+    ],
+    "jsesh_code": "F31",
+    "description": "Three fox skins tied together",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F32": {
+    "gardiner_code": "F32",
+    "unicode_symbol": "𓄡",
+    "unicode_codes": [
+      "U+13121"
+    ],
+    "jsesh_code": "F32",
+    "description": "X-shaped loaves on a pole",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F33": {
+    "gardiner_code": "F33",
+    "unicode_symbol": "𓄢",
+    "unicode_codes": [
+      "U+13122"
+    ],
+    "jsesh_code": "F33",
+    "description": "Tail",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F34": {
+    "gardiner_code": "F34",
+    "unicode_symbol": "𓄣",
+    "unicode_codes": [
+      "U+13123"
+    ],
+    "jsesh_code": "F34",
+    "description": "Heart",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F35": {
+    "gardiner_code": "F35",
+    "unicode_symbol": "𓄤",
+    "unicode_codes": [
+      "U+13124"
+    ],
+    "jsesh_code": "F35",
+    "description": "Heart and windpipe",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F36": {
+    "gardiner_code": "F36",
+    "unicode_symbol": "𓄥",
+    "unicode_codes": [
+      "U+13125"
+    ],
+    "jsesh_code": "F36",
+    "description": "Lung and windpipe",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F37": {
+    "gardiner_code": "F37",
+    "unicode_symbol": "𓄦",
+    "unicode_codes": [
+      "U+13126"
+    ],
+    "jsesh_code": "F37",
+    "description": "Backbone with spinal cord",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F37B": {
+    "gardiner_code": "F37B",
+    "unicode_symbol": "𓄧",
+    "unicode_codes": [
+      "U+13127"
+    ],
+    "jsesh_code": "F37B",
+    "description": "Hieroglyph F37B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F37C": {
+    "gardiner_code": "F37C",
+    "unicode_symbol": "𓯦",
+    "unicode_codes": [
+      "U+13BE6"
+    ],
+    "jsesh_code": "F37C",
+    "description": "Hieroglyph F37C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F39": {
+    "gardiner_code": "F39",
+    "unicode_symbol": "𓄪",
+    "unicode_codes": [
+      "U+1312A"
+    ],
+    "jsesh_code": "F39",
+    "description": "Backbone",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F4": {
+    "gardiner_code": "F4",
+    "unicode_symbol": "𓄂",
+    "unicode_codes": [
+      "U+13102"
+    ],
+    "jsesh_code": "F4",
+    "description": "Forepart of lion",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F40": {
+    "gardiner_code": "F40",
+    "unicode_symbol": "𓄫",
+    "unicode_codes": [
+      "U+1312B"
+    ],
+    "jsesh_code": "F40",
+    "description": "Vertebra",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F41": {
+    "gardiner_code": "F41",
+    "unicode_symbol": "𓄬",
+    "unicode_codes": [
+      "U+1312C"
+    ],
+    "jsesh_code": "F41",
+    "description": "Vertebra of ox",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F42": {
+    "gardiner_code": "F42",
+    "unicode_symbol": "𓄭",
+    "unicode_codes": [
+      "U+1312D"
+    ],
+    "jsesh_code": "F42",
+    "description": "Pelvis of ox",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F43": {
+    "gardiner_code": "F43",
+    "unicode_symbol": "𓄮",
+    "unicode_codes": [
+      "U+1312E"
+    ],
+    "jsesh_code": "F43",
+    "description": "Thigh-bone",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F44": {
+    "gardiner_code": "F44",
+    "unicode_symbol": "𓄯",
+    "unicode_codes": [
+      "U+1312F"
+    ],
+    "jsesh_code": "F44",
+    "description": "Bone",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F45": {
+    "gardiner_code": "F45",
+    "unicode_symbol": "𓄰",
+    "unicode_codes": [
+      "U+13130"
+    ],
+    "jsesh_code": "F45",
+    "description": "Uterus of cow",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F46": {
+    "gardiner_code": "F46",
+    "unicode_symbol": "𓄲",
+    "unicode_codes": [
+      "U+13132"
+    ],
+    "jsesh_code": "F46",
+    "description": "Intestine",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F47": {
+    "gardiner_code": "F47",
+    "unicode_symbol": "𓄴",
+    "unicode_codes": [
+      "U+13134"
+    ],
+    "jsesh_code": "F47",
+    "description": "Intestine",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F5": {
+    "gardiner_code": "F5",
+    "unicode_symbol": "𓄃",
+    "unicode_codes": [
+      "U+13103"
+    ],
+    "jsesh_code": "F5",
+    "description": "Head of bubalis",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F50": {
+    "gardiner_code": "F50",
+    "unicode_symbol": "𓄸",
+    "unicode_codes": [
+      "U+13138"
+    ],
+    "jsesh_code": "F50",
+    "description": "Spleen",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F51": {
+    "gardiner_code": "F51",
+    "unicode_symbol": "𓄹",
+    "unicode_codes": [
+      "U+13139"
+    ],
+    "jsesh_code": "F51",
+    "description": "Piece of flesh",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F7": {
+    "gardiner_code": "F7",
+    "unicode_symbol": "𓄅",
+    "unicode_codes": [
+      "U+13105"
+    ],
+    "jsesh_code": "F7",
+    "description": "Head of ram",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F7C": {
+    "gardiner_code": "F7C",
+    "unicode_symbol": "𓭢",
+    "unicode_codes": [
+      "U+13B62"
+    ],
+    "jsesh_code": "F7C",
+    "description": "Hieroglyph F7C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F8": {
+    "gardiner_code": "F8",
+    "unicode_symbol": "𓄆",
+    "unicode_codes": [
+      "U+13106"
+    ],
+    "jsesh_code": "F8",
+    "description": "Forepart of ram",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "F9": {
+    "gardiner_code": "F9",
+    "unicode_symbol": "𓄇",
+    "unicode_codes": [
+      "U+13107"
+    ],
+    "jsesh_code": "F9",
+    "description": "Leopard head",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G1": {
+    "gardiner_code": "G1",
+    "unicode_symbol": "𓄿",
+    "unicode_codes": [
+      "U+1313F",
+      "U+1316D"
+    ],
+    "jsesh_code": "G1",
+    "description": "Egyptian vulture",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G14": {
+    "gardiner_code": "G14",
+    "unicode_symbol": "𓅐",
+    "unicode_codes": [
+      "U+13150"
+    ],
+    "jsesh_code": "G14",
+    "description": "Vulture",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G17": {
+    "gardiner_code": "G17",
+    "unicode_symbol": "𓅓",
+    "unicode_codes": [
+      "U+13153"
+    ],
+    "jsesh_code": "G17",
+    "description": "Owl",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G17A": {
+    "gardiner_code": "G17A",
+    "unicode_symbol": "𓰮",
+    "unicode_codes": [
+      "U+13C2E"
+    ],
+    "jsesh_code": "G17A",
+    "description": "Hieroglyph G17A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G18": {
+    "gardiner_code": "G18",
+    "unicode_symbol": "𓅔",
+    "unicode_codes": [
+      "U+13154"
+    ],
+    "jsesh_code": "G18",
+    "description": "Two owls",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G197": {
+    "gardiner_code": "G197",
+    "unicode_symbol": "𓱦",
+    "unicode_codes": [
+      "U+13C66"
+    ],
+    "jsesh_code": "G197",
+    "description": "Hieroglyph G197",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G2": {
+    "gardiner_code": "G2",
+    "unicode_symbol": "𓅀",
+    "unicode_codes": [
+      "U+13140"
+    ],
+    "jsesh_code": "G2",
+    "description": "Two Egyptian vultures",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G21": {
+    "gardiner_code": "G21",
+    "unicode_symbol": "𓅘",
+    "unicode_codes": [
+      "U+13158"
+    ],
+    "jsesh_code": "G21",
+    "description": "Guinea fowl",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G21A": {
+    "gardiner_code": "G21A",
+    "unicode_symbol": "𓳱",
+    "unicode_codes": [
+      "U+13CF1"
+    ],
+    "jsesh_code": "G21A",
+    "description": "Hieroglyph G21A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G21B": {
+    "gardiner_code": "G21B",
+    "unicode_symbol": "𓳲",
+    "unicode_codes": [
+      "U+13CF2"
+    ],
+    "jsesh_code": "G21B",
+    "description": "Hieroglyph G21B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G21C": {
+    "gardiner_code": "G21C",
+    "unicode_symbol": "𓳴",
+    "unicode_codes": [
+      "U+13CF4"
+    ],
+    "jsesh_code": "G21C",
+    "description": "Hieroglyph G21C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G22": {
+    "gardiner_code": "G22",
+    "unicode_symbol": "𓳒",
+    "unicode_codes": [
+      "U+13CD2"
+    ],
+    "jsesh_code": "G22",
+    "description": "Hoopoe",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G23": {
+    "gardiner_code": "G23",
+    "unicode_symbol": "𓅚",
+    "unicode_codes": [
+      "U+1315A"
+    ],
+    "jsesh_code": "G23",
+    "description": "Lapwing",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G25": {
+    "gardiner_code": "G25",
+    "unicode_symbol": "𓅜",
+    "unicode_codes": [
+      "U+1315C"
+    ],
+    "jsesh_code": "G25",
+    "description": "Northern bald ibis",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G26": {
+    "gardiner_code": "G26",
+    "unicode_symbol": "𓅝",
+    "unicode_codes": [
+      "U+1315D"
+    ],
+    "jsesh_code": "G26",
+    "description": "Sacred ibis",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G26A": {
+    "gardiner_code": "G26A",
+    "unicode_symbol": "𓅞",
+    "unicode_codes": [
+      "U+1315E"
+    ],
+    "jsesh_code": "G26A",
+    "description": "Hieroglyph G26A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G26B": {
+    "gardiner_code": "G26B",
+    "unicode_symbol": "𓅝",
+    "unicode_codes": [
+      "U+1315D"
+    ],
+    "jsesh_code": "G26",
+    "description": "Hieroglyph G26B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G27": {
+    "gardiner_code": "G27",
+    "unicode_symbol": "𓅟",
+    "unicode_codes": [
+      "U+1315F"
+    ],
+    "jsesh_code": "G27",
+    "description": "Flamingo",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G28": {
+    "gardiner_code": "G28",
+    "unicode_symbol": "𓅠",
+    "unicode_codes": [
+      "U+13160"
+    ],
+    "jsesh_code": "G28",
+    "description": "Glossy ibis",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G29": {
+    "gardiner_code": "G29",
+    "unicode_symbol": "𓅡",
+    "unicode_codes": [
+      "U+13161"
+    ],
+    "jsesh_code": "G29",
+    "description": "Jabiru",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G30": {
+    "gardiner_code": "G30",
+    "unicode_symbol": "𓅢",
+    "unicode_codes": [
+      "U+13162"
+    ],
+    "jsesh_code": "G30",
+    "description": "White-fronted goose",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G30A": {
+    "gardiner_code": "G30A",
+    "unicode_symbol": "𓰺",
+    "unicode_codes": [
+      "U+13C3A"
+    ],
+    "jsesh_code": "G30A",
+    "description": "Hieroglyph G30A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G31": {
+    "gardiner_code": "G31",
+    "unicode_symbol": "𓅣",
+    "unicode_codes": [
+      "U+13163"
+    ],
+    "jsesh_code": "G31",
+    "description": "Heron",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G32": {
+    "gardiner_code": "G32",
+    "unicode_symbol": "𓅤",
+    "unicode_codes": [
+      "U+13164"
+    ],
+    "jsesh_code": "G32",
+    "description": "Heron on perch",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G35": {
+    "gardiner_code": "G35",
+    "unicode_symbol": "𓅧",
+    "unicode_codes": [
+      "U+13167"
+    ],
+    "jsesh_code": "G35",
+    "description": "Cormorant",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G36": {
+    "gardiner_code": "G36",
+    "unicode_symbol": "𓅨",
+    "unicode_codes": [
+      "U+13168"
+    ],
+    "jsesh_code": "G36",
+    "description": "Swallow",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G37": {
+    "gardiner_code": "G37",
+    "unicode_symbol": "𓅪",
+    "unicode_codes": [
+      "U+1316A"
+    ],
+    "jsesh_code": "G37",
+    "description": "Sparrow",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G38": {
+    "gardiner_code": "G38",
+    "unicode_symbol": "𓅬",
+    "unicode_codes": [
+      "U+1316C"
+    ],
+    "jsesh_code": "G38",
+    "description": "White wagtail",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G39": {
+    "gardiner_code": "G39",
+    "unicode_symbol": "𓅭",
+    "unicode_codes": [
+      "U+1316D"
+    ],
+    "jsesh_code": "G39",
+    "description": "Pintail",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G4": {
+    "gardiner_code": "G4",
+    "unicode_symbol": "𓅂",
+    "unicode_codes": [
+      "U+13142"
+    ],
+    "jsesh_code": "G4",
+    "description": "Buzzard",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G40": {
+    "gardiner_code": "G40",
+    "unicode_symbol": "𓅮",
+    "unicode_codes": [
+      "U+1316E"
+    ],
+    "jsesh_code": "G40",
+    "description": "Pintail flying upward",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G41": {
+    "gardiner_code": "G41",
+    "unicode_symbol": "𓅯",
+    "unicode_codes": [
+      "U+1316F"
+    ],
+    "jsesh_code": "G41",
+    "description": "Pintail flying downward",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G43": {
+    "gardiner_code": "G43",
+    "unicode_symbol": "𓅱",
+    "unicode_codes": [
+      "U+13171"
+    ],
+    "jsesh_code": "G43",
+    "description": "Quail chick",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G47": {
+    "gardiner_code": "G47",
+    "unicode_symbol": "𓅷",
+    "unicode_codes": [
+      "U+13177"
+    ],
+    "jsesh_code": "G47",
+    "description": "Duckling",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G49C": {
+    "gardiner_code": "G49C",
+    "unicode_symbol": "𓳫",
+    "unicode_codes": [
+      "U+13CEB"
+    ],
+    "jsesh_code": "G49C",
+    "description": "Hieroglyph G49C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G49E": {
+    "gardiner_code": "G49E",
+    "unicode_symbol": "𓳭",
+    "unicode_codes": [
+      "U+13CED"
+    ],
+    "jsesh_code": "G49E",
+    "description": "Hieroglyph G49E",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G4A": {
+    "gardiner_code": "G4A",
+    "unicode_symbol": "𓰍",
+    "unicode_codes": [
+      "U+13C0D"
+    ],
+    "jsesh_code": "G4A",
+    "description": "Hieroglyph G4A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G5": {
+    "gardiner_code": "G5",
+    "unicode_symbol": "𓅃",
+    "unicode_codes": [
+      "U+13143"
+    ],
+    "jsesh_code": "G5",
+    "description": "Falcon",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G50": {
+    "gardiner_code": "G50",
+    "unicode_symbol": "𓅺",
+    "unicode_codes": [
+      "U+1317A"
+    ],
+    "jsesh_code": "G50",
+    "description": "Long-legged bird",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G51": {
+    "gardiner_code": "G51",
+    "unicode_symbol": "𓅻",
+    "unicode_codes": [
+      "U+1317B"
+    ],
+    "jsesh_code": "G51",
+    "description": "Spoonbill with wig",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G54": {
+    "gardiner_code": "G54",
+    "unicode_symbol": "𓅾",
+    "unicode_codes": [
+      "U+1317E"
+    ],
+    "jsesh_code": "G54",
+    "description": "Trussed bird",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "G6": {
+    "gardiner_code": "G6",
+    "unicode_symbol": "𓅄",
+    "unicode_codes": [
+      "U+13144"
+    ],
+    "jsesh_code": "G6",
+    "description": "Falcon on gold sign",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "H1": {
+    "gardiner_code": "H1",
+    "unicode_symbol": "𓅿",
+    "unicode_codes": [
+      "U+1317F"
+    ],
+    "jsesh_code": "H1",
+    "description": "Head of pintail",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "H3": {
+    "gardiner_code": "H3",
+    "unicode_symbol": "𓆁",
+    "unicode_codes": [
+      "U+13181"
+    ],
+    "jsesh_code": "H3",
+    "description": "Head of spoonbill",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "H5": {
+    "gardiner_code": "H5",
+    "unicode_symbol": "𓆃",
+    "unicode_codes": [
+      "U+13183"
+    ],
+    "jsesh_code": "H5",
+    "description": "Wing",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "H6": {
+    "gardiner_code": "H6",
+    "unicode_symbol": "𓆄",
+    "unicode_codes": [
+      "U+13184"
+    ],
+    "jsesh_code": "H6",
+    "description": "Feather",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "H8": {
+    "gardiner_code": "H8",
+    "unicode_symbol": "𓆇",
+    "unicode_codes": [
+      "U+13187"
+    ],
+    "jsesh_code": "H8",
+    "description": "Egg",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I1": {
+    "gardiner_code": "I1",
+    "unicode_symbol": "𓆈",
+    "unicode_codes": [
+      "U+13188"
+    ],
+    "jsesh_code": "I1",
+    "description": "Gecko",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I10": {
+    "gardiner_code": "I10",
+    "unicode_symbol": "𓆓",
+    "unicode_codes": [
+      "U+13193"
+    ],
+    "jsesh_code": "I10",
+    "description": "Cobra in repose",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I12": {
+    "gardiner_code": "I12",
+    "unicode_symbol": "𓆗",
+    "unicode_codes": [
+      "U+13197"
+    ],
+    "jsesh_code": "I12",
+    "description": "Erect cobra",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I13": {
+    "gardiner_code": "I13",
+    "unicode_symbol": "𓆘",
+    "unicode_codes": [
+      "U+13198"
+    ],
+    "jsesh_code": "I13",
+    "description": "Cobra with feather",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I14": {
+    "gardiner_code": "I14",
+    "unicode_symbol": "𓆙",
+    "unicode_codes": [
+      "U+13199"
+    ],
+    "jsesh_code": "I14",
+    "description": "Snake",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I2": {
+    "gardiner_code": "I2",
+    "unicode_symbol": "𓆉",
+    "unicode_codes": [
+      "U+13189"
+    ],
+    "jsesh_code": "I2",
+    "description": "Turtle",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I24A": {
+    "gardiner_code": "I24A",
+    "unicode_symbol": "𓵗",
+    "unicode_codes": [
+      "U+13D57"
+    ],
+    "jsesh_code": "I24A",
+    "description": "Hieroglyph I24A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I3": {
+    "gardiner_code": "I3",
+    "unicode_symbol": "𓆊",
+    "unicode_codes": [
+      "U+1318A"
+    ],
+    "jsesh_code": "I3",
+    "description": "Crocodile",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I5": {
+    "gardiner_code": "I5",
+    "unicode_symbol": "𓆌",
+    "unicode_codes": [
+      "U+1318C"
+    ],
+    "jsesh_code": "I5",
+    "description": "Crocodile with two curved lines above",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I6": {
+    "gardiner_code": "I6",
+    "unicode_symbol": "𓆎",
+    "unicode_codes": [
+      "U+1318E"
+    ],
+    "jsesh_code": "I6",
+    "description": "Crocodile scale",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I8": {
+    "gardiner_code": "I8",
+    "unicode_symbol": "𓆐",
+    "unicode_codes": [
+      "U+13190"
+    ],
+    "jsesh_code": "I8",
+    "description": "Tadpole",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I86D": {
+    "gardiner_code": "I86D",
+    "unicode_symbol": "𓷃",
+    "unicode_codes": [
+      "U+13DC3"
+    ],
+    "jsesh_code": "I86D",
+    "description": "Hieroglyph I86D",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I87": {
+    "gardiner_code": "I87",
+    "unicode_symbol": "𓷈",
+    "unicode_codes": [
+      "U+13DC8"
+    ],
+    "jsesh_code": "I87",
+    "description": "Hieroglyph I87",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I9": {
+    "gardiner_code": "I9",
+    "unicode_symbol": "𓆑",
+    "unicode_codes": [
+      "U+13191"
+    ],
+    "jsesh_code": "I9",
+    "description": "Horned viper",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "I9A": {
+    "gardiner_code": "I9A",
+    "unicode_symbol": "𓵔",
+    "unicode_codes": [
+      "U+13D54"
+    ],
+    "jsesh_code": "I9A",
+    "description": "Hieroglyph I9A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "K1": {
+    "gardiner_code": "K1",
+    "unicode_symbol": "𓆛",
+    "unicode_codes": [
+      "U+1319B"
+    ],
+    "jsesh_code": "K1",
+    "description": "Fish",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "K2": {
+    "gardiner_code": "K2",
+    "unicode_symbol": "𓆜",
+    "unicode_codes": [
+      "U+1319C"
+    ],
+    "jsesh_code": "K2",
+    "description": "Barbel",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "K3": {
+    "gardiner_code": "K3",
+    "unicode_symbol": "𓆝",
+    "unicode_codes": [
+      "U+1319D"
+    ],
+    "jsesh_code": "K3",
+    "description": "Mullet",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "K4": {
+    "gardiner_code": "K4",
+    "unicode_symbol": "𓆞",
+    "unicode_codes": [
+      "U+1319E"
+    ],
+    "jsesh_code": "K4",
+    "description": "Elephantfish",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "K5": {
+    "gardiner_code": "K5",
+    "unicode_symbol": "𓆟",
+    "unicode_codes": [
+      "U+1319F"
+    ],
+    "jsesh_code": "K5",
+    "description": "Butterfish",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "K7": {
+    "gardiner_code": "K7",
+    "unicode_symbol": "𓆡",
+    "unicode_codes": [
+      "U+131A1"
+    ],
+    "jsesh_code": "K7",
+    "description": "Hieroglyph K7",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "L1": {
+    "gardiner_code": "L1",
+    "unicode_symbol": "𓆣",
+    "unicode_codes": [
+      "U+131A3"
+    ],
+    "jsesh_code": "L1",
+    "description": "Dung beetle",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "L2": {
+    "gardiner_code": "L2",
+    "unicode_symbol": "𓆤",
+    "unicode_codes": [
+      "U+131A4"
+    ],
+    "jsesh_code": "L2",
+    "description": "Bee",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "L4": {
+    "gardiner_code": "L4",
+    "unicode_symbol": "𓆧",
+    "unicode_codes": [
+      "U+131A7"
+    ],
+    "jsesh_code": "L4",
+    "description": "Locust",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "L5": {
+    "gardiner_code": "L5",
+    "unicode_symbol": "𓆨",
+    "unicode_codes": [
+      "U+131A8"
+    ],
+    "jsesh_code": "L5",
+    "description": "Centipede",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "L7": {
+    "gardiner_code": "L7",
+    "unicode_symbol": "𓆫",
+    "unicode_codes": [
+      "U+131AB"
+    ],
+    "jsesh_code": "L7",
+    "description": "Scorpion",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M1": {
+    "gardiner_code": "M1",
+    "unicode_symbol": "𓆭",
+    "unicode_codes": [
+      "U+131AD"
+    ],
+    "jsesh_code": "M1",
+    "description": "Tree",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M11": {
+    "gardiner_code": "M11",
+    "unicode_symbol": "𓆻",
+    "unicode_codes": [
+      "U+131BB"
+    ],
+    "jsesh_code": "M11",
+    "description": "Lotus flower on long stalk",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M12": {
+    "gardiner_code": "M12",
+    "unicode_symbol": "𓆼",
+    "unicode_codes": [
+      "U+131BC"
+    ],
+    "jsesh_code": "M12",
+    "description": "Lotus plant",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M13": {
+    "gardiner_code": "M13",
+    "unicode_symbol": "𓇅",
+    "unicode_codes": [
+      "U+131C5"
+    ],
+    "jsesh_code": "M13",
+    "description": "Papyrus plant",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M14": {
+    "gardiner_code": "M14",
+    "unicode_symbol": "𓇆",
+    "unicode_codes": [
+      "U+131C6"
+    ],
+    "jsesh_code": "M14",
+    "description": "Papyrus plant with buds",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M15": {
+    "gardiner_code": "M15",
+    "unicode_symbol": "𓇇",
+    "unicode_codes": [
+      "U+131C7"
+    ],
+    "jsesh_code": "M15",
+    "description": "Papyrus clump",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M16": {
+    "gardiner_code": "M16",
+    "unicode_symbol": "𓇉",
+    "unicode_codes": [
+      "U+131C9"
+    ],
+    "jsesh_code": "M16",
+    "description": "Papyrus clump",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M17": {
+    "gardiner_code": "M17",
+    "unicode_symbol": "𓇋",
+    "unicode_codes": [
+      "U+131CB",
+      "U+13171"
+    ],
+    "jsesh_code": "M17",
+    "description": "Reed",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M18": {
+    "gardiner_code": "M18",
+    "unicode_symbol": "𓇍",
+    "unicode_codes": [
+      "U+131CD"
+    ],
+    "jsesh_code": "M18",
+    "description": "Reed with legs",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M19": {
+    "gardiner_code": "M19",
+    "unicode_symbol": "𓇎",
+    "unicode_codes": [
+      "U+131CE"
+    ],
+    "jsesh_code": "M19",
+    "description": "Headdress of reeds",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M1A": {
+    "gardiner_code": "M1A",
+    "unicode_symbol": "𓆮",
+    "unicode_codes": [
+      "U+131AE"
+    ],
+    "jsesh_code": "M1A",
+    "description": "Hieroglyph M1A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M1B": {
+    "gardiner_code": "M1B",
+    "unicode_symbol": "𓸄",
+    "unicode_codes": [
+      "U+13E04"
+    ],
+    "jsesh_code": "M1B",
+    "description": "Hieroglyph M1B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M2": {
+    "gardiner_code": "M2",
+    "unicode_symbol": "𓆰",
+    "unicode_codes": [
+      "U+131B0"
+    ],
+    "jsesh_code": "M2",
+    "description": "Herb",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M20": {
+    "gardiner_code": "M20",
+    "unicode_symbol": "𓇏",
+    "unicode_codes": [
+      "U+131CF"
+    ],
+    "jsesh_code": "M20",
+    "description": "Reeds",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M21": {
+    "gardiner_code": "M21",
+    "unicode_symbol": "𓇐",
+    "unicode_codes": [
+      "U+131D0"
+    ],
+    "jsesh_code": "M21",
+    "description": "Reeds with roots",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M22": {
+    "gardiner_code": "M22",
+    "unicode_symbol": "𓇑",
+    "unicode_codes": [
+      "U+131D1"
+    ],
+    "jsesh_code": "M22",
+    "description": "Sedge",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M22A": {
+    "gardiner_code": "M22A",
+    "unicode_symbol": "𓺌",
+    "unicode_codes": [
+      "U+13E8C"
+    ],
+    "jsesh_code": "M22A",
+    "description": "Hieroglyph M22A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M23": {
+    "gardiner_code": "M23",
+    "unicode_symbol": "𓇓",
+    "unicode_codes": [
+      "U+131D3"
+    ],
+    "jsesh_code": "M23",
+    "description": "Sedge plant",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M24": {
+    "gardiner_code": "M24",
+    "unicode_symbol": "𓇔",
+    "unicode_codes": [
+      "U+131D4"
+    ],
+    "jsesh_code": "M24",
+    "description": "Sedge with root",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M245": {
+    "gardiner_code": "M245",
+    "unicode_symbol": "𓺑",
+    "unicode_codes": [
+      "U+13E91"
+    ],
+    "jsesh_code": "M245",
+    "description": "Hieroglyph M245",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M25": {
+    "gardiner_code": "M25",
+    "unicode_symbol": "𓇖",
+    "unicode_codes": [
+      "U+131D6"
+    ],
+    "jsesh_code": "M25",
+    "description": "Combination of sedge and bee",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M26": {
+    "gardiner_code": "M26",
+    "unicode_symbol": "𓇗",
+    "unicode_codes": [
+      "U+131D7"
+    ],
+    "jsesh_code": "M26",
+    "description": "Flowering sedge",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M29": {
+    "gardiner_code": "M29",
+    "unicode_symbol": "𓇛",
+    "unicode_codes": [
+      "U+131DB"
+    ],
+    "jsesh_code": "M29",
+    "description": "Pod",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M3": {
+    "gardiner_code": "M3",
+    "unicode_symbol": "𓆱",
+    "unicode_codes": [
+      "U+131B1"
+    ],
+    "jsesh_code": "M3",
+    "description": "Branch",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M30": {
+    "gardiner_code": "M30",
+    "unicode_symbol": "𓇜",
+    "unicode_codes": [
+      "U+131DC"
+    ],
+    "jsesh_code": "M30",
+    "description": "Root",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M31": {
+    "gardiner_code": "M31",
+    "unicode_symbol": "𓇝",
+    "unicode_codes": [
+      "U+131DD"
+    ],
+    "jsesh_code": "M31",
+    "description": "Rhizome",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M32": {
+    "gardiner_code": "M32",
+    "unicode_symbol": "𓇟",
+    "unicode_codes": [
+      "U+131DF"
+    ],
+    "jsesh_code": "M32",
+    "description": "Rhizome with liquid issuing from it",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M33A": {
+    "gardiner_code": "M33A",
+    "unicode_symbol": "𓇡",
+    "unicode_codes": [
+      "U+131E1"
+    ],
+    "jsesh_code": "M33A",
+    "description": "Hieroglyph M33A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M33B": {
+    "gardiner_code": "M33B",
+    "unicode_symbol": "𓺥",
+    "unicode_codes": [
+      "U+13EA5"
+    ],
+    "jsesh_code": "M33B",
+    "description": "Hieroglyph M33B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M34": {
+    "gardiner_code": "M34",
+    "unicode_symbol": "𓇣",
+    "unicode_codes": [
+      "U+131E3"
+    ],
+    "jsesh_code": "M34",
+    "description": "Ear of emmer",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M38B": {
+    "gardiner_code": "M38B",
+    "unicode_symbol": "𓺬",
+    "unicode_codes": [
+      "U+13EAC"
+    ],
+    "jsesh_code": "M38B",
+    "description": "Hieroglyph M38B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M39": {
+    "gardiner_code": "M39",
+    "unicode_symbol": "𓇨",
+    "unicode_codes": [
+      "U+131E8"
+    ],
+    "jsesh_code": "M39",
+    "description": "Basket of fruit or grain",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M4": {
+    "gardiner_code": "M4",
+    "unicode_symbol": "𓆳",
+    "unicode_codes": [
+      "U+131B3"
+    ],
+    "jsesh_code": "M4",
+    "description": "Palm branch",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M40": {
+    "gardiner_code": "M40",
+    "unicode_symbol": "𓇩",
+    "unicode_codes": [
+      "U+131E9"
+    ],
+    "jsesh_code": "M40",
+    "description": "Bundle of reeds",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M42": {
+    "gardiner_code": "M42",
+    "unicode_symbol": "𓇬",
+    "unicode_codes": [
+      "U+131EC"
+    ],
+    "jsesh_code": "M42",
+    "description": "Flower",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M43A": {
+    "gardiner_code": "M43A",
+    "unicode_symbol": "𓺷",
+    "unicode_codes": [
+      "U+13EB7"
+    ],
+    "jsesh_code": "M43A",
+    "description": "Hieroglyph M43A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M44": {
+    "gardiner_code": "M44",
+    "unicode_symbol": "𓇮",
+    "unicode_codes": [
+      "U+131EE"
+    ],
+    "jsesh_code": "M44",
+    "description": "Thorn",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M46": {
+    "gardiner_code": "M46",
+    "unicode_symbol": "𓸃",
+    "unicode_codes": [
+      "U+13E03"
+    ],
+    "jsesh_code": "M46",
+    "description": "Hieroglyph M46",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M5": {
+    "gardiner_code": "M5",
+    "unicode_symbol": "𓆴",
+    "unicode_codes": [
+      "U+131B4"
+    ],
+    "jsesh_code": "M5",
+    "description": "Combination of palm branch and notched palm leaf",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M6": {
+    "gardiner_code": "M6",
+    "unicode_symbol": "𓆵",
+    "unicode_codes": [
+      "U+131B5"
+    ],
+    "jsesh_code": "M6",
+    "description": "Combination of palm branch, notched palm leaf and year sign",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M8": {
+    "gardiner_code": "M8",
+    "unicode_symbol": "𓆷",
+    "unicode_codes": [
+      "U+131B7"
+    ],
+    "jsesh_code": "M8",
+    "description": "Pool with lotus flowers",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M8A": {
+    "gardiner_code": "M8A",
+    "unicode_symbol": "𓸰",
+    "unicode_codes": [
+      "U+13E30"
+    ],
+    "jsesh_code": "M8A",
+    "description": "Hieroglyph M8A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M9": {
+    "gardiner_code": "M9",
+    "unicode_symbol": "𓆸",
+    "unicode_codes": [
+      "U+131B8"
+    ],
+    "jsesh_code": "M9",
+    "description": "Lotus flower",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "M9B": {
+    "gardiner_code": "M9B",
+    "unicode_symbol": "𓹁",
+    "unicode_codes": [
+      "U+13E41"
+    ],
+    "jsesh_code": "M9B",
+    "description": "Hieroglyph M9B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N1": {
+    "gardiner_code": "N1",
+    "unicode_symbol": "𓇯",
+    "unicode_codes": [
+      "U+131EF"
+    ],
+    "jsesh_code": "N1",
+    "description": "Sky",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N10A": {
+    "gardiner_code": "N10A",
+    "unicode_symbol": "𓇸",
+    "unicode_codes": [
+      "U+131F8"
+    ],
+    "jsesh_code": "N10",
+    "description": "Hieroglyph N10A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N11": {
+    "gardiner_code": "N11",
+    "unicode_symbol": "𓇹",
+    "unicode_codes": [
+      "U+131F9"
+    ],
+    "jsesh_code": "N11",
+    "description": "Crescent moon",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N13": {
+    "gardiner_code": "N13",
+    "unicode_symbol": "𓇻",
+    "unicode_codes": [
+      "U+131FB"
+    ],
+    "jsesh_code": "N13",
+    "description": "Crescent moon with three stars",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N14": {
+    "gardiner_code": "N14",
+    "unicode_symbol": "𓇼",
+    "unicode_codes": [
+      "U+131FC"
+    ],
+    "jsesh_code": "N14",
+    "description": "Star",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N16": {
+    "gardiner_code": "N16",
+    "unicode_symbol": "𓇾",
+    "unicode_codes": [
+      "U+131FE"
+    ],
+    "jsesh_code": "N16",
+    "description": "Land with grain",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N18": {
+    "gardiner_code": "N18",
+    "unicode_symbol": "𓈀",
+    "unicode_codes": [
+      "U+13200"
+    ],
+    "jsesh_code": "N18",
+    "description": "Sandy tract",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N2": {
+    "gardiner_code": "N2",
+    "unicode_symbol": "𓇰",
+    "unicode_codes": [
+      "U+131F0"
+    ],
+    "jsesh_code": "N2",
+    "description": "Sky with sceptre",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N20": {
+    "gardiner_code": "N20",
+    "unicode_symbol": "𓈄",
+    "unicode_codes": [
+      "U+13204"
+    ],
+    "jsesh_code": "N20",
+    "description": "Tongue of land",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N21": {
+    "gardiner_code": "N21",
+    "unicode_symbol": "𓈅",
+    "unicode_codes": [
+      "U+13205"
+    ],
+    "jsesh_code": "N21",
+    "description": "Tongue of land",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N22": {
+    "gardiner_code": "N22",
+    "unicode_symbol": "𓈆",
+    "unicode_codes": [
+      "U+13206"
+    ],
+    "jsesh_code": "N22",
+    "description": "Broad hall",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N23": {
+    "gardiner_code": "N23",
+    "unicode_symbol": "𓈇",
+    "unicode_codes": [
+      "U+13207"
+    ],
+    "jsesh_code": "N23",
+    "description": "Irrigation canal",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N25": {
+    "gardiner_code": "N25",
+    "unicode_symbol": "𓈉",
+    "unicode_codes": [
+      "U+13209"
+    ],
+    "jsesh_code": "N25",
+    "description": "Hill",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N26": {
+    "gardiner_code": "N26",
+    "unicode_symbol": "𓈋",
+    "unicode_codes": [
+      "U+1320B"
+    ],
+    "jsesh_code": "N26",
+    "description": "Mountain",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N27": {
+    "gardiner_code": "N27",
+    "unicode_symbol": "𓈌",
+    "unicode_codes": [
+      "U+1320C"
+    ],
+    "jsesh_code": "N27",
+    "description": "Sun over mountain",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N29": {
+    "gardiner_code": "N29",
+    "unicode_symbol": "𓈎",
+    "unicode_codes": [
+      "U+1320E"
+    ],
+    "jsesh_code": "N29",
+    "description": "Sandy hill slope",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N3": {
+    "gardiner_code": "N3",
+    "unicode_symbol": "𓇱",
+    "unicode_codes": [
+      "U+131F1"
+    ],
+    "jsesh_code": "N3",
+    "description": "Sky with rain",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N30": {
+    "gardiner_code": "N30",
+    "unicode_symbol": "𓈏",
+    "unicode_codes": [
+      "U+1320F"
+    ],
+    "jsesh_code": "N30",
+    "description": "Mound with shrubs",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N31": {
+    "gardiner_code": "N31",
+    "unicode_symbol": "𓈐",
+    "unicode_codes": [
+      "U+13210"
+    ],
+    "jsesh_code": "N31",
+    "description": "Road bordered by shrubs",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N33": {
+    "gardiner_code": "N33",
+    "unicode_symbol": "𓈒",
+    "unicode_codes": [
+      "U+13212"
+    ],
+    "jsesh_code": "N33",
+    "description": "Grain of sand or pellet",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N35": {
+    "gardiner_code": "N35",
+    "unicode_symbol": "𓈖",
+    "unicode_codes": [
+      "U+13216"
+    ],
+    "jsesh_code": "N35",
+    "description": "Ripple of water",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N35A": {
+    "gardiner_code": "N35A",
+    "unicode_symbol": "𓈗",
+    "unicode_codes": [
+      "U+13217"
+    ],
+    "jsesh_code": "N35A",
+    "description": "Three ripples of water",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N36": {
+    "gardiner_code": "N36",
+    "unicode_symbol": "𓈘",
+    "unicode_codes": [
+      "U+13218"
+    ],
+    "jsesh_code": "N36",
+    "description": "Channel filled with water",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N37": {
+    "gardiner_code": "N37",
+    "unicode_symbol": "𓈙",
+    "unicode_codes": [
+      "U+13219"
+    ],
+    "jsesh_code": "N37",
+    "description": "Pool",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N4": {
+    "gardiner_code": "N4",
+    "unicode_symbol": "𓇲",
+    "unicode_codes": [
+      "U+131F2"
+    ],
+    "jsesh_code": "N4",
+    "description": "Sky with three stars",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N40": {
+    "gardiner_code": "N40",
+    "unicode_symbol": "𓈝",
+    "unicode_codes": [
+      "U+1321D"
+    ],
+    "jsesh_code": "N40",
+    "description": "Pool with zigzag band through middle",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N41": {
+    "gardiner_code": "N41",
+    "unicode_symbol": "𓈞",
+    "unicode_codes": [
+      "U+1321E"
+    ],
+    "jsesh_code": "N41",
+    "description": "Well full of water",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N42": {
+    "gardiner_code": "N42",
+    "unicode_symbol": "𓈟",
+    "unicode_codes": [
+      "U+1321F"
+    ],
+    "jsesh_code": "N42",
+    "description": "Well with rippled water",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N45": {
+    "gardiner_code": "N45",
+    "unicode_symbol": "𓻆",
+    "unicode_codes": [
+      "U+13EC6"
+    ],
+    "jsesh_code": "N45",
+    "description": "Hieroglyph N45",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N46": {
+    "gardiner_code": "N46",
+    "unicode_symbol": "𓻇",
+    "unicode_codes": [
+      "U+13EC7"
+    ],
+    "jsesh_code": "N46",
+    "description": "Hieroglyph N46",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N5": {
+    "gardiner_code": "N5",
+    "unicode_symbol": "𓇳",
+    "unicode_codes": [
+      "U+131F3"
+    ],
+    "jsesh_code": "N5",
+    "description": "Sun",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N50": {
+    "gardiner_code": "N50",
+    "unicode_symbol": "𓻂",
+    "unicode_codes": [
+      "U+13EC2"
+    ],
+    "jsesh_code": "N50",
+    "description": "Hieroglyph N50",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N64": {
+    "gardiner_code": "N64",
+    "unicode_symbol": "𓻶",
+    "unicode_codes": [
+      "U+13EF6"
+    ],
+    "jsesh_code": "N64",
+    "description": "Hieroglyph N64",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N71": {
+    "gardiner_code": "N71",
+    "unicode_symbol": "𓼈",
+    "unicode_codes": [
+      "U+13F08"
+    ],
+    "jsesh_code": "N71",
+    "description": "Hieroglyph N71",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N74": {
+    "gardiner_code": "N74",
+    "unicode_symbol": "𓼍",
+    "unicode_codes": [
+      "U+13F0D"
+    ],
+    "jsesh_code": "N74",
+    "description": "Hieroglyph N74",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "N8": {
+    "gardiner_code": "N8",
+    "unicode_symbol": "𓻞",
+    "unicode_codes": [
+      "U+13EDE"
+    ],
+    "jsesh_code": "N8",
+    "description": "Sunshine",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O1": {
+    "gardiner_code": "O1",
+    "unicode_symbol": "𓉐",
+    "unicode_codes": [
+      "U+13250"
+    ],
+    "jsesh_code": "O1",
+    "description": "House",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O10": {
+    "gardiner_code": "O10",
+    "unicode_symbol": "𓉡",
+    "unicode_codes": [
+      "U+13261"
+    ],
+    "jsesh_code": "O10",
+    "description": "Combination of enclosure and cobra",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O12": {
+    "gardiner_code": "O12",
+    "unicode_symbol": "𓉦",
+    "unicode_codes": [
+      "U+13266"
+    ],
+    "jsesh_code": "O12",
+    "description": "Combination of palace and vulture",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O16": {
+    "gardiner_code": "O16",
+    "unicode_symbol": "𓾗",
+    "unicode_codes": [
+      "U+13F97"
+    ],
+    "jsesh_code": "O16",
+    "description": "Gateway",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O18": {
+    "gardiner_code": "O18",
+    "unicode_symbol": "𓉬",
+    "unicode_codes": [
+      "U+1326C"
+    ],
+    "jsesh_code": "O18",
+    "description": "Shrine",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O20": {
+    "gardiner_code": "O20",
+    "unicode_symbol": "𓉯",
+    "unicode_codes": [
+      "U+1326F"
+    ],
+    "jsesh_code": "O20",
+    "description": "Shrine",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O21": {
+    "gardiner_code": "O21",
+    "unicode_symbol": "𓉱",
+    "unicode_codes": [
+      "U+13271"
+    ],
+    "jsesh_code": "O21",
+    "description": "Shrine",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O22": {
+    "gardiner_code": "O22",
+    "unicode_symbol": "𓉲",
+    "unicode_codes": [
+      "U+13272"
+    ],
+    "jsesh_code": "O22",
+    "description": "Booth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O22B": {
+    "gardiner_code": "O22B",
+    "unicode_symbol": "𓾽",
+    "unicode_codes": [
+      "U+13FBD"
+    ],
+    "jsesh_code": "O22B",
+    "description": "Hieroglyph O22B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O26": {
+    "gardiner_code": "O26",
+    "unicode_symbol": "𓉸",
+    "unicode_codes": [
+      "U+13278"
+    ],
+    "jsesh_code": "O26",
+    "description": "Stela",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O28": {
+    "gardiner_code": "O28",
+    "unicode_symbol": "𓿟",
+    "unicode_codes": [
+      "U+13FDF"
+    ],
+    "jsesh_code": "O28",
+    "description": "Column",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O29": {
+    "gardiner_code": "O29",
+    "unicode_symbol": "𓉻",
+    "unicode_codes": [
+      "U+1327B"
+    ],
+    "jsesh_code": "O29",
+    "description": "Wooden column",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O30U": {
+    "gardiner_code": "O30U",
+    "unicode_symbol": "𓉽",
+    "unicode_codes": [
+      "U+1327D"
+    ],
+    "jsesh_code": "O30",
+    "description": "Hieroglyph O30U",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O31": {
+    "gardiner_code": "O31",
+    "unicode_symbol": "𓉿",
+    "unicode_codes": [
+      "U+1327F"
+    ],
+    "jsesh_code": "O31",
+    "description": "Door",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O34": {
+    "gardiner_code": "O34",
+    "unicode_symbol": "𓊃",
+    "unicode_codes": [
+      "U+13283"
+    ],
+    "jsesh_code": "O34",
+    "description": "Bolt",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O35": {
+    "gardiner_code": "O35",
+    "unicode_symbol": "𓊄",
+    "unicode_codes": [
+      "U+13284"
+    ],
+    "jsesh_code": "O35",
+    "description": "Combination of bolt and arm",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O36": {
+    "gardiner_code": "O36",
+    "unicode_symbol": "𓊅",
+    "unicode_codes": [
+      "U+13285"
+    ],
+    "jsesh_code": "O36",
+    "description": "Wall",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O38": {
+    "gardiner_code": "O38",
+    "unicode_symbol": "𓊋",
+    "unicode_codes": [
+      "U+1328B"
+    ],
+    "jsesh_code": "O38",
+    "description": "Corner of wall",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O39": {
+    "gardiner_code": "O39",
+    "unicode_symbol": "𓊌",
+    "unicode_codes": [
+      "U+1328C"
+    ],
+    "jsesh_code": "O39",
+    "description": "Stone wall",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O4": {
+    "gardiner_code": "O4",
+    "unicode_symbol": "𓉔",
+    "unicode_codes": [
+      "U+13254"
+    ],
+    "jsesh_code": "O4",
+    "description": "Reed shelter",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O42": {
+    "gardiner_code": "O42",
+    "unicode_symbol": "𓊏",
+    "unicode_codes": [
+      "U+1328F"
+    ],
+    "jsesh_code": "O42",
+    "description": "Fence",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O43": {
+    "gardiner_code": "O43",
+    "unicode_symbol": "𓊐",
+    "unicode_codes": [
+      "U+13290"
+    ],
+    "jsesh_code": "O43",
+    "description": "Stair",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O44": {
+    "gardiner_code": "O44",
+    "unicode_symbol": "𓊑",
+    "unicode_codes": [
+      "U+13291"
+    ],
+    "jsesh_code": "O44",
+    "description": "Stair used with primeval hill",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O48": {
+    "gardiner_code": "O48",
+    "unicode_symbol": "𓊕",
+    "unicode_codes": [
+      "U+13295"
+    ],
+    "jsesh_code": "O48",
+    "description": "Enclosed mound with round top and three foxes' skins",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O49": {
+    "gardiner_code": "O49",
+    "unicode_symbol": "𓊖",
+    "unicode_codes": [
+      "U+13296"
+    ],
+    "jsesh_code": "O49",
+    "description": "Village with crossroads",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O5": {
+    "gardiner_code": "O5",
+    "unicode_symbol": "𓉕",
+    "unicode_codes": [
+      "U+13255"
+    ],
+    "jsesh_code": "O5",
+    "description": "Winding wall",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O50": {
+    "gardiner_code": "O50",
+    "unicode_symbol": "𓊗",
+    "unicode_codes": [
+      "U+13297"
+    ],
+    "jsesh_code": "O50",
+    "description": "Threshing floor",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O6": {
+    "gardiner_code": "O6",
+    "unicode_symbol": "𓉗",
+    "unicode_codes": [
+      "U+13257"
+    ],
+    "jsesh_code": "O6",
+    "description": "Rectangular enclosure",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O7": {
+    "gardiner_code": "O7",
+    "unicode_symbol": "𓉞",
+    "unicode_codes": [
+      "U+1325E"
+    ],
+    "jsesh_code": "O7",
+    "description": "Enclosure with doubling",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O8": {
+    "gardiner_code": "O8",
+    "unicode_symbol": "𓉟",
+    "unicode_codes": [
+      "U+1325F"
+    ],
+    "jsesh_code": "O8",
+    "description": "Combination of enclosure and flat loaf on mat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "O9": {
+    "gardiner_code": "O9",
+    "unicode_symbol": "𓉠",
+    "unicode_codes": [
+      "U+13260"
+    ],
+    "jsesh_code": "O9",
+    "description": "Combination of enclosure and falcon",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P1": {
+    "gardiner_code": "P1",
+    "unicode_symbol": "𓊛",
+    "unicode_codes": [
+      "U+1329B"
+    ],
+    "jsesh_code": "P1",
+    "description": "Boat on water",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P10": {
+    "gardiner_code": "P10",
+    "unicode_symbol": "𓊦",
+    "unicode_codes": [
+      "U+132A6"
+    ],
+    "jsesh_code": "P10",
+    "description": "Rudder",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P11": {
+    "gardiner_code": "P11",
+    "unicode_symbol": "𓊧",
+    "unicode_codes": [
+      "U+132A7"
+    ],
+    "jsesh_code": "P11",
+    "description": "Mooring post",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P1A": {
+    "gardiner_code": "P1A",
+    "unicode_symbol": "𓊜",
+    "unicode_codes": [
+      "U+1329C"
+    ],
+    "jsesh_code": "P1A",
+    "description": "Hieroglyph P1A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P20": {
+    "gardiner_code": "P20",
+    "unicode_symbol": "𔀦",
+    "unicode_codes": [
+      "U+14026"
+    ],
+    "jsesh_code": "P20",
+    "description": "Hieroglyph P20",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P30": {
+    "gardiner_code": "P30",
+    "unicode_symbol": "𔀫",
+    "unicode_codes": [
+      "U+1402B"
+    ],
+    "jsesh_code": "P30",
+    "description": "Hieroglyph P30",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P4": {
+    "gardiner_code": "P4",
+    "unicode_symbol": "𓊠",
+    "unicode_codes": [
+      "U+132A0"
+    ],
+    "jsesh_code": "P4",
+    "description": "Boat with net",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P5": {
+    "gardiner_code": "P5",
+    "unicode_symbol": "𓊡",
+    "unicode_codes": [
+      "U+132A1"
+    ],
+    "jsesh_code": "P5",
+    "description": "Sail",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P6": {
+    "gardiner_code": "P6",
+    "unicode_symbol": "𓊢",
+    "unicode_codes": [
+      "U+132A2"
+    ],
+    "jsesh_code": "P6",
+    "description": "Mast",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P8": {
+    "gardiner_code": "P8",
+    "unicode_symbol": "𓊤",
+    "unicode_codes": [
+      "U+132A4"
+    ],
+    "jsesh_code": "P8",
+    "description": "Oar",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "P9": {
+    "gardiner_code": "P9",
+    "unicode_symbol": "𓊥",
+    "unicode_codes": [
+      "U+132A5"
+    ],
+    "jsesh_code": "P9",
+    "description": "Combination of oar and working legs",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q1": {
+    "gardiner_code": "Q1",
+    "unicode_symbol": "𓊨",
+    "unicode_codes": [
+      "U+132A8"
+    ],
+    "jsesh_code": "Q1",
+    "description": "Seat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q19": {
+    "gardiner_code": "Q19",
+    "unicode_symbol": "𔂫",
+    "unicode_codes": [
+      "U+140AB"
+    ],
+    "jsesh_code": "Q19",
+    "description": "Hieroglyph Q19",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q3": {
+    "gardiner_code": "Q3",
+    "unicode_symbol": "𓊪",
+    "unicode_codes": [
+      "U+132AA"
+    ],
+    "jsesh_code": "Q3",
+    "description": "Stool of reed matting",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q6": {
+    "gardiner_code": "Q6",
+    "unicode_symbol": "𓊭",
+    "unicode_codes": [
+      "U+132AD"
+    ],
+    "jsesh_code": "Q6",
+    "description": "Coffin",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q6G": {
+    "gardiner_code": "Q6G",
+    "unicode_symbol": "𔃀",
+    "unicode_codes": [
+      "U+140C0"
+    ],
+    "jsesh_code": "Q6G",
+    "description": "Hieroglyph Q6G",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q7": {
+    "gardiner_code": "Q7",
+    "unicode_symbol": "𓊮",
+    "unicode_codes": [
+      "U+132AE"
+    ],
+    "jsesh_code": "Q7",
+    "description": "Brazier",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q7A": {
+    "gardiner_code": "Q7A",
+    "unicode_symbol": "𔃆",
+    "unicode_codes": [
+      "U+140C6"
+    ],
+    "jsesh_code": "Q7A",
+    "description": "Hieroglyph Q7A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Q7G": {
+    "gardiner_code": "Q7G",
+    "unicode_symbol": "𔃇",
+    "unicode_codes": [
+      "U+140C7"
+    ],
+    "jsesh_code": "Q7G",
+    "description": "Hieroglyph Q7G",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R1": {
+    "gardiner_code": "R1",
+    "unicode_symbol": "𓊯",
+    "unicode_codes": [
+      "U+132AF"
+    ],
+    "jsesh_code": "R1",
+    "description": "High table with offerings",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R10": {
+    "gardiner_code": "R10",
+    "unicode_symbol": "𓊻",
+    "unicode_codes": [
+      "U+132BB"
+    ],
+    "jsesh_code": "R10",
+    "description": "Combination of cloth wound on pole and festival",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R11": {
+    "gardiner_code": "R11",
+    "unicode_symbol": "𓊽",
+    "unicode_codes": [
+      "U+132BD"
+    ],
+    "jsesh_code": "R11",
+    "description": "Column indicating a bunch of stalks tied together",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R118": {
+    "gardiner_code": "R118",
+    "unicode_symbol": "𔅇",
+    "unicode_codes": [
+      "U+14147"
+    ],
+    "jsesh_code": "R118",
+    "description": "Hieroglyph R118",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R12": {
+    "gardiner_code": "R12",
+    "unicode_symbol": "𓊾",
+    "unicode_codes": [
+      "U+132BE"
+    ],
+    "jsesh_code": "R12",
+    "description": "Standard with feathers",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R14": {
+    "gardiner_code": "R14",
+    "unicode_symbol": "𓋀",
+    "unicode_codes": [
+      "U+132C0"
+    ],
+    "jsesh_code": "R14",
+    "description": "Under",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R15": {
+    "gardiner_code": "R15",
+    "unicode_symbol": "𓋁",
+    "unicode_codes": [
+      "U+132C1"
+    ],
+    "jsesh_code": "R15",
+    "description": "Spear decorated with feathers",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R15A": {
+    "gardiner_code": "R15A",
+    "unicode_symbol": "𔄫",
+    "unicode_codes": [
+      "U+1412B"
+    ],
+    "jsesh_code": "R15A",
+    "description": "Hieroglyph R15A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R16": {
+    "gardiner_code": "R16",
+    "unicode_symbol": "𓋂",
+    "unicode_codes": [
+      "U+132C2"
+    ],
+    "jsesh_code": "R16",
+    "description": "Spear decorated with ribbons",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R2": {
+    "gardiner_code": "R2",
+    "unicode_symbol": "𓊰",
+    "unicode_codes": [
+      "U+132B0"
+    ],
+    "jsesh_code": "R2",
+    "description": "High table",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R20": {
+    "gardiner_code": "R20",
+    "unicode_symbol": "𓋇",
+    "unicode_codes": [
+      "U+132C7"
+    ],
+    "jsesh_code": "R20",
+    "description": "Flower with long stalk",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R20A": {
+    "gardiner_code": "R20A",
+    "unicode_symbol": "𔅄",
+    "unicode_codes": [
+      "U+14144"
+    ],
+    "jsesh_code": "R20A",
+    "description": "Hieroglyph R20A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R22": {
+    "gardiner_code": "R22",
+    "unicode_symbol": "𓋉",
+    "unicode_codes": [
+      "U+132C9"
+    ],
+    "jsesh_code": "R22",
+    "description": "Two broad belts with sash",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R23": {
+    "gardiner_code": "R23",
+    "unicode_symbol": "𓋊",
+    "unicode_codes": [
+      "U+132CA"
+    ],
+    "jsesh_code": "R23",
+    "description": "Two bows tied together",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R24": {
+    "gardiner_code": "R24",
+    "unicode_symbol": "𓋋",
+    "unicode_codes": [
+      "U+132CB"
+    ],
+    "jsesh_code": "R24",
+    "description": "Two bows tied together (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R4": {
+    "gardiner_code": "R4",
+    "unicode_symbol": "𓊵",
+    "unicode_codes": [
+      "U+132B5"
+    ],
+    "jsesh_code": "R4",
+    "description": "Loaf on mat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R5": {
+    "gardiner_code": "R5",
+    "unicode_symbol": "𓊶",
+    "unicode_codes": [
+      "U+132B6"
+    ],
+    "jsesh_code": "R5",
+    "description": "Bread mould",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R50": {
+    "gardiner_code": "R50",
+    "unicode_symbol": "𔄆",
+    "unicode_codes": [
+      "U+14106"
+    ],
+    "jsesh_code": "R50",
+    "description": "Hieroglyph R50",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R7": {
+    "gardiner_code": "R7",
+    "unicode_symbol": "𓊸",
+    "unicode_codes": [
+      "U+132B8"
+    ],
+    "jsesh_code": "R7",
+    "description": "Bowl",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R8": {
+    "gardiner_code": "R8",
+    "unicode_symbol": "𓊹",
+    "unicode_codes": [
+      "U+132B9"
+    ],
+    "jsesh_code": "R8",
+    "description": "Cloth wound on a pole",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "R8A": {
+    "gardiner_code": "R8A",
+    "unicode_symbol": "𔃼",
+    "unicode_codes": [
+      "U+140FC"
+    ],
+    "jsesh_code": "R8A",
+    "description": "Hieroglyph R8A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S1": {
+    "gardiner_code": "S1",
+    "unicode_symbol": "𓋑",
+    "unicode_codes": [
+      "U+132D1"
+    ],
+    "jsesh_code": "S1",
+    "description": "White crown of Upper Egypt",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S12": {
+    "gardiner_code": "S12",
+    "unicode_symbol": "𓋞",
+    "unicode_codes": [
+      "U+132DE"
+    ],
+    "jsesh_code": "S12",
+    "description": "Collar of gold",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S13": {
+    "gardiner_code": "S13",
+    "unicode_symbol": "𓋟",
+    "unicode_codes": [
+      "U+132DF"
+    ],
+    "jsesh_code": "S13",
+    "description": "Amulet",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S15": {
+    "gardiner_code": "S15",
+    "unicode_symbol": "𓋣",
+    "unicode_codes": [
+      "U+132E3"
+    ],
+    "jsesh_code": "S15",
+    "description": "Pendent",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S15A": {
+    "gardiner_code": "S15A",
+    "unicode_symbol": "𔆚",
+    "unicode_codes": [
+      "U+1419A"
+    ],
+    "jsesh_code": "S15A",
+    "description": "Hieroglyph S15A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S19": {
+    "gardiner_code": "S19",
+    "unicode_symbol": "𓋨",
+    "unicode_codes": [
+      "U+132E8"
+    ],
+    "jsesh_code": "S19",
+    "description": "Seal on necklace",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S198": {
+    "gardiner_code": "S198",
+    "unicode_symbol": "𔇓",
+    "unicode_codes": [
+      "U+141D3"
+    ],
+    "jsesh_code": "S198",
+    "description": "Hieroglyph S198",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S2": {
+    "gardiner_code": "S2",
+    "unicode_symbol": "𓋒",
+    "unicode_codes": [
+      "U+132D2"
+    ],
+    "jsesh_code": "S2",
+    "description": "Red crown of Lower Egypt",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S20": {
+    "gardiner_code": "S20",
+    "unicode_symbol": "𓋩",
+    "unicode_codes": [
+      "U+132E9"
+    ],
+    "jsesh_code": "S20",
+    "description": "Ring",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S23": {
+    "gardiner_code": "S23",
+    "unicode_symbol": "𓋬",
+    "unicode_codes": [
+      "U+132EC"
+    ],
+    "jsesh_code": "S23",
+    "description": "Shoulder-knot of cloth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S24": {
+    "gardiner_code": "S24",
+    "unicode_symbol": "𓋭",
+    "unicode_codes": [
+      "U+132ED"
+    ],
+    "jsesh_code": "S24",
+    "description": "Girdle knot",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S27": {
+    "gardiner_code": "S27",
+    "unicode_symbol": "𓋲",
+    "unicode_codes": [
+      "U+132F2"
+    ],
+    "jsesh_code": "S27",
+    "description": "Cloth with fringe",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S28": {
+    "gardiner_code": "S28",
+    "unicode_symbol": "𓋳",
+    "unicode_codes": [
+      "U+132F3"
+    ],
+    "jsesh_code": "S28",
+    "description": "Cloth with fringe on a pole",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S29": {
+    "gardiner_code": "S29",
+    "unicode_symbol": "𓋴",
+    "unicode_codes": [
+      "U+132F4"
+    ],
+    "jsesh_code": "S29",
+    "description": "Folded cloth",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S3": {
+    "gardiner_code": "S3",
+    "unicode_symbol": "𓋔",
+    "unicode_codes": [
+      "U+132D4"
+    ],
+    "jsesh_code": "S3",
+    "description": "Double crown",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S32": {
+    "gardiner_code": "S32",
+    "unicode_symbol": "𓋷",
+    "unicode_codes": [
+      "U+132F7"
+    ],
+    "jsesh_code": "S32",
+    "description": "Cloth with ties",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S32A": {
+    "gardiner_code": "S32A",
+    "unicode_symbol": "𔇀",
+    "unicode_codes": [
+      "U+141C0"
+    ],
+    "jsesh_code": "S32A",
+    "description": "Hieroglyph S32A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S33": {
+    "gardiner_code": "S33",
+    "unicode_symbol": "𓋸",
+    "unicode_codes": [
+      "U+132F8"
+    ],
+    "jsesh_code": "S33",
+    "description": "Sandal",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S34": {
+    "gardiner_code": "S34",
+    "unicode_symbol": "𓋹",
+    "unicode_codes": [
+      "U+132F9"
+    ],
+    "jsesh_code": "S34",
+    "description": "Sandal with ankle strap",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S35": {
+    "gardiner_code": "S35",
+    "unicode_symbol": "𓋺",
+    "unicode_codes": [
+      "U+132FA"
+    ],
+    "jsesh_code": "S35",
+    "description": "Sunshade",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S36": {
+    "gardiner_code": "S36",
+    "unicode_symbol": "𓋼",
+    "unicode_codes": [
+      "U+132FC"
+    ],
+    "jsesh_code": "S36",
+    "description": "Fan",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S38": {
+    "gardiner_code": "S38",
+    "unicode_symbol": "𓋾",
+    "unicode_codes": [
+      "U+132FE"
+    ],
+    "jsesh_code": "S38",
+    "description": "Crook",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S40": {
+    "gardiner_code": "S40",
+    "unicode_symbol": "𓌀",
+    "unicode_codes": [
+      "U+13300"
+    ],
+    "jsesh_code": "S40",
+    "description": "Sceptre of divinity",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S41": {
+    "gardiner_code": "S41",
+    "unicode_symbol": "𓌁",
+    "unicode_codes": [
+      "U+13301"
+    ],
+    "jsesh_code": "S41",
+    "description": "Sceptre of divinity with feather",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S42": {
+    "gardiner_code": "S42",
+    "unicode_symbol": "𓌂",
+    "unicode_codes": [
+      "U+13302"
+    ],
+    "jsesh_code": "S42",
+    "description": "Sceptre of divinity (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S42A": {
+    "gardiner_code": "S42A",
+    "unicode_symbol": "𔇘",
+    "unicode_codes": [
+      "U+141D8"
+    ],
+    "jsesh_code": "S42A",
+    "description": "Hieroglyph S42A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S43": {
+    "gardiner_code": "S43",
+    "unicode_symbol": "𓌃",
+    "unicode_codes": [
+      "U+13303"
+    ],
+    "jsesh_code": "S43",
+    "description": "Walking stick",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S47A": {
+    "gardiner_code": "S47A",
+    "unicode_symbol": "𔅒",
+    "unicode_codes": [
+      "U+14152"
+    ],
+    "jsesh_code": "S47A",
+    "description": "Hieroglyph S47A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S57A": {
+    "gardiner_code": "S57A",
+    "unicode_symbol": "𔅢",
+    "unicode_codes": [
+      "U+14162"
+    ],
+    "jsesh_code": "S57A",
+    "description": "Hieroglyph S57A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S57B": {
+    "gardiner_code": "S57B",
+    "unicode_symbol": "𔅡",
+    "unicode_codes": [
+      "U+14161"
+    ],
+    "jsesh_code": "S57B",
+    "description": "Hieroglyph S57B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "S8": {
+    "gardiner_code": "S8",
+    "unicode_symbol": "𓋚",
+    "unicode_codes": [
+      "U+132DA"
+    ],
+    "jsesh_code": "S8",
+    "description": "Atef crown",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T10": {
+    "gardiner_code": "T10",
+    "unicode_symbol": "𓌔",
+    "unicode_codes": [
+      "U+13314"
+    ],
+    "jsesh_code": "T10",
+    "description": "Bow (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T101": {
+    "gardiner_code": "T101",
+    "unicode_symbol": "𔉹",
+    "unicode_codes": [
+      "U+14279"
+    ],
+    "jsesh_code": "T101",
+    "description": "Hieroglyph T101",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T11B": {
+    "gardiner_code": "T11B",
+    "unicode_symbol": "𔈌",
+    "unicode_codes": [
+      "U+1420C"
+    ],
+    "jsesh_code": "T11B",
+    "description": "Hieroglyph T11B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T12": {
+    "gardiner_code": "T12",
+    "unicode_symbol": "𓌗",
+    "unicode_codes": [
+      "U+13317"
+    ],
+    "jsesh_code": "T12",
+    "description": "Bowstring",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T14": {
+    "gardiner_code": "T14",
+    "unicode_symbol": "𓌙",
+    "unicode_codes": [
+      "U+13319"
+    ],
+    "jsesh_code": "T14",
+    "description": "Throw stick",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T18": {
+    "gardiner_code": "T18",
+    "unicode_symbol": "𓌞",
+    "unicode_codes": [
+      "U+1331E"
+    ],
+    "jsesh_code": "T18",
+    "description": "Crook with package attached",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T19A": {
+    "gardiner_code": "T19A",
+    "unicode_symbol": "𔈸",
+    "unicode_codes": [
+      "U+14238"
+    ],
+    "jsesh_code": "T19A",
+    "description": "Hieroglyph T19A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T21": {
+    "gardiner_code": "T21",
+    "unicode_symbol": "𓌡",
+    "unicode_codes": [
+      "U+13321"
+    ],
+    "jsesh_code": "T21",
+    "description": "Harpoon",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T22": {
+    "gardiner_code": "T22",
+    "unicode_symbol": "𓌢",
+    "unicode_codes": [
+      "U+13322"
+    ],
+    "jsesh_code": "T22",
+    "description": "Arrowhead",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T24": {
+    "gardiner_code": "T24",
+    "unicode_symbol": "𓌤",
+    "unicode_codes": [
+      "U+13324"
+    ],
+    "jsesh_code": "T24",
+    "description": "Net",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T25": {
+    "gardiner_code": "T25",
+    "unicode_symbol": "𓌥",
+    "unicode_codes": [
+      "U+13325"
+    ],
+    "jsesh_code": "T25",
+    "description": "Floats",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T26": {
+    "gardiner_code": "T26",
+    "unicode_symbol": "𓌦",
+    "unicode_codes": [
+      "U+13326"
+    ],
+    "jsesh_code": "T26",
+    "description": "Bird-trap",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T28": {
+    "gardiner_code": "T28",
+    "unicode_symbol": "𓌨",
+    "unicode_codes": [
+      "U+13328"
+    ],
+    "jsesh_code": "T28",
+    "description": "Butcher's block",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T29": {
+    "gardiner_code": "T29",
+    "unicode_symbol": "𓌩",
+    "unicode_codes": [
+      "U+13329"
+    ],
+    "jsesh_code": "T29",
+    "description": "Knife sharpener",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T3": {
+    "gardiner_code": "T3",
+    "unicode_symbol": "𓌉",
+    "unicode_codes": [
+      "U+13309"
+    ],
+    "jsesh_code": "T3",
+    "description": "Mace with pear-shaped head",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T30": {
+    "gardiner_code": "T30",
+    "unicode_symbol": "𓌪",
+    "unicode_codes": [
+      "U+1332A"
+    ],
+    "jsesh_code": "T30",
+    "description": "Knife",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T30A": {
+    "gardiner_code": "T30A",
+    "unicode_symbol": "𔉴",
+    "unicode_codes": [
+      "U+14274"
+    ],
+    "jsesh_code": "T30A",
+    "description": "Hieroglyph T30A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T31": {
+    "gardiner_code": "T31",
+    "unicode_symbol": "𓌫",
+    "unicode_codes": [
+      "U+1332B"
+    ],
+    "jsesh_code": "T31",
+    "description": "Knife (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T34": {
+    "gardiner_code": "T34",
+    "unicode_symbol": "𓌰",
+    "unicode_codes": [
+      "U+13330"
+    ],
+    "jsesh_code": "T34",
+    "description": "Butcher's knife",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T35": {
+    "gardiner_code": "T35",
+    "unicode_symbol": "𓌱",
+    "unicode_codes": [
+      "U+13331"
+    ],
+    "jsesh_code": "T35",
+    "description": "Hieroglyph T35",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T5": {
+    "gardiner_code": "T5",
+    "unicode_symbol": "𓌌",
+    "unicode_codes": [
+      "U+1330C"
+    ],
+    "jsesh_code": "T5",
+    "description": "Combination of mace with round head and flat loaf on mat",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T8": {
+    "gardiner_code": "T8",
+    "unicode_symbol": "𓌐",
+    "unicode_codes": [
+      "U+13310"
+    ],
+    "jsesh_code": "T8",
+    "description": "Dagger",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T9": {
+    "gardiner_code": "T9",
+    "unicode_symbol": "𓌒",
+    "unicode_codes": [
+      "U+13312"
+    ],
+    "jsesh_code": "T9",
+    "description": "Bow",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "T90": {
+    "gardiner_code": "T90",
+    "unicode_symbol": "𔉰",
+    "unicode_codes": [
+      "U+14270"
+    ],
+    "jsesh_code": "T90",
+    "description": "Hieroglyph T90",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U1": {
+    "gardiner_code": "U1",
+    "unicode_symbol": "𓌳",
+    "unicode_codes": [
+      "U+13333"
+    ],
+    "jsesh_code": "U1",
+    "description": "Sickle",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U10": {
+    "gardiner_code": "U10",
+    "unicode_symbol": "𓌾",
+    "unicode_codes": [
+      "U+1333E"
+    ],
+    "jsesh_code": "U10",
+    "description": "Grain-measure heaped up",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U13": {
+    "gardiner_code": "U13",
+    "unicode_symbol": "𓍁",
+    "unicode_codes": [
+      "U+13341"
+    ],
+    "jsesh_code": "U13",
+    "description": "Plough",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U15": {
+    "gardiner_code": "U15",
+    "unicode_symbol": "𓍃",
+    "unicode_codes": [
+      "U+13343"
+    ],
+    "jsesh_code": "U15",
+    "description": "Sledge",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U17": {
+    "gardiner_code": "U17",
+    "unicode_symbol": "𓍅",
+    "unicode_codes": [
+      "U+13345"
+    ],
+    "jsesh_code": "U17",
+    "description": "Grindstone",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U19": {
+    "gardiner_code": "U19",
+    "unicode_symbol": "𓍇",
+    "unicode_codes": [
+      "U+13347"
+    ],
+    "jsesh_code": "U19",
+    "description": "Adze",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U2": {
+    "gardiner_code": "U2",
+    "unicode_symbol": "𓌴",
+    "unicode_codes": [
+      "U+13334"
+    ],
+    "jsesh_code": "U2",
+    "description": "Sickle (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U20": {
+    "gardiner_code": "U20",
+    "unicode_symbol": "𓍈",
+    "unicode_codes": [
+      "U+13348"
+    ],
+    "jsesh_code": "U20",
+    "description": "Adze (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U21": {
+    "gardiner_code": "U21",
+    "unicode_symbol": "𓍉",
+    "unicode_codes": [
+      "U+13349"
+    ],
+    "jsesh_code": "U21",
+    "description": "Adze on block of wood",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U22": {
+    "gardiner_code": "U22",
+    "unicode_symbol": "𓍊",
+    "unicode_codes": [
+      "U+1334A"
+    ],
+    "jsesh_code": "U22",
+    "description": "Chisel",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U23": {
+    "gardiner_code": "U23",
+    "unicode_symbol": "𓍋",
+    "unicode_codes": [
+      "U+1334B"
+    ],
+    "jsesh_code": "U23",
+    "description": "Chisel on block",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U23B": {
+    "gardiner_code": "U23B",
+    "unicode_symbol": "𔊷",
+    "unicode_codes": [
+      "U+142B7"
+    ],
+    "jsesh_code": "U23B",
+    "description": "Hieroglyph U23B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U24": {
+    "gardiner_code": "U24",
+    "unicode_symbol": "𓍍",
+    "unicode_codes": [
+      "U+1334D"
+    ],
+    "jsesh_code": "U24",
+    "description": "Drill",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U24A": {
+    "gardiner_code": "U24A",
+    "unicode_symbol": "𔋄",
+    "unicode_codes": [
+      "U+142C4"
+    ],
+    "jsesh_code": "U24A",
+    "description": "Hieroglyph U24A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U25": {
+    "gardiner_code": "U25",
+    "unicode_symbol": "𓍎",
+    "unicode_codes": [
+      "U+1334E"
+    ],
+    "jsesh_code": "U25",
+    "description": "Drill (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U26": {
+    "gardiner_code": "U26",
+    "unicode_symbol": "𓍏",
+    "unicode_codes": [
+      "U+1334F"
+    ],
+    "jsesh_code": "U26",
+    "description": "Drill in action",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U29": {
+    "gardiner_code": "U29",
+    "unicode_symbol": "𓍒",
+    "unicode_codes": [
+      "U+13352"
+    ],
+    "jsesh_code": "U29",
+    "description": "Two strokes (alternative to U28)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U30": {
+    "gardiner_code": "U30",
+    "unicode_symbol": "𓍔",
+    "unicode_codes": [
+      "U+13354"
+    ],
+    "jsesh_code": "U30",
+    "description": "Potter's kiln",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U31": {
+    "gardiner_code": "U31",
+    "unicode_symbol": "𓍕",
+    "unicode_codes": [
+      "U+13355"
+    ],
+    "jsesh_code": "U31",
+    "description": "Potter's kiln (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U32": {
+    "gardiner_code": "U32",
+    "unicode_symbol": "𓍖",
+    "unicode_codes": [
+      "U+13356"
+    ],
+    "jsesh_code": "U32",
+    "description": "Potter's kiln, side view",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U33": {
+    "gardiner_code": "U33",
+    "unicode_symbol": "𓍘",
+    "unicode_codes": [
+      "U+13358"
+    ],
+    "jsesh_code": "U33",
+    "description": "Pestle",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U35": {
+    "gardiner_code": "U35",
+    "unicode_symbol": "𓍚",
+    "unicode_codes": [
+      "U+1335A"
+    ],
+    "jsesh_code": "U35",
+    "description": "Spindle with thread",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U36": {
+    "gardiner_code": "U36",
+    "unicode_symbol": "𓍛",
+    "unicode_codes": [
+      "U+1335B"
+    ],
+    "jsesh_code": "U36",
+    "description": "Club used by fullers in washing",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U38A": {
+    "gardiner_code": "U38A",
+    "unicode_symbol": "𔋢",
+    "unicode_codes": [
+      "U+142E2"
+    ],
+    "jsesh_code": "U38A",
+    "description": "Hieroglyph U38A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U39I": {
+    "gardiner_code": "U39I",
+    "unicode_symbol": "𔋬",
+    "unicode_codes": [
+      "U+142EC"
+    ],
+    "jsesh_code": "U39I",
+    "description": "Hieroglyph U39I",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U40": {
+    "gardiner_code": "U40",
+    "unicode_symbol": "𓍟",
+    "unicode_codes": [
+      "U+1335F"
+    ],
+    "jsesh_code": "U40",
+    "description": "Hieroglyph U40",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U5": {
+    "gardiner_code": "U5",
+    "unicode_symbol": "𓌷",
+    "unicode_codes": [
+      "U+13337"
+    ],
+    "jsesh_code": "U5",
+    "description": "Sickle with grain",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U7": {
+    "gardiner_code": "U7",
+    "unicode_symbol": "𓌻",
+    "unicode_codes": [
+      "U+1333B"
+    ],
+    "jsesh_code": "U7",
+    "description": "Hoe (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U8": {
+    "gardiner_code": "U8",
+    "unicode_symbol": "𓌼",
+    "unicode_codes": [
+      "U+1333C"
+    ],
+    "jsesh_code": "U8",
+    "description": "Grain-measure",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "U9": {
+    "gardiner_code": "U9",
+    "unicode_symbol": "𓌽",
+    "unicode_codes": [
+      "U+1333D"
+    ],
+    "jsesh_code": "U9",
+    "description": "Grain-measure (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V1": {
+    "gardiner_code": "V1",
+    "unicode_symbol": "𓍢",
+    "unicode_codes": [
+      "U+13362"
+    ],
+    "jsesh_code": "V1",
+    "description": "Coil of rope",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V10": {
+    "gardiner_code": "V10",
+    "unicode_symbol": "𓍷",
+    "unicode_codes": [
+      "U+13377"
+    ],
+    "jsesh_code": "V10",
+    "description": "Cartridge or shen ring (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V102": {
+    "gardiner_code": "V102",
+    "unicode_symbol": "𔍖",
+    "unicode_codes": [
+      "U+14356"
+    ],
+    "jsesh_code": "V102",
+    "description": "Hieroglyph V102",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V11": {
+    "gardiner_code": "V11",
+    "unicode_symbol": "𓍸",
+    "unicode_codes": [
+      "U+13378"
+    ],
+    "jsesh_code": "V11",
+    "description": "Tethering rope (alternative of V9)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V12": {
+    "gardiner_code": "V12",
+    "unicode_symbol": "𓍼",
+    "unicode_codes": [
+      "U+1337C"
+    ],
+    "jsesh_code": "V12",
+    "description": "Tethering rope",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V13": {
+    "gardiner_code": "V13",
+    "unicode_symbol": "𓍿",
+    "unicode_codes": [
+      "U+1337F"
+    ],
+    "jsesh_code": "V13",
+    "description": "Rope",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V15": {
+    "gardiner_code": "V15",
+    "unicode_symbol": "𓎁",
+    "unicode_codes": [
+      "U+13381"
+    ],
+    "jsesh_code": "V15",
+    "description": "Rope",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V17": {
+    "gardiner_code": "V17",
+    "unicode_symbol": "𓎃",
+    "unicode_codes": [
+      "U+13383"
+    ],
+    "jsesh_code": "V17",
+    "description": "Shelter of papyrus",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V19": {
+    "gardiner_code": "V19",
+    "unicode_symbol": "𓎅",
+    "unicode_codes": [
+      "U+13385"
+    ],
+    "jsesh_code": "V19",
+    "description": "Hobble for cattle",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V2": {
+    "gardiner_code": "V2",
+    "unicode_symbol": "𓍬",
+    "unicode_codes": [
+      "U+1336C"
+    ],
+    "jsesh_code": "V2",
+    "description": "Coil of rope (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V20": {
+    "gardiner_code": "V20",
+    "unicode_symbol": "𓎆",
+    "unicode_codes": [
+      "U+13386"
+    ],
+    "jsesh_code": "V20",
+    "description": "Cattle hobble",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V21": {
+    "gardiner_code": "V21",
+    "unicode_symbol": "𓎓",
+    "unicode_codes": [
+      "U+13393"
+    ],
+    "jsesh_code": "V21",
+    "description": "Cattle hobble (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V22": {
+    "gardiner_code": "V22",
+    "unicode_symbol": "𓎔",
+    "unicode_codes": [
+      "U+13394"
+    ],
+    "jsesh_code": "V22",
+    "description": "Whip",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V23": {
+    "gardiner_code": "V23",
+    "unicode_symbol": "𓎕",
+    "unicode_codes": [
+      "U+13395"
+    ],
+    "jsesh_code": "V23",
+    "description": "Whip (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V23A": {
+    "gardiner_code": "V23A",
+    "unicode_symbol": "𓎖",
+    "unicode_codes": [
+      "U+13396"
+    ],
+    "jsesh_code": "V23A",
+    "description": "Hieroglyph V23A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V24": {
+    "gardiner_code": "V24",
+    "unicode_symbol": "𓎗",
+    "unicode_codes": [
+      "U+13397"
+    ],
+    "jsesh_code": "V24",
+    "description": "Cord wound on stick",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V25": {
+    "gardiner_code": "V25",
+    "unicode_symbol": "𓎘",
+    "unicode_codes": [
+      "U+13398"
+    ],
+    "jsesh_code": "V25",
+    "description": "Cord wound on stick (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V26": {
+    "gardiner_code": "V26",
+    "unicode_symbol": "𓎙",
+    "unicode_codes": [
+      "U+13399"
+    ],
+    "jsesh_code": "V26",
+    "description": "Cord wound on stick (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V27": {
+    "gardiner_code": "V27",
+    "unicode_symbol": "𓎚",
+    "unicode_codes": [
+      "U+1339A"
+    ],
+    "jsesh_code": "V27",
+    "description": "Cord wound on stick (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V28": {
+    "gardiner_code": "V28",
+    "unicode_symbol": "𓎛",
+    "unicode_codes": [
+      "U+1339B"
+    ],
+    "jsesh_code": "V28",
+    "description": "Wick of twisted flax",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V28A": {
+    "gardiner_code": "V28A",
+    "unicode_symbol": "𔌷",
+    "unicode_codes": [
+      "U+14337"
+    ],
+    "jsesh_code": "V28A",
+    "description": "Hieroglyph V28A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V29": {
+    "gardiner_code": "V29",
+    "unicode_symbol": "𓎝",
+    "unicode_codes": [
+      "U+1339D"
+    ],
+    "jsesh_code": "V29",
+    "description": "Wick of twisted flax (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V29A": {
+    "gardiner_code": "V29A",
+    "unicode_symbol": "𔌿",
+    "unicode_codes": [
+      "U+1433F"
+    ],
+    "jsesh_code": "V29A",
+    "description": "Hieroglyph V29A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V30": {
+    "gardiner_code": "V30",
+    "unicode_symbol": "𓎟",
+    "unicode_codes": [
+      "U+1339F"
+    ],
+    "jsesh_code": "V30",
+    "description": "Wickerwork basket",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V31": {
+    "gardiner_code": "V31",
+    "unicode_symbol": "𓎡",
+    "unicode_codes": [
+      "U+133A1"
+    ],
+    "jsesh_code": "V31",
+    "description": "Wickerwork basket",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V33": {
+    "gardiner_code": "V33",
+    "unicode_symbol": "𓎤",
+    "unicode_codes": [
+      "U+133A4"
+    ],
+    "jsesh_code": "V33",
+    "description": "Bag of linen",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V36": {
+    "gardiner_code": "V36",
+    "unicode_symbol": "𓎨",
+    "unicode_codes": [
+      "U+133A8"
+    ],
+    "jsesh_code": "V36",
+    "description": "Bag of linen (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V36G": {
+    "gardiner_code": "V36G",
+    "unicode_symbol": "𔍌",
+    "unicode_codes": [
+      "U+1434C"
+    ],
+    "jsesh_code": "V36G",
+    "description": "Hieroglyph V36G",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V39": {
+    "gardiner_code": "V39",
+    "unicode_symbol": "𓎬",
+    "unicode_codes": [
+      "U+133AC"
+    ],
+    "jsesh_code": "V39",
+    "description": "Bag of linen (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V4": {
+    "gardiner_code": "V4",
+    "unicode_symbol": "𓍯",
+    "unicode_codes": [
+      "U+1336F"
+    ],
+    "jsesh_code": "V4",
+    "description": "Lasso",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V5": {
+    "gardiner_code": "V5",
+    "unicode_symbol": "𓍰",
+    "unicode_codes": [
+      "U+13370"
+    ],
+    "jsesh_code": "V5",
+    "description": "Lasso (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V6": {
+    "gardiner_code": "V6",
+    "unicode_symbol": "𓍱",
+    "unicode_codes": [
+      "U+13371"
+    ],
+    "jsesh_code": "V6",
+    "description": "Rope for tethering animals",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "V7": {
+    "gardiner_code": "V7",
+    "unicode_symbol": "𓍲",
+    "unicode_codes": [
+      "U+13372"
+    ],
+    "jsesh_code": "V7",
+    "description": "Rope for tethering animals (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W10": {
+    "gardiner_code": "W10",
+    "unicode_symbol": "𓎺",
+    "unicode_codes": [
+      "U+133BA"
+    ],
+    "jsesh_code": "W10",
+    "description": "Cup",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W11": {
+    "gardiner_code": "W11",
+    "unicode_symbol": "𓎼",
+    "unicode_codes": [
+      "U+133BC"
+    ],
+    "jsesh_code": "W11",
+    "description": "Cup or ring-stand",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W13": {
+    "gardiner_code": "W13",
+    "unicode_symbol": "𓎾",
+    "unicode_codes": [
+      "U+133BE"
+    ],
+    "jsesh_code": "W13",
+    "description": "Pot",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W14": {
+    "gardiner_code": "W14",
+    "unicode_symbol": "𓎿",
+    "unicode_codes": [
+      "U+133BF"
+    ],
+    "jsesh_code": "W14",
+    "description": "Tall water-pot",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W14A": {
+    "gardiner_code": "W14A",
+    "unicode_symbol": "𔍮",
+    "unicode_codes": [
+      "U+1436E"
+    ],
+    "jsesh_code": "W14A",
+    "description": "Hieroglyph W14A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W15": {
+    "gardiner_code": "W15",
+    "unicode_symbol": "𓏁",
+    "unicode_codes": [
+      "U+133C1"
+    ],
+    "jsesh_code": "W15",
+    "description": "Water-jar",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W15B": {
+    "gardiner_code": "W15B",
+    "unicode_symbol": "𔍰",
+    "unicode_codes": [
+      "U+14370"
+    ],
+    "jsesh_code": "W15B",
+    "description": "Hieroglyph W15B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W16": {
+    "gardiner_code": "W16",
+    "unicode_symbol": "𓏂",
+    "unicode_codes": [
+      "U+133C2"
+    ],
+    "jsesh_code": "W16",
+    "description": "Water-jar (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W17": {
+    "gardiner_code": "W17",
+    "unicode_symbol": "𓏃",
+    "unicode_codes": [
+      "U+133C3"
+    ],
+    "jsesh_code": "W17",
+    "description": "Water-pot",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W17A": {
+    "gardiner_code": "W17A",
+    "unicode_symbol": "𔍼",
+    "unicode_codes": [
+      "U+1437C"
+    ],
+    "jsesh_code": "W17A",
+    "description": "Hieroglyph W17A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W18A": {
+    "gardiner_code": "W18A",
+    "unicode_symbol": "𔍾",
+    "unicode_codes": [
+      "U+1437E"
+    ],
+    "jsesh_code": "W18A",
+    "description": "Hieroglyph W18A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W19": {
+    "gardiner_code": "W19",
+    "unicode_symbol": "𓏇",
+    "unicode_codes": [
+      "U+133C7"
+    ],
+    "jsesh_code": "W19",
+    "description": "Milk-jug",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W2": {
+    "gardiner_code": "W2",
+    "unicode_symbol": "𓎰",
+    "unicode_codes": [
+      "U+133B0"
+    ],
+    "jsesh_code": "W2",
+    "description": "Oil jar (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W20": {
+    "gardiner_code": "W20",
+    "unicode_symbol": "𓏈",
+    "unicode_codes": [
+      "U+133C8"
+    ],
+    "jsesh_code": "W20",
+    "description": "Milk-jug (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W22": {
+    "gardiner_code": "W22",
+    "unicode_symbol": "𓏊",
+    "unicode_codes": [
+      "U+133CA"
+    ],
+    "jsesh_code": "W22",
+    "description": "Beer-jug",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W24": {
+    "gardiner_code": "W24",
+    "unicode_symbol": "𓏌",
+    "unicode_codes": [
+      "U+133CC"
+    ],
+    "jsesh_code": "W24",
+    "description": "Bowl",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W25": {
+    "gardiner_code": "W25",
+    "unicode_symbol": "𓏎",
+    "unicode_codes": [
+      "U+133CE"
+    ],
+    "jsesh_code": "W25",
+    "description": "Bowl (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W2B": {
+    "gardiner_code": "W2B",
+    "unicode_symbol": "𔍝",
+    "unicode_codes": [
+      "U+1435D"
+    ],
+    "jsesh_code": "W2B",
+    "description": "Hieroglyph W2B",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W3": {
+    "gardiner_code": "W3",
+    "unicode_symbol": "𓎱",
+    "unicode_codes": [
+      "U+133B1"
+    ],
+    "jsesh_code": "W3",
+    "description": "Oil jar (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W4": {
+    "gardiner_code": "W4",
+    "unicode_symbol": "𓎳",
+    "unicode_codes": [
+      "U+133B3"
+    ],
+    "jsesh_code": "W4",
+    "description": "Oil jar (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W8": {
+    "gardiner_code": "W8",
+    "unicode_symbol": "𓎷",
+    "unicode_codes": [
+      "U+133B7"
+    ],
+    "jsesh_code": "W8",
+    "description": "Oil jar (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "W9": {
+    "gardiner_code": "W9",
+    "unicode_symbol": "𓎸",
+    "unicode_codes": [
+      "U+133B8"
+    ],
+    "jsesh_code": "W9",
+    "description": "Stone jug",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "X1": {
+    "gardiner_code": "X1",
+    "unicode_symbol": "𓏏",
+    "unicode_codes": [
+      "U+133CF"
+    ],
+    "jsesh_code": "X1",
+    "description": "Bread",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "X2": {
+    "gardiner_code": "X2",
+    "unicode_symbol": "𓏐",
+    "unicode_codes": [
+      "U+133D0"
+    ],
+    "jsesh_code": "X2",
+    "description": "Bread (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "X3": {
+    "gardiner_code": "X3",
+    "unicode_symbol": "𓏑",
+    "unicode_codes": [
+      "U+133D1"
+    ],
+    "jsesh_code": "X3",
+    "description": "Bread (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "X4": {
+    "gardiner_code": "X4",
+    "unicode_symbol": "𔏅",
+    "unicode_codes": [
+      "U+143C5"
+    ],
+    "jsesh_code": "X4",
+    "description": "Roll of bread",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "X5": {
+    "gardiner_code": "X5",
+    "unicode_symbol": "𓏕",
+    "unicode_codes": [
+      "U+133D5"
+    ],
+    "jsesh_code": "X5",
+    "description": "Roll of bread (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "X6": {
+    "gardiner_code": "X6",
+    "unicode_symbol": "𓏖",
+    "unicode_codes": [
+      "U+133D6"
+    ],
+    "jsesh_code": "X6",
+    "description": "Roll of bread (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "X8": {
+    "gardiner_code": "X8",
+    "unicode_symbol": "𓏙",
+    "unicode_codes": [
+      "U+133D9"
+    ],
+    "jsesh_code": "X8",
+    "description": "Conical loaf",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Y1": {
+    "gardiner_code": "Y1",
+    "unicode_symbol": "𓏛",
+    "unicode_codes": [
+      "U+133DB"
+    ],
+    "jsesh_code": "Y1",
+    "description": "Papyrus rolled up, tied and sealed",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Y2": {
+    "gardiner_code": "Y2",
+    "unicode_symbol": "𓏝",
+    "unicode_codes": [
+      "U+133DD"
+    ],
+    "jsesh_code": "Y2",
+    "description": "Papyrus roll (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Y3": {
+    "gardiner_code": "Y3",
+    "unicode_symbol": "𓏞",
+    "unicode_codes": [
+      "U+133DE"
+    ],
+    "jsesh_code": "Y3",
+    "description": "Scribe's outfit",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Y4": {
+    "gardiner_code": "Y4",
+    "unicode_symbol": "𓏟",
+    "unicode_codes": [
+      "U+133DF"
+    ],
+    "jsesh_code": "Y4",
+    "description": "Scribe's outfit (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Y5": {
+    "gardiner_code": "Y5",
+    "unicode_symbol": "𓏠",
+    "unicode_codes": [
+      "U+133E0"
+    ],
+    "jsesh_code": "Y5",
+    "description": "Draught-board",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z1": {
+    "gardiner_code": "Z1",
+    "unicode_symbol": "𓏤",
+    "unicode_codes": [
+      "U+133E4"
+    ],
+    "jsesh_code": "Z1",
+    "description": "Stroke",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z11": {
+    "gardiner_code": "Z11",
+    "unicode_symbol": "𓏶",
+    "unicode_codes": [
+      "U+133F6"
+    ],
+    "jsesh_code": "Z11",
+    "description": "Two planks crossed and joined",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z11A": {
+    "gardiner_code": "Z11A",
+    "unicode_symbol": "𔏩",
+    "unicode_codes": [
+      "U+143E9"
+    ],
+    "jsesh_code": "Z11A",
+    "description": "Hieroglyph Z11A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z1A": {
+    "gardiner_code": "Z1A",
+    "unicode_symbol": "𓏤",
+    "unicode_codes": [
+      "U+133E4"
+    ],
+    "jsesh_code": "Z1",
+    "description": "Hieroglyph Z1A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z2": {
+    "gardiner_code": "Z2",
+    "unicode_symbol": "𓏥",
+    "unicode_codes": [
+      "U+133E5"
+    ],
+    "jsesh_code": "Z2",
+    "description": "Three strokes",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z20": {
+    "gardiner_code": "Z20",
+    "unicode_symbol": "𔏬",
+    "unicode_codes": [
+      "U+143EC"
+    ],
+    "jsesh_code": "Z20",
+    "description": "Hieroglyph Z20",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z2C": {
+    "gardiner_code": "Z2C",
+    "unicode_symbol": "𔏧",
+    "unicode_codes": [
+      "U+143E7"
+    ],
+    "jsesh_code": "Z2C",
+    "description": "Hieroglyph Z2C",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z3": {
+    "gardiner_code": "Z3",
+    "unicode_symbol": "𓏪",
+    "unicode_codes": [
+      "U+133EA"
+    ],
+    "jsesh_code": "Z3",
+    "description": "Three strokes (alternative)",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z3A": {
+    "gardiner_code": "Z3A",
+    "unicode_symbol": "𓏫",
+    "unicode_codes": [
+      "U+133EB"
+    ],
+    "jsesh_code": "Z3A",
+    "description": "Hieroglyph Z3A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z4": {
+    "gardiner_code": "Z4",
+    "unicode_symbol": "𓏭",
+    "unicode_codes": [
+      "U+133ED"
+    ],
+    "jsesh_code": "Z4",
+    "description": "Two strokes",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z4A": {
+    "gardiner_code": "Z4A",
+    "unicode_symbol": "𓏮",
+    "unicode_codes": [
+      "U+133EE"
+    ],
+    "jsesh_code": "Z4A",
+    "description": "Hieroglyph Z4A",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z5": {
+    "gardiner_code": "Z5",
+    "unicode_symbol": "𓏯",
+    "unicode_codes": [
+      "U+133EF"
+    ],
+    "jsesh_code": "Z5",
+    "description": "Diagonal stroke",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z7": {
+    "gardiner_code": "Z7",
+    "unicode_symbol": "𓏲",
+    "unicode_codes": [
+      "U+133F2"
+    ],
+    "jsesh_code": "Z7",
+    "description": "Coil",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  },
+  "Z9": {
+    "gardiner_code": "Z9",
+    "unicode_symbol": "𓏴",
+    "unicode_codes": [
+      "U+133F4"
+    ],
+    "jsesh_code": "Z9",
+    "description": "Two over-symbols",
+    "available_notations": [
+      "unicode",
+      "jsesh",
+      "gardiner"
+    ]
+  }
+}

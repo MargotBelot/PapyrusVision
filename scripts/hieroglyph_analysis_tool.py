@@ -309,8 +309,7 @@ class HieroglyphAnalysisTool:
         # Show if requested
         if show_plot:
             plt.show()
-        else:
-            plt.close()
+        # Note: Removed automatic plt.close() to keep visualization open
         
         return fig
     
@@ -338,6 +337,7 @@ class HieroglyphAnalysisTool:
                 'detection_id': detection['id'],
                 'gardiner_code': detection['gardiner_code'],
                 'confidence': detection['confidence'],
+                'confidence_threshold': results['model_info']['confidence_threshold'],
                 'x1': detection['bbox']['x1'],
                 'y1': detection['bbox']['y1'],
                 'x2': detection['bbox']['x2'],
@@ -412,6 +412,8 @@ def main():
                        help='Output directory for results (default: same as image directory)')
     parser.add_argument('--no_visualization', action='store_true',
                        help='Skip interactive visualization')
+    parser.add_argument('--no_export', action='store_true',
+                       help='Skip automatic file exports (JSON/CSV/PNG)')
     
     args = parser.parse_args()
     
@@ -437,44 +439,57 @@ def main():
             print("Usage: python hieroglyph_analysis_tool.py --image_path YOUR_IMAGE.jpg")
             return
     
-    # Set up output directory
-    if args.output_dir:
-        output_dir = args.output_dir
-    else:
-        output_dir = os.path.join(os.path.dirname(image_path), 'hieroglyph_analysis')
-    
-    os.makedirs(output_dir, exist_ok=True)
+    # Set up output directory (only if exports are enabled)
+    if not args.no_export:
+        if args.output_dir:
+            output_dir = args.output_dir
+        else:
+            output_dir = os.path.join(os.path.dirname(image_path), 'hieroglyph_analysis')
+        
+        os.makedirs(output_dir, exist_ok=True)
     
     # Run analysis
     results = tool.predict_hieroglyphs(image_path, args.confidence_threshold)
     if results is None:
         return
     
-    # Create output filenames
-    image_name = Path(image_path).stem
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
-    json_output = os.path.join(output_dir, f"{image_name}_hieroglyph_analysis_{timestamp}.json")
-    csv_output = os.path.join(output_dir, f"{image_name}_hieroglyph_analysis_{timestamp}.csv")
-    viz_output = os.path.join(output_dir, f"{image_name}_hieroglyph_visualization_{timestamp}.png")
-    
-    # Export results
-    tool.export_to_json(results, json_output)
-    tool.export_to_csv(results, csv_output)
-    
-    # Create visualization
-    if not args.no_visualization:
-        tool.visualize_results(image_path, results, viz_output, show_plot=True)
+    # Export results (only if not disabled)
+    if not args.no_export:
+        # Create output filenames
+        image_name = Path(image_path).stem
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        json_output = os.path.join(output_dir, f"{image_name}_hieroglyph_analysis_{timestamp}.json")
+        csv_output = os.path.join(output_dir, f"{image_name}_hieroglyph_analysis_{timestamp}.csv")
+        viz_output = os.path.join(output_dir, f"{image_name}_hieroglyph_visualization_{timestamp}.png")
+        
+        # Export results
+        tool.export_to_json(results, json_output)
+        tool.export_to_csv(results, csv_output)
     else:
+        print("\nSkipping automatic exports (--no_export flag enabled)")
+        viz_output = None
+    
+    # Create visualization (only save if exports enabled)
+    if not args.no_visualization:
+        if not args.no_export and viz_output:
+            tool.visualize_results(image_path, results, viz_output, show_plot=True)
+        else:
+            # Show visualization but don't save file
+            tool.visualize_results(image_path, results, None, show_plot=True)
+    elif not args.no_export and viz_output:
+        # Save visualization without showing
         tool.visualize_results(image_path, results, viz_output, show_plot=False)
     
     # Print summary
     tool.print_summary(results)
     
-    print(f"\\nOUTPUT FILES:")
-    print(f"JSON: {json_output}")
-    print(f"CSV: {csv_output}")
-    print(f"Visualization: {viz_output}")
+    if not args.no_export:
+        print(f"\nOUTPUT FILES:")
+        print(f"JSON: {json_output}")
+        print(f"CSV: {csv_output}")
+        if viz_output:
+            print(f"Visualization: {viz_output}")
     
     print("Analysis complete!")
 

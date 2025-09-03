@@ -1,5 +1,5 @@
 """
-Dataset utilities for PapyrusNU Hieroglyph Detection
+Dataset utilities for PapyrusVision Hieroglyph Detection
 Handles COCO format annotations and data splitting
 
 Features:

@@ -1,5 +1,5 @@
 """
-Visualization utilities for PapyrusNU Hieroglyph Detection
+Visualization utilities for PapyrusVision Hieroglyph Detection
 Handles data visualization, training plots, and result visualization
 
 Features:

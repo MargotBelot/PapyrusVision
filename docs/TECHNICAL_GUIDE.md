@@ -16,9 +16,10 @@
 3. [Dataset Creation & Analysis](#3-dataset-creation--analysis)
 4. [Model Training & Performance](#4-model-training--performance)
 5. [Advanced Usage & Applications](#5-advanced-usage--applications)
-6. [Technical Challenges](#6-technical-challenges)
-7. [Development & API Reference](#7-development--api-reference)
-8. [Troubleshooting](#8-troubleshooting)
+6. [JSesh Integration & Enhanced Digital Paleography](#6-jsesh-integration--enhanced-digital-paleography)
+7. [Technical Challenges](#7-technical-challenges)
+8. [Development & API Reference](#8-development--api-reference)
+9. [Troubleshooting](#9-troubleshooting)
 
 ---
 
@@ -36,6 +37,11 @@
 - **Coverage**: 594+ official Unicode Egyptian Hieroglyphs (U+13000–U+1342F)
 - **Standards**: Gardiner sign list classification system
 - **Format**: JSON mappings with descriptions and Unicode codes
+
+**JSesh Integration System**: Complete scholarly notation with transliteration support
+- **Coverage**: 3,843 Unicode→JSesh mappings covering full Egyptian Hieroglyphs block
+- **Completeness**: 99.8% notation coverage for detected hieroglyphs
+- **Integration**: Combination of Gardiner + Unicode + JSesh notation
 
 **Digital Paleography Pipeline**: Automated sign extraction and cataloging
 - **Processing**: Automated cropping and organization by Gardiner codes
@@ -75,38 +81,36 @@
 
 ---
 
-## 2. Advanced Installation
+## 2. Development Environment Setup
 
-### 2.1 Development Environment Setup
+> **Note**: For basic installation, see the [README.md](../README.md). This section covers advanced development configurations.
 
-For development and advanced usage, additional configuration may be needed beyond the basic installation covered in the main README.
-
-#### GPU Configuration and Optimization
+### 2.1 GPU Configuration and Optimization
 
 ```bash
 # Verify CUDA installation and compatibility
 nvidia-smi
 python -c "import torch; print('CUDA available:', torch.cuda.is_available())"
 
-# Configure GPU memory management
+# Configure GPU memory management for large models
 export CUDA_VISIBLE_DEVICES=0
 export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
 ```
 
-#### Advanced Detectron2 Configuration
+### 2.2 Advanced Detectron2 Configuration
 
 ```bash
-# Build with specific CUDA version
+# Build from source for development
 CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" pip install 'git+https://github.com/facebookresearch/detectron2.git'
 
 # Verify installation with model loading test
 python -c "from detectron2.engine import DefaultPredictor; print('Detectron2 ready')"
 ```
 
-#### Performance Optimization Settings
+### 2.3 Performance Optimization Settings
 
 ```python
-# config/performance.yaml
+# config/performance.yaml - Advanced model configuration
 DATALOADER:
   NUM_WORKERS: 4
   PREFETCH_FACTOR: 2
@@ -360,15 +364,12 @@ uploaded_files = st.file_uploader(
 #### Batch Processing with Custom Parameters
 
 ```bash
-# Advanced batch processing
-python apps/digital_paleography_tool.py \
-    --input_dir /path/to/images \
+# Individual image analysis with export control
+python scripts/hieroglyph_analysis_tool.py \
+    --image_path /path/to/image.jpg \
     --output_dir /path/to/results \
-    --confidence 0.6 \
-    --batch_size 4 \
-    --format json,csv,html \
-    --include_crops \
-    --parallel 4
+    --confidence_threshold 0.6 \
+    --no_export  # Skip file generation
 
 # Research pipeline integration
 python scripts/hieroglyph_analysis_tool.py \
@@ -448,9 +449,238 @@ class HieroglyphAnalyzer:
 
 ---
 
-## 6. Technical Challenges
+## 6. JSesh Integration & Enhanced Digital Paleography
 
-### 6.1 Class Imbalance Problem
+### 6.1 JSesh Integration System Overview
+
+**JSesh Integration** provides complete scholarly notation by combining three essential hieroglyphic notation systems:
+- **Gardiner Codes**: Standard Egyptological classification (A1, D4, etc.)
+- **Unicode Symbols**: Modern digital representation (𓀀, 𓁹, etc.)
+
+#### Architecture
+
+```python
+# JSesh Integration Pipeline
+class JSeshIntegrator:
+    def __init__(self):
+        self.jsesh_mappings = {}      # 3,843 Unicode→JSesh mappings
+        self.unicode_mappings = {}    # 594 Gardiner→Unicode mappings
+        self.gardiner_descriptions = {} # 706 descriptions
+        
+    def get_complete_notation(self, gardiner_code):
+        """Get complete scholarly notation for any Gardiner code"""
+        return {
+            'gardiner_code': gardiner_code,
+            'unicode_symbol': self.get_unicode_symbol(gardiner_code),
+            'unicode_codes': self.get_unicode_codes(gardiner_code),
+            'jsesh_code': self.get_jsesh_code(gardiner_code),
+            'description': self.get_description(gardiner_code),
+            'available_notations': ['gardiner', 'unicode', 'jsesh']
+        }
+```
+
+### 6.2 Data Sources & Extraction
+
+#### Unicode RTF File Processing
+
+The JSesh mappings are extracted from the official Unicode consortium data:
+
+```python
+# scripts/extract_jsesh.py
+def extract_jsesh_mappings(rtf_file_path):
+    """Extract Unicode → JSesh mappings from RTF file"""
+    with open(rtf_file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    mappings = {}
+    
+    # Parse line-by-line: lines look like "U+13000\tkEH_JSesh\tA1\\"
+    for raw_line in content.splitlines():
+        line = raw_line.rstrip('\r\n')
+        if line.endswith('\\'):
+            line = line[:-1]
+        parts = line.split('\t')
+        if len(parts) >= 3 and parts[0].startswith('U+') and parts[1] == 'kEH_JSesh':
+            unicode_key = parts[0]
+            jsesh_code = parts[2].strip()
+            if jsesh_code and jsesh_code not in ('', 'None'):
+                mappings[unicode_key] = jsesh_code
+    
+    return mappings
+```
+
+#### Coverage Analysis
+
+**Comprehensive Coverage Statistics:**
+- **Total JSesh Mappings**: 3,843 Unicode→JSesh conversions
+- **Gardiner Code Coverage**: 594 codes from training data
+- **Complete Notation Coverage**: 99.8% (593/594 codes)
+- **Unicode Block Coverage**: Full Egyptian Hieroglyphs (U+13000–U+1342F)
+
+```python
+# Coverage verification
+integrator = JSeshIntegrator()
+summary = integrator.create_notation_summary()
+
+print(f"Complete notation coverage: {summary['notation_types']['complete_notation']} codes")
+print(f"Coverage percentage: {summary['enhancement_potential']['complete_coverage_percent']:.1f}%")
+```
+
+### 6.3 Enhanced Digital Paleography Tool
+
+#### Complete Scholarly Output
+
+The enhanced paleography tool (`apps/enhanced_paleography_tool.py`) provides comprehensive scholarly documentation:
+
+```python
+# Enhanced paleography workflow
+class EnhancedPaleographyTool:
+    def __init__(self):
+        self.jsesh_integrator = JSeshIntegrator()
+        self.analyzer = HieroglyphAnalysisTool()
+    
+    def process_uploaded_image(self, uploaded_file, confidence_threshold=0.5):
+        """Process image with complete JSesh integration"""
+        # 1. AI Detection
+        results = self.analyzer.predict_hieroglyphs(image_path, confidence_threshold)
+        
+        # 2. JSesh Enhancement
+        enhanced_crops = []
+        for detection in results['detections']:
+            basic_crop_data = {
+                'gardiner_code': detection['gardiner_code'],
+                'confidence': detection['confidence'],
+                'bbox': detection['bbox']
+            }
+            # Add complete notation
+            enhanced_crop = self.jsesh_integrator.get_enhanced_crop_data(basic_crop_data)
+            enhanced_crops.append(enhanced_crop)
+        
+        return enhanced_crops
+```
+
+#### Enhanced HTML Catalog Generation
+
+The enhanced tool generates professional scholarly catalogs with complete notation:
+
+```html
+<!-- Example enhanced catalog output -->
+<div class="gardiner-section" id="D4">
+    <div class="gardiner-header">
+        <div class="symbol-display">𓁹</div>
+        <div class="notation-info">
+            <h2>D4</h2>
+            <div class="notation-row">
+                <span class="notation-item gardiner-code">Gardiner: D4</span>
+                <span class="notation-item jsesh-code">JSesh: D4</span>
+                <span class="notation-item unicode-code">Unicode: U+13079</span>
+            </div>
+            <div class="description">Eye</div>
+            <div>5 detected instances</div>
+        </div>
+    </div>
+    <div class="crops-grid">
+        <!-- Individual detection crops with confidence scores -->
+    </div>
+</div>
+```
+
+### 6.4 Integration with Existing Workflow
+
+#### Seamless Enhancement
+
+The JSesh integration enhances existing detection results without changing the core workflow:
+
+```python
+# Original detection result
+original_result = {
+    'gardiner_code': 'D4',
+    'confidence': 0.87,
+    'bbox': [100, 50, 150, 90],
+    'unicode_symbol': '𓁹',
+    'description': 'Eye'
+}
+
+# Enhanced with JSesh integration
+enhanced_result = integrator.get_enhanced_crop_data(original_result)
+# Result now includes:
+# - jsesh_code: 'D4'
+# - unicode_codes: ['U+13079']
+# - available_notations: ['unicode', 'jsesh', 'gardiner']
+# - enhanced: True
+```
+
+#### File Structure
+
+```
+data/
+├── unicode_jsesh_mappings.json      # Raw Unicode→JSesh mappings (3,843)
+├── enhanced_hieroglyph_mappings.json # Complete notation for detected codes (594)
+└── annotations/
+    ├── gardiner_unicode_mapping.json
+    └── gardiner_descriptions.json
+
+scripts/
+├── jsesh_integration.py           # JSesh integration module
+└── extract_jsesh.py               # Data extraction utility
+
+apps/
+├── enhanced_paleography_tool.py   # Enhanced web application
+└── digital_paleography_tool.py    # Original tool
+```
+
+### 6.5 Usage Examples
+
+#### Command-Line Integration Testing
+
+```bash
+# Test JSesh integration
+cd /path/to/PapyrusVision
+python3 scripts/jsesh_integration.py
+
+# Output example:
+# D4  | 𓁹 | D4      | Eye
+# N35 | 𓈖 | N35     | Ripple of water
+# G43 | 𓅱 | G43     | Quail chick
+```
+
+#### Enhanced Streamlit Application
+
+```bash
+# Run enhanced paleography tool
+streamlit run apps/enhanced_paleography_tool.py
+
+# Features:
+# - Complete notation display
+# - JSesh transliteration codes
+# - Professional HTML catalogs
+```
+
+#### API Usage
+
+```python
+from scripts.jsesh_integration import JSeshIntegrator
+
+# Initialize integrator
+integrator = JSeshIntegrator()
+
+# Get complete notation for any Gardiner code
+notation = integrator.get_complete_notation('D4')
+print(f"Gardiner: {notation['gardiner_code']}")
+print(f"Unicode: {notation['unicode_symbol']} ({notation['unicode_codes'][0]})")
+print(f"JSesh: {notation['jsesh_code']}")
+print(f"Description: {notation['description']}")
+
+# Output:
+# Gardiner: D4
+# Unicode: 𓁹 (U+13079)
+# JSesh: D4
+# Description: Eye
+```
+
+## 7. Technical Challenges
+
+### 7.1 Class Imbalance Problem
 
 **Challenge**: Extreme imbalance in hieroglyph frequency
 - 60+ classes with <5 training instances
@@ -473,7 +703,7 @@ rare_class_augmentation = {
 }
 ```
 
-### 6.2 Small Object Detection
+### 7.2 Small Object Detection
 
 **Challenge**: Many hieroglyphs are small (10-50 pixels)
 - Standard detection models struggle with small objects
@@ -498,7 +728,7 @@ INPUT:
   MAX_SIZE_TRAIN: 1333
 ```
 
-### 6.3 Papyrus-Specific Challenges
+### 7.3 Papyrus-Specific Challenges
 
 **Unique Challenges:**
 1. **Aging and Damage**: Cracks, discoloration, missing sections
@@ -524,7 +754,7 @@ def preprocess_papyrus_image(image):
 
 ---
 
-## 7. Development & API Reference
+## 8. Development & API Reference
 
 ### 7.1 Core API Components
 
@@ -650,7 +880,7 @@ paleography.add_exporter("custom", CustomExporter())
 
 ---
 
-## 8. Troubleshooting
+## 9. Troubleshooting
 
 ### 8.1 Installation Issues
 

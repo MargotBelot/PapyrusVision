@@ -252,3 +252,7 @@ secrets.json
 
 # VS Code Local History
 .history/
+
+# Temporary analysis folders
+papyrus_analysis/
+papyrus_temp/

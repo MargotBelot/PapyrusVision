@@ -7,7 +7,7 @@ This script automatically installs all requirements for PapyrusVision and sets u
 Works on Windows, macOS, and Linux.
 
 Usage:
-    python install.py
+    python install.py or python3 install.py
 
 What it does:
 1. Checks system requirements
@@ -31,7 +31,8 @@ class PapyrusVisionInstaller:
         self.python_cmd = self.find_python_command()
         self.pip_cmd = self.find_pip_command()
         self.project_dir = Path(__file__).parent
-        self.venv_dir = self.project_dir / "papyrus_env"
+        # Use local drive to avoid ._ file issues on external drives (macOS)
+        self.venv_dir = Path.home() / "papyrus_env"
         
     def find_python_command(self):
         """Find the correct Python command on this system."""
@@ -215,10 +216,12 @@ class PapyrusVisionInstaller:
             machine = platform.machine().lower()
             if machine in ['arm64', 'aarch64']:  # Apple Silicon
                 print("Detected Detected macOS Apple Silicon (M1/M2/M3)")
+                # For Apple Silicon, we need to be very specific about PyTorch versions
+                # that work with Detectron2. Use PyTorch 2.0.x for better Detectron2 compatibility
                 return [
-                    # Install PyTorch for Apple Silicon first
-                    [self.venv_pip, 'install', 'torch', 'torchvision', 'torchaudio'],
-                    # Build Detectron2 from source
+                    # Use compatible PyTorch version for Detectron2
+                    [self.venv_pip, 'install', 'torch==2.0.1', 'torchvision==0.15.2', 'torchaudio==2.0.2'],
+                    # Build Detectron2 from source (most reliable for Apple Silicon)
                     [self.venv_pip, 'install', 'git+https://github.com/facebookresearch/detectron2.git']
                 ]
             else:  # Intel Mac
@@ -226,29 +229,29 @@ class PapyrusVisionInstaller:
                 if has_cuda:
                     # Intel Mac with eGPU (rare)
                     return [
-                        [self.venv_pip, 'install', 'torch', 'torchvision', 'torchaudio', '--index-url', 'https://download.pytorch.org/whl/cu118'],
+                        [self.venv_pip, 'install', 'torch==2.0.1', 'torchvision==0.15.2', 'torchaudio==2.0.2', '--index-url', 'https://download.pytorch.org/whl/cu118'],
                         [self.venv_pip, 'install', 'detectron2', '-f', 'https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html']
                     ]
                 else:
                     # CPU-only Intel Mac
                     return [
-                        [self.venv_pip, 'install', 'torch', 'torchvision', 'torchaudio', '--index-url', 'https://download.pytorch.org/whl/cpu'],
+                        [self.venv_pip, 'install', 'torch==2.0.1', 'torchvision==0.15.2', 'torchaudio==2.0.2', '--index-url', 'https://download.pytorch.org/whl/cpu'],
                         [self.venv_pip, 'install', 'detectron2', '-f', 'https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html']
                     ]
         
         elif self.system in ["linux", "windows"]:  # Linux or Windows
             if has_cuda and cuda_version:
                 print(f"Detected Detected {self.system.title()} with CUDA {cuda_version}")
-                # Use CUDA-enabled versions
+                # Use CUDA-enabled versions with compatible PyTorch
                 return [
-                    [self.venv_pip, 'install', 'torch', 'torchvision', 'torchaudio', '--index-url', 'https://download.pytorch.org/whl/cu118'],
+                    [self.venv_pip, 'install', 'torch==2.0.1', 'torchvision==0.15.2', 'torchaudio==2.0.2', '--index-url', 'https://download.pytorch.org/whl/cu118'],
                     [self.venv_pip, 'install', 'detectron2', '-f', 'https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html']
                 ]
             else:
                 print(f"Detected Detected {self.system.title()} - using CPU-only version")
-                # CPU-only versions
+                # CPU-only versions with compatible PyTorch
                 return [
-                    [self.venv_pip, 'install', 'torch', 'torchvision', 'torchaudio', '--index-url', 'https://download.pytorch.org/whl/cpu'],
+                    [self.venv_pip, 'install', 'torch==2.0.1', 'torchvision==0.15.2', 'torchaudio==2.0.2', '--index-url', 'https://download.pytorch.org/whl/cpu'],
                     [self.venv_pip, 'install', 'detectron2', '-f', 'https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html']
                 ]
         
@@ -256,7 +259,7 @@ class PapyrusVisionInstaller:
             # Fallback for unknown systems
             print("Unknown Unknown system - using CPU-only fallback")
             return [
-                [self.venv_pip, 'install', 'torch', 'torchvision', 'torchaudio'],
+                [self.venv_pip, 'install', 'torch==2.0.1', 'torchvision==0.15.2', 'torchaudio==2.0.2'],
                 [self.venv_pip, 'install', 'git+https://github.com/facebookresearch/detectron2.git']
             ]
 
@@ -290,6 +293,17 @@ class PapyrusVisionInstaller:
         if not success:
             print("ERROR: Failed to install basic dependencies!")
             return False
+        
+        # Fix NumPy compatibility (ensure NumPy 1.x for Detectron2 compatibility)
+        print("Ensuring Ensuring NumPy 1.x compatibility for Detectron2...")
+        numpy_fix_success = self.run_command(
+            [self.venv_pip, 'install', 'numpy>=1.21.0,<2.0', '--force-reinstall'],
+            "Fixing NumPy version compatibility",
+            check=False
+        )
+        
+        if not numpy_fix_success:
+            print("WARNING: Could not fix NumPy version, but continuing installation...")
         
         # Install Detectron2 with platform-specific commands
         print("Verifying Installing Detectron2 (AI detection engine)...")
@@ -593,25 +607,32 @@ class PapyrusVisionInstaller:
         return True
 
     def create_launch_scripts(self):
-        """Create easy launch scripts for the user."""
-        self.print_step(5, "Creating Launch Scripts")
+        """Create streamlined launch environment."""
+        self.print_step(5, "Setting Up Launch Environment")
         
-        if self.system == "windows":
-            self.create_windows_launcher()
+        # Check if run_with_env.sh exists and is properly configured
+        run_with_env_path = self.project_dir / "run_with_env.sh"
+        if run_with_env_path.exists():
+            print("SUCCESS: run_with_env.sh already exists and is configured")
         else:
-            self.create_unix_launcher()
+            print("NOTE: run_with_env.sh not found, but installation can proceed")
         
-        print("SUCCESS: Launch scripts created!")
+        # Check if clean_metadata.sh exists
+        clean_script_path = self.project_dir / "clean_metadata.sh"
+        if clean_script_path.exists():
+            print("SUCCESS: clean_metadata.sh is available for maintenance")
+        
+        print("SUCCESS: Launch environment ready!")
         return True
 
     def create_windows_launcher(self):
         """Create Windows batch file launcher."""
-        # Main app launcher
+        # Unified app launcher
         launcher_content = f'''@echo off
-echo Starting PapyrusVision Hieroglyphs App...
+echo Starting PapyrusVision Unified App...
 cd /d "{self.project_dir}"
 call "{self.venv_dir}\\Scripts\\activate.bat"
-streamlit run apps\\streamlit_hieroglyphs_app.py
+streamlit run apps\\unified_papyrus_app.py
 pause
 '''
         
@@ -619,32 +640,17 @@ pause
         with open(launcher_path, 'w') as f:
             f.write(launcher_content)
         
-        # Digital Paleography Tool launcher
-        paleo_launcher_content = f'''@echo off
-echo Starting Digital Paleography Tool...
-cd /d "{self.project_dir}"
-call "{self.venv_dir}\\Scripts\\activate.bat"
-streamlit run apps\\digital_paleography_tool.py
-pause
-'''
-        
-        paleo_launcher_path = self.project_dir / "start_paleography_tool.bat"
-        with open(paleo_launcher_path, 'w') as f:
-            f.write(paleo_launcher_content)
-        
         print(f"SUCCESS: Created launcher: {launcher_path}")
-        print(f"SUCCESS: Created paleography launcher: {paleo_launcher_path}")
-        print("NOTE: Double-click 'start_papyrus_vision.bat' to run the main app")
-        print("NOTE: Double-click 'start_paleography_tool.bat' to run the paleography tool")
+        print("NOTE: Double-click 'start_papyrus_vision.bat' to run the unified app")
 
     def create_unix_launcher(self):
         """Create Unix shell script launcher."""
-        # Main app launcher
+        # Unified app launcher
         launcher_content = f'''#!/bin/bash
-echo "Starting PapyrusVision Hieroglyphs App..."
+echo "Starting PapyrusVision Unified App..."
 cd "{self.project_dir}"
 source "{self.venv_dir}/bin/activate"
-streamlit run apps/streamlit_hieroglyphs_app.py
+streamlit run apps/unified_papyrus_app.py
 '''
         
         launcher_path = self.project_dir / "start_papyrus_vision.sh"
@@ -654,25 +660,8 @@ streamlit run apps/streamlit_hieroglyphs_app.py
         # Make executable
         os.chmod(launcher_path, 0o755)
         
-        # Digital Paleography Tool launcher
-        paleo_launcher_content = f'''#!/bin/bash
-echo "Starting Digital Paleography Tool..."
-cd "{self.project_dir}"
-source "{self.venv_dir}/bin/activate"
-streamlit run apps/digital_paleography_tool.py
-'''
-        
-        paleo_launcher_path = self.project_dir / "start_paleography_tool.sh"
-        with open(paleo_launcher_path, 'w') as f:
-            f.write(paleo_launcher_content)
-        
-        # Make executable
-        os.chmod(paleo_launcher_path, 0o755)
-        
         print(f"SUCCESS: Created launcher: {launcher_path}")
-        print(f"SUCCESS: Created paleography launcher: {paleo_launcher_path}")
-        print(f"NOTE: Run './start_papyrus_vision.sh' to start the main app")
-        print(f"NOTE: Run './start_paleography_tool.sh' to start the paleography tool")
+        print(f"NOTE: Run './start_papyrus_vision.sh' to start the unified app")
 
     def install(self):
         """Run the complete installation process."""
@@ -710,36 +699,33 @@ streamlit run apps/digital_paleography_tool.py
         print("\n"+ "="*60)
         print("SUCCESS: INSTALLATION COMPLETE!")
         print("="*60)
-        print("\nInstalling Next Steps:")
+        print("\nNext Steps:")
         
         if self.system == "windows":
-            print("1. Double-click 'start_papyrus_vision.bat' to launch the main app")
-            print("2. Double-click 'start_paleography_tool.bat' to launch the paleography tool")
+            print("1. Run: run_with_env.bat streamlit run apps\\unified_papyrus_app.py")
         else:
-            print("1. Run './start_papyrus_vision.sh' to launch the main app")
-            print("2. Run './start_paleography_tool.sh' to launch the paleography tool")
+            print("1. Run: ./run_with_env.sh streamlit run apps/unified_papyrus_app.py")
         
-        print("3. Your browser will open to http://localhost:8501")
-        print("4. Start analyzing hieroglyphs and creating digital paleographies!")
+        print("2. Your browser will open to http://localhost:8501")
+        print("3. Start analyzing hieroglyphs and creating digital paleographies!")
         
         print("\nNOTE: Tips:")
         print("- The first launch may take 30-60 seconds")
         print("- Keep the terminal/command prompt window open while using")
         print("- Press Ctrl+C in terminal to stop the application")
         
-        print("\nFeatures Features Available:")
-        print("- Hieroglyph detection and classification")
-        print("- Digital paleography creation")
-        print("- Batch processing capabilities")
-        print("- Interactive HTML catalog generation")
-        print("- Unicode mapping and Gardiner code descriptions")
+        print("\nFeatures Available:")
+        print("- AI-powered hieroglyph detection and classification")
+        print("- Digital paleography creation with interactive catalogs")
+        print("- Unicode mapping")
+        print("- Multi-format export (JSON, CSV, HTML, ZIP)")
         
-        print("\nDocumentation: Documentation:")
+        print("\nDocumentation:")
         print("- Technical Guide: docs/TECHNICAL_GUIDE.md")
         print("- Jupyter Notebooks: notebooks/ directory")
         
-        print("\nUnknown Need help?")
-        print("- GitHub Issues: https://github.com/MargotBelot/PapyrusVision/issues")
+        print("\nNeed help?")
+        print("- GitHub Issues: https://github.com/margotbelot/PapyrusVision/issues")
 
 
 def main():
