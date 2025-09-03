@@ -756,7 +756,7 @@ def preprocess_papyrus_image(image):
 
 ## 8. Development & API Reference
 
-### 7.1 Core API Components
+### 8.1 Core API Components
 
 #### HieroglyphDetector Class
 
@@ -812,7 +812,7 @@ unicode_codes = unicode_map.get(gardiner_code, [])
 description = descriptions.get(gardiner_code, "No description available")
 ```
 
-### 7.2 Configuration Management
+### 8.2 Configuration Management
 
 #### Model Configuration
 
@@ -851,7 +851,7 @@ class Settings:
     DESCRIPTIONS_PATH = "data/annotations/gardiner_descriptions.json"
 ```
 
-### 7.3 Extension Points
+### 8.3 Extension Points
 
 #### Custom Preprocessing
 
@@ -882,7 +882,7 @@ paleography.add_exporter("custom", CustomExporter())
 
 ## 9. Troubleshooting
 
-### 8.1 Installation Issues
+### 9.1 Installation Issues
 
 #### Detectron2 Installation Failures
 
@@ -919,7 +919,7 @@ nvidia-smi
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-### 8.2 Runtime Issues
+### 9.2 Runtime Issues
 
 #### Memory Errors
 
@@ -959,7 +959,7 @@ ls -la models/hieroglyph_model_*/
 chmod 644 models/hieroglyph_model_*/model_final.pth
 ```
 
-### 8.3 Performance Issues
+### 9.3 Performance Issues
 
 #### Slow Detection
 
@@ -994,7 +994,7 @@ with st.spinner('Processing image...'):
     results = analyzer.analyze_image(image_path)
 ```
 
-### 8.4 Data Issues
+### 9.4 Data Issues
 
 #### Unicode Display Problems
 
@@ -1018,7 +1018,7 @@ with open('output.html', 'w', encoding='utf-8') as f:
     f.write(html_content)
 ```
 
-### 8.5 Common Workflow Issues
+### 9.5 Common Workflow Issues
 
 #### Export Format Problems
 
