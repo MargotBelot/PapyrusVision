@@ -4582,5 +4582,13 @@
     "description": "Official mapping for Z7",
     "source": "official_unicode_mappings",
     "added_date": "2025-08-08T15:12:39.057123"
+  },
+  "A1B": {
+    "unicode_codes": [
+      "U+13000"
+    ],
+    "description": "Variant of A1 - Standing man",
+    "source": "manual_addition",
+    "added_date": "2025-09-03T12:30:00"
   }
 }

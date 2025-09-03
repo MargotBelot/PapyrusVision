@@ -87,6 +87,15 @@ class HieroglyphAnalysisTool:
         
         # Load Unicode mapping
         unicode_file = os.path.join(DATA_DIR, 'annotations', 'gardiner_unicode_mapping.json')
+        descriptions_file = os.path.join(DATA_DIR, 'annotations', 'gardiner_descriptions.json')
+        
+        # Load descriptions first
+        descriptions = {}
+        if os.path.exists(descriptions_file):
+            with open(descriptions_file, 'r') as f:
+                descriptions = json.load(f)
+            print(f"Loaded descriptions for {len(descriptions)} Gardiner codes")
+        
         if os.path.exists(unicode_file):
             with open(unicode_file, 'r') as f:
                 unicode_data = json.load(f)
@@ -95,7 +104,7 @@ class HieroglyphAnalysisTool:
             for gardiner_code, info in unicode_data.items():
                 self.unicode_mapping[gardiner_code] = {
                     'unicode_codes': info.get('unicode_codes', []),
-                    'description': info.get('description', 'Unknown'),
+                    'description': descriptions.get(gardiner_code, info.get('description', 'Unknown')),
                     'unicode_symbol': self.get_unicode_symbol(info.get('unicode_codes', []))
                 }
             print(f"Loaded Unicode mappings for {len(self.unicode_mapping)} Gardiner codes")
@@ -123,9 +132,21 @@ class HieroglyphAnalysisTool:
             return False
     
     def get_unicode_symbol(self, unicode_codes):
-        """Convert Unicode codes to actual symbols - DISABLED for prediction display"""
-        # Always return empty string to disable Unicode symbol display
-        return ""
+        """Convert Unicode codes to actual symbols"""
+        if not unicode_codes:
+            return ''
+        
+        # Try to convert first Unicode code to symbol
+        try:
+            for code in unicode_codes:
+                if code.startswith('U+'):
+                    # Convert U+XXXXX to actual Unicode character
+                    unicode_int = int(code[2:], 16)
+                    return chr(unicode_int)
+        except (ValueError, OverflowError):
+            pass
+        
+        return ''
     
     def predict_hieroglyphs(self, image_path, confidence_threshold=None):
         """Run hieroglyph detection on an image"""

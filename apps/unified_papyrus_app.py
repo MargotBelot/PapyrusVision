@@ -231,14 +231,17 @@ class UnifiedPapyrusApp:
                 confidence = detection.get('confidence', 0.0)
                 gardiner_code = detection.get('gardiner_code', 'Unknown')
                 
-                # Create detection entry with basic data
+                # Create detection entry with ALL original data preserved
                 processed_detection = {
                     'gardiner_code': gardiner_code,
                     'confidence': confidence,
                     'bbox': detection.get('bbox', {}),
                     'source_image': uploaded_file.name,
                     'detection_index': i,
-                    'description': f'Hieroglyph {gardiner_code}'
+                    'description': detection.get('description', f'Hieroglyph {gardiner_code}'),
+                    'unicode_codes': detection.get('unicode_codes', []),
+                    'unicode_symbol': detection.get('unicode_symbol', ''),
+                    'area': detection.get('area', 0)
                 }
                 
                 processed_detections.append(processed_detection)
@@ -1032,10 +1035,24 @@ def main():
             st.error("AI Detection Model unavailable")
         
     
-    # Main application tabs
-    tab1, tab2 = st.tabs(["Single Image Analysis", "Digital Paleography"])
+    # Interface selection - using radio to avoid tab switching issues
+    if 'interface_mode' not in st.session_state:
+        st.session_state.interface_mode = "Single Image Analysis"
     
-    with tab1:
+    interface_mode = st.radio(
+        "Choose Interface:",
+        ["Single Image Analysis", "Digital Paleography"],
+        index=0 if st.session_state.interface_mode == "Single Image Analysis" else 1,
+        horizontal=True,
+        key="interface_selector"
+    )
+    
+    # Update session state
+    st.session_state.interface_mode = interface_mode
+    
+    st.markdown("---")
+    
+    if interface_mode == "Single Image Analysis":
         st.header("Single Image Analysis")
         st.markdown("Upload a single papyrus image for detailed analysis with complete notation.")
         
@@ -1153,11 +1170,22 @@ def main():
                         if detection.get('fallback_used'):
                             gardiner_display = f"{detection['gardiner_code']} (→{detection['fallback_used']})"
                         
+                        # Get Unicode symbol and codes for display
+                        unicode_symbol = detection.get('unicode_symbol', '')
+                        unicode_codes = detection.get('unicode_codes', [])
+                        unicode_display = ''
+                        if unicode_symbol and unicode_symbol.strip():
+                            unicode_display = unicode_symbol
+                            if unicode_codes:
+                                unicode_display += f" ({unicode_codes[0]})"
+                        elif unicode_codes:
+                            unicode_display = unicode_codes[0]
+                        
                         table_data.append({
                             '#': i + 1,
                             'Gardiner': gardiner_display,
+                            'Unicode': unicode_display,
                             'Confidence': f"{detection['confidence']:.1%}",
-                            'Confidence_Threshold': confidence_threshold,
                             'BBox (x1,y1,x2,y2)': bbox_str,
                             'Description': detection['description']
                         })
@@ -1187,10 +1215,10 @@ def main():
                     
                     csv_data = []
                     # Add metadata as first rows (commented format)
-                    csv_data.append({"#": "# PapyrusVision Analysis Results", "Gardiner": "", "Confidence": "", "BBox (x1,y1,x2,y2)": "", "Description": ""})
+                    csv_data.append({"#": "# PapyrusVision Analysis Results", "Gardiner": "", "Unicode": "", "Confidence": "", "BBox (x1,y1,x2,y2)": "", "Description": ""})
                     for key, value in metadata_info.items():
-                        csv_data.append({"#": f"# {key}: {value}", "Gardiner": "", "Confidence": "", "BBox (x1,y1,x2,y2)": "", "Description": ""})
-                    csv_data.append({"#": "", "Gardiner": "", "Confidence": "", "BBox (x1,y1,x2,y2)": "", "Description": ""})
+                        csv_data.append({"#": f"# {key}: {value}", "Gardiner": "", "Unicode": "", "Confidence": "", "BBox (x1,y1,x2,y2)": "", "Description": ""})
+                    csv_data.append({"#": "", "Gardiner": "", "Unicode": "", "Confidence": "", "BBox (x1,y1,x2,y2)": "", "Description": ""})
                     csv_data.extend(table_data)
                     
                     csv_df = pd.DataFrame(csv_data)
@@ -1235,9 +1263,10 @@ def main():
                 else:
                     st.warning("No hieroglyphs detected. Try lowering the confidence threshold.")
     
-    with tab2:
+    elif interface_mode == "Digital Paleography":
         st.header("Digital Paleography")
         st.markdown("Create a digital paleography from a single image by cropping all detected signs.")
+        
         
         # Image source selection (same as Single Image Analysis)
         dp_image_source = st.radio(
@@ -1285,20 +1314,27 @@ def main():
             # Create unique key for this digital paleography session
             dp_key = f"dp_{dp_uploaded_file.name}_{confidence_threshold}"
             
-            if st.button("Create Digital Paleography", type="primary"):
-                with st.spinner("Detecting signs and creating cropped catalog..."):
-                    detections, original_image = app.analyze_single_image(
-                        dp_uploaded_file, confidence_threshold, analyzer
-                    )
-                    
-                    # Store results in session state
-                    if detections and original_image is not None:
-                        st.session_state[f'dp_detections_{dp_key}'] = detections
-                        st.session_state[f'dp_original_image_{dp_key}'] = original_image
-                        st.session_state[f'dp_image_info_{dp_key}'] = {
-                            'name': dp_uploaded_file.name,
-                            'confidence_threshold': confidence_threshold
-                        }
+            if st.button("Create Digital Paleography", type="primary", key="create_dp_button"):
+                try:
+                    with st.spinner("Detecting signs and creating cropped catalog..."):
+                        detections, original_image = app.analyze_single_image(
+                            dp_uploaded_file, confidence_threshold, analyzer
+                        )
+                        
+                        # Store results in session state
+                        if detections and original_image is not None:
+                            st.session_state[f'dp_detections_{dp_key}'] = detections
+                            st.session_state[f'dp_original_image_{dp_key}'] = original_image
+                            st.session_state[f'dp_image_info_{dp_key}'] = {
+                                'name': dp_uploaded_file.name,
+                                'confidence_threshold': confidence_threshold
+                            }
+                            # Keep user in Digital Paleography interface
+                            st.session_state.interface_mode = "Digital Paleography"
+                        else:
+                            st.error("No detections found. Try lowering the confidence threshold.")
+                except Exception as e:
+                    st.error(f"Error during analysis: {str(e)}")
             
             # Display results if they exist (either just calculated or from session state)
             if f'dp_detections_{dp_key}' in st.session_state:
@@ -1340,14 +1376,28 @@ def main():
                             code_detection = groups[code][0][0]  # First detection for this code
                             description = code_detection.get('description', f'Hieroglyph {code}')
                             
-                            # Header with metadata
+                            # Header with metadata - now with Unicode symbol display
                             col1, col2, col3 = st.columns([1, 2, 2])
                             with col1:
-                                st.markdown(f"<div style='font-size: 2em; text-align: center; color: #8B4513; font-weight: bold;'>{code}</div>", unsafe_allow_html=True)
+                                # Display Unicode symbol if available
+                                unicode_symbol = code_detection.get('unicode_symbol', '')
+                                if unicode_symbol and unicode_symbol.strip():
+                                    # Show both Unicode symbol and code
+                                    st.markdown(f"<div style='font-size: 3em; text-align: center; color: #8B4513; font-weight: bold; margin-bottom: 10px;'>{unicode_symbol}</div>", unsafe_allow_html=True)
+                                    st.markdown(f"<div style='font-size: 1.2em; text-align: center; color: #8B4513; font-weight: bold;'>{code}</div>", unsafe_allow_html=True)
+                                else:
+                                    # Fallback to just the code
+                                    st.markdown(f"<div style='font-size: 2em; text-align: center; color: #8B4513; font-weight: bold;'>{code}</div>", unsafe_allow_html=True)
                             
                             with col2:
                                 st.markdown(f"**Description:** {description}")
                                 st.markdown(f"**Classification:** Gardiner {code}")
+                                
+                                # Show Unicode codes if available
+                                unicode_codes = code_detection.get('unicode_codes', [])
+                                if unicode_codes:
+                                    codes_str = ', '.join(unicode_codes)
+                                    st.markdown(f"**Unicode:** {codes_str}")
                             
                             with col3:
                                 confidences = [det[0]['confidence'] for det in groups[code]]
@@ -1457,17 +1507,36 @@ def main():
                                     'csv_data': {}
                                 })
                                 
-                                # Store relative path for CSV
+                                # Get Unicode information
+                                unicode_symbol = det.get('unicode_symbol', '')
+                                unicode_codes = det.get('unicode_codes', [])
+                                unicode_codes_str = ', '.join(unicode_codes) if unicode_codes else ''
+                                
+                                # Store relative path for CSV with complete metadata
                                 relative_path = f"{gardiner_code}/{crop_name}"
                                 csv_rows.append({
                                     'filename': relative_path,
+                                    'detection_id': det.get('detection_index', idx) + 1,
                                     'gardiner_code': gardiner_code,
+                                    'unicode_symbol': unicode_symbol,
+                                    'unicode_codes': unicode_codes_str,
                                     'confidence': conf,
-                                    'instance_number': instance_num,
-                                    'x1': x1, 'y1': y1, 'x2': x2, 'y2': y2,
-                                    'image_name': dp_uploaded_file.name,
                                     'confidence_threshold': confidence_threshold,
-                                    'description': det.get('description', f'Hieroglyph {gardiner_code}')
+                                    'instance_number': instance_num,
+                                    'bbox_x1': x1,
+                                    'bbox_y1': y1, 
+                                    'bbox_x2': x2, 
+                                    'bbox_y2': y2,
+                                    'bbox_width': x2 - x1,
+                                    'bbox_height': y2 - y1,
+                                    'bbox_center_x': (x1 + x2) / 2,
+                                    'bbox_center_y': (y1 + y2) / 2,
+                                    'bbox_area': (x2 - x1) * (y2 - y1),
+                                    'description': det.get('description', f'Hieroglyph {gardiner_code}'),
+                                    'source_image': dp_uploaded_file.name,
+                                    'analysis_timestamp': datetime.now().isoformat(),
+                                    'image_width': w,
+                                    'image_height': h
                                 })
                             
                             # Write index CSV
@@ -1491,29 +1560,75 @@ def main():
                             html_parts = [
                                 "<!DOCTYPE html><html><head><meta charset='utf-8'>",
                                 "<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
-                                "<title>Digital Paleography - Complete Metadata</title>",
+                                "<title>PapyrusVision Digital Paleography - Complete Scholarly Catalog</title>",
                                 "<style>",
                                 "* { box-sizing: border-box; }",
-                                "body { font-family:'Segoe UI',Arial,sans-serif; margin:0; padding:15px; background:#f8f9fa; color:#333; line-height:1.6; max-width:100%; overflow-x:hidden; }",
-                                ".header { text-align:center; background:linear-gradient(135deg,#8B4513,#D2B48C); color:white; padding:20px 15px; border-radius:15px; margin-bottom:20px; box-shadow:0 4px 15px rgba(0,0,0,0.15); }",
-                                ".header h1 { margin:0; font-size:clamp(1.8em, 4vw, 3em); font-weight:300; }",
-                                ".code-section { margin:25px 0; background:white; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.1); overflow:hidden; }",
-                                ".code-header { background:linear-gradient(135deg,#8B4513,#A0522D); color:white; padding:20px 15px; }",
-                                ".instances-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:20px; padding:20px 15px; }",
-                                ".instance-card { background:#fafafa; border-radius:12px; padding:15px; box-shadow:0 3px 10px rgba(0,0,0,0.1); }",
-                                ".crop-image { max-width:100%; height:auto; border-radius:6px; }",
+                                "body { font-family:'Segoe UI',Arial,sans-serif; margin:0; padding:15px; background:#f8f9fa; color:#333; line-height:1.6; }",
+                                ".header { text-align:center; background:linear-gradient(135deg,#8B4513,#D2B48C); color:white; padding:30px 15px; border-radius:15px; margin-bottom:30px; box-shadow:0 4px 15px rgba(0,0,0,0.15); }",
+                                ".header h1 { margin:0; font-size:clamp(2em, 4vw, 3.5em); font-weight:300; }",
+                                ".metadata { background:white; padding:20px; border-radius:10px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }",
+                                ".metadata-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:15px; }",
+                                ".metadata-item { padding:10px; background:#f8f9fa; border-radius:8px; border-left:4px solid #8B4513; }",
+                                ".code-section { margin:30px 0; background:white; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.1); overflow:hidden; }",
+                                ".code-header { background:linear-gradient(135deg,#8B4513,#A0522D); color:white; padding:25px 15px; }",
+                                ".unicode-display { font-size:4em; text-align:center; margin:15px 0; color:white; text-shadow:2px 2px 4px rgba(0,0,0,0.5); }",
+                                ".notation-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px; margin:15px 0; }",
+                                ".notation-item { background:rgba(255,255,255,0.1); padding:10px 15px; border-radius:20px; font-family:monospace; font-weight:bold; text-align:center; }",
+                                ".instances-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:25px; padding:25px 15px; }",
+                                ".instance-card { background:#fafafa; border-radius:12px; padding:20px; box-shadow:0 3px 10px rgba(0,0,0,0.1); }",
+                                ".crop-image { max-width:100%; height:auto; border-radius:6px; margin-bottom:15px; }",
+                                ".instance-metadata { background:#f0f0f0; padding:10px; border-radius:6px; font-size:0.9em; margin-top:10px; }",
+                                ".bbox-info { font-family:monospace; font-size:0.8em; color:#666; }",
                                 "</style>",
                                 "</head><body>",
-                                f"<div class='header'><h1>Digital Paleography</h1><h2>{dp_uploaded_file.name}</h2></div>"
+                                f"<div class='header'>",
+                                f"<h1>PapyrusVision Digital Paleography</h1>",
+                                f"<h2>{dp_uploaded_file.name}</h2>",
+                                f"<p>Generated: {datetime.now().strftime('%B %d, %Y at %H:%M')} | Confidence: {confidence_threshold}</p>",
+                                f"</div>",
+                                f"<div class='metadata'>",
+                                f"<h3>Analysis Metadata</h3>",
+                                f"<div class='metadata-grid'>",
+                                f"<div class='metadata-item'><strong>Total Detections:</strong> {len(detections)}</div>",
+                                f"<div class='metadata-item'><strong>Unique Signs:</strong> {len(detailed_groups)}</div>",
+                                f"<div class='metadata-item'><strong>Image Size:</strong> {w} × {h} pixels</div>",
+                                f"<div class='metadata-item'><strong>Confidence Threshold:</strong> {confidence_threshold}</div>",
+                                f"<div class='metadata-item'><strong>Analysis Date:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</div>",
+                                f"<div class='metadata-item'><strong>Model:</strong> Detectron2 Hieroglyph Detection</div>",
+                                f"</div></div>"
                             ]
                             
-                            # Add sections for each code
+                            # Add sections for each code with complete Unicode and metadata
                             for code in sorted(detailed_groups.keys()):
                                 instances = detailed_groups[code]
                                 first_det = instances[0]['detection']
                                 
-                                html_parts.append(f"<div class='code-section'>")
-                                html_parts.append(f"<div class='code-header'><h2>{code}</h2><p>{first_det.get('description', '')}</p></div>")
+                                # Get Unicode information for this code
+                                unicode_symbol = first_det.get('unicode_symbol', '')
+                                unicode_codes = first_det.get('unicode_codes', [])
+                                description = first_det.get('description', f'Hieroglyph {code}')
+                                
+                                html_parts.append(f"<div class='code-section' id='{code}'>")
+                                html_parts.append(f"<div class='code-header'>")
+                                
+                                # Unicode symbol display
+                                if unicode_symbol and unicode_symbol.strip():
+                                    html_parts.append(f"<div class='unicode-display'>{unicode_symbol}</div>")
+                                
+                                html_parts.append(f"<h2>Gardiner {code}</h2>")
+                                html_parts.append(f"<p style='font-size:1.2em; margin:10px 0;'>{description}</p>")
+                                
+                                # Notation information
+                                html_parts.append(f"<div class='notation-grid'>")
+                                html_parts.append(f"<div class='notation-item'>Gardiner: {code}</div>")
+                                if unicode_codes:
+                                    html_parts.append(f"<div class='notation-item'>Unicode: {', '.join(unicode_codes)}</div>")
+                                if unicode_symbol:
+                                    html_parts.append(f"<div class='notation-item'>Symbol: {unicode_symbol}</div>")
+                                html_parts.append(f"<div class='notation-item'>Instances: {len(instances)}</div>")
+                                html_parts.append(f"</div>")
+                                
+                                html_parts.append(f"</div>")
                                 html_parts.append(f"<div class='instances-grid'>")
                                 
                                 for idx, instance in enumerate(instances, 1):
@@ -1522,11 +1637,25 @@ def main():
                                     crop_name = instance['crop_name']
                                     img_data_uri = image_to_base64(crop_path)
                                     
+                                    # Get bbox information
+                                    bbox = det.get('bbox', {})
+                                    x1, y1 = int(bbox.get('x1', 0)), int(bbox.get('y1', 0))
+                                    x2, y2 = int(bbox.get('x2', 0)), int(bbox.get('y2', 0))
+                                    bbox_area = det.get('area', (x2-x1)*(y2-y1))
+                                    
                                     html_parts.append(f"""
                                     <div class='instance-card'>
                                         <img class='crop-image' src='{img_data_uri}' alt='{code} instance {idx}'>
-                                        <p><strong>#{idx}</strong> - {det['confidence']:.1%}</p>
-                                        <p>{crop_name}</p>
+                                        <h4>Detection #{idx}</h4>
+                                        <div class='instance-metadata'>
+                                            <div><strong>Confidence:</strong> {det['confidence']:.1%}</div>
+                                            <div><strong>Gardiner Code:</strong> {code}</div>
+                                            <div><strong>Description:</strong> {description}</div>
+                                            <div class='bbox-info'><strong>Bounding Box:</strong> ({x1}, {y1}, {x2}, {y2})</div>
+                                            <div class='bbox-info'><strong>Size:</strong> {x2-x1} × {y2-y1} px</div>
+                                            <div class='bbox-info'><strong>Area:</strong> {bbox_area:.0f} px²</div>
+                                            <div><strong>File:</strong> {crop_name}</div>
+                                        </div>
                                     </div>
                                     """)
                                 
