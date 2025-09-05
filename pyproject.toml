@@ -59,10 +59,10 @@ gpu = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/margotbelot/PapyrusVision"
-Repository = "https://github.com/margotbelot/PapyrusVision"
-Documentation = "https://github.com/margotbelot/PapyrusVision#readme"
-"Bug Reports" = "https://github.com/margotbelot/PapyrusVision/issues"
+Homepage = "https://github.com/MargotBelot/PapyrusVision"
+Repository = "https://github.com/MargotBelot/PapyrusVision"
+Documentation = "https://github.com/MargotBelot/PapyrusVision#readme"
+"Bug Reports" = "https://github.com/MargotBelot/PapyrusVision/issues"
 
 [project.scripts]
 papyrusvision-detect = "scripts.hieroglyph_analysis_tool:main"

@@ -191,12 +191,13 @@ digital_paleography/
 # Streamlit cache
 .streamlit/
 
-# macOS
+# macOS metadata files
 .DS_Store
 .AppleDouble
 .LSOverride
+__MACOSX/
 
-# Thumbnails
+# macOS resource fork files
 ._*
 
 # Files that might appear in the root of a volume
