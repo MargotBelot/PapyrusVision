@@ -53,15 +53,35 @@ graph TD
 
 ## Quick Start
 
+### Prerequisites
+
+**Required:**
+- **Python 3.8 or higher** must be installed on your system
+  - Windows: Download from [python.org](https://www.python.org/downloads/)
+  - macOS: Install via [python.org](https://www.python.org/downloads/) or Homebrew: `brew install python`
+  - Linux: Usually pre-installed, or install via package manager: `sudo apt install python3`
+- **Terminal/Command Prompt access**
+  - Windows: Command Prompt, PowerShell, or Windows Terminal
+  - macOS: Terminal (Applications > Utilities > Terminal)
+  - Linux: Terminal application
+
+**To verify Python installation:**
+```bash
+python3 --version  # Should show Python 3.8 or higher
+```
+
 ### One-Click Installation (Recommended)
 
 **Method 1: Download ZIP (No Git Required)**
 1. [Download ZIP](https://github.com/MargotBelot/PapyrusVision/archive/refs/heads/main.zip) from GitHub
 2. Extract the ZIP file to your desired location
-3. Open terminal/command prompt in the extracted folder
+3. **Open terminal/command prompt in the extracted folder:**
+   - **Windows**: Right-click in the folder → "Open in Terminal" or "Open PowerShell window here"
+   - **macOS**: Right-click in the folder → "New Terminal at Folder" (or drag folder to Terminal)
+   - **Linux**: Right-click in the folder → "Open in Terminal"
 4. Run: `python3 install.py`
 
-**Method 2: Git Clone**
+**Method 2: Git Clone (Requires Git)**
 ```bash
 # Clone the repository
 git clone https://github.com/MargotBelot/PapyrusVision.git
@@ -70,6 +90,8 @@ cd PapyrusVision
 # Run the automated installer
 python3 install.py
 ```
+
+> **Note**: Make sure you have Python 3.8+ installed and can access terminal/command prompt as described in Prerequisites above.
 
 **What the installer does:**
 - Checks system requirements (Python 3.8+, disk space)
@@ -91,6 +113,29 @@ Your browser will automatically open to `http://localhost:8501`
 **Quick Demo:** The app includes a built-in test image (Book of the Dead of Nu, Spell 145) - just click "Analyze Image" to see instant results!
 
 > **For advanced installation, development setup, and technical details, see [docs/TECHNICAL_GUIDE.md](docs/TECHNICAL_GUIDE.md)**
+
+### Troubleshooting Installation
+
+**Common Issues:**
+
+1. **"python3 command not found"**
+   - Try `python --version` instead of `python3`
+   - On Windows, you might need to use `py` instead: `py install.py`
+   - Reinstall Python and ensure it's added to your system PATH
+
+2. **"Permission denied" errors**
+   - On macOS/Linux, try: `sudo python3 install.py`
+   - On Windows, run Command Prompt as Administrator
+
+3. **Can't find terminal/command prompt**
+   - **Windows**: Press `Win + R`, type `cmd`, press Enter
+   - **macOS**: Press `Cmd + Space`, type "terminal", press Enter
+   - **Linux**: Press `Ctrl + Alt + T`
+
+4. **Installation fails**
+   - Check you have at least 4GB free disk space
+   - Ensure stable internet connection for downloading dependencies
+   - Try the manual installation method below
 
 ### Manual Installation (Advanced Users)
 
