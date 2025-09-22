@@ -989,7 +989,7 @@ def main():
         - **System Health**: Automatic checks for optimal performance
         
         #### **Key Technical Features**
-        - **State-of-the-Art AI**: Detectron2-based neural networks trained on 2,431 manually annotated hieroglyphs
+        - **State-of-the-Art AI**: Detectron2-based neural networks trained on 2,430 manually annotated hieroglyphs
         - **Comprehensive Classification**: 177 distinct Gardiner sign categories with Unicode coverage
         - **Advanced Image Processing**: Multi-stage enhancement pipeline with CLAHE, denoising, and adaptive sharpening
         - **Export Standards**: Output with complete scholarly metadata

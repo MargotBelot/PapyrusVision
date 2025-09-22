@@ -19,7 +19,7 @@
 
 PapyrusVision is an AI-powered digital paleography tool for ancient Egyptian hieroglyph analysis. This system combines deep learning with Egyptological knowledge to provide papyrus analysis, automated sign detection, and digital paleography generation.
 
-**Training Data**: The model was trained on 2,431 manually annotated hieroglyphs from the Book of the Dead of Nu (British Museum EA 10477), covering 177 distinct Gardiner sign categories. This ensures high-quality, scholarly-accurate detection.
+**Training Data**: The model was trained on 2,430 manually annotated hieroglyphs from the Book of the Dead of Nu (British Museum EA 10477), covering 177 distinct Gardiner sign categories. This ensures high-quality, scholarly-accurate detection.
 
 **Performance**: Achieves 73% accuracy in detecting hieroglyphic signs with comprehensive Unicode support for scholarly research.
 

@@ -18,7 +18,7 @@
 
 ### Core Components
 - **Detection Engine**: Detectron2 with Faster R-CNN (ResNet-50 + FPN backbone)
-- **Training Data**: 2,431 annotated hieroglyphs across 177 Gardiner classes
+- **Training Data**: 2,430 annotated hieroglyphs across 177 Gardiner classes
 - **Performance**: mAP@0.5: 0.73, mAP@0.5:0.95: 0.41
 - **Unicode Support**: 594+ Egyptian Hieroglyphs (U+13000–U+1342F)
 - **JSesh Integration**: 3,843 Unicode→JSesh mappings (99.8% coverage)
@@ -38,7 +38,7 @@
 - **Platform**: Google Colab Pro (A100 GPU, 40GB VRAM)
 - **Duration**: ~3 hours for 5,000 iterations
 - **Architecture**: Faster R-CNN with ResNet-50 + FPN
-- **Data**: 2,431 annotated hieroglyphs, 177 Gardiner classes
+- **Data**: 2,430 annotated hieroglyphs, 177 Gardiner classes
 - **Splits**: 70% train, 20% validation, 10% test
 
 ### Performance Metrics
