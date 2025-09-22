@@ -1059,7 +1059,7 @@ def main():
         # Image source selection
         image_source = st.radio(
             "Choose Image Source:",
-            ["Use Test Image", "Upload Image"],
+            ["Use Test Image (recommended)", "Upload Image (likely to not work at the moment)"],
             horizontal=True
         )
         
@@ -1271,7 +1271,7 @@ def main():
         # Image source selection (same as Single Image Analysis)
         dp_image_source = st.radio(
             "Choose Image Source:",
-            ["Use Test Image", "Upload Image"],
+            ["Use Test Image (recommended)", "Upload Image (likely to not work at the moment)"],
             horizontal=True,
             key="dp_image_source"
         )

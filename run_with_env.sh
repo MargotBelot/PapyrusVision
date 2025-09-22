@@ -21,7 +21,12 @@ if [ $# -eq 0 ]; then
     echo "PapyrusVision virtual environment activated!"
     echo "You can now run Python scripts or install additional packages."
     echo "To deactivate, type 'deactivate'"
-    exec bash
+    # Launch the user's default shell (from $SHELL), or fallback to bash
+    if [ -n "$SHELL" ]; then
+        exec "$SHELL"
+    else
+        exec bash
+    fi
 else
     # Run the provided command with the activated environment
     exec "$@"
